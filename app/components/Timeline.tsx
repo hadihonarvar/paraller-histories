@@ -97,6 +97,23 @@ function LeaderPhoto({
   );
 }
 
+function AnimatedExpand({
+  open,
+  children,
+}: {
+  open: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <div
+      className="grid transition-[grid-template-rows] duration-300 ease-in-out"
+      style={{ gridTemplateRows: open ? "1fr" : "0fr" }}
+    >
+      <div className="overflow-hidden">{children}</div>
+    </div>
+  );
+}
+
 function LeaderBadge({
   leader,
   lang,
@@ -110,11 +127,11 @@ function LeaderBadge({
   return (
     <div
       className={`flex items-center gap-2 ${
-        side === "iran" ? "flex-row" : "flex-row-reverse"
+        lang === "fa" ? "flex-row-reverse" : "flex-row"
       }`}
     >
       <LeaderPhoto leader={leader} />
-      <div className={side === "iran" ? "text-left" : "text-right"}>
+      <div className={lang === "fa" ? "text-right" : "text-left"}>
         <p className="text-xs font-semibold text-slate-700 dark:text-slate-200">
           {leader.name[lang]}
         </p>
@@ -165,22 +182,23 @@ function IranCard({
   onToggle: () => void;
 }) {
   if (!entry.iran) return null;
+  const align = lang === "fa" ? "text-right" : "text-left";
   return (
     <div className="flex flex-col gap-2">
       <IranLeaderSection year={entry.year} lang={lang} />
       <button
         onClick={onToggle}
-        className="group w-full cursor-pointer rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-3 text-left shadow-sm transition-all hover:shadow-md dark:border-amber-900 dark:from-amber-950/40 dark:to-orange-950/30 md:p-4"
+        className={`group w-full cursor-pointer rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-3 ${align} shadow-sm transition-all hover:shadow-md dark:border-amber-900 dark:from-amber-950/40 dark:to-orange-950/30 md:p-4`}
       >
-        <h3 className="text-right text-sm font-bold text-amber-900 dark:text-amber-200 md:text-base">
+        <h3 className={`${align} text-sm font-bold text-amber-900 dark:text-amber-200 md:text-base`}>
           {entry.iran.title[lang]}
         </h3>
         {entry.iran.description && (
-          <p className="mt-1 text-right text-xs text-amber-700 dark:text-amber-400 md:text-sm">
+          <p className={`mt-1 ${align} text-xs text-amber-700 dark:text-amber-400 md:text-sm`}>
             {entry.iran.description[lang]}
           </p>
         )}
-        {expanded && (
+        <AnimatedExpand open={expanded}>
           <div className="mt-2 space-y-2 border-t border-amber-100 pt-2 dark:border-amber-800">
             {entry.iran.image && (
               <FallbackImage
@@ -190,13 +208,13 @@ function IranCard({
               />
             )}
             {entry.iran.details && (
-              <p className="text-right text-xs leading-relaxed text-amber-800 dark:text-amber-300">
+              <p className={`${align} text-xs leading-relaxed text-amber-800 dark:text-amber-300`}>
                 {entry.iran.details[lang]}
               </p>
             )}
           </div>
-        )}
-        <div className="mt-2 flex justify-start">
+        </AnimatedExpand>
+        <div className={`mt-2 flex ${lang === "fa" ? "justify-end" : "justify-start"}`}>
           <span className="text-[10px] text-amber-400 transition-colors group-hover:text-amber-600 dark:text-amber-600 dark:group-hover:text-amber-400">
             {expanded
               ? lang === "fa" ? "▲ بستن" : "▲ Close"
@@ -223,6 +241,9 @@ function WorldCard({
   primaryWorldCountry: Country | undefined;
   year: number;
 }) {
+  const align = lang === "fa" ? "text-right" : "text-left";
+  const flexDir = lang === "fa" ? "flex-row-reverse" : "flex-row";
+  const justify = lang === "fa" ? "justify-end" : "justify-start";
   return (
     <div className="flex flex-col gap-2">
       {primaryWorldCountry && (
@@ -235,7 +256,7 @@ function WorldCard({
       )}
       <button
         onClick={onToggle}
-        className="group w-full cursor-pointer rounded-xl border border-sky-200 bg-gradient-to-br from-sky-50 to-blue-50 p-3 text-left shadow-sm transition-all hover:shadow-md dark:border-sky-900 dark:from-sky-950/40 dark:to-blue-950/30 md:p-4"
+        className={`group w-full cursor-pointer rounded-xl border border-sky-200 bg-gradient-to-br from-sky-50 to-blue-50 p-3 ${align} shadow-sm transition-all hover:shadow-md dark:border-sky-900 dark:from-sky-950/40 dark:to-blue-950/30 md:p-4`}
       >
         {worldEvents.map((event, idx) => (
           <div
@@ -246,36 +267,47 @@ function WorldCard({
                 : ""
             }
           >
-            <div className="flex items-center justify-end gap-1.5">
-              <h3 className="text-sm font-bold text-sky-900 dark:text-sky-200 md:text-base">
-                {event.title[lang]}
-              </h3>
-              <span className="text-sm">
-                {countryInfo[event.country].flag}
-              </span>
+            <div className={`flex items-center ${justify} gap-1.5`}>
+              {lang === "fa" ? (
+                <>
+                  <h3 className="text-sm font-bold text-sky-900 dark:text-sky-200 md:text-base">
+                    {event.title[lang]}
+                  </h3>
+                  <span className="text-sm">{countryInfo[event.country].flag}</span>
+                </>
+              ) : (
+                <>
+                  <span className="text-sm">{countryInfo[event.country].flag}</span>
+                  <h3 className="text-sm font-bold text-sky-900 dark:text-sky-200 md:text-base">
+                    {event.title[lang]}
+                  </h3>
+                </>
+              )}
             </div>
             {event.description && (
-              <p className="mt-0.5 text-right text-xs text-sky-700 dark:text-sky-400 md:text-sm">
+              <p className={`mt-0.5 ${align} text-xs text-sky-700 dark:text-sky-400 md:text-sm`}>
                 {event.description[lang]}
               </p>
             )}
-            {expanded && event.details && (
-              <div className="mt-2 space-y-2 border-t border-sky-100 pt-2 dark:border-sky-800">
-                {event.image && (
-                  <FallbackImage
-                    src={event.image}
-                    alt={event.title.en}
-                    className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
-                  />
-                )}
-                <p className="text-right text-xs leading-relaxed text-sky-800 dark:text-sky-300">
-                  {event.details[lang]}
-                </p>
-              </div>
+            {event.details && (
+              <AnimatedExpand open={expanded}>
+                <div className="mt-2 space-y-2 border-t border-sky-100 pt-2 dark:border-sky-800">
+                  {event.image && (
+                    <FallbackImage
+                      src={event.image}
+                      alt={event.title.en}
+                      className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
+                    />
+                  )}
+                  <p className={`${align} text-xs leading-relaxed text-sky-800 dark:text-sky-300`}>
+                    {event.details[lang]}
+                  </p>
+                </div>
+              </AnimatedExpand>
             )}
           </div>
         ))}
-        <div className="mt-2 flex justify-end">
+        <div className={`mt-2 flex ${lang === "fa" ? "justify-end" : "justify-start"}`}>
           <span className="text-[10px] text-sky-400 transition-colors group-hover:text-sky-600 dark:text-sky-600 dark:group-hover:text-sky-400">
             {expanded
               ? lang === "fa" ? "▲ بستن" : "▲ Close"
@@ -364,12 +396,10 @@ function EventCard({
     <>
       {/* === MOBILE LAYOUT (below 768px) === */}
       <div
-        className={`flex py-4 md:!hidden ${
-          isRtl ? "flex-row" : "flex-row-reverse"
-        }`}
+        className="flex flex-col items-center py-4 md:!hidden"
       >
-        {/* Year circle side — right for Farsi, left for English */}
-        <div className="relative z-10 flex w-16 shrink-0 flex-col items-center">
+        {/* Year circle — centered */}
+        <div className="relative z-10">
           <YearCircle
             entry={entry}
             lang={lang}
@@ -377,12 +407,8 @@ function EventCard({
             onToggle={() => setYearExpanded(!yearExpanded)}
           />
         </div>
-        {/* Content side — all cards stacked */}
-        <div
-          className={`flex min-w-0 flex-1 flex-col gap-3 ${
-            isRtl ? "pl-2" : "pr-2"
-          }`}
-        >
+        {/* Content — all cards stacked */}
+        <div className="flex w-full flex-col gap-3 px-2 pt-3">
           {/* Iran card always first */}
           {hasIran && (
             <IranCard
@@ -583,9 +609,7 @@ export default function Timeline() {
       <main className="relative mx-auto max-w-7xl px-2 pb-16 pt-4 md:px-4">
         {/* Timeline Line — right on mobile (Farsi), left on mobile (English), center on desktop */}
         <div
-          className={`absolute inset-y-0 w-0.5 bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700 md:!left-1/2 md:!right-auto md:!-translate-x-1/2 ${
-            lang === "fa" ? "right-7" : "left-7"
-          }`}
+          className="absolute inset-y-0 left-1/2 w-0.5 -translate-x-1/2 bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700"
         />
 
         {/* Events */}
@@ -615,8 +639,8 @@ export default function Timeline() {
           : "Parallel Histories — Comparing Historical Events of Iran and the World"}
       </footer>
 
-      {/* Metrics Panel */}
-      <MetricsPanel lang={lang} />
+      {/* Metrics Panel — hidden for now */}
+      {/* <MetricsPanel lang={lang} /> */}
     </div>
   );
 }
