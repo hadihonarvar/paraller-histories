@@ -125,7 +125,7 @@ export const iranLeaders: Leader[] = [
   },
   {
     name: { fa: "علی خامنه‌ای", en: "Ali Khamenei" },
-    title: { fa: "رهبر معظم", en: "Supreme Leader" },
+    title: { fa: "رهبر", en: "Supreme Leader" },
     startYear: 1989,
     endYear: 2026,
     initials: "خا",
@@ -689,6 +689,54 @@ export const timelineData: TimelineEntry[] = [
     ],
   },
   {
+    year: 1901,
+    shamsiYear: "۱۲۸۰",
+    iran: {
+      title: { fa: "اعتراضات و پیامدهای جنبش تنباکو - وام‌های خارجی", en: "Concession Protests & Tobacco Movement Aftermath" },
+      description: { fa: "مظفرالدین شاه وام‌های سنگین از روسیه گرفت و وابستگی مالی تشدید شد", en: "Mozaffar ad-Din Shah takes heavy foreign loans from Russia" },
+      details: {
+        fa: "در پی جنبش تنباکو و لغو امتیاز تالبوت، دولت قاجار مجبور به پرداخت غرامت سنگین به بریتانیا شد و برای تأمین این غرامت و هزینه‌های دربار، وام‌های جدیدی از روسیه گرفت. روسیه در ازای این وام‌ها نفوذ سیاسی و اقتصادی خود را در ایران افزایش داد. بریگاد قزاق ایران تحت فرماندهی افسران روسی عمل می‌کرد و عملاً ابزار نفوذ روسیه در ایران بود.",
+        en: "Following the Tobacco Movement and the cancellation of the Talbot concession, the Qajar government was forced to pay heavy compensation to Britain. To fund this and court expenses, new loans were taken from Russia. In exchange, Russia increased its political and economic influence in Iran. The Persian Cossack Brigade operated under Russian officers and was effectively an instrument of Russian influence in Iran.",
+      },
+    },
+  },
+  {
+    year: 1902,
+    shamsiYear: "۱۲۸۱",
+    iran: {
+      title: { fa: "بحران فزاینده بدهی خارجی", en: "Growing Foreign Debt Crisis" },
+      description: { fa: "نفوذ روزافزون روسیه و کنترل گمرکات ایران توسط بلژیکی‌ها", en: "Russia gains more influence, Belgian customs officials control Iranian customs" },
+      details: {
+        fa: "بحران بدهی‌های خارجی ایران تشدید شد. مأموران بلژیکی تحت نظارت نوز بلژیکی کنترل کامل گمرکات ایران را در دست داشتند و درآمدهای گمرکی مستقیماً صرف بازپرداخت وام‌ها می‌شد. روسیه با اعطای وام‌های جدید نفوذ خود را گسترش داد و از ایران به عنوان حائلی در برابر بریتانیا استفاده می‌کرد. اقتصاد کشور در رکود بود و نارضایتی مردم رو به افزایش بود.",
+        en: "Iran's foreign debt crisis deepened. Belgian officials under Joseph Naus controlled Iran's customs completely, with customs revenues going directly to loan repayments. Russia expanded its influence through new loans and used Iran as a buffer against Britain. The country's economy was in recession and public discontent was growing.",
+      },
+    },
+  },
+  {
+    year: 1903,
+    shamsiYear: "۱۲۸۲",
+    iran: {
+      title: { fa: "امتیاز نفت دارسی", en: "D'Arcy Oil Concession" },
+      description: { fa: "امتیاز اکتشاف نفت به ویلیام ناکس دارسی بریتانیایی واگذار شد", en: "Oil exploration concession granted to William Knox D'Arcy" },
+      details: {
+        fa: "مظفرالدین شاه امتیاز اکتشاف و استخراج نفت در سراسر ایران (به جز پنج ولایت شمالی که در حوزه نفوذ روسیه بود) را به مدت ۶۰ سال به ویلیام ناکس دارسی بریتانیایی واگذار کرد. بر اساس این امتیاز، ایران تنها ۱۶ درصد از سود خالص را دریافت می‌کرد. این امتیاز سرآغاز صنعت نفت ایران و یکی از فاجعه‌بارترین قراردادهای تاریخ ایران بود که تا دهه‌ها منبع بهره‌برداری بیگانگان از منابع ملی باقی ماند.",
+        en: "Mozaffar ad-Din Shah granted William Knox D'Arcy a 60-year concession to explore and extract oil throughout Iran (except five northern provinces in Russia's sphere of influence). Under this concession, Iran received only 16% of net profits. This concession marked the beginning of Iran's oil industry and was one of the most disastrous agreements in Iranian history, remaining a source of foreign exploitation of national resources for decades.",
+      },
+    },
+  },
+  {
+    year: 1904,
+    shamsiYear: "۱۲۸۳",
+    iran: {
+      title: { fa: "رشد ناآرامی سیاسی و انجمن‌های سری", en: "Political Unrest & Secret Societies Form" },
+      description: { fa: "انجمن‌های سری خواستار اصلاحات شدند - روحانیون به مشروطه‌خواهان پیوستند", en: "Secret societies demand reform, religious scholars join constitutionalists" },
+      details: {
+        fa: "ناآرامی سیاسی در ایران رو به افزایش بود. انجمن‌های سری متعددی در تهران و شهرهای بزرگ تشکیل شدند که خواستار اصلاحات سیاسی و محدود کردن قدرت استبدادی شاه بودند. روشنفکران تحصیل‌کرده در اروپا، بازاریان و بخشی از علمای دینی به تدریج متحد شدند. روحانیون برجسته‌ای مانند سید محمد طباطبایی و سید عبدالله بهبهانی نقش رهبری در جنبش اصلاح‌طلبی بر عهده گرفتند.",
+        en: "Political unrest was growing in Iran. Numerous secret societies formed in Tehran and major cities demanding political reform and limits on the Shah's despotic power. European-educated intellectuals, merchants, and some religious scholars gradually united. Prominent clergy such as Seyyed Mohammad Tabatabaei and Seyyed Abdollah Behbahani took leadership roles in the reform movement.",
+      },
+    },
+  },
+  {
     year: 1905,
     shamsiYear: "۱۲۸۴",
     yearInfo: {
@@ -783,6 +831,18 @@ export const timelineData: TimelineEntry[] = [
     ],
   },
   {
+    year: 1907,
+    shamsiYear: "۱۲۸۶",
+    iran: {
+      title: { fa: "قرارداد ۱۹۰۷ - تقسیم ایران بین روسیه و بریتانیا", en: "Anglo-Russian Convention — Iran Divided" },
+      description: { fa: "روسیه و بریتانیا ایران را بدون رضایت ایران به مناطق نفوذ تقسیم کردند", en: "Russia and Britain divide Iran into spheres of influence without Iranian consent" },
+      details: {
+        fa: "بریتانیا و روسیه قرارداد ۱۹۰۷ را امضا کردند که ایران را بدون اطلاع و رضایت دولت ایران به سه منطقه تقسیم می‌کرد: شمال ایران منطقه نفوذ روسیه، جنوب شرقی منطقه نفوذ بریتانیا و مرکز ایران منطقه بی‌طرف. این قرارداد ضربه سنگینی به حاکمیت ملی ایران وارد کرد و خشم عمومی شدیدی برانگیخت. دو قدرت بزرگ که قبلاً رقیب بودند، برای مقابله با آلمان متحد شدند و ایران قربانی این اتحاد شد.",
+        en: "Britain and Russia signed the 1907 Convention, dividing Iran without the knowledge or consent of the Iranian government into three zones: northern Iran as Russia's sphere of influence, southeastern Iran as Britain's sphere, and central Iran as a neutral zone. This agreement dealt a heavy blow to Iran's national sovereignty and provoked intense public anger. The two great powers, previously rivals, united against Germany, and Iran became the victim of this alliance.",
+      },
+    },
+  },
+  {
     year: 1908,
     shamsiYear: "۱۲۸۷",
     yearInfo: {
@@ -868,6 +928,54 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1910,
+    shamsiYear: "۱۲۸۹",
+    iran: {
+      title: { fa: "افتتاح مجلس دوم", en: "Second Majles Opens" },
+      description: { fa: "مجلس دوم افتتاح شد اما کشمکش جناح‌های سیاسی و بی‌ثباتی ادامه داشت", en: "Second Majles opens but political factions struggle, country remains unstable" },
+      details: {
+        fa: "مجلس دوم شورای ملی پس از فتح تهران و بازگشت مشروطه افتتاح شد. اما اختلافات شدید بین جناح‌های سیاسی، به ویژه بین دموکرات‌ها و اعتدالیون، مجلس را فلج کرده بود. کشور با بحران مالی شدید، ناامنی در ولایات و نفوذ روزافزون روسیه و بریتانیا دست و پنجه نرم می‌کرد. دولت مرکزی ضعیف بود و توانایی کنترل مناطق مختلف را نداشت.",
+        en: "The Second National Assembly opened after the conquest of Tehran and restoration of the constitution. But severe disagreements between political factions, especially between Democrats and Moderates, paralyzed parliament. The country grappled with severe financial crisis, insecurity in provinces, and growing Russian and British influence. The central government was weak and unable to control various regions.",
+      },
+    },
+  },
+  {
+    year: 1911,
+    shamsiYear: "۱۲۹۰",
+    iran: {
+      title: { fa: "ماجرای مورگان شوستر", en: "Morgan Shuster Affair" },
+      description: { fa: "مستشار مالی آمریکایی تحت فشار روسیه اخراج شد - مجلس منحل شد", en: "American financial advisor expelled under Russian pressure — Majles dissolved" },
+      details: {
+        fa: "مورگان شوستر، مستشار مالی آمریکایی که برای اصلاح نظام مالی ایران استخدام شده بود، با اقداماتش خشم روسیه را برانگیخت. روسیه با ارسال اولتیماتوم خواستار اخراج شوستر شد و نیروهای خود را به سمت تهران حرکت داد. مجلس اولتیماتوم را رد کرد اما کابینه تسلیم شد و شوستر اخراج و مجلس دوم منحل شد. شوستر کتاب «خفقان ایران» را نوشت که شرح مداخلات خارجی در ایران بود.",
+        en: "Morgan Shuster, an American financial advisor hired to reform Iran's financial system, provoked Russia's anger with his actions. Russia sent an ultimatum demanding Shuster's expulsion and moved troops toward Tehran. The Majles rejected the ultimatum but the cabinet capitulated — Shuster was expelled and the Second Majles dissolved. Shuster wrote 'The Strangling of Persia,' describing foreign interference in Iran.",
+      },
+    },
+  },
+  {
+    year: 1912,
+    shamsiYear: "۱۲۹۱",
+    iran: {
+      title: { fa: "خلأ سیاسی و افزایش درگیری‌های قبیله‌ای", en: "Political Vacuum & Increasing Tribal Conflicts" },
+      description: { fa: "پس از انحلال مجلس، درگیری‌های قبیله‌ای افزایش یافت و دولت مرکزی ضعیف شد", en: "After Majles dissolution, tribal conflicts increase, central government weakens" },
+      details: {
+        fa: "پس از انحلال مجلس دوم، ایران در خلأ سیاسی شدیدی فرو رفت. دولت مرکزی بدون مجلس و بدون مشروعیت مردمی بسیار ضعیف بود. درگیری‌های قبیله‌ای در مناطق مختلف کشور شدت گرفت و راهزنی و ناامنی عمومی شد. روسیه در شمال و بریتانیا در جنوب عملاً حاکمیت خود را اعمال می‌کردند و ایران به کشوری نیمه‌مستعمره تبدیل شده بود.",
+        en: "After the dissolution of the Second Majles, Iran fell into a severe political vacuum. The central government, without parliament and popular legitimacy, was extremely weak. Tribal conflicts intensified across the country and banditry became widespread. Russia in the north and Britain in the south effectively exercised their own sovereignty, and Iran had become a semi-colonial state.",
+      },
+    },
+  },
+  {
+    year: 1913,
+    shamsiYear: "۱۲۹۲",
+    iran: {
+      title: { fa: "مجلس سوم و آغاز درآمد نفت بریتانیا", en: "Third Majles & British Oil Revenues Begin" },
+      description: { fa: "مجلس سوم به طور کوتاه تشکیل شد - درآمدهای نفتی به بریتانیا سرازیر شد", en: "Third Majles convenes briefly — oil revenues flow to Britain" },
+      details: {
+        fa: "مجلس سوم شورای ملی برای مدت کوتاهی تشکیل شد اما قادر به ایجاد ثبات نبود. شرکت نفت ایران و انگلیس (APOC) تولید نفت را افزایش داده بود و درآمدهای عظیمی از نفت ایران به بریتانیا سرازیر می‌شد، در حالی که سهم ایران ناچیز بود. بی‌ثباتی سیاسی ادامه داشت و ایران در آستانه جنگ جهانی اول در وضعیت آشفته‌ای قرار داشت.",
+        en: "The Third Majles convened briefly but was unable to create stability. The Anglo-Persian Oil Company (APOC) had increased oil production and massive oil revenues flowed to Britain while Iran's share was negligible. Political instability continued and Iran was in a chaotic state on the eve of World War I.",
+      },
+    },
   },
 
   {
@@ -1151,6 +1259,42 @@ export const timelineData: TimelineEntry[] = [
     ],
   },
   {
+    year: 1922,
+    shamsiYear: "۱۳۰۱",
+    iran: {
+      title: { fa: "تحکیم قدرت نظامی رضاخان", en: "Reza Khan Consolidates Military Power" },
+      description: { fa: "شکست شورش‌های قبیله‌ای و متمرکز کردن فرماندهی ارتش", en: "Defeats tribal rebellions and centralizes army command" },
+      details: {
+        fa: "رضاخان به عنوان فرمانده کل قوا و وزیر جنگ، قدرت نظامی خود را تحکیم کرد. شورش‌های قبیله‌ای در مناطق مختلف کشور از جمله کردستان، لرستان و خوزستان را سرکوب کرد. ارتش متمرکز و مدرنی تشکیل داد و فرماندهی تمام نیروها را در دست گرفت. این اقدامات زمینه‌ساز قدرت‌گیری بیشتر رضاخان و در نهایت تغییر سلسله شد.",
+        en: "Reza Khan, as Commander-in-Chief and War Minister, consolidated his military power. He suppressed tribal rebellions in various regions including Kurdistan, Lorestan, and Khuzestan. He formed a centralized modern army and took command of all forces. These actions laid the groundwork for Reza Khan's further rise to power and the eventual change of dynasty.",
+      },
+    },
+  },
+  {
+    year: 1923,
+    shamsiYear: "۱۳۰۲",
+    iran: {
+      title: { fa: "نخست‌وزیری رضاخان - خروج احمدشاه", en: "Reza Khan Becomes PM — Ahmad Shah Departs" },
+      description: { fa: "رضاخان نخست‌وزیر شد و احمدشاه به اروپا رفت و دیگر بازنگشت", en: "Reza Khan becomes Prime Minister, Ahmad Shah leaves for Europe never to return" },
+      details: {
+        fa: "رضاخان در آبان ۱۳۰۲ به نخست‌وزیری رسید و قدرت اجرایی کامل را در دست گرفت. احمدشاه قاجار که عملاً قدرتی نداشت، به بهانه معالجه به اروپا رفت و هرگز به ایران بازنگشت. رضاخان با کنترل ارتش و دولت، عملاً حاکم مطلق ایران شد. سلطنت قاجار در آستانه پایان بود و رضاخان مسیر رسیدن به تاج و تخت را هموار می‌کرد.",
+        en: "Reza Khan became Prime Minister in October 1923, taking full executive power. Ahmad Shah Qajar, who had virtually no power, left for Europe under the pretext of medical treatment and never returned to Iran. Reza Khan, controlling both the army and government, became Iran's de facto absolute ruler. The Qajar dynasty was nearing its end as Reza Khan paved his way to the throne.",
+      },
+    },
+  },
+  {
+    year: 1924,
+    shamsiYear: "۱۳۰۳",
+    iran: {
+      title: { fa: "بحث جمهوری یا سلطنت", en: "Republic vs. Monarchy Debate" },
+      description: { fa: "رضاخان ابتدا خواستار جمهوری شد اما مسیر خود را تغییر داد", en: "Reza Khan initially pushes for republic then changes course" },
+      details: {
+        fa: "پس از لغو خلافت عثمانی توسط آتاتورک و اعلام جمهوری ترکیه، رضاخان نیز ایده تبدیل ایران به جمهوری را مطرح کرد. اما مخالفت شدید روحانیون، به ویژه مدرس، و بخشی از مردم که نگران تکرار تجربه ترکیه و حذف دین از سیاست بودند، رضاخان را وادار به عقب‌نشینی کرد. او تصمیم گرفت به جای جمهوری، سلطنت را از قاجار گرفته و خود شاه شود.",
+        en: "After Atatürk abolished the Ottoman Caliphate and declared the Republic of Turkey, Reza Khan proposed turning Iran into a republic. But fierce opposition from clergy, especially Modarres, and segments of the public who feared a repeat of Turkey's secularization, forced Reza Khan to retreat. He decided instead of establishing a republic, to take the monarchy from the Qajars and become Shah himself.",
+      },
+    },
+  },
+  {
     year: 1925,
     shamsiYear: "۱۳۰۴",
     iran: {
@@ -1190,6 +1334,42 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1926,
+    shamsiYear: "۱۳۰۵",
+    iran: {
+      title: { fa: "آغاز مدرن‌سازی رضا شاه", en: "Reza Shah's Modernization Begins" },
+      description: { fa: "قانون مدنی جدید، اصلاحات لباس و گسترش ارتش مدرن", en: "New civil code, dress code reforms, modern army expansion" },
+      details: {
+        fa: "رضا شاه برنامه گسترده مدرن‌سازی کشور را آغاز کرد. قانون مدنی جدید بر اساس قوانین اروپایی (به ویژه فرانسه) تدوین شد. اصلاحات لباس برای مردان اجرا شد و سربازان موظف به پوشیدن لباس نظامی به سبک غربی شدند. ارتش مدرن با خدمت سربازی اجباری تشکیل شد. این اصلاحات گرچه سرعت مدرن‌سازی را افزایش داد، با مقاومت روحانیون و سنت‌گرایان مواجه شد.",
+        en: "Reza Shah launched an extensive national modernization program. A new civil code based on European laws (especially French) was drafted. Dress reforms for men were implemented and soldiers were required to wear Western-style military uniforms. A modern army with compulsory military service was formed. These reforms accelerated modernization but faced resistance from clergy and traditionalists.",
+      },
+    },
+  },
+  {
+    year: 1927,
+    shamsiYear: "۱۳۰۶",
+    iran: {
+      title: { fa: "لغو کاپیتولاسیون‌ها", en: "Abolition of Capitulations" },
+      description: { fa: "لغو امتیازات قضایی بیگانگان - تأکید بر حاکمیت ملی", en: "Foreign legal privileges cancelled — assertion of national sovereignty" },
+      details: {
+        fa: "رضا شاه کاپیتولاسیون‌ها (امتیازات قضایی خارجیان) را که بر اساس آن اتباع خارجی از قوانین ایران مصون بودند لغو کرد. این اقدام یکی از مهم‌ترین گام‌های بازیابی حاکمیت ملی ایران بود. قدرت‌های اروپایی که دهه‌ها از این امتیازات بهره‌مند بوده بودند اعتراض کردند، اما رضا شاه بر موضع خود پافشاری کرد. نظام قضایی جدید بر اساس حقوق مدرن جایگزین شد.",
+        en: "Reza Shah abolished capitulations — foreign legal privileges under which foreign nationals were immune from Iranian law. This was one of the most important steps in restoring Iran's national sovereignty. European powers, which had benefited from these privileges for decades, protested, but Reza Shah held firm. A new judicial system based on modern law replaced the old one.",
+      },
+    },
+  },
+  {
+    year: 1928,
+    shamsiYear: "۱۳۰۷",
+    iran: {
+      title: { fa: "قانون متحدالشکل لباس", en: "Uniform Dress Law Enacted" },
+      description: { fa: "مردان ملزم به پوشیدن لباس غربی و کلاه پهلوی شدند", en: "Men required to wear Western-style clothing and Pahlavi hat" },
+      details: {
+        fa: "قانون متحدالشکل لباس تصویب شد که بر اساس آن تمام مردان ایرانی (به جز روحانیون ثبت‌شده) موظف به پوشیدن لباس به سبک غربی و کلاه پهلوی شدند. لباس‌های سنتی و محلی ممنوع شد. این قانون بخشی از سیاست‌های مدرن‌سازی اجباری رضا شاه بود و با مقاومت گسترده در مناطق مختلف کشور، به ویژه در میان عشایر و مردم مذهبی مواجه شد.",
+        en: "The Uniform Dress Law was passed, requiring all Iranian men (except registered clergy) to wear Western-style clothing and the Pahlavi hat. Traditional and local clothing was banned. This law was part of Reza Shah's forced modernization policies and faced widespread resistance across various regions, especially among tribal and religious communities.",
+      },
+    },
   },
   {
     year: 1929,
@@ -1232,6 +1412,42 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1930,
+    shamsiYear: "۱۳۰۹",
+    iran: {
+      title: { fa: "تأسیس بانک ملی ایران", en: "National Bank of Iran (Bank Melli) Established" },
+      description: { fa: "تأسیس بانک ملی برای کاهش کنترل مالی بریتانیا", en: "Bank Melli founded to reduce British financial control" },
+      details: {
+        fa: "بانک ملی ایران به عنوان نخستین بانک ملی کشور تأسیس شد. هدف اصلی کاهش وابستگی مالی ایران به بانک شاهنشاهی (بانک بریتانیایی) بود که تا آن زمان انحصار انتشار اسکناس را در اختیار داشت. تأسیس بانک ملی گامی مهم در استقلال اقتصادی ایران بود و به تدریج حق انتشار اسکناس از بانک شاهنشاهی به بانک ملی منتقل شد.",
+        en: "Bank Melli Iran was founded as the country's first national bank. The main goal was to reduce Iran's financial dependence on the Imperial Bank of Persia (a British bank) which had held a monopoly on banknote issuance. The establishment of Bank Melli was an important step toward Iran's economic independence, and the right to issue banknotes was gradually transferred from the Imperial Bank to Bank Melli.",
+      },
+    },
+  },
+  {
+    year: 1931,
+    shamsiYear: "۱۳۱۰",
+    iran: {
+      title: { fa: "قانون انحصار تجارت خارجی", en: "Foreign Trade Monopoly Law" },
+      description: { fa: "دولت کنترل واردات و صادرات را در دست گرفت", en: "Government takes control of imports and exports" },
+      details: {
+        fa: "مجلس قانون انحصار تجارت خارجی را تصویب کرد که بر اساس آن دولت کنترل کامل بر واردات و صادرات کشور داشت. این قانون بخشی از سیاست‌های اقتصادی دولتی رضا شاه بود که هدف آن حمایت از صنایع داخلی و کاهش وابستگی به واردات بود. بازاریان و تجار سنتی از این قانون متضرر شدند، اما دولت درآمد قابل توجهی از انحصار تجارت کسب کرد.",
+        en: "Parliament passed the Foreign Trade Monopoly Law, giving the government complete control over the country's imports and exports. This law was part of Reza Shah's statist economic policies aimed at protecting domestic industry and reducing import dependency. Traditional merchants and bazaaris were harmed by this law, but the government gained considerable revenue from the trade monopoly.",
+      },
+    },
+  },
+  {
+    year: 1932,
+    shamsiYear: "۱۳۱۱",
+    iran: {
+      title: { fa: "لغو امتیاز نفت دارسی", en: "D'Arcy Oil Concession Cancelled" },
+      description: { fa: "رضا شاه امتیاز نفت دارسی را لغو کرد - تنش شدید با بریتانیا", en: "Reza Shah cancels D'Arcy oil concession — severe tensions with Britain" },
+      details: {
+        fa: "رضا شاه در اقدامی جسورانه امتیاز نفت دارسی (۱۹۰۱) را که به شرکت نفت ایران و انگلیس (APOC) داده شده بود لغو کرد. دلیل اصلی کاهش شدید درآمدهای نفتی ایران در بحران اقتصادی جهانی بود. بریتانیا شدیداً اعتراض کرد و پرونده به جامعه ملل ارجاع شد. این بحران در نهایت به مذاکره مجدد و امضای قرارداد جدید ۱۹۳۳ منجر شد که مدت امتیاز را تا ۱۹۹۳ تمدید کرد.",
+        en: "Reza Shah boldly cancelled the D'Arcy oil concession (1901) granted to the Anglo-Persian Oil Company (APOC). The main reason was the dramatic decline in Iran's oil revenues during the global economic crisis. Britain protested strongly and the case was referred to the League of Nations. This crisis ultimately led to renegotiation and the 1933 agreement, which extended the concession until 1993.",
+      },
+    },
   },
   {
     year: 1933,
@@ -1283,6 +1499,18 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1934,
+    shamsiYear: "۱۳۱۳",
+    iran: {
+      title: { fa: "تأسیس دانشگاه تهران", en: "University of Tehran Founded" },
+      description: { fa: "نخستین دانشگاه مدرن ایران تأسیس شد - شاهکار مدرن‌سازی رضا شاه", en: "Iran's first modern university founded — centerpiece of Reza Shah's modernization" },
+      details: {
+        fa: "دانشگاه تهران به عنوان نخستین دانشگاه مدرن ایران با ادغام چند مدرسه عالی موجود تأسیس شد. این دانشگاه شامل دانشکده‌های حقوق، پزشکی، فنی، ادبیات و الهیات بود. تأسیس دانشگاه تهران یکی از مهم‌ترین دستاوردهای برنامه مدرن‌سازی رضا شاه بود و نقش اساسی در تربیت نسل جدیدی از نخبگان و متخصصان ایرانی ایفا کرد.",
+        en: "The University of Tehran was founded as Iran's first modern university by merging several existing higher education schools. It included faculties of law, medicine, engineering, literature, and theology. The founding of Tehran University was one of the most important achievements of Reza Shah's modernization program and played a fundamental role in training a new generation of Iranian elites and professionals.",
+      },
+    },
   },
   {
     year: 1935,
@@ -1374,6 +1602,18 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1937,
+    shamsiYear: "۱۳۱۶",
+    iran: {
+      title: { fa: "پیمان سعدآباد", en: "Sa'dabad Pact Signed" },
+      description: { fa: "پیمان عدم تجاوز با ترکیه، عراق و افغانستان", en: "Non-aggression treaty with Turkey, Iraq, and Afghanistan" },
+      details: {
+        fa: "پیمان سعدآباد در کاخ سعدآباد تهران بین ایران، ترکیه، عراق و افغانستان امضا شد. این پیمان یک معاهده عدم تجاوز منطقه‌ای بود که طرفین را به احترام به مرزهای یکدیگر و عدم مداخله در امور داخلی هم متعهد می‌کرد. این پیمان نشان‌دهنده تلاش رضا شاه برای ایجاد روابط مستقل منطقه‌ای و کاهش وابستگی به قدرت‌های بزرگ بود.",
+        en: "The Sa'dabad Pact was signed at Sa'dabad Palace in Tehran between Iran, Turkey, Iraq, and Afghanistan. This regional non-aggression treaty committed parties to respect each other's borders and non-interference in internal affairs. The pact demonstrated Reza Shah's effort to establish independent regional relations and reduce dependence on great powers.",
+      },
+    },
   },
   {
     year: 1938,
@@ -1471,6 +1711,18 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1940,
+    shamsiYear: "۱۳۱۹",
+    iran: {
+      title: { fa: "اعلام بی‌طرفی ایران در جنگ جهانی دوم", en: "Iran Declares Neutrality in WWII" },
+      description: { fa: "ایران بی‌طرفی اعلام کرد اما تجارت رضا شاه با آلمان نگرانی متفقین را برانگیخت", en: "Iran declares neutrality but Reza Shah's trade with Germany worries the Allies" },
+      details: {
+        fa: "ایران رسماً بی‌طرفی خود در جنگ جهانی دوم را اعلام کرد، اما رضا شاه روابط تجاری گسترده‌ای با آلمان نازی داشت. صدها مستشار و تکنسین آلمانی در ایران فعال بودند و آلمان شریک تجاری اصلی ایران شده بود. متفقین، به ویژه بریتانیا و شوروی، از نفوذ آلمان در ایران و خطر تهدید خطوط تأمین نفت نگران بودند. این نگرانی‌ها زمینه‌ساز اشغال ایران در سال بعد شد.",
+        en: "Iran officially declared neutrality in World War II, but Reza Shah maintained extensive trade relations with Nazi Germany. Hundreds of German advisors and technicians were active in Iran, and Germany had become Iran's main trading partner. The Allies, especially Britain and the Soviet Union, were concerned about German influence in Iran and the threat to oil supply lines. These concerns set the stage for Iran's occupation the following year.",
+      },
+    },
   },
   {
     year: 1941,
@@ -1612,6 +1864,18 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1944,
+    shamsiYear: "۱۳۲۳",
+    iran: {
+      title: { fa: "بحران امتیاز نفت شمال", en: "Northern Oil Concession Crisis" },
+      description: { fa: "شوروی خواستار امتیاز نفت شمال ایران شد - مصدق رهبری مخالفان را بر عهده گرفت", en: "Soviets demand northern oil concession — Mossadegh leads opposition in Majles" },
+      details: {
+        fa: "شوروی با اعزام هیئتی به تهران خواستار امتیاز نفت شمال ایران شد. محمد مصدق در مجلس شورای ملی رهبری مخالفت با واگذاری امتیاز نفت به هر کشور خارجی را بر عهده گرفت. مجلس با تصویب قانونی، دولت را از مذاکره و اعطای هرگونه امتیاز نفتی بدون تصویب مجلس منع کرد. این اقدام مصدق سرآغاز مسیری بود که به ملی شدن نفت در ۱۹۵۱ منجر شد.",
+        en: "The Soviet Union sent a delegation to Tehran demanding a northern Iran oil concession. Mohammad Mossadegh led opposition in the Majles against granting oil concessions to any foreign power. Parliament passed a law prohibiting the government from negotiating or granting any oil concessions without parliamentary approval. This action by Mossadegh was the beginning of the path that led to oil nationalization in 1951.",
+      },
+    },
   },
   {
     year: 1945,
@@ -1929,6 +2193,18 @@ export const timelineData: TimelineEntry[] = [
     ],
   },
   {
+    year: 1952,
+    shamsiYear: "۱۳۳۱",
+    iran: {
+      title: { fa: "رویارویی مصدق و شاه - قیام ۳۰ تیر", en: "Mossadegh vs. Shah — 30 Tir Uprising" },
+      description: { fa: "قیام مردمی ۳۰ تیر، مصدق اختیارات فوق‌العاده گرفت", en: "Popular July uprising (30 Tir), Mossadegh gains emergency powers" },
+      details: {
+        fa: "مصدق در تیرماه ۱۳۳۱ با شاه بر سر کنترل وزارت جنگ درگیر شد و استعفا داد. قوام‌السلطنه نخست‌وزیر شد اما قیام خونین مردم در ۳۰ تیر (۲۱ ژوئیه) او را مجبور به کناره‌گیری کرد. مصدق به قدرت بازگشت و مجلس اختیارات فوق‌العاده شش‌ماهه به او داد. مصدق در اوج قدرت و محبوبیت بود اما تنش با شاه، بریتانیا و آمریکا رو به افزایش بود.",
+        en: "In July 1952, Mossadegh clashed with the Shah over control of the War Ministry and resigned. Qavam became PM but a bloody popular uprising on July 21 (30 Tir) forced his resignation. Mossadegh returned to power and parliament granted him six-month emergency powers. Mossadegh was at the height of power and popularity, but tensions with the Shah, Britain, and the US were escalating.",
+      },
+    },
+  },
+  {
     year: 1953,
     shamsiYear: "۱۳۳۲",
     yearInfo: {
@@ -1973,6 +2249,30 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1954,
+    shamsiYear: "۱۳۳۳",
+    iran: {
+      title: { fa: "قرارداد کنسرسیوم نفت", en: "Oil Consortium Agreement" },
+      description: { fa: "پس از کودتا، کنسرسیوم بین‌المللی نفت جایگزین ملی شدن شد", en: "After the coup, international oil consortium replaces nationalization" },
+      details: {
+        fa: "پس از کودتای ۲۸ مرداد و سرنگونی مصدق، دولت زاهدی قرارداد کنسرسیوم نفت را امضا کرد. بر اساس این قرارداد، یک کنسرسیوم بین‌المللی متشکل از شرکت‌های نفتی آمریکایی، بریتانیایی، هلندی و فرانسوی عملیات نفتی ایران را در دست گرفت. سهم ایران ۵۰ درصد از سود تعیین شد. گرچه شرکت نفت ایران رسماً باقی ماند، عملاً ملی شدن نفت بی‌اثر شد و دستاورد مصدق از بین رفت.",
+        en: "After the August 1953 coup and Mossadegh's overthrow, the Zahedi government signed the Consortium Agreement. An international consortium of American, British, Dutch, and French oil companies took over Iran's oil operations. Iran's share was set at 50% of profits. Although the National Iranian Oil Company formally remained, nationalization was effectively undone and Mossadegh's achievement was nullified.",
+      },
+    },
+  },
+  {
+    year: 1955,
+    shamsiYear: "۱۳۳۴",
+    iran: {
+      title: { fa: "ایران به پیمان بغداد پیوست", en: "Iran Joins Baghdad Pact (CENTO)" },
+      description: { fa: "همسویی قاطع ایران با غرب در جنگ سرد", en: "Iran aligns firmly with the West in the Cold War" },
+      details: {
+        fa: "ایران به پیمان بغداد (سنتو) پیوست که یک اتحاد نظامی منطقه‌ای شامل ترکیه، عراق، پاکستان و بریتانیا بود. این پیمان با هدف مقابله با نفوذ شوروی در خاورمیانه تشکیل شده بود. عضویت ایران نشان‌دهنده همسویی کامل شاه با بلوک غرب بود. شوروی این اقدام را تهدیدی علیه خود تلقی کرد و روابط ایران و شوروی تیره شد.",
+        en: "Iran joined the Baghdad Pact (CENTO), a regional military alliance including Turkey, Iraq, Pakistan, and Britain. The pact was formed to counter Soviet influence in the Middle East. Iran's membership demonstrated the Shah's complete alignment with the Western bloc. The Soviet Union viewed this as a threat and Iran-Soviet relations deteriorated.",
+      },
+    },
   },
   {
     year: 1956,
@@ -2140,6 +2440,18 @@ export const timelineData: TimelineEntry[] = [
   },
 
   {
+    year: 1961,
+    shamsiYear: "۱۳۴۰",
+    iran: {
+      title: { fa: "نخست‌وزیری امینی و اصلاحات ارضی", en: "Amini Becomes PM — Land Reform Attempts" },
+      description: { fa: "علی امینی تحت فشار آمریکا نخست‌وزیر شد و اصلاحات ارضی و آزادسازی سیاسی را آغاز کرد", en: "Ali Amini becomes PM under US pressure, begins land reform and political liberalization" },
+      details: {
+        fa: "علی امینی تحت فشار دولت کندی به نخست‌وزیری رسید. آمریکا نگران رشد نفوذ کمونیسم در ایران بود و خواستار اصلاحات بود. امینی حسن ارسنجانی را وزیر کشاورزی کرد و اصلاحات ارضی آغاز شد. فضای سیاسی نسبتاً باز شد و فعالیت جبهه ملی و نیروهای سیاسی افزایش یافت. اما شاه از قدرت‌گیری امینی ناراضی بود و سرانجام او را عزل کرد.",
+        en: "Ali Amini became Prime Minister under pressure from the Kennedy administration. The US, concerned about growing communist influence in Iran, demanded reforms. Amini appointed Hassan Arsanjani as Agriculture Minister and land reform began. The political atmosphere relatively opened, with increased activity by the National Front and political forces. However, the Shah was unhappy with Amini's growing power and eventually dismissed him.",
+      },
+    },
+  },
+  {
     year: 1962,
     shamsiYear: "۱۳۴۱",
     iran: {
@@ -2265,6 +2577,30 @@ export const timelineData: TimelineEntry[] = [
     ],
   },
 
+  {
+    year: 1965,
+    shamsiYear: "۱۳۴۴",
+    iran: {
+      title: { fa: "ترور نخست‌وزیر منصور - هویدا نخست‌وزیر شد", en: "PM Mansur Assassinated — Hoveyda Becomes PM" },
+      description: { fa: "حسنعلی منصور ترور شد و امیرعباس هویدا جانشین او شد", en: "Hassan-Ali Mansur assassinated, Amir-Abbas Hoveyda succeeds him" },
+      details: {
+        fa: "حسنعلی منصور نخست‌وزیر در ۷ بهمن ۱۳۴۳ توسط محمد بخارایی عضو فداییان اسلام ترور شد. انگیزه ترور تصویب لایحه کاپیتولاسیون بود که به آمریکاییان مصونیت قضایی می‌داد. امیرعباس هویدا که دوست نزدیک منصور بود به نخست‌وزیری رسید و طولانی‌ترین دوره نخست‌وزیری تاریخ معاصر ایران (۱۳ سال) را آغاز کرد.",
+        en: "Prime Minister Hassan-Ali Mansur was assassinated on January 27, 1965 by Mohammad Bokharaei, a member of the Fada'iyan-e Islam. The motive was the passage of the Status of Forces Agreement granting legal immunity to Americans. Amir-Abbas Hoveyda, a close friend of Mansur, became PM and began the longest premiership in modern Iranian history (13 years).",
+      },
+    },
+  },
+  {
+    year: 1966,
+    shamsiYear: "۱۳۴۵",
+    iran: {
+      title: { fa: "رونق اقتصادی و آغاز دوران هویدا", en: "Economic Boom & Beginning of Hoveyda Era" },
+      description: { fa: "شتاب رشد اقتصادی ایران و آغاز دوران ثبات و توسعه هویدا", en: "Iran's economic growth accelerates, Hoveyda era of stability and development begins" },
+      details: {
+        fa: "با نخست‌وزیری هویدا، ایران وارد دوره‌ای از ثبات سیاسی نسبی و رشد اقتصادی شد. درآمدهای نفتی افزایش یافت و برنامه‌های عمرانی و صنعتی گسترده اجرا شد. هویدا با مدیریت تکنوکراتیک و روابط خوب با شاه، سیاست‌های توسعه‌ای را پیش برد. اما فضای سیاسی بسته باقی ماند و مخالفان همچنان سرکوب می‌شدند.",
+        en: "Under Hoveyda's premiership, Iran entered a period of relative political stability and economic growth. Oil revenues increased and extensive development and industrial programs were implemented. Hoveyda, with technocratic management and good relations with the Shah, advanced development policies. However, the political atmosphere remained closed and dissidents continued to be suppressed.",
+      },
+    },
+  },
   {
     year: 1967,
     shamsiYear: "۱۳۴۶",
@@ -2399,6 +2735,18 @@ export const timelineData: TimelineEntry[] = [
   },
 
   {
+    year: 1970,
+    shamsiYear: "۱۳۴۹",
+    iran: {
+      title: { fa: "رشد سریع اقتصادی و توسعه زیرساخت‌ها", en: "Rapid Economic Growth & Infrastructure Development" },
+      description: { fa: "رشد تولید ناخالص داخلی، پروژه‌های عمرانی بزرگ و گسترش سپاه دانش", en: "GDP growth, major construction projects, expanding Literacy Corps" },
+      details: {
+        fa: "اقتصاد ایران با رشد سریع تولید ناخالص داخلی به یکی از پویاترین اقتصادهای منطقه تبدیل شد. پروژه‌های عمرانی بزرگ شامل سدسازی، جاده‌سازی و صنعتی‌سازی در سراسر کشور ادامه داشت. سپاه دانش در روستاها فعال بود و نرخ باسوادی افزایش می‌یافت. اما این رشد اقتصادی توزیع نابرابر داشت و شکاف طبقاتی رو به افزایش بود.",
+        en: "Iran's economy became one of the most dynamic in the region with rapid GDP growth. Major construction projects including dam-building, road construction, and industrialization continued across the country. The Literacy Corps was active in villages, raising literacy rates. However, economic growth was unevenly distributed, and class disparity was widening.",
+      },
+    },
+  },
+  {
     year: 1971,
     shamsiYear: "۱۳۵۰",
     iran: {
@@ -2439,6 +2787,18 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1972,
+    shamsiYear: "۱۳۵۱",
+    iran: {
+      title: { fa: "دکترین نیکسون و تسلیح ایران", en: "Nixon Doctrine — Arming Iran" },
+      description: { fa: "آمریکا ایران را ژاندارم منطقه کرد - خرید تسلیحاتی گسترده", en: "US makes Iran regional policeman — massive arms purchases begin" },
+      details: {
+        fa: "بر اساس دکترین نیکسون، آمریکا ایران را به عنوان ژاندارم منطقه خلیج فارس برگزید. شاه اجازه یافت هر سلاح غیرهسته‌ای را از آمریکا خریداری کند. قراردادهای تسلیحاتی عظیمی امضا شد و ایران به بزرگترین خریدار سلاح آمریکایی در خاورمیانه تبدیل شد. این سیاست وابستگی نظامی ایران به آمریکا را عمیق‌تر کرد و بودجه نظامی کشور را به شدت افزایش داد.",
+        en: "Under the Nixon Doctrine, the US designated Iran as the policeman of the Persian Gulf region. The Shah was granted permission to purchase any non-nuclear weapon from the US. Massive arms deals were signed, making Iran the largest buyer of American weapons in the Middle East. This policy deepened Iran's military dependence on the US and dramatically increased the country's defense budget.",
+      },
+    },
   },
   {
     year: 1973,
@@ -2739,15 +3099,15 @@ export const timelineData: TimelineEntry[] = [
     year: 1980,
     shamsiYear: "۱۳۵۹",
     yearInfo: {
-      fa: "شروع جنگ تحمیلی. صدام با حمایت غرب و اعراب به ایران حمله کرد. ۸ سال جنگ خونین آغاز شد.",
-      en: "Start of the imposed war. Saddam, backed by the West and Arab states, invades Iran. 8 years of bloody war begins.",
+      fa: "آغاز جنگ ایران و عراق. ارتش عراق به ایران حمله کرد و هشت سال جنگ خونین آغاز شد.",
+      en: "Start of the Iran-Iraq War. Iraq invades Iran and 8 years of devastating war begins.",
     },
     iran: {
       title: { fa: "حمله عراق به ایران - آغاز جنگ ۸ ساله", en: "Iraq Invades Iran - 8-Year War Begins" },
-      description: { fa: "۳۱ شهریور ۱۳۵۹: صدام با حمایت آمریکا، شوروی و عربستان به ایران حمله کرد", en: "Sep 22, 1980: Saddam attacks Iran with US, Soviet & Saudi backing" },
+      description: { fa: "۳۱ شهریور ۱۳۵۹: ارتش عراق از چند محور به ایران حمله کرد", en: "Sep 22, 1980: Iraqi forces invade Iran on multiple fronts" },
       details: {
-        fa: "صدام حسین در ۳۱ شهریور ۱۳۵۹ با ارتش مجهز به سلاح‌های غربی و شرقی به ایران حمله کرد. خوزستان هدف اصلی بود. خرمشهر سقوط کرد. آمریکا اطلاعات ماهواره‌ای، فرانسه جنگنده میراژ، شوروی تانک و آلمان مواد شیمیایی در اختیار عراق گذاشتند. ایران در مقابل تحت تحریم تسلیحاتی بود. این جنگ ۱ میلیون کشته، ۲ میلیون زخمی و ۱ تریلیون دلار خسارت داشت.",
-        en: "Saddam Hussein invaded Iran on September 22, 1980 with an army equipped with Western and Eastern weapons. Khuzestan was the main target. Khorramshahr fell. The US provided satellite intelligence, France Mirage jets, the USSR tanks, and Germany chemical weapons materials to Iraq. Iran was under arms embargo. The war caused 1 million dead, 2 million wounded, and $1 trillion in damage.",
+        fa: "صدام حسین در ۳۱ شهریور ۱۳۵۹ به ایران حمله کرد. خوزستان هدف اصلی بود و شهر خرمشهر پس از مقاومت سخت سقوط کرد. عراق از تسلیحات متنوع غربی و شرقی بهره‌مند بود، در حالی که ایران تحت تحریم تسلیحاتی قرار داشت. این جنگ هشت سال به طول انجامید و بر اساس برآوردها حدود یک میلیون کشته، دو میلیون زخمی و خسارات اقتصادی هنگفتی بر جای گذاشت.",
+        en: "Saddam Hussein invaded Iran on September 22, 1980. Khuzestan was the main target and the city of Khorramshahr fell after fierce resistance. Iraq had access to diverse Western and Eastern weaponry, while Iran was under an arms embargo. The war lasted eight years and is estimated to have caused around one million deaths, two million wounded, and massive economic damage.",
       },
       image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Iran-Iraq_war-gallery.png&width=200",
     },
@@ -2862,6 +3222,30 @@ export const timelineData: TimelineEntry[] = [
         },
       },
     ],
+  },
+  {
+    year: 1983,
+    shamsiYear: "۱۳۶۲",
+    iran: {
+      title: { fa: "سرکوب حزب توده و انزوای بین‌المللی", en: "Tudeh Party Crushed & International Isolation" },
+      description: { fa: "حزب توده منحل و دیپلمات‌های شوروی اخراج شدند - شعار «نه شرقی نه غربی»", en: "Tudeh Party dissolved, Soviet diplomats expelled — 'Neither East nor West'" },
+      details: {
+        fa: "جمهوری اسلامی حزب توده (حزب کمونیست ایران) را که ابتدا از انقلاب حمایت کرده بود منحل کرد. رهبران حزب بازداشت و به اعترافات تلویزیونی وادار شدند. ۱۸ دیپلمات شوروی به اتهام جاسوسی اخراج شدند. ایران با شعار «نه شرقی نه غربی، جمهوری اسلامی» خود را از هر دو بلوک جدا کرد و در حالی که درگیر جنگ با عراق بود، انزوای بین‌المللی‌اش عمیق‌تر شد.",
+        en: "The Islamic Republic dissolved the Tudeh Party (Iran's communist party), which had initially supported the revolution. Party leaders were arrested and forced into televised confessions. Eighteen Soviet diplomats were expelled on espionage charges. Iran, under the slogan 'Neither East nor West, Islamic Republic,' distanced itself from both blocs while its international isolation deepened amid the ongoing war with Iraq.",
+      },
+    },
+  },
+  {
+    year: 1984,
+    shamsiYear: "۱۳۶۳",
+    iran: {
+      title: { fa: "جنگ نفتکش‌ها و سلاح‌های شیمیایی", en: "Tanker War & Chemical Weapons" },
+      description: { fa: "حملات عراق به نفتکش‌ها در خلیج فارس و استفاده از سلاح‌های شیمیایی علیه ایران", en: "Iraqi attacks on tankers in Persian Gulf and use of chemical weapons against Iran" },
+      details: {
+        fa: "جنگ نفتکش‌ها در خلیج فارس شدت گرفت و عراق با حمله به نفتکش‌های متوجه بنادر ایرانی سعی در فلج کردن اقتصاد ایران داشت. عراق از سلاح‌های شیمیایی (گاز خردل و تابون) علیه نیروهای ایرانی در جبهه‌ها استفاده گسترده کرد. جامعه بین‌المللی عمدتاً در برابر این جنایات جنگی سکوت کرد. هزاران رزمنده ایرانی قربانی حملات شیمیایی شدند.",
+        en: "The Tanker War in the Persian Gulf escalated as Iraq attacked tankers heading to Iranian ports to cripple Iran's economy. Iraq extensively used chemical weapons (mustard gas and tabun) against Iranian forces on the frontlines. The international community largely remained silent about these war crimes. Thousands of Iranian soldiers became victims of chemical attacks.",
+      },
+    },
   },
   {
     year: 1985,
@@ -4164,8 +4548,8 @@ export const timelineData: TimelineEntry[] = [
       title: { fa: "جنبش سبز - «رأی من کجاست؟»", en: "Green Movement - 'Where Is My Vote?'" },
       description: { fa: "اعتراض به تقلب در انتخابات - کشته شدن ندا آقاسلطان نماد جنبش شد", en: "Protest against election fraud - Neda Agha-Soltan's death becomes symbol" },
       details: {
-        fa: "پس از اعلام پیروزی احمدی‌نژاد با ۶۳٪ آرا، میلیون‌ها نفر به خیابان‌ها ریختند. میرحسین موسوی و مهدی کروبی رهبران جنبش بودند. ندا آقاسلطان در ۳۰ خرداد مقابل دوربین کشته شد و ویدیوی او در سراسر جهان پخش شد. حکومت با سرکوب خشن پاسخ داد: کهریزک، اعترافات تلویزیونی، زندان. موسوی و کروبی از ۱۳۸۹ تاکنون در حصر خانگی هستند.",
-        en: "After Ahmadinejad was declared winner with 63%, millions took to the streets. Mir-Hossein Mousavi and Mehdi Karroubi led the movement. Neda Agha-Soltan was killed on camera on June 20 and her video went global. The regime responded with brutal crackdown: Kahrizak prison, televised confessions, imprisonment. Mousavi and Karroubi have been under house arrest since 2010.",
+        fa: "پس از اعلام پیروزی احمدی‌نژاد با ۶۳ درصد آرا، میلیون‌ها نفر در شهرهای مختلف به خیابان‌ها آمدند. میرحسین موسوی و مهدی کروبی نتیجه انتخابات را زیر سؤال بردند. ندا آقاسلطان در ۳۰ خرداد در جریان اعتراضات جان باخت و تصاویر او بازتاب جهانی یافت. در پی اعتراضات، بازداشت‌های گسترده، محاکمات و اعترافات تلویزیونی صورت گرفت. موسوی و کروبی از سال ۱۳۸۹ در حصر خانگی به سر می‌برند.",
+        en: "After Ahmadinejad was declared winner with 63% of the vote, millions took to the streets across multiple cities. Mir-Hossein Mousavi and Mehdi Karroubi contested the election results. Neda Agha-Soltan was killed during the protests on June 20 and footage of her death spread globally. The unrest was followed by widespread arrests, trials, and televised confessions. Mousavi and Karroubi have been under house arrest since 2010.",
       },
       image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/5th_day_-_765.jpg&width=200",
     },
@@ -5127,8 +5511,8 @@ export const timelineData: TimelineEntry[] = [
       title: { fa: "جنبش مهسا (ژینا) امینی - زن، زندگی، آزادی", en: "Mahsa (Zhina) Amini Movement - Woman, Life, Freedom" },
       description: { fa: "مرگ مهسا در بازداشت گشت ارشاد - اعتراضات سراسری ۱۶۰+ شهر", en: "Mahsa dies in morality police custody - Protests in 160+ cities" },
       details: {
-        fa: "مهسا (ژینا) امینی ۲۲ ساله کُرد در ۲۵ شهریور ۱۴۰۱ (۱۶ سپتامبر ۲۰۲۲) پس از بازداشت توسط گشت ارشاد به خاطر «حجاب نامناسب» درگذشت. اعتراضات از کردستان شروع شد و به ۱۶۰+ شهر و ۱۳۱ دانشگاه گسترش یافت. شعار «زن، زندگی، آزادی» (ژن، ژیان، ئازادی) جهانی شد. حکومت با گلوله جنگی، بازداشت ۲۰,۰۰۰+ نفر و اعدام معترضان پاسخ داد. بیش از ۵۰۰ نفر کشته شدند.",
-        en: "Mahsa (Zhina) Amini, a 22-year-old Kurdish woman, died on September 16, 2022 after being arrested by morality police for 'improper hijab.' Protests started in Kurdistan and spread to 160+ cities and 131 universities. The slogan 'Woman, Life, Freedom' (Jin, Jiyan, Azadi) went global. The regime responded with live ammunition, 20,000+ arrests, and execution of protesters. Over 500 were killed.",
+        fa: "مهسا (ژینا) امینی ۲۲ ساله کُرد در ۲۵ شهریور ۱۴۰۱ (۱۶ سپتامبر ۲۰۲۲) پس از بازداشت توسط گشت ارشاد به دلیل «حجاب نامناسب» درگذشت. اعتراضات از کردستان آغاز شد و به بیش از ۱۶۰ شهر و ۱۳۱ دانشگاه گسترش یافت. شعار «زن، زندگی، آزادی» بازتاب جهانی پیدا کرد. در جریان مقابله با اعتراضات، بیش از ۲۰ هزار نفر بازداشت شدند و بر اساس گزارش‌ها بیش از ۵۰۰ نفر جان خود را از دست دادند.",
+        en: "Mahsa (Zhina) Amini, a 22-year-old Kurdish woman, died on September 16, 2022 after being detained by morality police for 'improper hijab.' Protests started in Kurdistan and spread to 160+ cities and 131 universities. The slogan 'Woman, Life, Freedom' (Jin, Jiyan, Azadi) resonated globally. In the ensuing crackdown, over 20,000 were detained and according to reports over 500 people lost their lives.",
       },
       image: "https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mahsa_Amini%2C_during_a_visit_to_Istanbul_in_2022.jpg&width=200",
     },
@@ -5202,11 +5586,11 @@ export const timelineData: TimelineEntry[] = [
     year: 2023,
     shamsiYear: "۱۴۰۲",
     iran: {
-      title: { fa: "سرکوب مستمر - اعدام معترضان", en: "Ongoing Crackdown - Execution of Protesters" },
-      description: { fa: "اعدام محسن شکاری و مجیدرضا رهنورد - تشدید فشار بر زنان", en: "Execution of Shekari & Rahnavard - Intensified pressure on women" },
+      title: { fa: "تداوم بحران پس از اعتراضات - اعدام‌ها", en: "Post-Protest Crisis Continues - Executions" },
+      description: { fa: "اعدام محسن شکاری و مجیدرضا رهنورد - تشدید قوانین حجاب", en: "Execution of Shekari & Rahnavard - Stricter hijab enforcement" },
       details: {
-        fa: "حکومت پس از جنبش ژینا سرکوب را تشدید کرد. محسن شکاری و مجیدرضا رهنورد اعدام شدند. دوربین‌های هوشمند برای شناسایی زنان بدون حجاب نصب شد. تحریم‌های جدید غربی اعمال شد. ایران با فروش پهپاد به روسیه در جنگ اوکراین، در انزوای بین‌المللی بیشتری قرار گرفت.",
-        en: "The regime intensified crackdown after the Zhina movement. Mohsen Shekari and Majidreza Rahnavard were executed. Smart cameras were installed to identify women without hijab. New Western sanctions were imposed. Iran's drone sales to Russia in the Ukraine war deepened its international isolation.",
+        fa: "پس از جنبش ژینا، فضای امنیتی تشدید شد. محسن شکاری و مجیدرضا رهنورد در ارتباط با اعتراضات اعدام شدند. دوربین‌های هوشمند برای نظارت بر رعایت حجاب نصب شد. تحریم‌های جدید غربی علیه ایران اعمال شد. همکاری نظامی ایران با روسیه از جمله فروش پهپاد شاهد، انزوای بین‌المللی ایران را افزایش داد.",
+        en: "After the Zhina movement, the security atmosphere intensified. Mohsen Shekari and Majidreza Rahnavard were executed in connection with the protests. Smart cameras were installed to monitor hijab compliance. New Western sanctions were imposed on Iran. Iran's military cooperation with Russia, including Shahed drone sales, increased its international isolation.",
       },
     },
     world: [
@@ -5282,8 +5666,8 @@ export const timelineData: TimelineEntry[] = [
       title: { fa: "سقوط بالگرد رئیسی - انتخاب پزشکیان", en: "Raisi Helicopter Crash - Pezeshkian Elected" },
       description: { fa: "رئیسی در سانحه هوایی کشته شد - انتخابات زودهنگام - پزشکیان رئیس‌جمهور شد", en: "Raisi killed in helicopter crash - Snap election - Pezeshkian becomes president" },
       details: {
-        fa: "در ۳۰ اردیبهشت ۱۴۰۳ (۱۹ مه ۲۰۲۴) بالگرد حامل ابراهیم رئیسی، وزیر خارجه امیرعبداللهیان و چند مقام دیگر در آذربایجان شرقی سقوط کرد و همه سرنشینان کشته شدند. انتخابات زودهنگام برگزار شد و مسعود پزشکیان (نامزد اصلاح‌طلب) با وعده تعامل با جهان و بهبود اقتصادی رئیس‌جمهور شد.",
-        en: "On May 19, 2024, a helicopter carrying President Ebrahim Raisi, Foreign Minister Amir-Abdollahian, and other officials crashed in East Azerbaijan, killing all aboard. Snap elections were held and Masoud Pezeshkian (reformist candidate) won the presidency with promises of engagement with the world and economic improvement.",
+        fa: "در ۳۰ اردیبهشت ۱۴۰۳ (۱۹ مه ۲۰۲۴) بالگرد حامل ابراهیم رئیسی، وزیر خارجه امیرعبداللهیان و چند مقام دیگر در آذربایجان شرقی سقوط کرد و همه سرنشینان جان باختند. انتخابات زودهنگام برگزار شد و مسعود پزشکیان با وعده تعامل با جهان رئیس‌جمهور شد. همچنین در این سال تنش نظامی بین ایران و اسرائیل به اوج رسید و دو کشور حملات موشکی و پهپادی متقابل انجام دادند.",
+        en: "On May 19, 2024, a helicopter carrying President Ebrahim Raisi, Foreign Minister Amir-Abdollahian, and other officials crashed in East Azerbaijan, killing all aboard. Snap elections were held and Masoud Pezeshkian won the presidency with promises of engagement with the world. Tensions between Iran and Israel also peaked this year, with both countries conducting reciprocal missile and drone strikes.",
       },
     },
     world: [
@@ -5414,11 +5798,11 @@ export const timelineData: TimelineEntry[] = [
     year: 2026,
     shamsiYear: "۱۴۰۵",
     iran: {
-      title: { fa: "فشار اقتصادی مداوم و تنش‌های هسته‌ای", en: "Continued Economic Pressure & Nuclear Tensions" },
-      description: { fa: "تحریم‌های شدیدتر - بی‌ثباتی منطقه‌ای - بحران اقتصادی", en: "Intensified sanctions - Regional instability - Economic crisis" },
+      title: { fa: "جنگ ایران و اسرائیل - بحران منطقه‌ای", en: "Iran-Israel War - Regional Crisis" },
+      description: { fa: "درگیری نظامی مستقیم ایران و اسرائیل - تشدید تحریم‌ها - بحران اقتصادی", en: "Direct Iran-Israel military confrontation - Escalating sanctions - Economic crisis" },
       details: {
-        fa: "سیاست فشار حداکثری ترامپ تشدید شد و تحریم‌های جدید اقتصاد ایران را بیش از پیش فلج کرد. تنش‌های هسته‌ای افزایش یافت و ایران غنی‌سازی اورانیوم را به سطوح بالاتر رساند. بی‌ثباتی منطقه‌ای با ادامه درگیری‌ها در خاورمیانه و نقش‌آفرینی ایران در سوریه، عراق و یمن تشدید شد.",
-        en: "Trump's maximum pressure policy intensified with new sanctions further crippling Iran's economy. Nuclear tensions escalated as Iran advanced uranium enrichment to higher levels. Regional instability deepened with ongoing conflicts in the Middle East and Iran's involvement in Syria, Iraq, and Yemen.",
+        fa: "تنش‌های ایران و اسرائیل که از سال ۲۰۲۴ با حملات متقابل موشکی و پهپادی آغاز شده بود، در سال ۲۰۲۶ به درگیری نظامی گسترده‌تری تبدیل شد. اسرائیل حملاتی به تأسیسات نظامی ایران انجام داد و ایران نیز با موشک‌های بالستیک پاسخ داد. این تنش‌ها همراه با سیاست فشار حداکثری دولت ترامپ و تحریم‌های جدید، اقتصاد ایران را تحت فشار شدیدتری قرار داد. مذاکرات هسته‌ای متوقف ماند و ایران غنی‌سازی اورانیوم را ادامه داد.",
+        en: "Iran-Israel tensions, which began with reciprocal missile and drone strikes in 2024, escalated into broader military confrontation in 2026. Israel struck Iranian military facilities and Iran responded with ballistic missiles. These tensions, combined with Trump's maximum pressure policy and new sanctions, put further strain on Iran's economy. Nuclear negotiations remained stalled as Iran continued uranium enrichment.",
       },
     },
     world: [
