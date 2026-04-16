@@ -6,6 +6,7 @@ import {
   type Country,
   type Leader,
   type TimelineEntry,
+  type WorldEvent,
   timelineData,
   countryInfo,
   iranLeaders,
@@ -152,6 +153,186 @@ function IranLeaderSection({ year, lang }: { year: number; lang: Language }) {
   );
 }
 
+function IranCard({
+  entry,
+  lang,
+  expanded,
+  onToggle,
+}: {
+  entry: TimelineEntry;
+  lang: Language;
+  expanded: boolean;
+  onToggle: () => void;
+}) {
+  if (!entry.iran) return null;
+  return (
+    <div className="flex flex-col gap-2">
+      <IranLeaderSection year={entry.year} lang={lang} />
+      <button
+        onClick={onToggle}
+        className="group w-full cursor-pointer rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-3 text-left shadow-sm transition-all hover:shadow-md dark:border-amber-900 dark:from-amber-950/40 dark:to-orange-950/30 md:p-4"
+      >
+        <h3 className="text-right text-sm font-bold text-amber-900 dark:text-amber-200 md:text-base">
+          {entry.iran.title[lang]}
+        </h3>
+        {entry.iran.description && (
+          <p className="mt-1 text-right text-xs text-amber-700 dark:text-amber-400 md:text-sm">
+            {entry.iran.description[lang]}
+          </p>
+        )}
+        {expanded && (
+          <div className="mt-2 space-y-2 border-t border-amber-100 pt-2 dark:border-amber-800">
+            {entry.iran.image && (
+              <FallbackImage
+                src={entry.iran.image}
+                alt={entry.iran.title.en}
+                className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
+              />
+            )}
+            {entry.iran.details && (
+              <p className="text-right text-xs leading-relaxed text-amber-800 dark:text-amber-300">
+                {entry.iran.details[lang]}
+              </p>
+            )}
+          </div>
+        )}
+        <div className="mt-2 flex justify-start">
+          <span className="text-[10px] text-amber-400 transition-colors group-hover:text-amber-600 dark:text-amber-600 dark:group-hover:text-amber-400">
+            {expanded
+              ? lang === "fa" ? "▲ بستن" : "▲ Close"
+              : lang === "fa" ? "▼ جزئیات بیشتر" : "▼ More details"}
+          </span>
+        </div>
+      </button>
+    </div>
+  );
+}
+
+function WorldCard({
+  worldEvents,
+  lang,
+  expanded,
+  onToggle,
+  primaryWorldCountry,
+  year,
+}: {
+  worldEvents: WorldEvent[];
+  lang: Language;
+  expanded: boolean;
+  onToggle: () => void;
+  primaryWorldCountry: Country | undefined;
+  year: number;
+}) {
+  return (
+    <div className="flex flex-col gap-2">
+      {primaryWorldCountry && (
+        <LeaderStrip
+          leaders={countryLeaderMap[primaryWorldCountry]}
+          year={year}
+          lang={lang}
+          side="world"
+        />
+      )}
+      <button
+        onClick={onToggle}
+        className="group w-full cursor-pointer rounded-xl border border-sky-200 bg-gradient-to-br from-sky-50 to-blue-50 p-3 text-left shadow-sm transition-all hover:shadow-md dark:border-sky-900 dark:from-sky-950/40 dark:to-blue-950/30 md:p-4"
+      >
+        {worldEvents.map((event, idx) => (
+          <div
+            key={idx}
+            className={
+              idx > 0
+                ? "mt-2 border-t border-sky-100 pt-2 dark:border-sky-800"
+                : ""
+            }
+          >
+            <div className="flex items-center justify-end gap-1.5">
+              <h3 className="text-sm font-bold text-sky-900 dark:text-sky-200 md:text-base">
+                {event.title[lang]}
+              </h3>
+              <span className="text-sm">
+                {countryInfo[event.country].flag}
+              </span>
+            </div>
+            {event.description && (
+              <p className="mt-0.5 text-right text-xs text-sky-700 dark:text-sky-400 md:text-sm">
+                {event.description[lang]}
+              </p>
+            )}
+            {expanded && event.details && (
+              <div className="mt-2 space-y-2 border-t border-sky-100 pt-2 dark:border-sky-800">
+                {event.image && (
+                  <FallbackImage
+                    src={event.image}
+                    alt={event.title.en}
+                    className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
+                  />
+                )}
+                <p className="text-right text-xs leading-relaxed text-sky-800 dark:text-sky-300">
+                  {event.details[lang]}
+                </p>
+              </div>
+            )}
+          </div>
+        ))}
+        <div className="mt-2 flex justify-end">
+          <span className="text-[10px] text-sky-400 transition-colors group-hover:text-sky-600 dark:text-sky-600 dark:group-hover:text-sky-400">
+            {expanded
+              ? lang === "fa" ? "▲ بستن" : "▲ Close"
+              : lang === "fa" ? "▼ جزئیات بیشتر" : "▼ More details"}
+          </span>
+        </div>
+      </button>
+    </div>
+  );
+}
+
+function YearCircle({
+  entry,
+  lang,
+  expanded,
+  onToggle,
+}: {
+  entry: TimelineEntry;
+  lang: Language;
+  expanded: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <div className="relative flex shrink-0 flex-col items-center">
+      <button
+        onClick={onToggle}
+        className={`flex h-14 w-14 cursor-pointer flex-col items-center justify-center rounded-full border-4 shadow-lg transition-all hover:scale-110 md:h-20 md:w-20 ${
+          expanded
+            ? "border-amber-400 bg-slate-700 dark:border-amber-500 dark:bg-slate-800"
+            : "border-slate-300 bg-slate-800 dark:border-slate-600 dark:bg-slate-900"
+        }`}
+      >
+        <span className="text-[10px] font-bold text-sky-300 md:text-xs">
+          {entry.year}
+        </span>
+        <div className="my-0.5 h-px w-5 bg-slate-500 md:w-6" />
+        <span className="text-[10px] font-bold text-amber-300 md:text-xs">
+          {toFarsiNumber(gregorianToShamsi(entry.year))}
+        </span>
+      </button>
+      {expanded && entry.yearInfo && (
+        <div className="absolute top-full z-20 mt-2 w-64 rounded-xl border border-slate-200 bg-white p-3 shadow-xl dark:border-slate-700 dark:bg-slate-800 md:w-80">
+          <p className="text-xs leading-relaxed text-slate-700 dark:text-slate-300">
+            {entry.yearInfo[lang]}
+          </p>
+          <button
+            onClick={onToggle}
+            className="mt-2 text-[10px] text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+          >
+            {lang === "fa" ? "✕ بستن" : "✕ Close"}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function EventCard({
   entry,
   lang,
@@ -177,164 +358,99 @@ function EventCard({
     (e) => e.country !== "world"
   )?.country;
 
-  return (
-    <div className="relative flex items-start gap-0 py-4 md:py-6">
-      {/* World Side (Left) */}
-      <div className="flex w-1/2 justify-end pr-3 md:pr-6">
-        {hasWorld ? (
-          <div className="flex max-w-md flex-col items-end gap-2">
-            {primaryWorldCountry && (
-              <LeaderStrip
-                leaders={countryLeaderMap[primaryWorldCountry]}
-                year={entry.year}
-                lang={lang}
-                side="world"
-              />
-            )}
-            <button
-              onClick={() => setWorldExpanded(!worldExpanded)}
-              className="group w-full cursor-pointer rounded-xl border border-sky-200 bg-gradient-to-br from-sky-50 to-blue-50 p-3 text-left shadow-sm transition-all hover:shadow-md dark:border-sky-900 dark:from-sky-950/40 dark:to-blue-950/30 md:p-4"
-            >
-              {worldEvents!.map((event, idx) => (
-                <div
-                  key={idx}
-                  className={
-                    idx > 0
-                      ? "mt-2 border-t border-sky-100 pt-2 dark:border-sky-800"
-                      : ""
-                  }
-                >
-                  <div className="flex items-center justify-end gap-1.5">
-                    <h3 className="text-sm font-bold text-sky-900 dark:text-sky-200 md:text-base">
-                      {event.title[lang]}
-                    </h3>
-                    <span className="text-sm">
-                      {countryInfo[event.country].flag}
-                    </span>
-                  </div>
-                  {event.description && (
-                    <p className="mt-0.5 text-right text-xs text-sky-700 dark:text-sky-400 md:text-sm">
-                      {event.description[lang]}
-                    </p>
-                  )}
-                  {worldExpanded && event.details && (
-                    <div className="mt-2 space-y-2 border-t border-sky-100 pt-2 dark:border-sky-800">
-                      {event.image && (
-                        <FallbackImage
-                          src={event.image}
-                          alt={event.title.en}
-                          className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
-                        />
-                      )}
-                      <p className="text-right text-xs leading-relaxed text-sky-800 dark:text-sky-300">
-                        {event.details[lang]}
-                      </p>
-                    </div>
-                  )}
-                </div>
-              ))}
-              <div className="mt-2 flex justify-end">
-                <span className="text-[10px] text-sky-400 transition-colors group-hover:text-sky-600 dark:text-sky-600 dark:group-hover:text-sky-400">
-                  {worldExpanded
-                    ? lang === "fa"
-                      ? "▲ بستن"
-                      : "▲ Close"
-                    : lang === "fa"
-                      ? "▼ جزئیات بیشتر"
-                      : "▼ More details"}
-                </span>
-              </div>
-            </button>
-          </div>
-        ) : (
-          <div />
-        )}
-      </div>
+  const isRtl = lang === "fa";
 
-      {/* Center Year Circle */}
-      <div className="relative z-10 flex shrink-0 flex-col items-center">
-        <button
-          onClick={() => setYearExpanded(!yearExpanded)}
-          className={`flex h-16 w-16 cursor-pointer flex-col items-center justify-center rounded-full border-4 shadow-lg transition-all hover:scale-110 md:h-20 md:w-20 ${
-            yearExpanded
-              ? "border-amber-400 bg-slate-700 dark:border-amber-500 dark:bg-slate-800"
-              : "border-slate-300 bg-slate-800 dark:border-slate-600 dark:bg-slate-900"
+  return (
+    <>
+      {/* === MOBILE LAYOUT (below 768px) === */}
+      <div
+        className={`flex py-4 md:!hidden ${
+          isRtl ? "flex-row" : "flex-row-reverse"
+        }`}
+      >
+        {/* Year circle side — right for Farsi, left for English */}
+        <div className="relative z-10 flex w-16 shrink-0 flex-col items-center">
+          <YearCircle
+            entry={entry}
+            lang={lang}
+            expanded={yearExpanded}
+            onToggle={() => setYearExpanded(!yearExpanded)}
+          />
+        </div>
+        {/* Content side — all cards stacked */}
+        <div
+          className={`flex min-w-0 flex-1 flex-col gap-3 ${
+            isRtl ? "pl-2" : "pr-2"
           }`}
         >
-          <span className="text-[10px] font-bold text-sky-300 md:text-xs">
-            {entry.year}
-          </span>
-          <div className="my-0.5 h-px w-6 bg-slate-500" />
-          <span className="text-[10px] font-bold text-amber-300 md:text-xs">
-            {toFarsiNumber(gregorianToShamsi(entry.year))}
-          </span>
-        </button>
-        {yearExpanded && entry.yearInfo && (
-          <div className="absolute top-full z-20 mt-2 w-72 rounded-xl border border-slate-200 bg-white p-3 shadow-xl dark:border-slate-700 dark:bg-slate-800 md:w-80">
-            <p className="text-xs leading-relaxed text-slate-700 dark:text-slate-300">
-              {entry.yearInfo[lang]}
-            </p>
-            <button
-              onClick={() => setYearExpanded(false)}
-              className="mt-2 text-[10px] text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-            >
-              {lang === "fa" ? "✕ بستن" : "✕ Close"}
-            </button>
-          </div>
-        )}
+          {/* Iran card always first */}
+          {hasIran && (
+            <IranCard
+              entry={entry}
+              lang={lang}
+              expanded={iranExpanded}
+              onToggle={() => setIranExpanded(!iranExpanded)}
+            />
+          )}
+          {/* World cards after */}
+          {hasWorld && (
+            <WorldCard
+              worldEvents={worldEvents!}
+              lang={lang}
+              expanded={worldExpanded}
+              onToggle={() => setWorldExpanded(!worldExpanded)}
+              primaryWorldCountry={primaryWorldCountry}
+              year={entry.year}
+            />
+          )}
+        </div>
       </div>
 
-      {/* Iran Side (Right) */}
-      <div className="flex w-1/2 justify-start pl-3 md:pl-6">
-        {hasIran ? (
-          <div className="flex max-w-md flex-col items-start gap-2">
-            <IranLeaderSection year={entry.year} lang={lang} />
-            <button
-              onClick={() => setIranExpanded(!iranExpanded)}
-              className="group w-full cursor-pointer rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-3 text-left shadow-sm transition-all hover:shadow-md dark:border-amber-900 dark:from-amber-950/40 dark:to-orange-950/30 md:p-4"
-            >
-              <h3 className="text-right text-sm font-bold text-amber-900 dark:text-amber-200 md:text-base">
-                {entry.iran!.title[lang]}
-              </h3>
-              {entry.iran!.description && (
-                <p className="mt-1 text-right text-xs text-amber-700 dark:text-amber-400 md:text-sm">
-                  {entry.iran!.description[lang]}
-                </p>
-              )}
-              {iranExpanded && (
-                <div className="mt-2 space-y-2 border-t border-amber-100 pt-2 dark:border-amber-800">
-                  {entry.iran!.image && (
-                    <FallbackImage
-                      src={entry.iran!.image}
-                      alt={entry.iran!.title.en}
-                      className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
-                    />
-                  )}
-                  {entry.iran!.details && (
-                    <p className="text-right text-xs leading-relaxed text-amber-800 dark:text-amber-300">
-                      {entry.iran!.details[lang]}
-                    </p>
-                  )}
-                </div>
-              )}
-              <div className="mt-2 flex justify-start">
-                <span className="text-[10px] text-amber-400 transition-colors group-hover:text-amber-600 dark:text-amber-600 dark:group-hover:text-amber-400">
-                  {iranExpanded
-                    ? lang === "fa"
-                      ? "▲ بستن"
-                      : "▲ Close"
-                    : lang === "fa"
-                      ? "▼ جزئیات بیشتر"
-                      : "▼ More details"}
-                </span>
-              </div>
-            </button>
-          </div>
-        ) : (
-          <div />
-        )}
+      {/* === DESKTOP LAYOUT (768px+) === */}
+      <div className="!hidden py-6 md:!flex md:items-start md:gap-0">
+        {/* World Side (Left) */}
+        <div className="flex w-1/2 justify-end pr-6">
+          {hasWorld ? (
+            <div className="max-w-md">
+              <WorldCard
+                worldEvents={worldEvents!}
+                lang={lang}
+                expanded={worldExpanded}
+                onToggle={() => setWorldExpanded(!worldExpanded)}
+                primaryWorldCountry={primaryWorldCountry}
+                year={entry.year}
+              />
+            </div>
+          ) : (
+            <div />
+          )}
+        </div>
+
+        {/* Center Year Circle */}
+        <YearCircle
+          entry={entry}
+          lang={lang}
+          expanded={yearExpanded}
+          onToggle={() => setYearExpanded(!yearExpanded)}
+        />
+
+        {/* Iran Side (Right) */}
+        <div className="flex w-1/2 justify-start pl-6">
+          {hasIran ? (
+            <div className="max-w-md">
+              <IranCard
+                entry={entry}
+                lang={lang}
+                expanded={iranExpanded}
+                onToggle={() => setIranExpanded(!iranExpanded)}
+              />
+            </div>
+          ) : (
+            <div />
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
@@ -436,8 +552,8 @@ export default function Timeline() {
           </div>
         </div>
 
-        {/* Column Headers */}
-        <div className="border-t border-slate-100 bg-slate-50/50 dark:border-slate-800 dark:bg-slate-900/50">
+        {/* Column Headers — desktop only */}
+        <div className="hidden border-t border-slate-100 bg-slate-50/50 dark:border-slate-800 dark:bg-slate-900/50 md:block">
           <div className="mx-auto flex max-w-7xl items-center px-4 py-2">
             <div className="w-1/2 text-right">
               <span className="text-xs font-bold text-sky-700 dark:text-sky-400 md:text-sm">
@@ -465,8 +581,12 @@ export default function Timeline() {
 
       {/* Timeline Body */}
       <main className="relative mx-auto max-w-7xl px-2 pb-16 pt-4 md:px-4">
-        {/* Center Line */}
-        <div className="absolute inset-y-0 left-1/2 w-0.5 -translate-x-1/2 bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700" />
+        {/* Timeline Line — right on mobile (Farsi), left on mobile (English), center on desktop */}
+        <div
+          className={`absolute inset-y-0 w-0.5 bg-gradient-to-b from-slate-200 via-slate-300 to-slate-200 dark:from-slate-700 dark:via-slate-600 dark:to-slate-700 md:!left-1/2 md:!right-auto md:!-translate-x-1/2 ${
+            lang === "fa" ? "right-7" : "left-7"
+          }`}
+        />
 
         {/* Events */}
         <div className="relative">
