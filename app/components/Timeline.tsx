@@ -181,7 +181,7 @@ function IranCard({
   expanded: boolean;
   onToggle: () => void;
 }) {
-  if (!entry.iran) return null;
+  if (!entry.iran || entry.iran.length === 0) return null;
   const align = lang === "fa" ? "text-right" : "text-left";
   return (
     <div className="flex flex-col gap-2">
@@ -190,30 +190,34 @@ function IranCard({
         onClick={onToggle}
         className={`group w-full cursor-pointer rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-3 ${align} shadow-sm transition-all hover:shadow-md dark:border-amber-900 dark:from-amber-950/40 dark:to-orange-950/30 md:p-4`}
       >
-        <h3 className={`${align} text-sm font-bold text-amber-900 dark:text-amber-200 md:text-base`}>
-          {entry.iran.title[lang]}
-        </h3>
-        {entry.iran.description && (
-          <p className={`mt-1 ${align} text-xs text-amber-700 dark:text-amber-400 md:text-sm`}>
-            {entry.iran.description[lang]}
-          </p>
-        )}
-        <AnimatedExpand open={expanded}>
-          <div className="mt-2 space-y-2 border-t border-amber-100 pt-2 dark:border-amber-800">
-            {entry.iran.image && (
-              <FallbackImage
-                src={entry.iran.image}
-                alt={entry.iran.title.en}
-                className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
-              />
-            )}
-            {entry.iran.details && (
-              <p className={`${align} text-xs leading-relaxed text-amber-800 dark:text-amber-300`}>
-                {entry.iran.details[lang]}
+        {entry.iran.map((event, idx) => (
+          <div key={idx} className={idx > 0 ? "mt-3 border-t border-amber-100 pt-3 dark:border-amber-800" : ""}>
+            <h3 className={`${align} text-sm font-bold text-amber-900 dark:text-amber-200 md:text-base`}>
+              {event.title[lang]}
+            </h3>
+            {event.description && (
+              <p className={`mt-1 ${align} text-xs text-amber-700 dark:text-amber-400 md:text-sm`}>
+                {event.description[lang]}
               </p>
             )}
+            <AnimatedExpand open={expanded}>
+              <div className="mt-2 space-y-2 border-t border-amber-100 pt-2 dark:border-amber-800">
+                {event.image && (
+                  <FallbackImage
+                    src={event.image}
+                    alt={event.title.en}
+                    className="mx-auto max-h-40 rounded-lg object-cover shadow-sm"
+                  />
+                )}
+                {event.details && (
+                  <p className={`${align} text-xs leading-relaxed text-amber-800 dark:text-amber-300`}>
+                    {event.details[lang]}
+                  </p>
+                )}
+              </div>
+            </AnimatedExpand>
           </div>
-        </AnimatedExpand>
+        ))}
         <div className={`mt-2 flex ${lang === "fa" ? "justify-end" : "justify-start"}`}>
           <span className="text-[10px] text-amber-400 transition-colors group-hover:text-amber-600 dark:text-amber-600 dark:group-hover:text-amber-400">
             {expanded
@@ -381,7 +385,7 @@ function EventCard({
   const worldEvents = entry.world?.filter((e) =>
     selectedCountries.has(e.country)
   );
-  const hasIran = !!entry.iran;
+  const hasIran = !!entry.iran && entry.iran.length > 0;
   const hasWorld = worldEvents && worldEvents.length > 0;
 
   if (!hasIran && !hasWorld) return null;
@@ -501,7 +505,7 @@ export default function Timeline() {
   const filteredData = useMemo(() => {
     return timelineData
       .filter((entry) => {
-        const hasIran = !!entry.iran;
+        const hasIran = !!entry.iran && entry.iran.length > 0;
         const hasWorld = entry.world?.some((e) =>
           selectedCountries.has(e.country)
         );
