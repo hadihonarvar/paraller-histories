@@ -4458,6 +4458,14 @@ export const timelineData: TimelineEntry[] = [
         en: "The Literacy Corps was established as one of the White Revolution's principles, sending educated youth to villages instead of military service to teach reading and writing. Iran's literacy rate at the time was below thirty percent. The Literacy Corps managed to make millions literate and was one of the most successful social programs of the Pahlavi era.",
       },
     },
+    {
+      title: { fa: "کودتای بعثی‌ها در عراق و قتل عبدالکریم قاسم", en: "Ba'athist Coup in Iraq & Execution of Abdel Karim Qasim" },
+      description: { fa: "بعثی‌ها با حمایت سیا رئیس‌جمهور عراق را سرنگون و اعدام کردند", en: "Ba'athists, with CIA support, overthrow and execute Iraqi president" },
+      details: {
+        fa: "در ۱۴ رمضان ۱۹۶۳ (۸ فوریه) حزب بعث عراق با حمایت سیا کودتا کرد و ژنرال عبدالکریم قاسم رئیس‌جمهور عراق را سرنگون نمود. قاسم بلافاصله محاکمه صحرایی شد و در برابر دوربین تلویزیون اعدام گردید. جسد او بارها در تلویزیون نمایش داده شد. صدام حسین که در سال ۱۹۵۹ در ترور ناموفق قاسم شرکت کرده بود، نقش مهمی در سرکوب پس از کودتا ایفا کرد. قاسم روابط نسبتاً معتدلی با ایران داشت و سقوط او با روی کار آمدن بعثی‌های تندرو، زمینه‌ساز تنش‌های آینده ایران و عراق شد.",
+        en: "On February 8, 1963, Iraq's Ba'ath Party, with CIA backing, staged a coup and overthrew President Abdel Karim Qasim. Qasim was immediately given a summary trial and executed on television. His body was repeatedly shown on TV. Saddam Hussein, who had participated in a failed assassination attempt on Qasim in 1959, played a significant role in the post-coup repression. Qasim had maintained relatively moderate relations with Iran, and his fall and the rise of hardline Ba'athists set the stage for future Iran-Iraq tensions.",
+      },
+    },
     ],
     world: [
       {
@@ -5545,6 +5553,14 @@ export const timelineData: TimelineEntry[] = [
         fa: "حکومت انقلابی ده‌ها ژنرال ارتش شاهنشاهی را اعدام و هزاران افسر را اخراج کرد. ارتش به شدت تضعیف شد. همزمان سپاه پاسداران انقلاب اسلامی به عنوان نیروی نظامی موازی و وفادار به انقلاب تأسیس شد.",
         en: "The revolutionary government executed dozens of Imperial Army generals and dismissed thousands of officers. The army was severely weakened. Simultaneously, the Islamic Revolutionary Guard Corps was established as a parallel military force loyal to the revolution.",
       },
+    },
+    {
+      title: { fa: "کودتای صدام حسین و تصفیه خونین حزب بعث عراق", en: "Saddam Hussein's Coup & Bloody Ba'ath Party Purge" },
+      description: { fa: "صدام حسین رئیس‌جمهور عراق را کنار زد و رقبا را اعدام کرد", en: "Saddam Hussein ousts Iraqi president and executes rivals" },
+      details: {
+        fa: "در تیر ۱۳۵۸ (ژوئیه ۱۹۷۹) صدام حسین رئیس‌جمهور احمد حسن البکر را مجبور به استعفا کرد و خود قدرت را به دست گرفت. صدام بلافاصله جلسه‌ای در حزب بعث ترتیب داد و در حالی که سیگار می‌کشید، نام ده‌ها عضو ارشد حزب را به عنوان «خائن» خواند. آنها یکی‌یکی از جلسه بیرون برده و اعدام شدند. این تصفیه خونین قدرت مطلق صدام را تثبیت کرد. به قدرت رسیدن صدام مستقیماً زمینه‌ساز حمله عراق به ایران در سال بعد شد، زیرا صدام انقلاب اسلامی را تهدیدی برای حکومت بعثی خود می‌دانست و می‌خواست از آشفتگی نظامی ایران سوءاستفاده کند.",
+        en: "In July 1979, Saddam Hussein forced President Ahmed Hassan al-Bakr to resign and seized power. Saddam immediately convened a Ba'ath Party meeting where, while smoking a cigar, he read out the names of dozens of senior party members as 'traitors.' They were taken out one by one and executed. This bloody purge consolidated Saddam's absolute power. His rise to power directly set the stage for Iraq's invasion of Iran the following year, as Saddam saw the Islamic Revolution as a threat to his Ba'athist rule and wanted to exploit Iran's military disarray.",
+      },
     }],
     world: [
       {
@@ -5631,6 +5647,14 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "قانون اساسی جمهوری اسلامی نظام ولایت فقیه را به عنوان اصل بنیادین حکومت تثبیت کرد. خمینی به عنوان ولی فقیه اختیارات گسترده‌ای دریافت کرد. منتقدان معتقد بودند این نظام مردم‌سالاری واقعی ایجاد نمی‌کند اما مخالفت سرکوب شد.",
         en: "The Islamic Republic's constitution established the Velayat-e Faqih system as the fundamental governing principle. Khomeini as Supreme Leader received broad powers. Critics believed this system did not create true democracy but opposition was suppressed.",
+      },
+    },
+    {
+      title: { fa: "کشف و خنثی‌سازی کودتای نوژه", en: "Discovery & Foiling of the Nojeh Coup Plot" },
+      description: { fa: "توطئه کودتای نظامی توسط افسران ارتش شاهنشاهی کشف و سرکوب شد", en: "Military coup plot by former Imperial Army officers discovered and crushed" },
+      details: {
+        fa: "در تیر ۱۳۵۹ نقشه کودتای نظامی موسوم به «کودتای نوژه» که توسط گروهی از افسران ارتش شاهنشاهی سابق و با حمایت شاپور بختیار و صدام حسین طراحی شده بود، کشف و خنثی شد. طرح شامل بمباران بیت رهبری و مراکز حکومتی از پایگاه هوایی نوژه همدان و سپس کودتای نظامی بود. صدها افسر بازداشت شدند و ده‌ها نفر اعدام گردیدند. این کودتای ناکام منجر به تصفیه گسترده‌تر ارتش شد و بی‌اعتمادی حکومت انقلابی به ارتش کلاسیک را تشدید کرد.",
+        en: "In July 1980, a military coup plot known as the 'Nojeh Coup' was discovered and foiled. It was planned by a group of former Imperial Army officers with support from Shapour Bakhtiar and Saddam Hussein. The plan involved bombing the Supreme Leader's residence and government centers from Nojeh Air Base in Hamadan, followed by a military takeover. Hundreds of officers were arrested and dozens executed. This failed coup led to further military purges and deepened the revolutionary government's distrust of the conventional army.",
       },
     }
     ],
