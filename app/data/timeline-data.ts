@@ -655,6 +655,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "مظفرالدین شاه مدیریت گمرکات ایران را به ژوزف نوز بلژیکی سپرد. نوز با اختیارات گسترده، نظام گمرکی ایران را بازسازی کرد اما درآمدهای گمرکی عمدتاً صرف بازپرداخت وام‌های خارجی می‌شد. حضور نوز و مأموران بلژیکی نمادی از وابستگی مالی ایران به بیگانگان شد و بعدها یکی از دلایل خشم مردم در جنبش مشروطه بود.",
         en: "Mozaffar ad-Din Shah entrusted Iran's customs administration to the Belgian Joseph Naus. Naus, with broad authority, restructured the customs system, but customs revenues were primarily used to repay foreign loans. The presence of Naus and Belgian officials became a symbol of Iran's financial dependence on foreigners and later fueled public anger during the Constitutional Movement.",
       },
+    },
+    {
+      title: { fa: "ساخت خط تلگراف و ارتباطات خارجی", en: "Telegraph Lines & Foreign Communications" },
+      description: { fa: "گسترش شبکه تلگراف تحت امتیاز بریتانیا و روسیه", en: "Expansion of telegraph network under British and Russian concessions" },
+      details: {
+        fa: "شبکه تلگراف ایران که از دهه‌های قبل تحت امتیاز بریتانیا (خط هند-اروپا) و روسیه توسعه یافته بود، در آغاز قرن بیستم گسترش بیشتری یافت. این خطوط عمدتاً برای ارتباطات استعماری و تجاری قدرت‌های خارجی استفاده می‌شد و سود اندکی برای ایران داشت. با این حال، تلگراف نقش مهمی در انتقال اخبار و آگاهی سیاسی ایفا کرد و بعدها در جنبش مشروطه اهمیت یافت.",
+        en: "Iran's telegraph network, developed under British (Indo-European line) and Russian concessions since previous decades, expanded further at the start of the 20th century. These lines were primarily used for colonial and commercial communications by foreign powers, with little benefit to Iran. However, the telegraph played a significant role in transmitting news and political awareness, becoming important during the later Constitutional Movement.",
+      },
+    },
+    {
+      title: { fa: "وضعیت کشاورزی و مالکیت ارضی", en: "Agricultural Conditions & Land Ownership" },
+      description: { fa: "سیستم ارباب-رعیتی و وابستگی اقتصاد به کشاورزی سنتی", en: "Feudal landlord system and economic dependence on traditional agriculture" },
+      details: {
+        fa: "اقتصاد ایران در آغاز قرن بیستم به شدت وابسته به کشاورزی سنتی بود. نظام ارباب-رعیتی بر روستاها حاکم بود و دهقانان بدون مالکیت زمین تحت استثمار شدید قرار داشتند. خشکسالی‌های مکرر و نبود زیرساخت‌های آبیاری مدرن تولید را محدود می‌کرد. صادرات کشاورزی ایران عمدتاً شامل پنبه، تنباکو و تریاک بود که به بازارهای روسیه و هند ارسال می‌شد.",
+        en: "Iran's economy at the start of the 20th century was heavily dependent on traditional agriculture. The feudal landlord-peasant system dominated the countryside, with landless peasants subjected to severe exploitation. Recurrent droughts and lack of modern irrigation infrastructure limited production. Iran's agricultural exports mainly consisted of cotton, tobacco, and opium shipped to Russian and Indian markets.",
+      },
+    },
+    {
+      title: { fa: "رقابت تجاری روسیه و بریتانیا در بازارهای ایران", en: "Russian-British Trade Rivalry in Iranian Markets" },
+      description: { fa: "بازارهای ایران میدان رقابت کالاهای ارزان روسی و بریتانیایی شد", en: "Iranian markets became a battlefield for cheap Russian and British goods" },
+      details: {
+        fa: "در آغاز قرن بیستم، بازارهای ایران عرصه رقابت تجاری شدید بین روسیه و بریتانیا بود. کالاهای ارزان صنعتی روسی از شمال و کالاهای بریتانیایی از جنوب وارد ایران می‌شد. تعرفه‌های گمرکی پایین و نبود حمایت از تولید داخلی، صنایع سنتی ایران را با بحران مواجه کرده بود. تراز تجاری ایران به شدت منفی بود و ارز خارجی از کشور خارج می‌شد.",
+        en: "At the start of the 20th century, Iranian markets were an arena of intense trade rivalry between Russia and Britain. Cheap Russian industrial goods entered from the north and British goods from the south. Low customs tariffs and lack of protection for domestic production had put traditional Iranian industries in crisis. Iran's trade balance was severely negative, with foreign currency flowing out of the country.",
+      },
     }],
     world: [
       {
@@ -714,6 +738,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "روسیه در ازای اعطای وام‌های جدید به ایران، شرایط سنگینی تحمیل کرد از جمله ممنوعیت دریافت وام از کشورهای دیگر بدون اجازه روسیه و اعطای امتیازات تجاری بیشتر. این وام‌ها استقلال اقتصادی ایران را بیش از پیش محدود کرد و دولت قاجار را عملاً به بدهکاری مزمن دچار ساخت. بازاریان و تجار ایرانی از رقابت نابرابر با کالاهای وارداتی روسی شکایت داشتند.",
         en: "Russia imposed harsh conditions for new loans to Iran, including prohibiting Iran from borrowing from other countries without Russian permission and granting further trade concessions. These loans further restricted Iran's economic independence and trapped the Qajar government in chronic debt. Iranian merchants and traders complained of unfair competition from imported Russian goods.",
       },
+    },
+    {
+      title: { fa: "گسترش فعالیت بانک استقراضی روسیه", en: "Expansion of Russian Discount Bank Activities" },
+      description: { fa: "بانک استقراضی روسیه نفوذ مالی خود را در ایران افزایش داد", en: "Russian Discount Bank increases its financial influence in Iran" },
+      details: {
+        fa: "بانک استقراضی روسیه (بانک اسکومت) که در ۱۸۹۰ تأسیس شده بود، فعالیت‌های خود را در ایران گسترش داد. این بانک وام‌هایی با بهره بالا به تجار و مالکان ایرانی می‌داد و در صورت عدم بازپرداخت، اموال آنها را تصرف می‌کرد. بانک استقراضی عملاً ابزار نفوذ اقتصادی روسیه در ایران بود و در رقابت با بانک شاهنشاهی (بریتانیایی) قرار داشت. نفوذ این دو بانک خارجی استقلال مالی ایران را تضعیف کرد.",
+        en: "The Russian Discount Bank (Banque d'Escompte), established in 1890, expanded its operations in Iran. This bank provided high-interest loans to Iranian merchants and landlords, seizing their property in case of default. The Discount Bank was effectively an instrument of Russian economic influence in Iran, competing with the Imperial Bank (British). The influence of these two foreign banks undermined Iran's financial independence.",
+      },
+    },
+    {
+      title: { fa: "سفر دوم مظفرالدین شاه به اروپا", en: "Mozaffar ad-Din Shah's Second European Tour" },
+      description: { fa: "شاه برای سفر تفریحی دوم به اروپا رفت و هزینه‌های سنگینی بر خزانه تحمیل کرد", en: "Shah undertakes second pleasure trip to Europe, imposing heavy costs on treasury" },
+      details: {
+        fa: "مظفرالدین شاه دومین سفر خود به اروپا را انجام داد. این سفرها هزینه‌های هنگفتی بر خزانه تهی ایران تحمیل می‌کرد و برای تأمین مالی آنها وام‌های جدیدی از روسیه گرفته می‌شد. سفرهای شاه در حالی انجام می‌شد که مردم ایران در فقر و محرومیت زندگی می‌کردند. این تضاد فاحش بین اسراف دربار و فلاکت مردم، نارضایتی عمومی را تشدید کرد.",
+        en: "Mozaffar ad-Din Shah undertook his second European tour. These trips imposed enormous costs on Iran's depleted treasury, requiring new loans from Russia to finance them. The Shah's travels took place while the Iranian population lived in poverty and deprivation. This stark contrast between court extravagance and public misery intensified popular discontent.",
+      },
+    },
+    {
+      title: { fa: "فعالیت انجمن‌های مخفی اصلاح‌طلب", en: "Secret Reformist Societies' Activities" },
+      description: { fa: "روشنفکران و تجار انجمن‌های سری برای بحث درباره اصلاحات تشکیل دادند", en: "Intellectuals and merchants form secret societies to discuss reforms" },
+      details: {
+        fa: "در آغاز قرن بیستم، انجمن‌های مخفی متعددی در تهران و شهرهای بزرگ توسط روشنفکران، تجار و برخی روحانیون تشکیل شد. این انجمن‌ها تحت تأثیر اندیشه‌های مشروطه‌خواهی اروپا و انقلاب‌های منطقه‌ای، خواستار محدود کردن قدرت مطلقه شاه و ایجاد نهادهای قانونی بودند. فعالیت این انجمن‌ها زمینه فکری و سازمانی انقلاب مشروطه را فراهم کرد.",
+        en: "At the start of the 20th century, numerous secret societies were formed in Tehran and major cities by intellectuals, merchants, and some clergy. Influenced by European constitutionalist ideas and regional revolutions, these societies demanded limits on the Shah's absolute power and the creation of legal institutions. Their activities provided the intellectual and organizational groundwork for the Constitutional Revolution.",
+      },
     }],
   },
   {
@@ -733,6 +781,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "بازاریان و تجار ایرانی از سیاست‌های گمرکی که به نفع واردات روسی و بریتانیایی بود به شدت ناراضی بودند. تعرفه‌های پایین بر کالاهای خارجی تولیدات داخلی را از رقابت خارج کرده بود. صنایع سنتی ایران مانند بافندگی و صنایع دستی رو به ورشکستگی بودند. این نارضایتی اقتصادی پایه اجتماعی مهمی برای جنبش مشروطه‌خواهی در سال‌های بعد فراهم کرد.",
         en: "Iranian merchants and traders were deeply dissatisfied with customs policies that favored Russian and British imports. Low tariffs on foreign goods had driven domestic products out of competition. Traditional Iranian industries like weaving and handicrafts were heading toward bankruptcy. This economic discontent provided a crucial social base for the Constitutional Movement in subsequent years.",
+      },
+    },
+    {
+      title: { fa: "توسعه جاده‌ها و راه‌های تجاری", en: "Development of Roads & Trade Routes" },
+      description: { fa: "ساخت جاده‌های جدید برای تسهیل تجارت خارجی، نه توسعه داخلی", en: "New roads built to facilitate foreign trade, not domestic development" },
+      details: {
+        fa: "در اوایل قرن بیستم، برخی جاده‌های تجاری در ایران بهسازی شدند، اما هدف اصلی تسهیل واردات کالاهای خارجی و صادرات مواد خام بود. جاده‌های تبریز-تهران و بوشهر-اصفهان از مسیرهای اصلی تجاری بودند. فقدان زیرساخت‌های حمل‌ونقل مدرن مانند راه‌آهن، هزینه حمل کالا را بالا نگه داشته و مانع رشد تجارت داخلی می‌شد. قافله‌های شتر همچنان وسیله اصلی حمل بار بودند.",
+        en: "In the early 20th century, some trade roads in Iran were improved, but the main goal was to facilitate imports of foreign goods and export of raw materials. The Tabriz-Tehran and Bushehr-Isfahan routes were major trade arteries. The lack of modern transportation infrastructure such as railways kept freight costs high and hindered domestic trade growth. Camel caravans remained the primary means of cargo transport.",
+      },
+    },
+    {
+      title: { fa: "قرارداد تعرفه گمرکی با روسیه", en: "Customs Tariff Agreement with Russia" },
+      description: { fa: "قرارداد تجاری جدید با روسیه تعرفه‌های پایین بر کالاهای روسی تحمیل کرد", en: "New trade agreement with Russia imposes low tariffs on Russian goods" },
+      details: {
+        fa: "ایران و روسیه قرارداد تجاری جدیدی امضا کردند که تعرفه‌های بسیار پایینی بر واردات کالاهای روسی به ایران تعیین می‌کرد. این قرارداد عملاً بازار ایران را در اختیار کالاهای ارزان روسی قرار داد و ضربه سنگینی به تولیدکنندگان داخلی وارد آورد. صنایع نساجی، چرم‌سازی و شیشه‌گری ایران که قرن‌ها سابقه داشتند، توان رقابت با محصولات کارخانه‌ای روسیه را نداشتند.",
+        en: "Iran and Russia signed a new trade agreement imposing very low tariffs on Russian imports to Iran. This agreement effectively opened the Iranian market to cheap Russian goods, dealing a heavy blow to domestic producers. Iranian textile, leather, and glassmaking industries, with centuries of tradition, could not compete with Russian factory-made products.",
+      },
+    },
+    {
+      title: { fa: "نقش روحانیون در اعتراضات اقتصادی", en: "Clergy's Role in Economic Protests" },
+      description: { fa: "علما از حقوق تجار در برابر سیاست‌های ظالمانه دولت دفاع کردند", en: "Clergy defends merchants' rights against oppressive government policies" },
+      details: {
+        fa: "روحانیون برجسته در واکنش به فشارهای اقتصادی بر مردم و تجار، نقش حمایتی فعالی ایفا کردند. آنها در منابر از حقوق مردم دفاع کرده و سیاست‌های مالی دولت را که منجر به وابستگی به بیگانگان شده بود انتقاد می‌کردند. اتحاد بین بازار و مسجد که در جنبش تنباکو شکل گرفته بود، همچنان پابرجا بود و پایه اجتماعی مهمی برای اعتراضات آتی فراهم می‌کرد.",
+        en: "Prominent clergy played an active supportive role in response to economic pressures on the public and merchants. They defended people's rights from the pulpit and criticized government fiscal policies that had led to dependence on foreigners. The alliance between the bazaar and the mosque, formed during the Tobacco Movement, remained intact and provided an important social base for future protests.",
       },
     }],
   },
@@ -754,6 +826,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "در سال‌های آغازین قرن بیستم، نشریات انتقادی و روزنامه‌های فارسی‌زبان در داخل و خارج ایران (به ویژه در قفقاز، استانبول و قاهره) رشد چشمگیری داشتند. این نشریات افکار آزادی‌خواهانه و مشروطه‌خواهانه را ترویج می‌کردند. روشنفکرانی مانند میرزا ملکم‌خان و طالبوف با نوشته‌های خود زمینه فکری انقلاب مشروطه را فراهم کردند. دولت قاجار تلاش‌هایی برای سانسور کرد اما موفق نشد.",
         en: "In the early years of the 20th century, critical publications and Persian-language newspapers grew significantly both inside Iran and abroad (especially in the Caucasus, Istanbul, and Cairo). These publications promoted liberal and constitutionalist ideas. Intellectuals like Mirza Malkam Khan and Talibov provided the intellectual groundwork for the Constitutional Revolution through their writings. The Qajar government attempted censorship but was unsuccessful.",
       },
+    },
+    {
+      title: { fa: "آغاز اکتشافات نفتی دارسی در جنوب ایران", en: "D'Arcy's Oil Exploration Begins in Southern Iran" },
+      description: { fa: "عملیات حفاری نفت در مناطق جنوبی ایران آغاز شد", en: "Oil drilling operations begin in southern Iranian regions" },
+      details: {
+        fa: "پس از اعطای امتیازنامه نفت به ویلیام ناکس دارسی، تیم‌های اکتشافی بریتانیایی عملیات حفاری را در مناطق جنوبی ایران، به ویژه در چیاسرخ نزدیک قصرشیرین آغاز کردند. این عملیات با مشکلات فراوانی از جمله گرمای شدید، بیماری و مقاومت برخی عشایر محلی مواجه بود. حفاری‌های اولیه نتیجه قابل توجهی نداشت و دارسی با مشکلات مالی مواجه شد.",
+        en: "Following the oil concession to William Knox D'Arcy, British exploration teams began drilling operations in southern Iran, particularly at Chiah Surkh near Qasr-e Shirin. These operations faced numerous challenges including extreme heat, disease, and resistance from some local tribes. Initial drilling yielded no significant results and D'Arcy encountered financial difficulties.",
+      },
+    },
+    {
+      title: { fa: "اوضاع مالیاتی و فساد دستگاه وصول مالیات", en: "Tax System & Corruption in Tax Collection" },
+      description: { fa: "نظام مالیاتی ناکارآمد و فاسد قاجار مانع توسعه اقتصادی بود", en: "Inefficient and corrupt Qajar tax system hindered economic development" },
+      details: {
+        fa: "نظام مالیاتی دوره قاجار بسیار ناکارآمد و فاسد بود. مأموران مالیاتی اغلب بیش از میزان مقرر از مردم اخاذی می‌کردند و بخش بزرگی از مالیات جمع‌آوری شده به خزانه دولت نمی‌رسید. فروش حق وصول مالیات به اشخاص خصوصی (تیول‌داری) باعث ظلم مضاعف به کشاورزان و تجار شده بود. این وضعیت مانع هرگونه سرمایه‌گذاری و توسعه اقتصادی می‌شد.",
+        en: "The Qajar-era tax system was extremely inefficient and corrupt. Tax collectors often extorted more than the prescribed amounts from people, and a large portion of collected taxes never reached the state treasury. The practice of selling tax collection rights to private individuals (tiyuldar system) caused double oppression of farmers and merchants. This situation hindered any investment and economic development.",
+      },
+    },
+    {
+      title: { fa: "تأثیر انقلاب‌های منطقه‌ای بر ایران", en: "Impact of Regional Revolutions on Iran" },
+      description: { fa: "اخبار انقلاب‌های مشروطه در عثمانی و اصلاحات در مصر به ایران رسید", en: "News of constitutional revolutions in Ottoman Empire and reforms in Egypt reaches Iran" },
+      details: {
+        fa: "تحولات سیاسی در کشورهای همسایه و منطقه تأثیر مهمی بر فضای فکری ایران داشت. اصلاحات تنظیمات در عثمانی، جنبش‌های ملی‌گرایی در قفقاز و تحولات مصر از طریق مسافران، تجار و نشریات به ایران منتقل می‌شد. ایرانیان مقیم قفقاز و استانبول نقش مهمی در انتقال اندیشه‌های نوین داشتند. این تأثیرات فرامرزی زمینه فکری مشروطه‌خواهی را در ایران تقویت کرد.",
+        en: "Political developments in neighboring and regional countries had a significant impact on Iran's intellectual atmosphere. Ottoman Tanzimat reforms, nationalist movements in the Caucasus, and developments in Egypt were transmitted to Iran through travelers, merchants, and publications. Iranians residing in the Caucasus and Istanbul played an important role in transferring modern ideas. These cross-border influences strengthened the intellectual groundwork for constitutionalism in Iran.",
+      },
     }],
   },
   {
@@ -773,6 +869,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "نقش سیاسی روحانیون در این دوره به شکل بی‌سابقه‌ای پررنگ شد. علمای برجسته‌ای از قبیل سید محمد طباطبایی و سید عبدالله بهبهانی با صدور فتاوا و حمایت از حقوق مردم، عملاً رهبری مخالفت با استبداد قاجار را بر عهده گرفتند. مساجد به مراکز تجمع و بحث سیاسی تبدیل شدند. اتحاد بین بازاریان و روحانیون نیروی اجتماعی قدرتمندی را علیه نظام حاکم شکل داد.",
         en: "The political role of the clergy became unprecedentedly prominent during this period. Prominent scholars such as Seyyed Mohammad Tabatabaei and Seyyed Abdollah Behbahani, through issuing fatwas and defending people's rights, effectively assumed leadership of the opposition to Qajar despotism. Mosques became centers of political gathering and debate. The alliance between merchants and clergy formed a powerful social force against the ruling system.",
+      },
+    },
+    {
+      title: { fa: "بحران ارزی و سقوط ارزش پول ایران", en: "Currency Crisis & Decline of Iranian Currency Value" },
+      description: { fa: "قران ایران در برابر ارزهای خارجی سقوط کرد و قدرت خرید مردم کاهش یافت", en: "Iranian qiran falls against foreign currencies, reducing people's purchasing power" },
+      details: {
+        fa: "ارزش قران ایران در برابر ارزهای خارجی به شدت کاهش یافت. بدهی‌های سنگین خارجی، واردات بی‌رویه و خروج مداوم نقره از کشور باعث بی‌ثباتی شدید پولی شده بود. قدرت خرید مردم عادی کاهش چشمگیری داشت و قیمت کالاهای ضروری مانند نان و قند افزایش یافته بود. این بحران ارزی فشار مضاعفی بر طبقات پایین جامعه وارد می‌کرد.",
+        en: "The value of the Iranian qiran fell sharply against foreign currencies. Heavy foreign debts, excessive imports, and the constant drain of silver from the country caused severe monetary instability. The purchasing power of ordinary people declined significantly, and prices of essential goods like bread and sugar rose. This currency crisis placed additional pressure on the lower classes of society.",
+      },
+    },
+    {
+      title: { fa: "رقابت روسیه و بریتانیا بر سر نفوذ در خوزستان", en: "Russo-British Rivalry Over Influence in Khuzestan" },
+      description: { fa: "بریتانیا نفوذ خود را در جنوب غربی ایران و مناطق نفت‌خیز تقویت کرد", en: "Britain strengthens its influence in southwestern Iran and oil-rich regions" },
+      details: {
+        fa: "بریتانیا با آغاز اکتشافات نفتی دارسی، توجه ویژه‌ای به خوزستان و مناطق جنوب غربی ایران نشان داد. شیخ خزعل، حاکم محلی خوزستان، تحت حمایت بریتانیا قرار گرفت و روابط نزدیکی با مقامات بریتانیایی در بوشهر و هند برقرار کرد. روسیه نیز تلاش می‌کرد نفوذ خود را در شمال حفظ کند. این رقابت دو قدرت بر یکپارچگی ارضی و حاکمیت ایران تأثیر منفی داشت.",
+        en: "With the beginning of D'Arcy's oil explorations, Britain paid special attention to Khuzestan and southwestern Iran. Sheikh Khazal, the local ruler of Khuzestan, came under British protection and established close relations with British officials in Bushehr and India. Russia also tried to maintain its influence in the north. This rivalry between the two powers negatively affected Iran's territorial integrity and sovereignty.",
+      },
+    },
+    {
+      title: { fa: "گسترش آموزش نوین و مدارس جدید", en: "Expansion of Modern Education & New Schools" },
+      description: { fa: "مدارس جدید به سبک اروپایی در شهرهای بزرگ تأسیس شدند", en: "New European-style schools established in major cities" },
+      details: {
+        fa: "در آغاز قرن بیستم، مدارس نوین به سبک اروپایی در تهران و شهرهای بزرگ ایران رشد یافتند. مدرسه دارالفنون که در دوره ناصرالدین شاه تأسیس شده بود همچنان فعال بود و مدارس جدیدی نیز توسط روشنفکران و مبلغان خارجی تأسیس شد. این مدارس علوم جدید، زبان‌های خارجی و اندیشه‌های مدرن را آموزش می‌دادند و نسل جدیدی از تحصیل‌کردگان را تربیت کردند که بعدها در جنبش مشروطه نقش مهمی ایفا کردند.",
+        en: "At the start of the 20th century, modern European-style schools grew in Tehran and major Iranian cities. The Dar al-Fonun school, established during Naser al-Din Shah's era, remained active, and new schools were also founded by intellectuals and foreign missionaries. These schools taught modern sciences, foreign languages, and modern ideas, training a new generation of educated individuals who later played important roles in the Constitutional Movement.",
       },
     }],
   },
@@ -798,6 +918,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "واقعه مهمی که جرقه جنبش مشروطه را زد، اعتراض تجار قند تهران بود. حاکم تهران علاءالدوله دستور چوب‌زدن چند تاجر قند را به بهانه گرانی داد. این اقدام خشم عمومی را برانگیخت و بازاریان و علما در اعتراض بست نشستند. مردم خواستار تأسیس «عدالتخانه» شدند که بذر اصلی مطالبه مجلس و قانون اساسی بود. این واقعه نقطه عطف تاریخی در آغاز انقلاب مشروطه محسوب می‌شود.",
         en: "A key event that sparked the Constitutional Movement was the Tehran sugar merchants' protest. Tehran's governor Ala al-Dawleh ordered the bastinado of several sugar merchants over high prices. This provoked public outrage, and merchants and clergy took sanctuary (bast) in protest. The people demanded the establishment of a 'house of justice' (adalatkhaneh), which was the seed of the demand for parliament and a constitution. This event is considered a historic turning point in the beginning of the Constitutional Revolution.",
+      },
+    },
+    {
+      title: { fa: "بست‌نشینی بزرگ در حرم حضرت عبدالعظیم", en: "Great Sanctuary at Shah Abdol-Azim Shrine" },
+      description: { fa: "هزاران نفر از بازاریان و مردم تهران در حرم بست نشستند", en: "Thousands of Tehran merchants and citizens take sanctuary at the shrine" },
+      details: {
+        fa: "در پی اعتراضات اولیه، هزاران نفر از بازاریان، تجار و مردم عادی تهران در حرم حضرت عبدالعظیم در ری بست نشستند. این بست‌نشینی که با حمایت علمای برجسته انجام شد، بزرگترین اعتراض مدنی تا آن زمان در ایران بود. بست‌نشینان خواستار عزل عین‌الدوله صدراعظم مستبد، تأسیس عدالتخانه و اجرای قوانین اسلام بودند. این حرکت مظفرالدین شاه را مجبور به واکنش کرد.",
+        en: "Following initial protests, thousands of Tehran merchants, traders, and ordinary citizens took sanctuary at the Shah Abdol-Azim shrine in Rey. This sanctuary movement, supported by prominent clergy, was the largest civil protest in Iran up to that time. The protesters demanded the dismissal of the despotic PM Ain al-Dawleh, establishment of a house of justice, and implementation of Islamic law. This movement forced Mozaffar ad-Din Shah to respond.",
+      },
+    },
+    {
+      title: { fa: "عزل عین‌الدوله صدراعظم", en: "Dismissal of Prime Minister Ain al-Dawleh" },
+      description: { fa: "مظفرالدین شاه تحت فشار مردم عین‌الدوله را از صدارت برکنار کرد", en: "Mozaffar ad-Din Shah dismisses Ain al-Dawleh under popular pressure" },
+      details: {
+        fa: "عین‌الدوله صدراعظم مستبد و خودکامه که سیاست‌های سرکوبگرانه‌اش خشم عمومی را برانگیخته بود، تحت فشار بست‌نشینان و علما از مقام صدارت عزل شد. مظفرالدین شاه که خود بیمار و ناتوان بود، ناچار به پذیرش خواسته‌های مردم شد. عزل عین‌الدوله پیروزی بزرگی برای جنبش مشروطه‌خواهی محسوب شد و نشان داد که فشار مردمی می‌تواند تغییرات سیاسی ایجاد کند.",
+        en: "Ain al-Dawleh, the despotic and autocratic prime minister whose repressive policies had provoked public anger, was dismissed from his post under pressure from sanctuary-seekers and clergy. Mozaffar ad-Din Shah, himself ill and incapacitated, was forced to accept the people's demands. Ain al-Dawleh's dismissal was considered a major victory for the constitutional movement and demonstrated that popular pressure could bring about political change.",
+      },
+    },
+    {
+      title: { fa: "تأثیر انقلاب ۱۹۰۵ روسیه بر ایران", en: "Impact of 1905 Russian Revolution on Iran" },
+      description: { fa: "انقلاب روسیه الهام‌بخش مشروطه‌خواهان ایرانی شد", en: "Russian Revolution inspires Iranian constitutionalists" },
+      details: {
+        fa: "انقلاب ۱۹۰۵ روسیه تأثیر مستقیمی بر جنبش مشروطه ایران داشت. خبر شکست تزار و تشکیل دومای روسیه از طریق ایرانیان مقیم قفقاز و روزنامه‌های فارسی‌زبان به ایران رسید. مشروطه‌خواهان ایرانی از این واقعه الهام گرفتند و دریافتند که حتی قدرتمندترین حکومت‌های استبدادی نیز در برابر خواست مردم تسلیم می‌شوند. سوسیال‌دموکرات‌های قفقازی نقش مهمی در انتقال تجربیات انقلابی به ایران داشتند.",
+        en: "The 1905 Russian Revolution had a direct impact on Iran's Constitutional Movement. News of the Tsar's defeat and the formation of the Russian Duma reached Iran through Iranians living in the Caucasus and Persian-language newspapers. Iranian constitutionalists drew inspiration from this event, realizing that even the most powerful despotic governments could be forced to yield to popular demands. Caucasian social democrats played an important role in transferring revolutionary experiences to Iran.",
       },
     }],
     world: [
@@ -854,6 +998,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "مظفرالدین شاه در ۸ دی ۱۲۸۵ قانون اساسی (نظامنامه اساسی) را امضا کرد. این قانون حق تأسیس مجلس شورای ملی و محدود کردن قدرت مطلقه شاه را تضمین می‌کرد. تنها چند روز پس از امضا، مظفرالدین شاه درگذشت و پسرش محمدعلی شاه که مخالف سرسخت مشروطه بود بر تخت نشست. مرگ مظفرالدین شاه آینده مشروطه را در هاله‌ای از ابهام فرو برد.",
         en: "Mozaffar ad-Din Shah signed the Fundamental Law (constitution) on December 30, 1906. This law guaranteed the right to establish a National Assembly and limit the Shah's absolute power. Just days after signing, Mozaffar ad-Din Shah died and his son Mohammad Ali Shah, a fierce opponent of constitutionalism, ascended to the throne. The death of Mozaffar ad-Din Shah cast the future of the constitution into uncertainty.",
       },
+    },
+    {
+      title: { fa: "بست‌نشینی بزرگ در سفارت بریتانیا", en: "Great Sanctuary at the British Embassy" },
+      description: { fa: "بیش از ۱۴ هزار نفر در محوطه سفارت بریتانیا بست نشستند", en: "Over 14,000 people take sanctuary in the British Embassy grounds" },
+      details: {
+        fa: "در تابستان ۱۹۰۶، بیش از ۱۴ هزار نفر از بازاریان، تجار، علما و مردم عادی تهران در محوطه سفارت بریتانیا بست نشستند. این بزرگترین بست‌نشینی تاریخ ایران بود. بازار تهران تعطیل شد و اقتصاد شهر فلج گردید. بست‌نشینان خواستار تأسیس مجلس شورای ملی و قانون اساسی بودند. فشار اقتصادی ناشی از تعطیلی بازار و گستردگی اعتراضات سرانجام مظفرالدین شاه را مجبور به صدور فرمان مشروطه کرد.",
+        en: "In the summer of 1906, over 14,000 merchants, traders, clergy, and ordinary citizens of Tehran took sanctuary in the British Embassy grounds. This was the largest sanctuary movement in Iranian history. Tehran's bazaar was shut down and the city's economy was paralyzed. The protesters demanded the establishment of a National Assembly and a constitution. The economic pressure from the bazaar closure and the breadth of protests ultimately forced Mozaffar ad-Din Shah to issue the constitutional decree.",
+      },
+    },
+    {
+      title: { fa: "تعطیلی بازار تهران و فشار اقتصادی", en: "Tehran Bazaar Closure & Economic Pressure" },
+      description: { fa: "تعطیلی بازار در حمایت از مشروطه‌خواهان اقتصاد پایتخت را فلج کرد", en: "Bazaar closure in support of constitutionalists paralyzes capital's economy" },
+      details: {
+        fa: "بازار تهران، قلب اقتصادی پایتخت، در حمایت از جنبش مشروطه‌خواهی تعطیل شد. تجار و بازاریان که ستون فقرات اقتصاد شهری بودند، با تعطیلی کامل کسب‌وکارهای خود فشار اقتصادی شدیدی بر دولت قاجار وارد آوردند. این اعتصاب اقتصادی نشان‌دهنده قدرت بازاریان در سیاست ایران بود. درآمدهای گمرکی و مالیاتی دولت به شدت کاهش یافت و دربار را مجبور به مذاکره کرد.",
+        en: "Tehran's bazaar, the economic heart of the capital, was shut down in support of the constitutional movement. Merchants and bazaaris, who were the backbone of the urban economy, imposed severe economic pressure on the Qajar government by completely closing their businesses. This economic strike demonstrated the power of merchants in Iranian politics. Government customs and tax revenues dropped sharply, forcing the court to negotiate.",
+      },
+    },
+    {
+      title: { fa: "انتخابات اولین دوره مجلس شورای ملی", en: "Elections for the First National Assembly" },
+      description: { fa: "اولین انتخابات پارلمانی در تاریخ ایران برگزار شد", en: "First parliamentary elections in Iranian history held" },
+      details: {
+        fa: "پس از صدور فرمان مشروطه، اولین انتخابات پارلمانی در تاریخ ایران برگزار شد. نظام انتخاباتی صنفی بود و نمایندگان از طبقات مختلف اجتماعی شامل شاهزادگان، علما، تجار، زمین‌داران و اصناف انتخاب شدند. مجلس اول عمدتاً نمایندگان تهران را شامل می‌شد و نمایندگی شهرستان‌ها محدود بود. با وجود محدودیت‌ها، این انتخابات گامی تاریخی در مسیر دموکراسی ایران بود.",
+        en: "Following the constitutional decree, the first parliamentary elections in Iranian history were held. The electoral system was based on guilds, and representatives were elected from various social classes including princes, clergy, merchants, landlords, and guilds. The First Majles mainly included Tehran representatives, with limited representation from provinces. Despite limitations, these elections were a historic step toward democracy in Iran.",
+      },
     }],
     world: [
       {
@@ -904,6 +1072,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "متمم قانون اساسی در اکتبر ۱۹۰۷ به تصویب رسید. این سند مهم حقوق اساسی شهروندان از جمله آزادی بیان، آزادی مطبوعات، برابری در مقابل قانون و مصونیت جان و مال مردم را تضمین می‌کرد. همچنین اسلام را دین رسمی و مذهب جعفری را مذهب رسمی اعلام کرد. متمم قانون اساسی الگوبرداری از قوانین اساسی بلژیک و فرانسه بود و تا انقلاب ۱۳۵۷ مبنای حقوق اساسی ایران باقی ماند.",
         en: "The Supplementary Fundamental Laws were ratified in October 1907. This important document guaranteed fundamental citizens' rights including freedom of speech, freedom of press, equality before the law, and protection of life and property. It also declared Islam as the official religion and Jafari Shia as the official sect. The Supplementary Laws were modeled on the Belgian and French constitutions and remained the basis of Iran's constitutional law until the 1979 revolution.",
       },
+    },
+    {
+      title: { fa: "محمدعلی شاه و مخالفت با مشروطه", en: "Mohammad Ali Shah & Opposition to Constitution" },
+      description: { fa: "محمدعلی شاه از ابتدای سلطنت با مشروطه مخالفت کرد و به دنبال بازگرداندن قدرت مطلقه بود", en: "Mohammad Ali Shah opposes constitution from the start, seeks to restore absolute power" },
+      details: {
+        fa: "محمدعلی شاه از ابتدای سلطنت خود با مشروطه و مجلس مخالفت کرد. او تحت تأثیر مستقیم مستشاران روسی، به ویژه شاپشال و لیاخوف فرمانده بریگاد قزاق، قرار داشت. شاه بارها تلاش کرد مجلس را تضعیف کند و اختیاراتش را محدود سازد. تنش بین مجلس و دربار به تدریج افزایش یافت و زمینه کودتای ۱۹۰۸ و بمباران مجلس فراهم شد.",
+        en: "Mohammad Ali Shah opposed the constitution and parliament from the beginning of his reign. He was under the direct influence of Russian advisors, particularly Shapshall and Liakhov, commander of the Cossack Brigade. The Shah repeatedly tried to weaken parliament and limit its authority. Tension between parliament and the court gradually increased, setting the stage for the 1908 coup and bombardment of parliament.",
+      },
+    },
+    {
+      title: { fa: "ترور اتابک اعظم (امین‌السلطان)", en: "Assassination of Atabak-e Azam (Amin al-Sultan)" },
+      description: { fa: "امین‌السلطان صدراعظم توسط عباس آقا تبریزی ترور شد", en: "PM Amin al-Sultan assassinated by Abbas Aqa Tabrizi" },
+      details: {
+        fa: "میرزا علی‌اصغرخان امین‌السلطان (اتابک اعظم) صدراعظم ایران، در مقابل مجلس شورای ملی توسط عباس آقا تبریزی عضو انجمن‌های سری ترور شد. امین‌السلطان که سال‌ها از مقامات بلندپایه قاجار بود، متهم به فساد و وابستگی به قدرت‌های خارجی بود. ترور او فضای سیاسی ایران را متشنج‌تر کرد و نشان‌دهنده خشونت فزاینده در عرصه سیاسی بود.",
+        en: "Mirza Ali Asghar Khan Amin al-Sultan (Atabak-e Azam), Iran's Prime Minister, was assassinated in front of the National Assembly by Abbas Aqa Tabrizi, a member of secret societies. Amin al-Sultan, who had been a high-ranking Qajar official for years, was accused of corruption and subservience to foreign powers. His assassination further destabilized Iran's political atmosphere and demonstrated the growing violence in the political arena.",
+      },
+    },
+    {
+      title: { fa: "رشد مطبوعات و آزادی بیان پس از مشروطه", en: "Growth of Press & Free Speech After Constitution" },
+      description: { fa: "ده‌ها روزنامه و نشریه جدید منتشر شد و فضای آزادی بیان رشد کرد", en: "Dozens of new newspapers published, freedom of expression flourishes" },
+      details: {
+        fa: "پس از تصویب قانون اساسی و متمم آن که آزادی مطبوعات را تضمین می‌کرد، موج جدیدی از روزنامه‌ها و نشریات در سراسر ایران منتشر شد. روزنامه‌هایی مانند «صوراسرافیل»، «مساوات» و «حبل‌المتین» به نقد سیاست‌های دربار و دفاع از مشروطه پرداختند. این دوره کوتاه آزادی مطبوعات یکی از درخشان‌ترین دوره‌های تاریخ روزنامه‌نگاری ایران بود که با کودتای ۱۹۰۸ محمدعلی شاه پایان یافت.",
+        en: "After the ratification of the constitution and its supplement, which guaranteed press freedom, a new wave of newspapers and publications emerged across Iran. Newspapers such as Sur-e Esrafil, Mosavat, and Habl al-Matin criticized court policies and defended the constitution. This brief period of press freedom was one of the most brilliant eras in Iranian journalism history, ending with Mohammad Ali Shah's 1908 coup.",
+      },
     }],
   },
   {
@@ -928,6 +1120,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "پس از بمباران مجلس و آغاز دوره استبداد صغیر محمدعلی شاه، شهر تبریز به مرکز مقاومت مسلحانه مشروطه‌خواهان تبدیل شد. ستارخان و باقرخان، دو تن از قهرمانان ملی ایران، رهبری دفاع مسلحانه شهر را بر عهده گرفتند. تبریز ماه‌ها در محاصره نیروهای دولتی و قبایل شاهسون بود اما تسلیم نشد. مقاومت تبریز الهام‌بخش سایر شهرها و در نهایت منجر به سقوط محمدعلی شاه شد.",
         en: "After the bombardment of parliament and the beginning of Mohammad Ali Shah's Minor Tyranny, Tabriz became the center of armed constitutionalist resistance. Sattar Khan and Baqer Khan, two of Iran's national heroes, led the city's armed defense. Tabriz was besieged for months by government forces and Shahsavan tribes but did not surrender. The Tabriz resistance inspired other cities and ultimately led to the fall of Mohammad Ali Shah.",
+      },
+    },
+    {
+      title: { fa: "سرکوب مطبوعات و بسته شدن روزنامه‌ها", en: "Press Suppression & Newspaper Closures" },
+      description: { fa: "محمدعلی شاه پس از کودتا روزنامه‌های مشروطه‌خواه را تعطیل و روزنامه‌نگاران را دستگیر کرد", en: "Mohammad Ali Shah closes constitutionalist newspapers and arrests journalists after coup" },
+      details: {
+        fa: "پس از بمباران مجلس، محمدعلی شاه فوراً تمام روزنامه‌های مشروطه‌خواه را تعطیل کرد. روزنامه‌نگاران برجسته‌ای مانند میرزا جهانگیرخان صوراسرافیل دستگیر و اعدام شدند. سانسور شدید بر تمام نشریات حاکم شد و آزادی بیان که با مشروطه به دست آمده بود، کاملاً از بین رفت. دوره استبداد صغیر فضای سیاسی و فرهنگی ایران را به شدت تاریک کرد.",
+        en: "After the bombardment of parliament, Mohammad Ali Shah immediately shut down all constitutionalist newspapers. Prominent journalists such as Mirza Jahangir Khan of Sur-e Esrafil were arrested and executed. Severe censorship was imposed on all publications, and the freedom of expression gained through the constitution was completely destroyed. The Minor Tyranny period severely darkened Iran's political and cultural atmosphere.",
+      },
+    },
+    {
+      title: { fa: "بحران اقتصادی ناشی از بی‌ثباتی سیاسی", en: "Economic Crisis Due to Political Instability" },
+      description: { fa: "کودتا و جنگ داخلی اقتصاد ایران را فلج کرد", en: "Coup and civil conflict paralyze Iran's economy" },
+      details: {
+        fa: "بمباران مجلس و آغاز دوره استبداد صغیر بحران اقتصادی شدیدی در ایران ایجاد کرد. بازارها در بسیاری از شهرها تعطیل شدند و تجارت داخلی مختل گردید. محاصره تبریز و درگیری‌های نظامی در مناطق مختلف، راه‌های تجاری را نا‌امن کرده و هزینه‌های حمل‌ونقل را افزایش داد. درآمدهای دولت به شدت کاهش یافت و خزانه برای تأمین هزینه‌های نظامی با کمبود شدید مواجه بود.",
+        en: "The bombardment of parliament and the beginning of the Minor Tyranny created a severe economic crisis in Iran. Bazaars in many cities were closed and domestic trade was disrupted. The siege of Tabriz and military conflicts in various regions made trade routes unsafe and increased transportation costs. Government revenues dropped sharply and the treasury faced severe shortages for military expenses.",
+      },
+    },
+    {
+      title: { fa: "تأسیس شرکت نفت ایران و انگلیس (APOC)", en: "Founding of Anglo-Persian Oil Company (APOC)" },
+      description: { fa: "شرکت نفت ایران و انگلیس برای بهره‌برداری از نفت ایران تأسیس شد", en: "Anglo-Persian Oil Company founded to exploit Iranian oil" },
+      details: {
+        fa: "پس از کشف نفت در مسجد سلیمان، شرکت نفت ایران و انگلیس (APOC) برای بهره‌برداری تجاری از ذخایر نفتی ایران تأسیس شد. این شرکت که بعدها به BP تبدیل شد، با سرمایه بریتانیایی و بر اساس امتیازنامه دارسی فعالیت می‌کرد. سهم ایران از سود این شرکت بسیار ناچیز بود و شفافیتی در حسابرسی وجود نداشت. تأسیس این شرکت آغاز دوره طولانی بهره‌برداری بریتانیا از منابع نفتی ایران بود.",
+        en: "Following the discovery of oil at Masjed Soleyman, the Anglo-Persian Oil Company (APOC) was established for commercial exploitation of Iran's oil reserves. This company, which later became BP, operated with British capital under the D'Arcy concession. Iran's share of the company's profits was minimal, and there was no transparency in auditing. The founding of this company marked the beginning of a long period of British exploitation of Iran's oil resources.",
       },
     }],
     world: [
@@ -978,6 +1194,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "پس از فتح تهران، سران بختیاری که نقش کلیدی در سرنگونی محمدعلی شاه داشتند، به مقامات مهم دولتی رسیدند و نفوذ سیاسی قابل توجهی کسب کردند. صمصام‌السلطنه بختیاری نخست‌وزیر شد. اما خزانه دولت کاملاً خالی بود و دولت جدید برای تأمین مالی با مشکلات جدی مواجه بود. وام‌های خارجی همچنان فشار سنگینی بر اقتصاد کشور وارد می‌کرد.",
         en: "After the conquest of Tehran, Bakhtiari chiefs who had played a key role in overthrowing Mohammad Ali Shah rose to important government positions and gained considerable political influence. Samsam al-Saltaneh Bakhtiari became Prime Minister. However, the state treasury was completely empty and the new government faced serious financial difficulties. Foreign loans continued to impose heavy pressure on the country's economy.",
       },
+    },
+    {
+      title: { fa: "افتتاح مجلس دوم شورای ملی", en: "Opening of the Second National Assembly" },
+      description: { fa: "مجلس دوم با نمایندگان بیشتر و احزاب سیاسی جدید تشکیل شد", en: "Second Assembly convenes with more representatives and new political parties" },
+      details: {
+        fa: "پس از پیروزی مشروطه‌خواهان و خلع محمدعلی شاه، مجلس دوم شورای ملی تشکیل شد. این مجلس نمایندگی گسترده‌تری از شهرستان‌ها داشت و احزاب سیاسی از جمله حزب دموکرات و حزب اعتدالیون در آن فعال بودند. اختلافات شدید بین این دو حزب بر سر سیاست‌های اقتصادی و نحوه برخورد با قدرت‌های خارجی، مجلس را با چالش‌های جدی مواجه کرد.",
+        en: "After the constitutionalists' victory and the deposition of Mohammad Ali Shah, the Second National Assembly was formed. This parliament had broader representation from provinces, and political parties including the Democrat Party and the Moderate Party were active in it. Severe disagreements between these two parties over economic policies and how to deal with foreign powers posed serious challenges to parliament.",
+      },
+    },
+    {
+      title: { fa: "تلاش برای اصلاح نظام مالیاتی", en: "Efforts to Reform the Tax System" },
+      description: { fa: "مجلس دوم تلاش کرد نظام مالیاتی عادلانه‌ای ایجاد کند", en: "Second Majles attempts to create a fair tax system" },
+      details: {
+        fa: "مجلس دوم با درک بحران مالی شدید کشور، تلاش‌هایی برای اصلاح نظام مالیاتی ناکارآمد و فاسد قاجار آغاز کرد. لوایحی برای ایجاد مالیات مستقیم بر درآمد و دارایی ارائه شد. اما مقاومت زمین‌داران بزرگ و سران ایلات که از معافیت‌های مالیاتی بهره‌مند بودند، مانع اجرای مؤثر این اصلاحات شد. خزانه دولت همچنان خالی بود و وابستگی به وام‌های خارجی ادامه داشت.",
+        en: "The Second Majles, recognizing the country's severe financial crisis, began efforts to reform the inefficient and corrupt Qajar tax system. Bills for direct income and property taxes were introduced. However, resistance from large landowners and tribal chiefs who benefited from tax exemptions prevented effective implementation of these reforms. The state treasury remained empty and dependence on foreign loans continued.",
+      },
+    },
+    {
+      title: { fa: "خلع سلاح ستارخان و باقرخان در تهران", en: "Disarmament of Sattar Khan & Baqer Khan in Tehran" },
+      description: { fa: "قهرمانان مشروطه پس از ورود به تهران خلع سلاح شدند و به حاشیه رفتند", en: "Constitutional heroes disarmed after arriving in Tehran, pushed to the margins" },
+      details: {
+        fa: "ستارخان و باقرخان که رهبری مقاومت تبریز را بر عهده داشتند، پس از فتح تهران به پایتخت آمدند. اما دولت جدید از قدرت نظامی آنها نگران بود و در واقعه پارک اتابک، نیروهای دولتی مجاهدان تبریزی را خلع سلاح کردند. ستارخان در درگیری‌ها زخمی شد و عملاً به حاشیه رانده شد. این رفتار با قهرمانان ملی نشان‌دهنده ناسپاسی سیاسی و فقدان وحدت در میان مشروطه‌خواهان بود.",
+        en: "Sattar Khan and Baqer Khan, who had led the Tabriz resistance, came to Tehran after its conquest. But the new government was worried about their military power, and in the Atabak Park incident, government forces disarmed the Tabriz fighters. Sattar Khan was wounded in the clashes and effectively marginalized. This treatment of national heroes demonstrated political ingratitude and lack of unity among constitutionalists.",
+      },
     }],
     world: [
       {
@@ -1027,6 +1267,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "مجلس دوم برای نجات اقتصاد ورشکسته ایران، مورگان شوستر آمریکایی را به عنوان خزانه‌دار کل استخدام کرد. شوستر با اختیارات گسترده مأمور اصلاح نظام مالیاتی، جمع‌آوری مالیات و ایجاد ژاندارمری مالی شد. انتخاب یک آمریکایی به جای مستشاران روسی یا بریتانیایی نشان‌دهنده تلاش ایران برای رهایی از نفوذ دو قدرت بزرگ بود، اما این اقدام خشم روسیه را برانگیخت.",
         en: "The Second Majles hired American Morgan Shuster as Treasurer-General to rescue Iran's bankrupt economy. Shuster was tasked with broad authority to reform the tax system, collect taxes, and create a financial gendarmerie. Choosing an American over Russian or British advisors reflected Iran's attempt to free itself from the two great powers' influence, but this move provoked Russia's anger.",
       },
+    },
+    {
+      title: { fa: "درگیری‌های جناحی در مجلس دوم", en: "Factional Conflicts in the Second Majles" },
+      description: { fa: "اختلافات شدید بین دموکرات‌ها و اعتدالیون مجلس را فلج کرد", en: "Severe disagreements between Democrats and Moderates paralyze parliament" },
+      details: {
+        fa: "مجلس دوم شورای ملی با اختلافات شدید جناحی دست و پنجه نرم می‌کرد. حزب دموکرات (عامیون) خواستار اصلاحات رادیکال و محدود کردن قدرت اشراف و ملاکان بود، در حالی که حزب اعتدالیون از منافع زمین‌داران و طبقات سنتی دفاع می‌کرد. این اختلافات تصویب قوانین مهم را به تأخیر انداخت و دولت مرکزی را ضعیف‌تر کرد. ترور سیداحمد بهبهانی از رهبران اعتدالیون فضای سیاسی را متشنج‌تر ساخت.",
+        en: "The Second Majles struggled with severe factional disagreements. The Democrat Party (Ammiun) demanded radical reforms and limiting the power of aristocrats and landlords, while the Moderate Party defended the interests of landowners and traditional classes. These disagreements delayed passage of important legislation and further weakened the central government. The assassination of Seyyed Ahmad Behbahani, a Moderate leader, further destabilized the political atmosphere.",
+      },
+    },
+    {
+      title: { fa: "ناامنی در ولایات و راهزنی در جاده‌ها", en: "Provincial Insecurity & Highway Banditry" },
+      description: { fa: "ضعف دولت مرکزی باعث گسترش ناامنی و راهزنی در سراسر کشور شد", en: "Weak central government leads to widespread insecurity and banditry" },
+      details: {
+        fa: "ضعف دولت مرکزی و فقدان نیروی نظامی منظم باعث گسترش ناامنی در ولایات مختلف ایران شد. راهزنان و اشرار در جاده‌های تجاری فعال بودند و کاروان‌های تجاری مورد حمله قرار می‌گرفتند. سران ایلات و عشایر در مناطق خود حکومت مستقلی داشتند و از پرداخت مالیات به دولت مرکزی خودداری می‌کردند. این وضعیت تجارت داخلی و بین‌المللی ایران را مختل کرده و مانع توسعه اقتصادی بود.",
+        en: "The weakness of the central government and lack of a regular military force led to widespread insecurity across Iranian provinces. Bandits were active on trade routes, attacking commercial caravans. Tribal chiefs governed independently in their regions and refused to pay taxes to the central government. This situation disrupted Iran's domestic and international trade and hindered economic development.",
+      },
+    },
+    {
+      title: { fa: "تلاش برای ایجاد ژاندارمری ملی", en: "Efforts to Create a National Gendarmerie" },
+      description: { fa: "مجلس تلاش کرد نیروی ژاندارمری برای تأمین امنیت داخلی ایجاد کند", en: "Parliament attempts to create a gendarmerie force for domestic security" },
+      details: {
+        fa: "مجلس دوم برای مقابله با ناامنی فزاینده در کشور، تصمیم به ایجاد نیروی ژاندارمری ملی گرفت. این نیرو قرار بود با کمک مستشاران سوئدی سازماندهی شود و امنیت جاده‌ها و مناطق روستایی را تأمین کند. اما کمبود بودجه و مخالفت روسیه و بریتانیا که نمی‌خواستند ایران نیروی نظامی مستقل و کارآمدی داشته باشد، مانع پیشرفت سریع این طرح شد.",
+        en: "The Second Majles decided to create a national gendarmerie force to address the growing insecurity in the country. This force was to be organized with the help of Swedish advisors and would secure roads and rural areas. However, budget shortages and opposition from Russia and Britain, who did not want Iran to have an independent and effective military force, hindered rapid progress on this plan.",
+      },
     }],
   },
   {
@@ -1046,6 +1310,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "پس از اولتیماتوم روسیه مبنی بر اخراج شوستر، نیروهای روسی از شمال وارد خاک ایران شدند. در مشهد، نیروهای روسی حرم مقدس امام رضا را بمباران کردند و تعداد زیادی از مردم بی‌گناه کشته شدند. این عمل خشم گسترده‌ای در سراسر ایران و جهان اسلام برانگیخت. دولت ضعیف ایران قادر به مقابله نبود و مجبور به پذیرش خواسته‌های روسیه شد. این واقعه نمادی از تحقیر ملی و ناتوانی دولت مشروطه بود.",
         en: "Following Russia's ultimatum to expel Shuster, Russian forces entered northern Iran. In Mashhad, Russian forces bombarded the holy shrine of Imam Reza, killing many innocent civilians. This act provoked widespread outrage across Iran and the Muslim world. The weak Iranian government was unable to resist and was forced to accept Russia's demands. This event became a symbol of national humiliation and the impotence of the constitutional government.",
+      },
+    },
+    {
+      title: { fa: "تشکیل ژاندارمری دولتی با مستشاران سوئدی", en: "Government Gendarmerie Formed with Swedish Advisors" },
+      description: { fa: "نیروی ژاندارمری با فرماندهی افسران سوئدی برای امنیت داخلی تأسیس شد", en: "Gendarmerie force established under Swedish officers for domestic security" },
+      details: {
+        fa: "نیروی ژاندارمری دولتی ایران با کمک مستشاران نظامی سوئدی تأسیس شد. انتخاب سوئد به عنوان کشوری بی‌طرف برای جلوگیری از مخالفت روسیه و بریتانیا بود. ژاندارمری وظیفه تأمین امنیت جاده‌ها و مناطق روستایی را داشت. اما بودجه محدود و نفوذ قدرت‌های خارجی مانع عملکرد مؤثر آن شد. با این حال، ژاندارمری بعدها نقش مهمی در جنبش‌های ملی‌گرایانه ایفا کرد.",
+        en: "Iran's government gendarmerie was established with the help of Swedish military advisors. Sweden was chosen as a neutral country to avoid opposition from Russia and Britain. The gendarmerie was tasked with securing roads and rural areas. However, limited budget and foreign power interference hindered its effectiveness. Nevertheless, the gendarmerie later played an important role in nationalist movements.",
+      },
+    },
+    {
+      title: { fa: "بحران مالی شدید پس از اخراج شوستر", en: "Severe Financial Crisis After Shuster's Expulsion" },
+      description: { fa: "اخراج شوستر اصلاحات مالی را متوقف کرد و خزانه دولت در بحران فرو رفت", en: "Shuster's expulsion halts financial reforms, state treasury plunges into crisis" },
+      details: {
+        fa: "اخراج مورگان شوستر به دستور روسیه، اصلاحات مالی ایران را کاملاً متوقف کرد. نظام مالیاتی همچنان فاسد و ناکارآمد بود و درآمدهای دولت برای پوشش هزینه‌های جاری کافی نبود. بدهی‌های خارجی انباشته شده بود و بهره وام‌ها بخش بزرگی از درآمدهای گمرکی را می‌بلعید. دولت قادر به پرداخت حقوق کارمندان و سربازان نبود و فقر عمومی تشدید شده بود.",
+        en: "Shuster's expulsion on Russia's orders completely halted Iran's financial reforms. The tax system remained corrupt and inefficient, and government revenues were insufficient to cover current expenses. Foreign debts had accumulated and loan interest consumed a large portion of customs revenues. The government was unable to pay employees and soldiers, and public poverty intensified.",
+      },
+    },
+    {
+      title: { fa: "مقاومت زنان در جنبش مشروطه", en: "Women's Resistance in the Constitutional Movement" },
+      description: { fa: "زنان ایرانی در اعتراض به اولتیماتوم روسیه نقش فعالی ایفا کردند", en: "Iranian women play active role protesting Russia's ultimatum" },
+      details: {
+        fa: "زنان ایرانی نقش قابل توجهی در مقاومت علیه اولتیماتوم روسیه ایفا کردند. گروهی از زنان تهران به مجلس رفتند و خواستار رد اولتیماتوم شدند. انجمن‌های زنان که در دوره مشروطه تشکیل شده بود، در جمع‌آوری کمک‌های مالی و اعتراضات عمومی مشارکت فعال داشتند. نقش زنان در جنبش مشروطه آغاز حضور آنها در عرصه سیاسی و اجتماعی ایران بود.",
+        en: "Iranian women played a notable role in resisting Russia's ultimatum. A group of Tehran women went to parliament demanding rejection of the ultimatum. Women's associations formed during the constitutional period actively participated in fundraising and public protests. Women's role in the Constitutional Movement marked the beginning of their presence in Iran's political and social arena.",
       },
     }],
   },
@@ -1067,6 +1355,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "محمدعلی شاه مخلوع با حمایت برخی قبایل ترکمن از روسیه به شمال ایران بازگشت و تلاش کرد دوباره قدرت را به دست بگیرد. اما نیروهای دولتی و مشروطه‌خواهان مقاومت کردند و حمله او ناکام ماند. این تلاش ناموفق بی‌ثباتی سیاسی کشور را تشدید کرد و نشان داد که بدون ارتش منظم و دولت مرکزی قوی، ایران در معرض تهدیدهای مداوم قرار دارد.",
         en: "The deposed Mohammad Ali Shah returned to northern Iran from Russia with the support of some Turkmen tribes, attempting to reclaim power. However, government forces and constitutionalists resisted and his attack failed. This unsuccessful attempt intensified the country's political instability and demonstrated that without a regular army and strong central government, Iran was exposed to constant threats.",
       },
+    },
+    {
+      title: { fa: "گسترش فعالیت نفتی بریتانیا در جنوب ایران", en: "Expansion of British Oil Operations in Southern Iran" },
+      description: { fa: "شرکت نفت ایران-انگلیس تأسیسات نفتی در آبادان و مسجد سلیمان را گسترش داد", en: "APOC expands oil facilities in Abadan and Masjed Soleyman" },
+      details: {
+        fa: "شرکت نفت ایران و انگلیس (APOC) تأسیسات خود را در جنوب ایران به سرعت گسترش داد. ساخت پالایشگاه آبادان آغاز شد که بعدها به بزرگترین پالایشگاه جهان تبدیل گردید. تولید نفت از مسجد سلیمان افزایش یافت و صادرات نفت ایران رشد چشمگیری داشت. اما سهم ایران از این درآمدهای عظیم همچنان ناچیز بود و کارگران ایرانی در شرایط بسیار سختی کار می‌کردند.",
+        en: "The Anglo-Persian Oil Company (APOC) rapidly expanded its facilities in southern Iran. Construction of the Abadan refinery began, which later became the largest refinery in the world. Oil production from Masjed Soleyman increased and Iran's oil exports grew significantly. However, Iran's share of these enormous revenues remained negligible, and Iranian workers labored under very harsh conditions.",
+      },
+    },
+    {
+      title: { fa: "شورش سالار‌الدوله در غرب ایران", en: "Salar al-Dawleh's Revolt in Western Iran" },
+      description: { fa: "برادر محمدعلی شاه در غرب ایران شورش کرد و خواستار بازگشت قاجار شد", en: "Mohammad Ali Shah's brother revolts in western Iran, demands Qajar restoration" },
+      details: {
+        fa: "سالارالدوله، برادر محمدعلی شاه، در کرمانشاه و غرب ایران شورش کرد و با جمع‌آوری نیروهای قبیله‌ای، خواستار بازگرداندن سلطنت قاجار به حالت قبل از مشروطه شد. شورش او مناطق غربی ایران را ناامن کرد و دولت مرکزی ضعیف را با چالش جدی مواجه ساخت. سالارالدوله در نهایت شکست خورد اما شورش او نشان‌دهنده شکنندگی نظم سیاسی پس از مشروطه بود.",
+        en: "Salar al-Dawleh, Mohammad Ali Shah's brother, revolted in Kermanshah and western Iran, gathering tribal forces and demanding restoration of the Qajar monarchy to its pre-constitutional state. His revolt destabilized western Iran and posed a serious challenge to the weak central government. Salar al-Dawleh was eventually defeated, but his revolt demonstrated the fragility of the post-constitutional political order.",
+      },
+    },
+    {
+      title: { fa: "افول صنایع سنتی و افزایش واردات", en: "Decline of Traditional Industries & Increasing Imports" },
+      description: { fa: "صنایع دستی ایران در رقابت با کالاهای وارداتی ارزان رو به نابودی بود", en: "Iranian handicrafts facing destruction in competition with cheap imports" },
+      details: {
+        fa: "صنایع سنتی ایران مانند نساجی، قالی‌بافی و صنایع دستی که قرن‌ها مهم‌ترین صادرات کشور بودند، تحت فشار شدید رقابت با کالاهای ارزان کارخانه‌ای اروپایی قرار داشتند. واردات پارچه‌های ارزان روسی و بریتانیایی کارگاه‌های نساجی سنتی را ورشکسته کرده بود. فقط قالی دستباف ایرانی همچنان تقاضای بین‌المللی داشت. این تخریب صنایع بومی بدون جایگزینی صنایع مدرن، اقتصاد ایران را آسیب‌پذیرتر کرد.",
+        en: "Traditional Iranian industries such as textiles, carpet weaving, and handicrafts, which had been the country's most important exports for centuries, were under severe pressure from competition with cheap European factory-made goods. Imports of inexpensive Russian and British fabrics had bankrupted traditional weaving workshops. Only handwoven Persian carpets still maintained international demand. This destruction of indigenous industries without replacement by modern manufacturing made Iran's economy more vulnerable.",
+      },
     }],
   },
   {
@@ -1086,6 +1398,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "سران ایل بختیاری که در فتح تهران و بازگرداندن مشروطه نقش داشتند، نفوذ سیاسی و اقتصادی خود را گسترش دادند. آنها مناصب مهم دولتی مانند نخست‌وزیری و فرمانداری استان‌ها را به دست آوردند و سهمی از امتیاز نفت جنوب ایران نیز دریافت کردند. قدرت بختیاری‌ها نمونه‌ای از حاکمیت قبیله‌ای بر سیاست ایران بود که ضعف دولت مرکزی را نشان می‌داد.",
         en: "Bakhtiari tribal chiefs, who had played a role in the conquest of Tehran and restoration of the constitution, expanded their political and economic influence. They secured key government posts including the prime ministry and provincial governorships, and received a share of the southern Iran oil concession. The Bakhtiaris' power exemplified tribal dominance over Iranian politics, reflecting the weakness of the central government.",
+      },
+    },
+    {
+      title: { fa: "افزایش تولید و صادرات نفت ایران", en: "Increase in Iran's Oil Production & Exports" },
+      description: { fa: "تولید نفت در جنوب ایران افزایش یافت و پالایشگاه آبادان فعال‌تر شد", en: "Oil production in southern Iran increases, Abadan refinery becomes more active" },
+      details: {
+        fa: "شرکت نفت ایران و انگلیس تولید نفت از میادین جنوب ایران را افزایش داد. پالایشگاه آبادان که ساخت آن در حال تکمیل بود، ظرفیت پالایش بیشتری پیدا کرد. صادرات نفت ایران به بازارهای جهانی رشد کرد و نفت ایران به منبع مهم انرژی برای نیروی دریایی بریتانیا تبدیل شد. اما شفافیتی در حسابرسی شرکت نفت وجود نداشت و ایران از سودهای واقعی نفت بی‌خبر بود.",
+        en: "The Anglo-Persian Oil Company increased oil production from southern Iranian fields. The Abadan refinery, nearing completion, gained greater refining capacity. Iran's oil exports to global markets grew, and Iranian oil became an important energy source for the British Royal Navy. However, there was no transparency in the oil company's auditing, and Iran was unaware of the actual oil profits.",
+      },
+    },
+    {
+      title: { fa: "تنش‌های مرزی با عثمانی و روسیه", en: "Border Tensions with Ottoman Empire & Russia" },
+      description: { fa: "اختلافات مرزی ایران با عثمانی و تجاوزات مرزی روسیه ادامه داشت", en: "Border disputes with Ottoman Empire and Russian border violations continue" },
+      details: {
+        fa: "ایران با مشکلات مرزی متعددی با همسایگان خود مواجه بود. اختلافات مرزی با عثمانی در غرب ایران همچنان حل نشده باقی مانده بود و درگیری‌های پراکنده در مناطق مرزی رخ می‌داد. روسیه نیز در شمال ایران حضور نظامی فعالی داشت و عملاً بخش‌هایی از آذربایجان و گیلان را تحت کنترل خود درآورده بود. ضعف نظامی ایران مانع از دفاع مؤثر از مرزها می‌شد.",
+        en: "Iran faced numerous border issues with its neighbors. Border disputes with the Ottoman Empire in western Iran remained unresolved, with sporadic conflicts in border areas. Russia also maintained an active military presence in northern Iran, effectively controlling parts of Azerbaijan and Gilan. Iran's military weakness prevented effective defense of its borders.",
+      },
+    },
+    {
+      title: { fa: "بحران بودجه دولت و کسری مالی مزمن", en: "Government Budget Crisis & Chronic Fiscal Deficit" },
+      description: { fa: "کسری بودجه شدید دولت مرکزی توانایی ارائه خدمات عمومی را از بین برد", en: "Severe central government budget deficit eliminates ability to provide public services" },
+      details: {
+        fa: "دولت مرکزی ایران با کسری بودجه مزمن و شدیدی مواجه بود. درآمدهای مالیاتی ناچیز بود زیرا سران ایلات و زمین‌داران بزرگ از پرداخت مالیات سرباز می‌زدند. درآمدهای گمرکی عمدتاً صرف بازپرداخت وام‌های خارجی می‌شد. دولت قادر به پرداخت حقوق کارمندان، تأمین امنیت یا ارائه خدمات عمومی نبود. فقدان بودجه کافی یکی از اصلی‌ترین دلایل ناکامی حکومت مشروطه در عمل بود.",
+        en: "Iran's central government faced a chronic and severe budget deficit. Tax revenues were meager as tribal chiefs and large landowners evaded taxation. Customs revenues were mainly spent on repaying foreign loans. The government was unable to pay employees, provide security, or deliver public services. The lack of adequate budget was one of the main reasons for the constitutional government's practical failure.",
       },
     }],
   },
@@ -1111,6 +1447,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "وینستون چرچیل به عنوان لرد اول دریاسالاری، از مجلس عوام بریتانیا خواست دولت ۵۱ درصد سهام شرکت نفت ایران-انگلیس (APOC) را بخرد. این اقدام نفت ایران را عملاً به منبع استراتژیک دولت بریتانیا تبدیل کرد و نیروی دریایی بریتانیا از زغال‌سنگ به نفت تغییر سوخت داد. از این پس حفاظت از منافع نفتی در ایران به اولویت سیاست خارجی بریتانیا تبدیل شد.",
         en: "Winston Churchill, as First Lord of the Admiralty, urged the House of Commons to have the government purchase 51% of the Anglo-Persian Oil Company (APOC) shares. This effectively made Iran's oil a strategic resource of the British government and the Royal Navy converted from coal to oil. Protecting oil interests in Iran became a top priority of British foreign policy from this point forward.",
+      },
+    },
+    {
+      title: { fa: "اعلام بی‌طرفی ایران در جنگ جهانی اول", en: "Iran Declares Neutrality in World War I" },
+      description: { fa: "ایران رسماً بی‌طرفی خود را اعلام کرد اما قدرت‌های متخاصم آن را نادیده گرفتند", en: "Iran officially declares neutrality but belligerent powers ignore it" },
+      details: {
+        fa: "با آغاز جنگ جهانی اول، دولت ایران بلافاصله بی‌طرفی خود را اعلام کرد. اما این بی‌طرفی توسط هیچ‌یک از طرفین جنگ رعایت نشد. روسیه در شمال، بریتانیا در جنوب و عثمانی در غرب به خاک ایران تجاوز کردند. ضعف نظامی ایران و فقدان ارتش قدرتمند مانع از اجرای بی‌طرفی بود. ایران عملاً به میدان جنگ قدرت‌های بزرگ تبدیل شد.",
+        en: "With the outbreak of World War I, the Iranian government immediately declared its neutrality. However, this neutrality was respected by none of the warring parties. Russia in the north, Britain in the south, and the Ottoman Empire in the west violated Iranian territory. Iran's military weakness and lack of a powerful army prevented enforcement of neutrality. Iran effectively became a battlefield for the great powers.",
+      },
+    },
+    {
+      title: { fa: "مسدود شدن راه‌های تجاری و بحران اقتصادی", en: "Trade Route Blockades & Economic Crisis" },
+      description: { fa: "جنگ جهانی راه‌های تجاری ایران را مسدود و اقتصاد را فلج کرد", en: "World War blocks Iran's trade routes, paralyzing the economy" },
+      details: {
+        fa: "جنگ جهانی اول تأثیر ویرانگری بر اقتصاد ایران داشت. راه‌های تجاری اصلی ایران مسدود شدند و واردات و صادرات به شدت کاهش یافت. تجارت ایران با روسیه که بزرگترین شریک تجاری بود تقریباً متوقف شد. قیمت مواد غذایی به سرعت افزایش یافت و کمبود کالاهای ضروری گسترش یافت. نیروهای اشغالگر محصولات کشاورزی و دام‌های مردم را مصادره می‌کردند.",
+        en: "World War I had a devastating impact on Iran's economy. Major trade routes were blocked, and imports and exports dropped sharply. Trade with Russia, Iran's largest trading partner, virtually ceased. Food prices rose rapidly and shortages of essential goods spread. Occupying forces confiscated agricultural products and livestock from the population.",
+      },
+    },
+    {
+      title: { fa: "کمیته دفاع ملی و مهاجرت نمایندگان مجلس", en: "National Defense Committee & Migration of Deputies" },
+      description: { fa: "برخی نمایندگان مجلس و سیاستمداران ملی‌گرا از تهران خارج شدند", en: "Some deputies and nationalist politicians leave Tehran" },
+      details: {
+        fa: "با اشغال تهران توسط نیروهای متفقین، گروهی از نمایندگان مجلس و سیاستمداران ملی‌گرا به غرب ایران مهاجرت کردند و کمیته دفاع ملی تشکیل دادند. آنها در کرمانشاه دولتی موقت تشکیل دادند و با حمایت آلمان و عثمانی سعی کردند در برابر اشغال روسیه و بریتانیا مقاومت کنند. این حرکت که به «مهاجرت» معروف شد، نشان‌دهنده احساسات ملی‌گرایانه بخشی از نخبگان سیاسی ایران بود.",
+        en: "With the occupation of Tehran by Allied forces, a group of parliamentary deputies and nationalist politicians migrated to western Iran and formed the National Defense Committee. They established a provisional government in Kermanshah and, with German and Ottoman support, tried to resist the Russian and British occupation. This movement, known as the 'Migration,' reflected the nationalist sentiments of a segment of Iran's political elite.",
       },
     }],
     world: [
@@ -1175,6 +1535,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "انقلاب اکتبر ۱۹۱۷ روسیه تأثیر مستقیمی بر ایران داشت. بلشویک‌ها قراردادهای استعماری تزاری با ایران را لغو اعلام کردند و نیروهای روسی به تدریج از شمال ایران خارج شدند. این خلأ قدرت فرصتی برای بریتانیا ایجاد کرد تا نفوذ خود را در ایران گسترش دهد. همچنین اندیشه‌های سوسیالیستی و کمونیستی در میان روشنفکران ایرانی رشد کرد و بعدها به تأسیس حزب کمونیست ایران انجامید.",
         en: "The October 1917 Russian Revolution had a direct impact on Iran. The Bolsheviks declared the cancellation of Tsarist colonial agreements with Iran, and Russian forces gradually withdrew from northern Iran. This power vacuum gave Britain the opportunity to expand its influence in Iran. Socialist and communist ideas also grew among Iranian intellectuals, later leading to the establishment of the Iranian Communist Party.",
       },
+    },
+    {
+      title: { fa: "مصادره غلات ایران توسط نیروهای خارجی", en: "Confiscation of Iranian Grain by Foreign Forces" },
+      description: { fa: "نیروهای بریتانیایی و روسی غلات و مواد غذایی ایران را مصادره کردند", en: "British and Russian forces confiscate Iranian grain and food supplies" },
+      details: {
+        fa: "نیروهای اشغالگر بریتانیایی و روسی در طول جنگ جهانی اول، مقادیر عظیمی از غلات و مواد غذایی ایران را برای تأمین نیازهای نظامی خود مصادره کردند. این مصادره‌ها در شرایطی انجام می‌شد که تولید کشاورزی ایران به دلیل خشکسالی و جنگ کاهش شدیدی داشت. انبارهای غله تخلیه شدند و مردم عادی به شدت با کمبود غذا مواجه شدند. این عامل اصلی قحطی مرگبار ۱۹۱۷-۱۹۱۹ بود.",
+        en: "British and Russian occupying forces during World War I confiscated enormous quantities of Iranian grain and food supplies for their military needs. These confiscations occurred while Iran's agricultural production had severely declined due to drought and war. Grain stores were emptied and ordinary people faced acute food shortages. This was the primary cause of the deadly famine of 1917-1919.",
+      },
+    },
+    {
+      title: { fa: "گسترش نفوذ بریتانیا در ایران پس از انقلاب روسیه", en: "Expansion of British Influence After Russian Revolution" },
+      description: { fa: "بریتانیا از خلأ قدرت ناشی از خروج روسیه بهره برد", en: "Britain exploits the power vacuum left by Russia's withdrawal" },
+      details: {
+        fa: "خروج نیروهای روسی از ایران پس از انقلاب بلشویکی، فرصت بی‌نظیری برای بریتانیا ایجاد کرد. بریتانیا سریعاً نفوذ خود را به شمال ایران نیز گسترش داد و عملاً کل ایران را تحت نفوذ خود درآورد. نیروهای بریتانیایی به بهانه مقابله با تهدید بلشویکی در مناطق شمالی مستقر شدند. ژنرال دانسترویل با نیروهای خود از ایران برای رسیدن به قفقاز عبور کرد. بریتانیا برنامه‌ریزی برای تحت‌الحمایه کردن ایران را آغاز نمود.",
+        en: "The withdrawal of Russian forces from Iran after the Bolshevik Revolution created an unprecedented opportunity for Britain. Britain quickly expanded its influence to northern Iran, effectively bringing all of Iran under its sphere. British forces were stationed in northern regions under the pretext of countering the Bolshevik threat. General Dunsterville and his forces passed through Iran to reach the Caucasus. Britain began planning to make Iran a protectorate.",
+      },
+    },
+    {
+      title: { fa: "فعالیت جاسوسان و مأموران آلمانی در ایران", en: "German Agents & Espionage Activities in Iran" },
+      description: { fa: "آلمان تلاش کرد ایلات و عشایر ایران را علیه بریتانیا بشوراند", en: "Germany attempts to incite Iranian tribes against Britain" },
+      details: {
+        fa: "آلمان در طول جنگ جهانی اول مأموران و جاسوسان متعددی به ایران فرستاد تا ایلات و عشایر را علیه بریتانیا بشورانند. واسموس، جاسوس معروف آلمانی که به «لورنس آلمانی» معروف بود، در جنوب ایران فعالیت می‌کرد و تلاش داشت قبایل قشقایی و تنگستانی را علیه منافع نفتی بریتانیا بسیج کند. این فعالیت‌ها گرچه موفقیت محدودی داشت، نشان‌دهنده اهمیت استراتژیک ایران در سیاست جهانی بود.",
+        en: "Germany sent numerous agents and spies to Iran during World War I to incite tribes against Britain. Wassmuss, the famous German spy known as the 'German Lawrence,' operated in southern Iran, trying to mobilize Qashqai and Tangistani tribes against British oil interests. Although these activities had limited success, they demonstrated Iran's strategic importance in global politics.",
+      },
     }],
     world: [
       {
@@ -1224,6 +1608,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "با وجود پایان جنگ جهانی اول، بریتانیا نیروهای نظامی خود را از ایران خارج نکرد. نیروی «تفنگداران جنوب ایران» (South Persia Rifles) که بریتانیا در جنوب ایران تشکیل داده بود، همچنان فعال بود و عملاً جنوب ایران تحت کنترل نظامی بریتانیا قرار داشت. بریتانیا به دنبال تأمین منافع نفتی خود و جلوگیری از نفوذ بلشویکی بود. این اشغال ادامه‌دار خشم ملی‌گرایان ایرانی را برانگیخت.",
         en: "Despite the end of World War I, Britain did not withdraw its military forces from Iran. The South Persia Rifles, which Britain had formed in southern Iran, remained active, and southern Iran was effectively under British military control. Britain sought to secure its oil interests and prevent Bolshevik influence. This continued occupation provoked the anger of Iranian nationalists.",
+      },
+    },
+    {
+      title: { fa: "اوج قحطی و شیوع بیماری‌های واگیر", en: "Famine Peak & Spread of Epidemic Diseases" },
+      description: { fa: "آنفلوانزای اسپانیایی به همراه قحطی میلیون‌ها قربانی در ایران گرفت", en: "Spanish Flu combined with famine kills millions in Iran" },
+      details: {
+        fa: "قحطی بزرگ ایران در ۱۹۱۸ به اوج خود رسید و همزمان آنفلوانزای اسپانیایی نیز به ایران رسید. ترکیب قحطی و بیماری فاجعه‌ای بی‌سابقه آفرید. مردم ضعیف و گرسنه توان مقابله با بیماری را نداشتند و تلفات به شدت افزایش یافت. تخمین زده می‌شود آنفلوانزای اسپانیایی به تنهایی صدها هزار نفر را در ایران کشت. نظام بهداشتی ایران عملاً وجود نداشت و دولت قادر به کمک‌رسانی نبود.",
+        en: "Iran's Great Famine reached its peak in 1918, coinciding with the arrival of the Spanish Flu. The combination of famine and disease created an unprecedented catastrophe. Weakened and starving people had no ability to resist disease, and casualties rose dramatically. The Spanish Flu alone is estimated to have killed hundreds of thousands in Iran. Iran's healthcare system was virtually nonexistent and the government was unable to provide aid.",
+      },
+    },
+    {
+      title: { fa: "تلاش‌های دیپلماتیک ایران در پایان جنگ", en: "Iran's Diplomatic Efforts at War's End" },
+      description: { fa: "ایران تلاش کرد خسارات جنگ را از قدرت‌های بزرگ مطالبه کند", en: "Iran attempts to claim war damages from great powers" },
+      details: {
+        fa: "با پایان جنگ جهانی اول، دولت ایران تلاش‌های دیپلماتیکی برای مطالبه غرامت جنگی و بازگرداندن حاکمیت خود آغاز کرد. ایران که با وجود اعلام بی‌طرفی، متحمل خسارات انسانی و مالی سنگینی شده بود، خواستار شناسایی حقوق خود در نظم جدید بین‌المللی بود. اما قدرت‌های پیروز جنگ، به ویژه بریتانیا، توجهی به مطالبات ایران نداشتند و در عوض به دنبال تحکیم نفوذ خود در ایران بودند.",
+        en: "With the end of World War I, the Iranian government began diplomatic efforts to claim war reparations and restore its sovereignty. Iran, which had suffered heavy human and financial losses despite declaring neutrality, sought recognition of its rights in the new international order. But the victorious war powers, especially Britain, paid no attention to Iran's demands and instead sought to consolidate their influence in Iran.",
+      },
+    },
+    {
+      title: { fa: "ویرانی زیرساخت‌های کشاورزی و اقتصادی", en: "Destruction of Agricultural & Economic Infrastructure" },
+      description: { fa: "جنگ و اشغال زیرساخت‌های کشاورزی و تجاری ایران را ویران کرد", en: "War and occupation devastate Iran's agricultural and commercial infrastructure" },
+      details: {
+        fa: "چهار سال جنگ و اشغال خارجی زیرساخت‌های اقتصادی ایران را به شدت تخریب کرد. سیستم‌های آبیاری سنتی (قنات‌ها) در بسیاری از مناطق آسیب دیده یا تخریب شده بودند. دام‌های کشاورزان مصادره یا تلف شده بود. کارگاه‌های تولیدی تعطیل شده و بسیاری از بازاریان ورشکسته شده بودند. بازسازی اقتصاد نیازمند سرمایه‌گذاری عظیمی بود که دولت ضعیف ایران قادر به تأمین آن نبود.",
+        en: "Four years of war and foreign occupation severely damaged Iran's economic infrastructure. Traditional irrigation systems (qanats) in many areas were damaged or destroyed. Farmers' livestock was confiscated or lost. Manufacturing workshops were closed and many merchants had gone bankrupt. Economic reconstruction required massive investment that the weak Iranian government was unable to provide.",
       },
     }],
     world: [
@@ -1283,6 +1691,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "هیئت ایرانی در کنفرانس صلح پاریس شرکت کرد و خواستار پرداخت غرامت بابت خسارات جنگ جهانی اول به ایران شد. ایران با وجود بی‌طرفی، متحمل خسارات سنگین انسانی و مالی شده بود. اما قدرت‌های بزرگ، به ویژه بریتانیا، مانع شنیده شدن صدای ایران شدند. قرارداد ۱۹۱۹ نیز بدون اطلاع مجلس امضا شد و مخالفت گسترده داخلی و بین‌المللی با آن نشان‌دهنده رشد آگاهی ملی بود.",
         en: "An Iranian delegation attended the Paris Peace Conference and demanded war reparations for the damage Iran suffered during World War I. Despite its neutrality, Iran had endured severe human and financial losses. But the great powers, especially Britain, prevented Iran's voice from being heard. The 1919 agreement was also signed without parliament's knowledge, and the widespread domestic and international opposition to it reflected growing national consciousness.",
       },
+    },
+    {
+      title: { fa: "مخالفت گسترده با قرارداد ۱۹۱۹", en: "Widespread Opposition to the 1919 Agreement" },
+      description: { fa: "مردم، علما و سیاستمداران با قرارداد وثوق‌الدوله با بریتانیا مخالفت کردند", en: "People, clergy, and politicians oppose Vosuq od-Dowleh's agreement with Britain" },
+      details: {
+        fa: "قرارداد ۱۹۱۹ با مخالفت گسترده داخلی و بین‌المللی مواجه شد. علمای برجسته، سیاستمداران ملی‌گرا و مردم عادی این قرارداد را خیانت به استقلال ایران دانستند. آمریکا و شوروی نیز با قرارداد مخالفت کردند. تظاهرات و اعتراضات در شهرهای مختلف ایران برگزار شد. وثوق‌الدوله و دو وزیر دیگرش متهم به دریافت رشوه ۱۳۱ هزار پوندی از بریتانیا شدند. این مخالفت‌ها در نهایت مانع تصویب قرارداد در مجلس شد.",
+        en: "The 1919 agreement faced widespread domestic and international opposition. Prominent clergy, nationalist politicians, and ordinary people considered this agreement a betrayal of Iran's independence. The United States and Soviet Union also opposed it. Demonstrations and protests were held in various Iranian cities. Vosuq od-Dowleh and two other ministers were accused of accepting a £131,000 bribe from Britain. This opposition ultimately prevented the agreement's ratification by parliament.",
+      },
+    },
+    {
+      title: { fa: "رشد اندیشه‌های سوسیالیستی و کمونیستی", en: "Growth of Socialist & Communist Ideas" },
+      description: { fa: "اندیشه‌های چپ تحت تأثیر انقلاب روسیه در میان روشنفکران ایرانی رشد کرد", en: "Leftist ideas grow among Iranian intellectuals influenced by Russian Revolution" },
+      details: {
+        fa: "انقلاب بلشویکی روسیه تأثیر عمیقی بر فضای فکری ایران داشت. ایرانیان مقیم قفقاز و باکو که با اندیشه‌های مارکسیستی آشنا بودند، این اندیشه‌ها را به ایران منتقل کردند. حزب عدالت در باکو توسط ایرانیان تأسیس شد که بعدها به حزب کمونیست ایران تبدیل گردید. روشنفکران جوان ایرانی جذب ایده‌های عدالت اجتماعی و مبارزه با امپریالیسم شدند. این جریان فکری در دهه‌های بعد نقش مهمی در سیاست ایران ایفا کرد.",
+        en: "The Bolshevik Revolution in Russia had a profound impact on Iran's intellectual atmosphere. Iranians living in the Caucasus and Baku, familiar with Marxist ideas, transferred these ideas to Iran. The Justice Party (Adalat) was founded in Baku by Iranians, later becoming the Iranian Communist Party. Young Iranian intellectuals were attracted to ideas of social justice and anti-imperialism. This intellectual current played an important role in Iranian politics in subsequent decades.",
+      },
+    },
+    {
+      title: { fa: "پایان قحطی بزرگ و آثار جمعیتی آن", en: "End of the Great Famine & Its Demographic Effects" },
+      description: { fa: "قحطی بزرگ ایران پایان یافت اما جمعیت کشور به شدت کاهش یافته بود", en: "Great Famine ends but Iran's population has severely declined" },
+      details: {
+        fa: "قحطی بزرگ ایران که از ۱۹۱۷ آغاز شده بود، در ۱۹۱۹ با بهبود شرایط جوی و بازگشایی راه‌های تجاری به تدریج پایان یافت. اما آثار ویرانگر آن برای دهه‌ها باقی ماند. جمعیت ایران از حدود ۲۰ میلیون به ۱۱-۱۴ میلیون کاهش یافته بود. روستاهای بسیاری خالی از سکنه شده بودند و زمین‌های کشاورزی بایر مانده بود. بازسازی اقتصادی و جمعیتی کشور سال‌ها طول کشید.",
+        en: "Iran's Great Famine, which began in 1917, gradually ended in 1919 with improved weather conditions and reopening of trade routes. But its devastating effects persisted for decades. Iran's population had dropped from about 20 million to 11-14 million. Many villages were depopulated and agricultural lands lay fallow. The country's economic and demographic recovery took years.",
+      },
     }],
     world: [
       {
@@ -1331,6 +1763,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "شیخ محمد خیابانی، رهبر حزب دموکرات آذربایجان، در اعتراض به قرارداد ۱۹۱۹ و سیاست‌های ضد ملی وثوق‌الدوله در تبریز قیام کرد. او آذربایجان را «آزادیستان» نام‌گذاری کرد و خواستار اصلاحات سیاسی و مقاومت در برابر نفوذ بیگانه شد. قیام خیابانی حدود شش ماه دوام آورد و در نهایت توسط نیروهای دولتی سرکوب شد. خیابانی در جریان سرکوب کشته شد و به نمادی از مقاومت ملی تبدیل گردید.",
         en: "Sheikh Mohammad Khiabani, leader of the Azerbaijan Democrat Party, revolted in Tabriz in protest against the 1919 agreement and Vosuq od-Dowleh's anti-national policies. He renamed Azerbaijan 'Azadistan' (Land of Freedom) and demanded political reforms and resistance against foreign influence. Khiabani's uprising lasted about six months before being suppressed by government forces. Khiabani was killed during the suppression and became a symbol of national resistance.",
+      },
+    },
+    {
+      title: { fa: "شکست قرارداد ۱۹۱۹ و سقوط وثوق‌الدوله", en: "Failure of 1919 Agreement & Fall of Vosuq od-Dowleh" },
+      description: { fa: "قرارداد ۱۹۱۹ به دلیل مخالفت‌های گسترده اجرا نشد و وثوق‌الدوله برکنار شد", en: "1919 agreement fails due to widespread opposition, Vosuq od-Dowleh removed" },
+      details: {
+        fa: "فشارهای داخلی و بین‌المللی سرانجام مانع اجرای قرارداد ۱۹۱۹ شد. وثوق‌الدوله از نخست‌وزیری برکنار شد و قرارداد هرگز به تصویب مجلس نرسید. بریتانیا که امیدوار بود ایران را به تحت‌الحمایه خود تبدیل کند، با ناکامی مواجه شد. این شکست نشان‌دهنده قدرت افکار عمومی و مخالفت ملی در برابر سلطه خارجی بود و درس مهمی برای سیاست‌گذاران بریتانیایی در مورد محدودیت‌های نفوذشان در ایران بود.",
+        en: "Domestic and international pressures ultimately prevented implementation of the 1919 agreement. Vosuq od-Dowleh was removed from the prime ministry and the agreement never reached parliamentary ratification. Britain, which had hoped to make Iran its protectorate, faced failure. This defeat demonstrated the power of public opinion and national opposition against foreign domination, providing an important lesson for British policymakers about the limits of their influence in Iran.",
+      },
+    },
+    {
+      title: { fa: "افزایش درآمد نفت و بی‌بهره ماندن ایران", en: "Rising Oil Revenue & Iran's Exclusion from Profits" },
+      description: { fa: "درآمدهای نفتی شرکت ایران-انگلیس رشد کرد اما سهم ایران ناچیز ماند", en: "APOC oil revenues grow but Iran's share remains negligible" },
+      details: {
+        fa: "پس از جنگ جهانی اول، تقاضا برای نفت به شدت افزایش یافت و درآمدهای شرکت نفت ایران و انگلیس رشد چشمگیری داشت. پالایشگاه آبادان گسترش یافت و به یکی از بزرگترین پالایشگاه‌های جهان تبدیل شد. اما سهم ایران از این درآمدهای عظیم همچنان بسیار ناچیز بود و شرکت نفت هیچ شفافیتی در حسابرسی نداشت. کارگران ایرانی در شرایط بسیار سخت و با دستمزد پایین کار می‌کردند.",
+        en: "After World War I, demand for oil increased sharply and the Anglo-Persian Oil Company's revenues grew significantly. The Abadan refinery expanded and became one of the largest refineries in the world. However, Iran's share of these enormous revenues remained negligible, and the oil company had no transparency in its accounting. Iranian workers labored under very harsh conditions with low wages.",
+      },
+    },
+    {
+      title: { fa: "قیام کلنل محمدتقی‌خان پسیان در خراسان", en: "Colonel Pesyan's Uprising in Khorasan" },
+      description: { fa: "کلنل پسیان در مشهد علیه دولت مرکزی قیام کرد", en: "Colonel Pesyan revolts against the central government in Mashhad" },
+      details: {
+        fa: "کلنل محمدتقی‌خان پسیان، افسر ژاندارمری و ملی‌گرای ایرانی، در خراسان علیه فساد دولت مرکزی و نفوذ بیگانگان قیام کرد. او قوام‌السلطنه والی خراسان را دستگیر کرد و حکومت مستقلی در مشهد تشکیل داد. پسیان خواستار اصلاحات سیاسی، پایان دخالت خارجی و ایجاد ارتش ملی قوی بود. قیام او گرچه سرکوب شد، نمادی از آرمان‌های ملی‌گرایانه نسل جوان ایرانی بود.",
+        en: "Colonel Mohammad Taqi Khan Pesyan, a gendarmerie officer and Iranian nationalist, revolted in Khorasan against central government corruption and foreign influence. He arrested Qavam al-Saltaneh, the governor of Khorasan, and established an independent government in Mashhad. Pesyan demanded political reforms, an end to foreign interference, and a strong national army. Though his uprising was suppressed, it symbolized the nationalist aspirations of the young Iranian generation.",
       },
     }],
     world: [
@@ -1387,6 +1843,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "قرارداد مودت ایران و شوروی در فوریه ۱۹۲۱ امضا شد. شوروی تمام قراردادها و امتیازات دوران تزاری با ایران را لغو کرد، بدهی‌های ایران به روسیه تزاری را بخشید و بنادر و دارایی‌های روسی در ایران را واگذار کرد. اما ماده ششم این قرارداد به شوروی اجازه می‌داد در صورت تهدید امنیتی از خاک ایران، نیروهای خود را وارد ایران کند. این ماده بعدها در ۱۹۴۱ مورد استفاده شوروی قرار گرفت.",
         en: "The Iran-Soviet Treaty of Friendship was signed in February 1921. The Soviet Union cancelled all Tsarist-era agreements and concessions with Iran, forgave Iran's debts to Tsarist Russia, and transferred Russian ports and assets in Iran. However, Article 6 of the treaty allowed the Soviet Union to send forces into Iran in case of a security threat from Iranian territory. This clause was later invoked by the Soviets in 1941.",
       },
+    },
+    {
+      title: { fa: "سرکوب جنبش جنگل و مرگ میرزا کوچک‌خان", en: "Suppression of Jungle Movement & Death of Mirza Kuchik Khan" },
+      description: { fa: "جنبش جنگل شکست خورد و کوچک‌خان در کوه‌های تالش از سرما درگذشت", en: "Jungle Movement defeated, Kuchik Khan dies of frostbite in Talesh mountains" },
+      details: {
+        fa: "پس از کودتای ۱۹۲۱ و قدرت‌گیری رضاخان، جنبش جنگل تحت فشار شدید قرار گرفت. اختلافات داخلی بین میرزا کوچک‌خان و کمونیست‌های افراطی به ویژه حیدرخان عمواوغلی، جنبش را از درون ضعیف کرده بود. رضاخان نیروهای نظامی به گیلان فرستاد و جنبش سرکوب شد. میرزا کوچک‌خان در زمستان ۱۳۰۰ هنگام فرار در کوه‌های تالش از سرما جان باخت. سر بریده او به تهران فرستاده شد.",
+        en: "After the 1921 coup and Reza Khan's rise to power, the Jungle Movement came under severe pressure. Internal disagreements between Mirza Kuchik Khan and radical communists, especially Haidar Khan Amu-Oghli, had weakened the movement from within. Reza Khan sent military forces to Gilan and the movement was suppressed. Mirza Kuchik Khan died of frostbite during his escape through the Talesh mountains in winter 1921. His severed head was sent to Tehran.",
+      },
+    },
+    {
+      title: { fa: "لغو قرارداد ۱۹۱۹ و تغییر سیاست خارجی", en: "Cancellation of 1919 Agreement & Foreign Policy Shift" },
+      description: { fa: "دولت جدید پس از کودتا قرارداد ۱۹۱۹ را رسماً لغو کرد", en: "New government after coup officially cancels 1919 agreement" },
+      details: {
+        fa: "دولت سیدضیاء طباطبایی که پس از کودتا تشکیل شد، قرارداد ۱۹۱۹ را رسماً لغو کرد. این اقدام با استقبال گسترده مردم ایران مواجه شد. سیاست خارجی ایران تغییر جهت داد و با امضای قرارداد مودت با شوروی، تلاش شد تعادلی بین قدرت‌های بزرگ برقرار شود. لغو قرارداد ۱۹۱۹ یکی از اولین اقدامات محبوب دولت جدید بود، هرچند رابطه پنهانی رضاخان با بریتانیا ادامه داشت.",
+        en: "Seyyed Zia Tabatabaei's government, formed after the coup, officially cancelled the 1919 agreement. This action was widely welcomed by the Iranian people. Iran's foreign policy shifted direction, and by signing the friendship treaty with the Soviet Union, an attempt was made to establish balance between the great powers. Cancelling the 1919 agreement was one of the new government's first popular actions, though Reza Khan's covert relationship with Britain continued.",
+      },
+    },
+    {
+      title: { fa: "آغاز اصلاحات ارتش توسط رضاخان", en: "Reza Khan Begins Army Reforms" },
+      description: { fa: "رضاخان به عنوان فرمانده کل قوا اصلاحات نظامی گسترده‌ای آغاز کرد", en: "Reza Khan as Commander-in-Chief launches extensive military reforms" },
+      details: {
+        fa: "رضاخان به عنوان فرمانده کل قوا و وزیر جنگ، بلافاصله اصلاحات نظامی گسترده‌ای را آغاز کرد. او بریگاد قزاق و سایر واحدهای نظامی پراکنده را در یک ارتش متحد ادغام کرد. افسران روسی بریگاد قزاق اخراج شدند و فرماندهی به دست ایرانیان افتاد. رضاخان انضباط نظامی را تقویت کرد و تجهیزات جدیدی تهیه نمود. ایجاد ارتش قوی مرکزی پایه اصلی قدرت رضاخان و ابزار تحکیم حاکمیت او بر سراسر کشور بود.",
+        en: "Reza Khan, as Commander-in-Chief and War Minister, immediately launched extensive military reforms. He merged the Cossack Brigade and other scattered military units into a unified army. Russian officers of the Cossack Brigade were dismissed and command was transferred to Iranians. Reza Khan strengthened military discipline and acquired new equipment. Creating a strong central army was the foundation of Reza Khan's power and his tool for consolidating authority across the country.",
+      },
     }],
     world: [
       {
@@ -1436,6 +1916,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "دولت ایران آرتور میلسپو، مستشار مالی آمریکایی را برای اصلاح نظام مالی کشور استخدام کرد. میلسپو با اختیارات گسترده، نظام مالیاتی ایران را بازسازی کرد، بودجه‌بندی منظمی ایجاد نمود و تلاش کرد درآمدهای دولتی را افزایش دهد. این دومین تلاش ایران برای استفاده از مستشاران آمریکایی (پس از شوستر) بود و نشان‌دهنده ترجیح ایران به آمریکا به عنوان «قدرت سوم» بی‌طرف در برابر بریتانیا و روسیه بود.",
         en: "The Iranian government hired Arthur Millspaugh, an American financial advisor, to reform the country's financial system. Millspaugh, with broad authority, restructured Iran's tax system, established regular budgeting, and worked to increase government revenues. This was Iran's second attempt at using American advisors (after Shuster) and reflected Iran's preference for America as a neutral 'third power' against Britain and Russia.",
       },
+    },
+    {
+      title: { fa: "سرکوب شورش لرستان و خلع سلاح عشایر", en: "Suppression of Lorestan Revolt & Tribal Disarmament" },
+      description: { fa: "رضاخان شورش‌های قبیله‌ای لرستان را سرکوب و عشایر را خلع سلاح کرد", en: "Reza Khan suppresses Lorestan tribal revolts and disarms the tribes" },
+      details: {
+        fa: "رضاخان ارتش نوین خود را برای سرکوب شورش‌های قبیله‌ای لرستان به کار گرفت. لرها که قرن‌ها حکومت نیمه‌مستقلی داشتند و جاده‌های تجاری را کنترل می‌کردند، با مقاومت شدید به مقابله با ارتش مرکزی پرداختند. اما قدرت نظامی برتر ارتش رضاخان سرانجام شورش را سرکوب کرد. خلع سلاح عشایر لر بخشی از سیاست کلی رضاخان برای تمرکزگرایی و ایجاد امنیت در سراسر کشور بود.",
+        en: "Reza Khan employed his new army to suppress tribal revolts in Lorestan. The Lors, who had maintained semi-autonomous rule for centuries and controlled trade routes, fiercely resisted the central army. But the superior military power of Reza Khan's army eventually crushed the revolt. Disarming the Lor tribes was part of Reza Khan's overall policy of centralization and establishing security throughout the country.",
+      },
+    },
+    {
+      title: { fa: "تأسیس مدارس نظامی و آموزش افسران", en: "Military Schools Established & Officer Training" },
+      description: { fa: "مدارس نظامی برای تربیت افسران ایرانی تأسیس شد", en: "Military schools established to train Iranian officers" },
+      details: {
+        fa: "رضاخان برای ایجاد ارتش مدرن و حرفه‌ای، مدارس نظامی جدیدی تأسیس کرد. دانشکده افسری و مدارس تخصصی توپخانه و سواره‌نظام ایجاد شدند. گروهی از جوانان ایرانی برای آموزش نظامی به فرانسه فرستاده شدند. هدف رضاخان ایجاد طبقه افسران حرفه‌ای و وفادار بود که ستون فقرات قدرت او باشند. این اصلاحات نظامی الگوبرداری از ارتش فرانسه و اروپا بود.",
+        en: "Reza Khan established new military schools to create a modern and professional army. An officer academy and specialized schools for artillery and cavalry were created. A group of young Iranians were sent to France for military training. Reza Khan's goal was to create a professional and loyal officer class as the backbone of his power. These military reforms were modeled on the French and European armies.",
+      },
+    },
+    {
+      title: { fa: "توسعه صنعت نفت و ساخت تأسیسات آبادان", en: "Oil Industry Expansion & Abadan Facilities Construction" },
+      description: { fa: "شرکت نفت ایران-انگلیس پالایشگاه آبادان را گسترش داد", en: "APOC expands Abadan refinery" },
+      details: {
+        fa: "شرکت نفت ایران و انگلیس سرمایه‌گذاری عظیمی در گسترش پالایشگاه آبادان و تأسیسات نفتی جنوب ایران انجام داد. پالایشگاه آبادان به یکی از بزرگترین مجتمع‌های صنعتی خاورمیانه تبدیل شد. هزاران کارگر ایرانی در شرایط سخت و با دستمزدهای پایین در این تأسیسات کار می‌کردند، در حالی که کارکنان بریتانیایی از امکانات رفاهی بسیار بالاتری برخوردار بودند. تبعیض نژادی در صنعت نفت یکی از منابع اصلی نارضایتی ملی بود.",
+        en: "The Anglo-Persian Oil Company made massive investments in expanding the Abadan refinery and oil facilities in southern Iran. The Abadan refinery became one of the largest industrial complexes in the Middle East. Thousands of Iranian workers labored under harsh conditions with low wages at these facilities, while British employees enjoyed far superior amenities. Racial discrimination in the oil industry was one of the main sources of national discontent.",
+      },
     }],
   },
   {
@@ -1455,6 +1959,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "رضاخان با ارتش نوین خود شورش‌های قبیله‌ای و محلی را در لرستان، کردستان و مناطق دیگر سرکوب کرد. اسماعیل آقا سمیتقو رهبر کرد که سال‌ها در شمال غرب ایران حکمرانی مستقل داشت، شکست خورد. این عملیات نظامی قدرت دولت مرکزی را در سراسر کشور تثبیت کرد و رضاخان را به عنوان مرد قدرتمند ایران به همه اثبات نمود. خلع سلاح عشایر بخش مهمی از سیاست تمرکزگرایی او بود.",
         en: "Reza Khan used his new army to suppress tribal and local revolts in Lorestan, Kurdistan, and other regions. Simko Shikak, the Kurdish leader who had ruled independently in northwestern Iran for years, was defeated. These military operations consolidated central government authority across the country and proved Reza Khan as Iran's strongman. Disarming the tribes was an important part of his centralization policy.",
+      },
+    },
+    {
+      title: { fa: "اصلاحات مالیاتی میلسپو و مقاومت‌ها", en: "Millspaugh's Tax Reforms & Resistance" },
+      description: { fa: "میلسپو اصلاحات مالیاتی اجرا کرد اما با مقاومت قدرتمندان مواجه شد", en: "Millspaugh implements tax reforms but faces resistance from powerful interests" },
+      details: {
+        fa: "آرتور میلسپو مستشار مالی آمریکایی تلاش کرد نظام مالیاتی ایران را مدرن کند. او مالیات‌های جدیدی وضع کرد و سیستم وصول مالیات را متمرکز نمود. اما با مقاومت شدید زمین‌داران بزرگ، سران ایلات و حتی برخی از مقامات دولتی مواجه شد. رضاخان ابتدا از میلسپو حمایت کرد اما به تدریج از اختیارات گسترده او ناراحت شد. درآمدهای مالیاتی افزایش یافت اما هنوز برای تأمین نیازهای کشور کافی نبود.",
+        en: "American financial advisor Arthur Millspaugh attempted to modernize Iran's tax system. He imposed new taxes and centralized the tax collection system. However, he faced fierce resistance from large landowners, tribal chiefs, and even some government officials. Reza Khan initially supported Millspaugh but gradually became uncomfortable with his broad authority. Tax revenues increased but were still insufficient to meet the country's needs.",
+      },
+    },
+    {
+      title: { fa: "تلاش برای ایجاد نظام قضایی مدرن", en: "Efforts to Create a Modern Judicial System" },
+      description: { fa: "لایحه اصلاح نظام قضایی به مجلس ارائه شد", en: "Judicial reform bill presented to parliament" },
+      details: {
+        fa: "تلاش‌هایی برای ایجاد نظام قضایی مدرن و یکپارچه در ایران آغاز شد. علی‌اکبر داور، حقوقدان تحصیل‌کرده فرانسه، نقش مهمی در تدوین لوایح قضایی ایفا کرد. هدف اصلاحات، جایگزینی محاکم شرعی پراکنده و سنتی با دادگاه‌های مدرن و قوانین مدون بود. این اصلاحات همچنین پیش‌شرط لغو کاپیتولاسیون‌ها بود زیرا قدرت‌های خارجی عدم وجود نظام قضایی مدرن را بهانه حفظ امتیازات قضایی خود قرار می‌دادند.",
+        en: "Efforts began to create a modern and unified judicial system in Iran. Ali-Akbar Davar, a French-educated jurist, played a key role in drafting judicial bills. The reform aimed to replace scattered and traditional Sharia courts with modern courts and codified laws. These reforms were also a prerequisite for abolishing capitulations, as foreign powers used the absence of a modern judicial system as a pretext for maintaining their legal privileges.",
+      },
+    },
+    {
+      title: { fa: "رشد طبقه تحصیل‌کرده و بوروکراسی مدرن", en: "Growth of Educated Class & Modern Bureaucracy" },
+      description: { fa: "تعداد تحصیل‌کردگان ایرانی افزایش یافت و بوروکراسی مدرن شکل گرفت", en: "Number of educated Iranians grows, modern bureaucracy takes shape" },
+      details: {
+        fa: "با افزایش تعداد ایرانیان تحصیل‌کرده در اروپا و فارغ‌التحصیلان مدارس نوین داخلی، طبقه جدیدی از کارمندان و متخصصان در حال شکل‌گیری بود. این طبقه جدید خواستار مدرن‌سازی اداری و اصلاحات بوروکراتیک بود. وزارتخانه‌ها به تدریج سازماندهی مدرن‌تری پیدا کردند و ثبت اسناد و احوال بهبود یافت. رضاخان از این طبقه تحصیل‌کرده برای اجرای برنامه‌های مدرن‌سازی خود استفاده کرد.",
+        en: "With an increasing number of Iranians educated in Europe and graduates of domestic modern schools, a new class of civil servants and professionals was forming. This new class demanded administrative modernization and bureaucratic reforms. Ministries gradually adopted more modern organization, and civil registration improved. Reza Khan utilized this educated class to implement his modernization programs.",
       },
     }],
   },
@@ -1476,6 +2004,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "شیخ خزعل بن جابر، حاکم عرب خوزستان که سال‌ها تحت حمایت بریتانیا حکومت نیمه‌مستقلی داشت و بر مناطق نفت‌خیز جنوب مسلط بود، توسط رضاخان برکنار و دستگیر شد. بریتانیا که قبلاً از خزعل حمایت می‌کرد، این بار سکوت کرد زیرا رضاخان را برای حفظ ثبات و منافع نفتی مناسب‌تر می‌دید. سقوط خزعل پایان آخرین حکومت نیمه‌مستقل محلی و تکمیل تمرکزگرایی رضاخان بود.",
         en: "Sheikh Khazal bin Jabir, the Arab ruler of Khuzestan who had governed semi-autonomously for years under British protection and controlled the oil-rich southern regions, was removed and arrested by Reza Khan. Britain, which had previously supported Khazal, remained silent this time as it saw Reza Khan as more suitable for maintaining stability and oil interests. Khazal's fall marked the end of the last semi-autonomous local government and the completion of Reza Khan's centralization.",
       },
+    },
+    {
+      title: { fa: "مخالفت مدرس با قدرت‌طلبی رضاخان", en: "Modarres Opposes Reza Khan's Power Grab" },
+      description: { fa: "سید حسن مدرس در مجلس با جمهوری‌خواهی و سپس سلطنت‌طلبی رضاخان مقابله کرد", en: "Seyyed Hassan Modarres opposes Reza Khan's republic plan then monarchy bid in parliament" },
+      details: {
+        fa: "سید حسن مدرس، نماینده برجسته مجلس و از رهبران مذهبی، قوی‌ترین صدای مخالف رضاخان بود. او هم با طرح جمهوری رضاخان مخالفت کرد و هم بعداً با تغییر سلسله. مدرس معتقد بود رضاخان به دنبال استبداد فردی است نه خدمت به مردم. سخنرانی‌های تند او در مجلس خشم رضاخان را برانگیخت. مدرس با شجاعت در برابر فشارها ایستاد و نمادی از مقاومت پارلمانی در برابر استبداد شد.",
+        en: "Seyyed Hassan Modarres, a prominent parliamentary representative and religious leader, was the strongest voice against Reza Khan. He opposed both Reza Khan's republic proposal and later the dynasty change. Modarres believed Reza Khan sought personal tyranny, not service to the people. His fiery speeches in parliament provoked Reza Khan's anger. Modarres courageously stood against pressure and became a symbol of parliamentary resistance against despotism.",
+      },
+    },
+    {
+      title: { fa: "اصلاحات تجاری و افزایش تعرفه‌ها", en: "Trade Reforms & Tariff Increases" },
+      description: { fa: "رضاخان تعرفه‌های گمرکی را برای حمایت از تولید داخلی افزایش داد", en: "Reza Khan raises customs tariffs to protect domestic production" },
+      details: {
+        fa: "رضاخان با هدف تقویت اقتصاد ملی و کاهش وابستگی به واردات، تعرفه‌های گمرکی بر برخی کالاهای وارداتی را افزایش داد. نظام مالیاتی نیز بازسازی شد و وصول مالیات از سران ایلات و زمین‌داران بزرگ با اهرم نظامی تسهیل گردید. این اقدامات درآمدهای دولت را افزایش داد و زمینه مالی پروژه‌های عمرانی آینده را فراهم کرد. همچنین کنترل دولت بر تجارت خارجی تقویت شد.",
+        en: "Reza Khan raised customs tariffs on certain imported goods to strengthen the national economy and reduce import dependence. The tax system was restructured, with tax collection from tribal chiefs and large landowners facilitated through military leverage. These measures increased government revenues and provided the financial basis for future development projects. Government control over foreign trade was also strengthened.",
+      },
+    },
+    {
+      title: { fa: "قانون ثبت احوال و نام خانوادگی", en: "Civil Registration & Surname Law" },
+      description: { fa: "مردم ملزم به انتخاب نام خانوادگی و ثبت احوال شدند", en: "People required to adopt surnames and register vital records" },
+      details: {
+        fa: "قانون ثبت احوال به تصویب رسید که بر اساس آن تمام ایرانیان موظف به ثبت ولادت، ازدواج و فوت شدند. مردم ملزم به انتخاب نام خانوادگی ثابت شدند که تا آن زمان در ایران رایج نبود. این قانون بخشی از برنامه مدرن‌سازی اداری و ایجاد دولت ملی مدرن بود. اجرای آن در مناطق روستایی و عشایری با مشکلات فراوانی مواجه شد اما پایه نظام هویتی مدرن ایران را بنا نهاد.",
+        en: "The Civil Registration Law was passed, requiring all Iranians to register births, marriages, and deaths. People were required to adopt fixed surnames, which had not been common in Iran until then. This law was part of the administrative modernization program and creation of a modern nation-state. Its implementation in rural and tribal areas faced numerous difficulties, but it laid the foundation of Iran's modern identity system.",
+      },
     }],
   },
   {
@@ -1495,6 +2047,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "با روی کار آمدن رضا شاه، تلاش‌هایی برای بازنگری در امتیازنامه نفت دارسی آغاز شد. سهم ناچیز ایران از درآمدهای نفتی (۱۶ درصد سود خالص) در مقابل سودهای هنگفت شرکت نفت ایران-انگلیس مورد اعتراض بود. ایران خواستار افزایش سهم خود و شفافیت مالی شرکت شد. این مذاکرات سال‌ها ادامه یافت و در نهایت در ۱۹۳۳ به امتیازنامه جدیدی منجر شد که گرچه بهبود اندکی داشت، همچنان به نفع بریتانیا بود.",
         en: "With Reza Shah's rise to power, efforts began to renegotiate the D'Arcy oil concession. Iran's meager share of oil revenues (16% of net profits) compared to the enormous profits of the Anglo-Persian Oil Company was a source of protest. Iran demanded an increased share and financial transparency from the company. These negotiations continued for years and eventually led to a new concession in 1933 that, while slightly improved, remained largely favorable to Britain.",
+      },
+    },
+    {
+      title: { fa: "تأسیس مجلس مؤسسان و انقراض قاجار", en: "Constituent Assembly & End of Qajar Dynasty" },
+      description: { fa: "مجلس مؤسسان رأی به انقراض سلسله قاجار و انتقال سلطنت به رضاخان داد", en: "Constituent Assembly votes to end Qajar dynasty and transfer monarchy to Reza Khan" },
+      details: {
+        fa: "مجلس مؤسسان با اکثریت قاطع آرا رأی به انقراض سلسله قاجار و انتقال سلطنت به رضاخان و خاندان او داد. تنها سه رأی مخالف وجود داشت: محمد مصدق، سید حسن مدرس و سید حسن تقی‌زاده. مصدق در سخنرانی معروف خود هشدار داد که تمرکز قدرت نظامی و سلطنت در یک فرد خطرناک است. اما اکثریت مجلس تحت فشار و نفوذ رضاخان رأی موافق دادند.",
+        en: "The Constituent Assembly voted overwhelmingly to end the Qajar dynasty and transfer the monarchy to Reza Khan and his descendants. Only three votes were cast against: Mohammad Mosaddegh, Seyyed Hassan Modarres, and Seyyed Hassan Taqizadeh. Mosaddegh in his famous speech warned that concentrating military power and monarchy in one person was dangerous. But the majority of parliament voted in favor under Reza Khan's pressure and influence.",
+      },
+    },
+    {
+      title: { fa: "آغاز اصلاحات قضایی علی‌اکبر داور", en: "Ali-Akbar Davar's Judicial Reforms Begin" },
+      description: { fa: "داور بازسازی نظام قضایی ایران بر اساس حقوق مدرن را آغاز کرد", en: "Davar begins rebuilding Iran's judicial system based on modern law" },
+      details: {
+        fa: "علی‌اکبر داور، حقوقدان برجسته ایرانی که تحصیلات خود را در سوئیس تکمیل کرده بود، مأموریت بازسازی نظام قضایی ایران را بر عهده گرفت. او دادگاه‌های سنتی و شرعی را تعطیل کرد و دادگاه‌های مدرن با قضات تحصیل‌کرده جایگزین نمود. قانون مدنی جدید بر اساس قوانین فرانسه تدوین شد. اصلاحات داور گرچه نظام قضایی را مدرن کرد، با مخالفت شدید روحانیون مواجه شد که قدرت قضایی سنتی خود را از دست می‌دادند.",
+        en: "Ali-Akbar Davar, a prominent Iranian jurist who had completed his education in Switzerland, was tasked with rebuilding Iran's judicial system. He closed traditional and Sharia courts and replaced them with modern courts with educated judges. A new civil code based on French law was drafted. Davar's reforms, while modernizing the judicial system, faced fierce opposition from clergy who were losing their traditional judicial authority.",
+      },
+    },
+    {
+      title: { fa: "مالیات بر قند و چای برای تأمین مالی راه‌آهن", en: "Sugar & Tea Tax to Finance Railway" },
+      description: { fa: "مالیات جدید بر قند و چای برای تأمین هزینه ساخت راه‌آهن سراسری وضع شد", en: "New tax on sugar and tea levied to fund Trans-Iranian Railway construction" },
+      details: {
+        fa: "رضا شاه برای تأمین مالی پروژه عظیم راه‌آهن سراسری بدون وام خارجی، مالیات جدیدی بر واردات قند و چای وضع کرد. این دو کالا که مصرف بسیار بالایی در ایران داشتند، منبع درآمد قابل توجهی برای دولت ایجاد کردند. تصمیم عدم استفاده از وام خارجی ریشه در تجربه تلخ دوره قاجار داشت که وام‌های خارجی به وابستگی سیاسی منجر شده بود. این سیاست مالی گرچه بار سنگینی بر مصرف‌کنندگان تحمیل کرد، استقلال مالی پروژه را تضمین نمود.",
+        en: "Reza Shah, to finance the massive Trans-Iranian Railway project without foreign loans, imposed new taxes on imported sugar and tea. These two commodities, which had very high consumption in Iran, generated significant revenue for the government. The decision to avoid foreign loans was rooted in the bitter experience of the Qajar era, when foreign loans had led to political dependence. This fiscal policy, while imposing a heavy burden on consumers, ensured the project's financial independence.",
       },
     }],
     world: [
@@ -1545,6 +2121,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "مراسم تاجگذاری رسمی رضا شاه در اردیبهشت ۱۳۰۵ در کاخ گلستان برگزار شد. او تاج کیانی را بر سر نهاد و سلسله پهلوی رسماً آغاز شد. همچنین قانون نظام وظیفه عمومی تصویب شد که خدمت سربازی را برای تمام مردان ایرانی اجباری کرد. این قانون پایه ارتش مدرن ایران بود و به رضا شاه امکان داد نیروی نظامی قدرتمندی برای تحکیم حاکمیت مرکزی بسازد.",
         en: "Reza Shah's official coronation ceremony was held at Golestan Palace in April 1926. He placed the Kiani Crown on his head, formally inaugurating the Pahlavi dynasty. The Universal Conscription Law was also enacted, making military service mandatory for all Iranian men. This law formed the foundation of Iran's modern army and enabled Reza Shah to build a powerful military force to consolidate central authority.",
       },
+    },
+    {
+      title: { fa: "قانون مدنی جدید و اصلاحات حقوقی", en: "New Civil Code & Legal Reforms" },
+      description: { fa: "تدوین قانون مدنی جدید ایران بر اساس حقوق فرانسه و فقه اسلامی", en: "Drafting of Iran's new civil code based on French law and Islamic jurisprudence" },
+      details: {
+        fa: "تدوین قانون مدنی جدید ایران تحت نظارت علی‌اکبر داور وزیر عدلیه آغاز شد. این قانون ترکیبی از حقوق مدنی فرانسه و فقه جعفری بود و جایگزین قوانین پراکنده و سنتی شد. قانون مدنی جدید روابط خانوادگی، مالکیت، قراردادها و ارث را تنظیم می‌کرد. تصویب این قانون یکی از مهم‌ترین اصلاحات حقوقی دوره رضا شاه بود و نظام حقوقی مدرنی برای ایران ایجاد کرد.",
+        en: "Drafting of Iran's new civil code began under the supervision of Ali-Akbar Davar, Minister of Justice. This code was a blend of French civil law and Jafari jurisprudence, replacing scattered and traditional laws. The new civil code regulated family relations, property, contracts, and inheritance. Its adoption was one of the most important legal reforms of the Reza Shah era, creating a modern legal system for Iran.",
+      },
+    },
+    {
+      title: { fa: "اصلاحات آموزشی و توسعه مدارس دولتی", en: "Educational Reforms & State School Expansion" },
+      description: { fa: "رضا شاه مدارس دولتی جدید تأسیس کرد و نظام آموزشی را متمرکز نمود", en: "Reza Shah establishes new state schools and centralizes education system" },
+      details: {
+        fa: "رضا شاه برنامه گسترده‌ای برای توسعه آموزش و پرورش اجرا کرد. مدارس دولتی جدید در شهرها و برخی مناطق روستایی تأسیس شدند. برنامه درسی استاندارد و متمرکز جایگزین نظام آموزشی پراکنده شد. آموزش به زبان فارسی اجباری شد و مدارس مذهبی تحت نظارت دولت قرار گرفتند. اعزام دانشجو به اروپا برای تحصیلات عالی افزایش یافت. این اصلاحات نسل جدیدی از تحصیل‌کردگان تربیت کرد.",
+        en: "Reza Shah implemented an extensive program to develop education. New state schools were established in cities and some rural areas. A standardized and centralized curriculum replaced the scattered educational system. Education in Persian became mandatory and religious schools came under state supervision. Sending students abroad to Europe for higher education increased. These reforms trained a new generation of educated Iranians.",
+      },
+    },
+    {
+      title: { fa: "سرکوب قیام قبایل جنوب ایران", en: "Suppression of Southern Tribal Uprisings" },
+      description: { fa: "رضا شاه قیام‌های قبیله‌ای در فارس و مناطق جنوبی را سرکوب کرد", en: "Reza Shah suppresses tribal uprisings in Fars and southern regions" },
+      details: {
+        fa: "رضا شاه با استفاده از ارتش نوین، قیام‌های قبیله‌ای در فارس و مناطق جنوبی ایران را سرکوب کرد. قبایل قشقایی و بختیاری که قرن‌ها قدرت نظامی و سیاسی قابل توجهی داشتند، خلع سلاح شدند. سران ایلات دستگیر یا تبعید شدند و اسکان اجباری عشایر آغاز شد. این سیاست گرچه امنیت را افزایش داد، به شیوه زندگی سنتی و اقتصاد دامداری عشایر آسیب جدی وارد کرد.",
+        en: "Reza Shah used his new army to suppress tribal uprisings in Fars and southern Iran. The Qashqai and Bakhtiari tribes, which had held considerable military and political power for centuries, were disarmed. Tribal chiefs were arrested or exiled, and forced sedentarization of nomads began. While this policy increased security, it seriously damaged the traditional lifestyle and pastoral economy of the nomads.",
+      },
     }],
   },
   {
@@ -1564,6 +2164,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "رضا شاه پروژه عظیم ساخت راه‌آهن سراسری ایران از بندرشاه (بندر ترکمن) در دریای خزر تا بندرشاهپور (بندر امام) در خلیج فارس را آغاز کرد. این پروژه با بودجه داخلی و مالیات بر قند و چای تأمین مالی شد تا ایران از وام خارجی اجتناب کند. ساخت راه‌آهن از میان کوه‌های صعب‌العبور زاگرس و البرز یکی از شاهکارهای مهندسی آن دوره بود و در ۱۹۳۸ به بهره‌برداری رسید.",
         en: "Reza Shah initiated the massive Trans-Iranian Railway project from Bandar Shah (Bandar Turkmen) on the Caspian Sea to Bandar Shahpur (Bandar Imam) on the Persian Gulf. The project was financed domestically through taxes on sugar and tea to avoid foreign loans. Building the railway through the formidable Zagros and Alborz mountain ranges was one of the engineering achievements of the era, completed in 1938.",
+      },
+    },
+    {
+      title: { fa: "اصلاحات قضایی و بسته شدن محاکم شرعی", en: "Judicial Reforms & Closure of Sharia Courts" },
+      description: { fa: "محاکم شرعی تعطیل و دادگاه‌های مدرن دولتی جایگزین شدند", en: "Sharia courts closed, modern state courts replace them" },
+      details: {
+        fa: "داور وزیر عدلیه اصلاحات قضایی رادیکالی را اجرا کرد. محاکم شرعی سنتی که تحت نظارت روحانیون اداره می‌شدند تعطیل شدند و دادگاه‌های مدرن دولتی با قضات تحصیل‌کرده جایگزین آنها گردیدند. سیستم دادرسی جدید بر اساس الگوهای اروپایی سازماندهی شد. این اصلاحات قدرت سنتی روحانیون را به شدت کاهش داد و مخالفت آنها را برانگیخت، اما نظام قضایی مدرن‌تر و یکپارچه‌تری ایجاد کرد.",
+        en: "Justice Minister Davar implemented radical judicial reforms. Traditional Sharia courts administered by clergy were closed and replaced with modern state courts with educated judges. The new judicial system was organized based on European models. These reforms greatly reduced the traditional power of the clergy and provoked their opposition, but created a more modern and unified judicial system.",
+      },
+    },
+    {
+      title: { fa: "انعقاد قراردادهای تجاری جدید با کشورهای خارجی", en: "New Trade Agreements with Foreign Countries" },
+      description: { fa: "ایران قراردادهای تجاری جدیدی با کشورهای مختلف برای تنوع بخشیدن به روابط اقتصادی منعقد کرد", en: "Iran signs new trade agreements with various countries to diversify economic relations" },
+      details: {
+        fa: "رضا شاه در راستای سیاست کاهش وابستگی به بریتانیا و شوروی، قراردادهای تجاری جدیدی با کشورهای مختلف از جمله آلمان، فرانسه و ایتالیا منعقد کرد. هدف تنوع بخشیدن به شرکای تجاری ایران و شکستن انحصار دو قدرت بزرگ بر تجارت ایران بود. واردات ماشین‌آلات صنعتی از آلمان افزایش یافت و تجارت دوجانبه با کشورهای اروپایی رشد کرد.",
+        en: "Reza Shah, as part of his policy to reduce dependence on Britain and the Soviet Union, signed new trade agreements with various countries including Germany, France, and Italy. The goal was to diversify Iran's trading partners and break the two great powers' monopoly on Iranian trade. Imports of industrial machinery from Germany increased and bilateral trade with European countries grew.",
+      },
+    },
+    {
+      title: { fa: "تأسیس بنگاه‌های صنعتی دولتی", en: "Establishment of State Industrial Enterprises" },
+      description: { fa: "دولت بنگاه‌های صنعتی دولتی برای تولید کالاهای مصرفی تأسیس کرد", en: "Government establishes state industrial enterprises to produce consumer goods" },
+      details: {
+        fa: "رضا شاه سیاست صنعتی‌سازی کشور را آغاز کرد و بنگاه‌های صنعتی دولتی برای تولید کالاهای مصرفی تأسیس نمود. کارخانه‌های نساجی، قند و کبریت از اولین صنایع مدرن ایران بودند. هدف کاهش واردات و ایجاد اشتغال بود. این سیاست جایگزینی واردات گرچه در مراحل اولیه بود، پایه صنعت مدرن ایران را بنا نهاد. بخش خصوصی نیز به سرمایه‌گذاری در صنعت تشویق شد.",
+        en: "Reza Shah initiated an industrialization policy, establishing state-owned enterprises to produce consumer goods. Textile, sugar, and match factories were among Iran's first modern industries. The goal was to reduce imports and create employment. This import-substitution policy, though in its early stages, laid the foundation for Iran's modern industry. The private sector was also encouraged to invest in manufacturing.",
       },
     }],
   },
@@ -1585,6 +2209,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "بانک ملی ایران در شهریور ۱۳۰۷ تأسیس شد و حق انتشار اسکناس که سال‌ها در اختیار بانک شاهنشاهی (بانک بریتانیایی) بود، به تدریج به بانک ملی منتقل شد. تأسیس این بانک گام مهمی در استقلال مالی ایران بود و نشان‌دهنده تلاش رضا شاه برای کاهش وابستگی اقتصادی به بیگانگان بود. بانک ملی نقش مهمی در تأمین مالی پروژه‌های عمرانی از جمله راه‌آهن سراسری ایفا کرد.",
         en: "Bank Melli Iran was established in September 1928, and the right to issue banknotes, which had been held by the Imperial Bank of Persia (a British bank) for years, was gradually transferred to it. The establishment of this bank was an important step toward Iran's financial independence and reflected Reza Shah's efforts to reduce economic dependence on foreigners. Bank Melli played a crucial role in financing development projects including the Trans-Iranian Railway.",
       },
+    },
+    {
+      title: { fa: "مقاومت اصفهان در برابر قانون لباس", en: "Isfahan's Resistance to Dress Code Law" },
+      description: { fa: "مردم اصفهان در اعتراض به قانون متحدالشکل لباس قیام کردند", en: "Isfahan residents revolt against the uniform dress code law" },
+      details: {
+        fa: "قانون متحدالشکل لباس با مقاومت شدیدی در اصفهان و برخی شهرهای دیگر مواجه شد. مردم مذهبی و سنتی اصفهان که حاضر به کنار گذاشتن لباس‌های سنتی و عمامه نبودند، در اعتراض به این قانون تظاهرات و شورش کردند. رضا شاه با قاطعیت این اعتراضات را سرکوب کرد و عملاً هرگونه مخالفت علنی با سیاست‌های مدرن‌سازی را غیرممکن ساخت. این رویداد نشان‌دهنده تنش عمیق بین مدرن‌سازی از بالا و ارزش‌های سنتی جامعه بود.",
+        en: "The uniform dress code law met fierce resistance in Isfahan and some other cities. Religious and traditional residents of Isfahan, unwilling to abandon traditional clothing and turbans, protested and revolted against the law. Reza Shah firmly suppressed these protests, effectively making any open opposition to modernization policies impossible. This event demonstrated the deep tension between top-down modernization and traditional social values.",
+      },
+    },
+    {
+      title: { fa: "توسعه شبکه جاده‌سازی مدرن", en: "Modern Road Network Development" },
+      description: { fa: "ساخت جاده‌های مدرن و اسفالته در سراسر کشور آغاز شد", en: "Construction of modern paved roads begins across the country" },
+      details: {
+        fa: "رضا شاه علاوه بر پروژه راه‌آهن، برنامه گسترده‌ای برای ساخت جاده‌های مدرن و اسفالته آغاز کرد. جاده‌های جدید تهران را به شهرهای بزرگ مانند تبریز، اصفهان، مشهد و شیراز متصل کردند. ورود اتومبیل به ایران افزایش یافت و حمل‌ونقل جاده‌ای جایگزین کاروان‌های شتر شد. ساخت جاده‌ها حاکمیت دولت مرکزی را در مناطق دورافتاده تقویت کرد و تجارت داخلی را تسهیل نمود.",
+        en: "Reza Shah, in addition to the railway project, launched an extensive program to build modern paved roads. New roads connected Tehran to major cities such as Tabriz, Isfahan, Mashhad, and Shiraz. Automobile imports to Iran increased and road transportation replaced camel caravans. Road construction strengthened central government authority in remote areas and facilitated domestic trade.",
+      },
+    },
+    {
+      title: { fa: "سیاست انحصار تجارت خارجی", en: "Foreign Trade Monopoly Policy" },
+      description: { fa: "دولت کنترل بیشتری بر تجارت خارجی اعمال کرد و انحصارات دولتی ایجاد شد", en: "Government exerts greater control over foreign trade, state monopolies created" },
+      details: {
+        fa: "رضا شاه سیاست کنترل دولتی بر تجارت خارجی را تقویت کرد. انحصارات دولتی بر واردات و صادرات برخی کالاهای کلیدی مانند قند، چای و تنباکو ایجاد شد. این سیاست هم برای افزایش درآمدهای دولتی و هم برای حمایت از صنایع نوپای داخلی بود. تجار خصوصی از محدودیت‌های جدید ناراضی بودند اما قادر به مقابله با دولت نبودند. این انحصارات پایه اقتصاد دولتی ایران را در دهه‌های بعد بنا نهاد.",
+        en: "Reza Shah strengthened the policy of state control over foreign trade. State monopolies on imports and exports of certain key commodities such as sugar, tea, and tobacco were established. This policy served both to increase government revenues and to protect nascent domestic industries. Private merchants were dissatisfied with the new restrictions but unable to resist the government. These monopolies laid the foundation for Iran's state-dominated economy in subsequent decades.",
+      },
     }],
   },
   {
@@ -1604,6 +2252,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "رضا شاه با تحکیم قدرت خود، فضای سیاسی ایران را به شدت بسته کرد. سید حسن مدرس، نماینده مجلس و منتقد سرسخت رضا شاه، دستگیر و به خواف تبعید شد (و بعدها در ۱۳۱۶ به قتل رسید). روزنامه‌های مستقل تعطیل شدند و سانسور شدید بر مطبوعات حاکم شد. مجلس شورای ملی عملاً به ابزار تأیید تصمیمات شاه تبدیل شد. فضای سیاسی ایران به دوره استبداد جدیدی وارد گردید.",
         en: "As Reza Shah consolidated his power, he severely closed Iran's political space. Seyyed Hassan Modarres, a parliamentary representative and fierce critic of Reza Shah, was arrested and exiled to Khaf (and later murdered in 1938). Independent newspapers were shut down and strict censorship was imposed on the press. The National Assembly effectively became a rubber stamp for the Shah's decisions. Iran's political atmosphere entered a new era of authoritarianism.",
+      },
+    },
+    {
+      title: { fa: "تأسیس کارخانه‌های نساجی و قند", en: "Textile & Sugar Factory Establishments" },
+      description: { fa: "کارخانه‌های صنعتی مدرن در شهرهای مختلف تأسیس شدند", en: "Modern industrial factories established in various cities" },
+      details: {
+        fa: "رضا شاه سیاست صنعتی‌سازی جایگزین واردات را با جدیت دنبال کرد. کارخانه‌های نساجی در اصفهان، یزد و مازندران و کارخانه‌های قند در ورامین و کهریزک تأسیس شدند. هدف تولید داخلی کالاهایی بود که تا آن زمان وارد می‌شد. دولت سرمایه‌گذار اصلی بود و بخش خصوصی نقش محدودتری داشت. این کارخانه‌ها گرچه با مشکلات فنی و مدیریتی مواجه بودند، اولین گام‌های صنعتی‌شدن ایران را رقم زدند.",
+        en: "Reza Shah seriously pursued an import-substitution industrialization policy. Textile factories were established in Isfahan, Yazd, and Mazandaran, and sugar factories in Varamin and Kahrizak. The goal was domestic production of goods that had been imported. The government was the main investor, with the private sector playing a more limited role. Though these factories faced technical and management challenges, they marked Iran's first steps toward industrialization.",
+      },
+    },
+    {
+      title: { fa: "روابط ایران و آلمان و ورود متخصصان آلمانی", en: "Iran-Germany Relations & Arrival of German Experts" },
+      description: { fa: "روابط تجاری و فنی ایران با آلمان گسترش یافت", en: "Iran's trade and technical relations with Germany expand" },
+      details: {
+        fa: "رضا شاه در راستای سیاست «قدرت سوم» و کاهش وابستگی به بریتانیا و شوروی، روابط خود با آلمان را گسترش داد. متخصصان و مهندسان آلمانی برای پروژه‌های عمرانی و صنعتی به ایران دعوت شدند. تجارت ایران و آلمان رشد قابل توجهی داشت. آلمان تجهیزات صنعتی و نظامی به ایران فروخت. این روابط نزدیک بعدها در جنگ جهانی دوم مشکلات جدی برای ایران ایجاد کرد و یکی از بهانه‌های اشغال ایران در ۱۹۴۱ شد.",
+        en: "Reza Shah, pursuing a 'third power' policy to reduce dependence on Britain and the Soviet Union, expanded relations with Germany. German experts and engineers were invited to Iran for development and industrial projects. Iran-Germany trade grew significantly. Germany sold industrial and military equipment to Iran. These close relations later created serious problems for Iran during World War II and became one of the pretexts for Iran's occupation in 1941.",
+      },
+    },
+    {
+      title: { fa: "تأسیس دانشگاه تهران و توسعه آموزش عالی", en: "Tehran University Founded & Higher Education Expansion" },
+      description: { fa: "طرح تأسیس اولین دانشگاه مدرن ایران ریخته شد", en: "Plans laid for Iran's first modern university" },
+      details: {
+        fa: "در سال ۱۹۲۹ مقدمات تأسیس دانشگاه تهران به عنوان اولین دانشگاه مدرن ایران فراهم شد. طرح‌ریزی برنامه‌های آموزشی و ساخت ساختمان‌های دانشگاه آغاز گردید. دانشگاه تهران که رسماً در ۱۹۳۴ افتتاح شد، هدفش تربیت نیروی انسانی متخصص برای اداره کشور مدرن بود. اعزام دانشجو به اروپا نیز ادامه داشت و صدها دانشجوی ایرانی در فرانسه، آلمان و بلژیک تحصیل می‌کردند.",
+        en: "In 1929, preparations for establishing Tehran University as Iran's first modern university began. Planning of educational programs and construction of university buildings commenced. Tehran University, officially inaugurated in 1934, aimed to train specialized human resources for administering a modern country. Sending students abroad to Europe also continued, with hundreds of Iranian students studying in France, Germany, and Belgium.",
       },
     }],
     world: [
@@ -1655,6 +2327,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "رضا شاه اصلاحات قضایی گسترده‌ای را آغاز کرد و سیستم دادگستری مدرن مبتنی بر قانون فرانسه را جایگزین محاکم شرعی سنتی نمود. قانون مدنی جدید تدوین شد و حق قضاوت کنسولی (کاپیتولاسیون) که به اتباع خارجی مصونیت قضایی می‌داد، لغو گردید. این اصلاحات گامی مهم در تثبیت حاکمیت ملی بود اما با مخالفت شدید روحانیون مواجه شد.",
         en: "Reza Shah launched sweeping judicial reforms, replacing traditional religious courts with a modern justice system based on French law. A new civil code was drafted and consular jurisdiction (capitulations), which granted foreign nationals judicial immunity, was abolished. These reforms were an important step in consolidating national sovereignty but faced fierce opposition from the clergy.",
       },
+    },
+    {
+      title: { fa: "سرکوب مطبوعات و محدودیت آزادی بیان", en: "Press Suppression and Restrictions on Free Speech" },
+      description: { fa: "رضا شاه روزنامه‌های مستقل را توقیف و مطبوعات را تحت کنترل دولت درآورد", en: "Reza Shah shuts down independent newspapers and brings press under state control" },
+      details: {
+        fa: "رضا شاه در ادامه تمرکز قدرت، مطبوعات مستقل را تحت فشار شدید قرار داد. روزنامه‌ها و مجلات منتقد توقیف شدند و روزنامه‌نگاران بازداشت یا تهدید گردیدند. تنها نشریاتی اجازه انتشار داشتند که از سیاست‌های دولت حمایت کنند. این سانسور گسترده فضای روشنفکری و سیاسی کشور را محدود کرد و صداهای مخالف را خاموش نمود.",
+        en: "Reza Shah, continuing his consolidation of power, placed severe pressure on independent press. Critical newspapers and magazines were shut down and journalists were arrested or threatened. Only publications supporting government policies were allowed to operate. This widespread censorship restricted the country's intellectual and political space and silenced dissenting voices.",
+      },
+    },
+    {
+      title: { fa: "کاهش شدید درآمدهای نفتی در بحران جهانی", en: "Sharp Decline in Oil Revenues During Global Crisis" },
+      description: { fa: "حق‌الامتیاز نفتی ایران به دلیل بحران اقتصادی جهانی سقوط کرد", en: "Iran's oil royalties plummet due to the global economic crisis" },
+      details: {
+        fa: "درآمد نفتی ایران از شرکت نفت ایران و انگلیس (APOC) به دلیل بحران اقتصادی جهانی ۱۹۲۹ به شدت کاهش یافت. حق‌الامتیاز پرداختی به ایران از ۱.۴ میلیون پوند در ۱۹۲۹ به کمتر از ۳۰۰ هزار پوند سقوط کرد. این کاهش شدید درآمد نارضایتی رضا شاه از شرایط قرارداد نفتی را تشدید کرد و زمینه‌ساز لغو امتیاز دارسی در ۱۹۳۲ شد.",
+        en: "Iran's oil revenue from the Anglo-Persian Oil Company (APOC) declined sharply due to the 1929 global economic crisis. Royalty payments to Iran dropped from 1.4 million pounds in 1929 to less than 300,000 pounds. This dramatic revenue decline intensified Reza Shah's dissatisfaction with the oil concession terms and set the stage for the cancellation of the D'Arcy concession in 1932.",
+      },
+    },
+    {
+      title: { fa: "سرکوب نظامی عشایر لرستان و خوزستان", en: "Military Campaigns Against Lorestan and Khuzestan Tribes" },
+      description: { fa: "ارتش رضا شاه عشایر لر و عرب خوزستان را سرکوب کرد", en: "Reza Shah's army suppresses Lur and Arab tribes in Lorestan and Khuzestan" },
+      details: {
+        fa: "ارتش رضا شاه عملیات نظامی گسترده‌ای علیه عشایر لرستان و خوزستان انجام داد. ایلات لر که سال‌ها از استقلال محلی برخوردار بودند مجبور به تسلیم شدند. در خوزستان نیز شیخ خزعل که پیش‌تر قدرت محلی داشت دستگیر و به تهران منتقل شده بود و اکنون ساختارهای قدرت محلی کاملاً از بین رفت. این سرکوب‌ها بخشی از سیاست تمرکزگرایی رضا شاه بود.",
+        en: "Reza Shah's army conducted extensive military operations against tribes in Lorestan and Khuzestan. The Lur tribes, which had enjoyed local autonomy for years, were forced to submit. In Khuzestan, Sheikh Khaz'al who had held local power had previously been arrested and taken to Tehran, and now local power structures were completely dismantled. These suppressions were part of Reza Shah's centralization policy.",
+      },
     }],
   },
   {
@@ -1674,6 +2370,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "رضا شاه قانون ثبت احوال مدرن را اجرا کرد و تمام ایرانیان ملزم به انتخاب نام خانوادگی و دریافت شناسنامه شدند. پیش از این، مردم با نام کوچک و لقب شناخته می‌شدند. این قانون بخشی از برنامه مدرنیزاسیون و تمرکز اداری رضا شاه بود و به دولت امکان کنترل بهتر جمعیت و اخذ مالیات و سربازگیری را داد.",
         en: "Reza Shah implemented the modern civil registry law, requiring all Iranians to adopt surnames and obtain birth certificates. Previously, people were known by first names and titles. This law was part of Reza Shah's modernization and administrative centralization program, enabling the government to better control the population for taxation and military conscription.",
+      },
+    },
+    {
+      title: { fa: "قانون خدمت نظام وظیفه اجباری", en: "Compulsory Military Conscription Law" },
+      description: { fa: "خدمت سربازی اجباری برای تمام مردان ایرانی", en: "Mandatory military service for all Iranian men" },
+      details: {
+        fa: "قانون خدمت نظام وظیفه اجباری اجرایی شد و تمام مردان ایرانی موظف به انجام خدمت سربازی شدند. این قانون بخشی از برنامه رضا شاه برای ساختن ارتش مدرن و منظم بود. سربازگیری اجباری با مقاومت عشایر و روستاییان مواجه شد اما ارتش نوین ایران به تدریج شکل گرفت. خدمت سربازی همچنین ابزاری برای یکپارچه‌سازی فرهنگی و زبانی اقوام مختلف شد.",
+        en: "The compulsory military conscription law was implemented, requiring all Iranian men to perform military service. This law was part of Reza Shah's plan to build a modern, disciplined army. Mandatory conscription faced resistance from tribal and rural populations, but Iran's modern army gradually took shape. Military service also became a tool for cultural and linguistic integration of diverse ethnic groups.",
+      },
+    },
+    {
+      title: { fa: "تأسیس کارخانه قند کهریزک", en: "Kahrizak Sugar Factory Established" },
+      description: { fa: "کارخانه قند کهریزک به عنوان یکی از نخستین صنایع مدرن تأسیس شد", en: "Kahrizak sugar factory established as one of the first modern industries" },
+      details: {
+        fa: "کارخانه قند کهریزک در نزدیکی تهران تأسیس شد و یکی از نخستین کارخانه‌های صنعتی مدرن ایران بود. هدف از تأسیس این کارخانه کاهش واردات قند و شکر و ایجاد خودکفایی در این محصول استراتژیک بود. رضا شاه صنعت قند را به عنوان یکی از اولویت‌های صنعتی‌سازی در نظر گرفته بود و در سال‌های بعد کارخانه‌های قند متعددی در سراسر کشور تأسیس شدند.",
+        en: "The Kahrizak sugar factory was established near Tehran as one of Iran's first modern industrial plants. The goal was to reduce sugar imports and achieve self-sufficiency in this strategic commodity. Reza Shah considered the sugar industry a priority for industrialization, and in subsequent years numerous sugar factories were established across the country.",
+      },
+    },
+    {
+      title: { fa: "گسترش شبکه راه‌های شوسه", en: "Expansion of Paved Road Network" },
+      description: { fa: "ساخت جاده‌های اتومبیل‌رو بین شهرهای بزرگ ایران", en: "Construction of automobile roads between Iran's major cities" },
+      details: {
+        fa: "دولت رضا شاه برنامه گسترده ساخت جاده‌های شوسه و اتومبیل‌رو را بین شهرهای اصلی ایران آغاز کرد. جاده‌های تهران-اصفهان، تهران-مشهد و تهران-تبریز از مهم‌ترین مسیرهای در حال ساخت بودند. این جاده‌ها برای تمرکز قدرت سیاسی، تسهیل حرکت ارتش و توسعه تجارت داخلی ضروری بودند. ساخت جاده‌ها با کار اجباری کارگران و در شرایط دشوار انجام می‌شد.",
+        en: "Reza Shah's government launched an extensive program of building paved automobile roads between Iran's major cities. The Tehran-Isfahan, Tehran-Mashhad, and Tehran-Tabriz routes were among the most important roads under construction. These roads were essential for political centralization, facilitating army movement, and developing domestic trade. Road construction relied on forced labor under difficult conditions.",
       },
     }],
   },
@@ -1695,6 +2415,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "رضا شاه برنامه صنعتی‌سازی کشور را با تأسیس کارخانه‌های دولتی در صنایع نساجی، قند، سیمان و دخانیات گسترش داد. هدف کاهش واردات و ایجاد اقتصاد خودکفا بود. دولت سرمایه‌گذاری‌های عظیمی انجام داد و بخش خصوصی تحت فشار قرار گرفت. این سیاست‌ها اگرچه صنعت مدرن را در ایران پایه‌گذاری کردند، اما با فساد و ناکارآمدی همراه بودند.",
         en: "Reza Shah expanded the country's industrialization program by establishing state-owned factories in textiles, sugar, cement, and tobacco. The goal was to reduce imports and create a self-sufficient economy. The government made massive investments while the private sector was pressured. Although these policies laid the foundation for modern industry in Iran, they were accompanied by corruption and inefficiency.",
       },
+    },
+    {
+      title: { fa: "تصویب قانون مدنی جدید ایران", en: "New Iranian Civil Code Enacted" },
+      description: { fa: "قانون مدنی مدرن بر اساس حقوق فرانسه تدوین شد", en: "Modern civil code based on French law drafted and enacted" },
+      details: {
+        fa: "مجلد دوم قانون مدنی ایران که بر اساس حقوق مدنی فرانسه و با حفظ برخی اصول فقه اسلامی تدوین شده بود تصویب شد. این قانون سیستم حقوقی مدرنی برای معاملات، مالکیت و خانواده ایجاد کرد. علی‌اکبر داور، وزیر دادگستری، نقش اصلی را در تدوین این قوانین ایفا کرد. اصلاحات قضایی داور اگرچه پیشرفت بزرگی بود، اما قدرت سنتی روحانیون در نظام قضایی را از بین برد.",
+        en: "The second volume of Iran's Civil Code, based on French civil law while preserving some Islamic jurisprudence principles, was enacted. This code created a modern legal system for transactions, property, and family matters. Ali-Akbar Davar, Minister of Justice, played the central role in drafting these laws. Davar's judicial reforms, while a major advancement, eliminated the traditional power of the clergy in the judicial system.",
+      },
+    },
+    {
+      title: { fa: "تأسیس مدارس جدید و گسترش آموزش ابتدایی", en: "Establishment of New Schools and Expansion of Primary Education" },
+      description: { fa: "افزایش چشمگیر تعداد مدارس دولتی در سراسر کشور", en: "Dramatic increase in government schools nationwide" },
+      details: {
+        fa: "تعداد مدارس ابتدایی و متوسطه دولتی در سراسر کشور افزایش چشمگیری یافت. رضا شاه آموزش عمومی را ابزاری برای ملت‌سازی و مدرنیزاسیون می‌دانست. برنامه درسی متمرکز و یکپارچه‌ای تدوین شد که بر زبان فارسی، تاریخ باستان ایران و علوم جدید تأکید داشت. مدارس مذهبی و سنتی تحت فشار قرار گرفتند و نقش روحانیون در آموزش کاهش یافت.",
+        en: "The number of government primary and secondary schools increased dramatically across the country. Reza Shah saw public education as a tool for nation-building and modernization. A centralized, unified curriculum was developed emphasizing Persian language, ancient Iranian history, and modern sciences. Religious and traditional schools were pressured and the role of clergy in education diminished.",
+      },
+    },
+    {
+      title: { fa: "تشدید سیاست مالیاتی و انحصارات دولتی", en: "Intensification of Tax Policy and Government Monopolies" },
+      description: { fa: "دولت انحصار فروش چای، قند، تنباکو و سایر کالاها را در دست گرفت", en: "Government monopolizes sale of tea, sugar, tobacco and other commodities" },
+      details: {
+        fa: "دولت رضا شاه انحصار تجارت و فروش کالاهای اساسی مانند چای، قند، تنباکو و پنبه را در دست گرفت. درآمد حاصل از این انحصارات صرف پروژه‌های صنعتی و ساخت راه‌آهن شد. بازاریان و تجار سنتی که پیش‌تر در تجارت این کالاها فعال بودند متضرر شدند و نارضایتی آنان افزایش یافت. این سیاست‌ها اگرچه درآمد دولت را افزایش داد، اما بخش خصوصی را تضعیف کرد.",
+        en: "Reza Shah's government monopolized the trade and sale of essential commodities including tea, sugar, tobacco, and cotton. Revenue from these monopolies funded industrial projects and railway construction. Traditional bazaar merchants who had previously been active in trading these goods were harmed, and their dissatisfaction grew. While these policies increased government revenue, they weakened the private sector.",
+      },
     }],
   },
   {
@@ -1714,6 +2458,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "کارخانه‌های بزرگ نساجی در اصفهان و سایر شهرها راه‌اندازی شدند و صنعت نساجی مدرن ایران شکل گرفت. هزاران کارگر از جمله زنان در این کارخانه‌ها مشغول به کار شدند. تولید پارچه داخلی بخشی از واردات را جایگزین کرد. این کارخانه‌ها از نمونه‌های صنعتی‌سازی دوران رضا شاه بودند اما شرایط کاری کارگران بسیار سخت و دستمزدها پایین بود.",
         en: "Large textile factories were launched in Isfahan and other cities, forming the basis of Iran's modern textile industry. Thousands of workers including women were employed in these factories. Domestic fabric production replaced part of imports. These factories were examples of Reza Shah-era industrialization, though working conditions were harsh and wages were low.",
+      },
+    },
+    {
+      title: { fa: "افزایش تعداد دانشجویان اعزامی به خارج", en: "Increase in Students Sent Abroad" },
+      description: { fa: "رضا شاه صدها دانشجو را برای تحصیل به فرانسه و آلمان فرستاد", en: "Reza Shah sends hundreds of students to study in France and Germany" },
+      details: {
+        fa: "برنامه اعزام دانشجو به خارج از کشور گسترش یافت و صدها دانشجوی ایرانی برای تحصیل در رشته‌های پزشکی، مهندسی، حقوق و علوم به فرانسه، آلمان و بلژیک فرستاده شدند. این دانشجویان بعدها نقش مهمی در مدیریت دولتی و صنعتی ایران ایفا کردند. اعزام دانشجو بخشی از سیاست مدرنیزاسیون رضا شاه بود، اما بسیاری از این دانشجویان با ایده‌های سیاسی جدید بازگشتند.",
+        en: "The program of sending students abroad expanded, with hundreds of Iranian students sent to France, Germany, and Belgium to study medicine, engineering, law, and sciences. These students later played important roles in Iran's governmental and industrial management. Sending students abroad was part of Reza Shah's modernization policy, though many returned with new political ideas.",
+      },
+    },
+    {
+      title: { fa: "خودکشی داور و بحران سیاسی", en: "Davar's Suicide and Political Crisis" },
+      description: { fa: "علی‌اکبر داور وزیر دادگستری و مالیه خودکشی کرد", en: "Ali-Akbar Davar, Minister of Justice and Finance, commits suicide" },
+      details: {
+        fa: "علی‌اکبر داور، یکی از مهم‌ترین مقامات دولت رضا شاه و معمار اصلی اصلاحات قضایی مدرن ایران، خودکشی کرد. داور که به عنوان وزیر دادگستری و سپس وزیر مالیه خدمت کرده بود تحت فشارهای سیاسی شدید و احتمالاً بدگمانی رضا شاه قرار داشت. مرگ داور ضربه بزرگی به دولت وارد کرد و نشان‌دهنده فضای خفقان و ترس حاکم بر نزدیکان رضا شاه بود.",
+        en: "Ali-Akbar Davar, one of the most important officials of Reza Shah's government and the chief architect of Iran's modern judicial reforms, committed suicide. Davar, who had served as Minister of Justice and then Minister of Finance, was under severe political pressure and likely facing Reza Shah's suspicion. Davar's death was a major blow to the government and revealed the atmosphere of fear and repression among Reza Shah's inner circle.",
+      },
+    },
+    {
+      title: { fa: "گسترش روابط تجاری ایران و آلمان", en: "Expansion of Iran-Germany Trade Relations" },
+      description: { fa: "آلمان به شریک تجاری اصلی ایران تبدیل شد", en: "Germany becomes Iran's primary trading partner" },
+      details: {
+        fa: "روابط تجاری ایران و آلمان به سرعت گسترش یافت و آلمان به بزرگ‌ترین شریک تجاری ایران تبدیل شد. ایران مواد خام و محصولات کشاورزی صادر می‌کرد و کالاهای صنعتی و ماشین‌آلات از آلمان وارد می‌نمود. رضا شاه روابط با آلمان را به عنوان ابزاری برای کاهش وابستگی به بریتانیا و شوروی می‌دید. مهندسان و تکنسین‌های آلمانی نقش مهمی در پروژه‌های صنعتی ایران ایفا کردند.",
+        en: "Iran-Germany trade relations expanded rapidly and Germany became Iran's largest trading partner. Iran exported raw materials and agricultural products while importing industrial goods and machinery from Germany. Reza Shah viewed ties with Germany as a tool to reduce dependence on Britain and the Soviet Union. German engineers and technicians played important roles in Iran's industrial projects.",
       },
     }],
     world: [
@@ -1774,6 +2542,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "رضا شاه در سفر رسمی به ترکیه با مصطفی کمال آتاتورک دیدار کرد. این سفر تأثیر عمیقی بر رضا شاه گذاشت و او را در اجرای سیاست‌های مدرنیزاسیون از جمله کشف حجاب اجباری و تغییر لباس سنتی تقویت کرد. ترکیه آتاتورک الگوی اصلی رضا شاه برای ساختن ایران مدرن و سکولار بود.",
         en: "Reza Shah visited Turkey on an official trip and met with Mustafa Kemal Ataturk. The visit deeply influenced Reza Shah and strengthened his resolve to implement modernization policies including forced unveiling and changing traditional clothing. Ataturk's Turkey was Reza Shah's primary model for building a modern, secular Iran.",
       },
+    },
+    {
+      title: { fa: "تأسیس کارخانه‌های سیمان و چرم‌سازی", en: "Cement and Leather Factories Established" },
+      description: { fa: "کارخانه‌های جدید سیمان و چرم‌سازی برای خودکفایی صنعتی تأسیس شدند", en: "New cement and leather factories established for industrial self-sufficiency" },
+      details: {
+        fa: "کارخانه سیمان ری و کارخانه‌های چرم‌سازی در تهران و تبریز تأسیس شدند. هدف از تأسیس کارخانه سیمان تأمین نیاز پروژه‌های عمرانی و ساختمانی در حال رشد کشور بود. صنعت چرم‌سازی نیز برای کاهش واردات محصولات چرمی و تأمین نیازهای ارتش مدرن توسعه یافت. این کارخانه‌ها بخشی از موج صنعتی‌سازی دهه ۱۹۳۰ بودند که ایران را از کشوری کشاورزی به سمت صنعتی شدن سوق داد.",
+        en: "The Rey cement factory and leather-working factories in Tehran and Tabriz were established. The cement factory aimed to supply the growing demand from construction and development projects. The leather industry was also developed to reduce imports of leather products and meet the needs of the modern army. These factories were part of the 1930s industrialization wave that pushed Iran from an agricultural toward an industrial economy.",
+      },
+    },
+    {
+      title: { fa: "قانون منع تشکیل احزاب و اتحادیه‌ها", en: "Law Banning Political Parties and Unions" },
+      description: { fa: "تمام فعالیت‌های حزبی و صنفی مستقل ممنوع شد", en: "All independent party and union activities banned" },
+      details: {
+        fa: "رضا شاه قانونی را تصویب کرد که هرگونه فعالیت حزبی و تشکیل اتحادیه‌های کارگری مستقل را ممنوع ساخت. این قانون که تحت عنوان مبارزه با کمونیسم تصویب شد، عملاً هرگونه تشکل سیاسی مستقل را غیرقانونی کرد. فعالان سیاسی چپ‌گرا از جمله «گروه ۵۳ نفر» دستگیر و محاکمه شدند. این قانون فضای سیاسی ایران را تا سقوط رضا شاه در ۱۹۴۱ کاملاً بسته نگه داشت.",
+        en: "Reza Shah enacted a law banning all political party activities and independent labor unions. Passed under the guise of combating communism, this law effectively outlawed any independent political organization. Left-wing political activists including the 'Group of 53' were arrested and tried. This law kept Iran's political space completely closed until Reza Shah's fall in 1941.",
+      },
+    },
+    {
+      title: { fa: "تقویت تجارت با آلمان و اعزام هیئت‌های تجاری", en: "Strengthening Trade with Germany and Dispatch of Trade Delegations" },
+      description: { fa: "ایران و آلمان قراردادهای تجاری جدیدی امضا کردند", en: "Iran and Germany sign new trade agreements" },
+      details: {
+        fa: "روابط تجاری ایران و آلمان بیش از پیش تقویت شد و هیئت‌های تجاری بین دو کشور مبادله شدند. قراردادهای تجاری جدیدی امضا شد که بر اساس آن ایران مواد خام و کشاورزی مانند پنبه و پوست به آلمان صادر می‌کرد و در مقابل ماشین‌آلات صنعتی و محصولات تکنولوژیک وارد می‌نمود. آلمان به تدریج جایگزین بریتانیا به عنوان شریک تجاری اول ایران شد.",
+        en: "Iran-Germany trade relations strengthened further with exchange of trade delegations between the two countries. New trade agreements were signed under which Iran exported raw and agricultural materials like cotton and hides to Germany while importing industrial machinery and technological products. Germany gradually replaced Britain as Iran's top trading partner.",
+      },
     }],
   },
   {
@@ -1793,6 +2585,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "فرهنگستان ایران با هدف پاکسازی زبان فارسی از واژه‌های عربی، ترکی و اروپایی و جایگزینی آنها با واژه‌های فارسی سره تأسیس شد. این نهاد بخشی از سیاست ملی‌گرایانه رضا شاه بود که بر هویت آریایی و پیش از اسلام ایران تأکید داشت. بسیاری از واژه‌های جدید ساخته شده توسط فرهنگستان در زبان فارسی معاصر جا افتادند.",
         en: "The Iranian Academy of Language was established to purify Persian from Arabic, Turkish, and European loanwords by replacing them with pure Persian terms. This institution was part of Reza Shah's nationalist policy emphasizing Iran's Aryan and pre-Islamic identity. Many of the new words coined by the Academy became established in contemporary Persian.",
+      },
+    },
+    {
+      title: { fa: "قیام مسجد گوهرشاد در مشهد", en: "Goharshad Mosque Uprising in Mashhad" },
+      description: { fa: "سرکوب خونین معترضان در مسجد گوهرشاد مشهد توسط ارتش", en: "Bloody military suppression of protesters at Goharshad Mosque in Mashhad" },
+      details: {
+        fa: "در تیرماه ۱۳۱۴ مردم مشهد در اعتراض به سیاست‌های کشف حجاب اجباری و تغییر لباس در مسجد گوهرشاد تجمع کردند. ارتش به دستور رضا شاه مسجد را محاصره و به معترضان شلیک کرد. صدها نفر کشته و زخمی شدند. این واقعه یکی از خونین‌ترین سرکوب‌های دوران رضا شاه بود و نشان‌دهنده عمق مقاومت مذهبی در برابر مدرنیزاسیون اجباری بود.",
+        en: "In July 1935, people of Mashhad gathered at Goharshad Mosque protesting forced unveiling and dress code policies. The army, on Reza Shah's orders, besieged the mosque and fired on protesters. Hundreds were killed and wounded. This was one of the bloodiest repressions of the Reza Shah era and demonstrated the depth of religious resistance to forced modernization.",
+      },
+    },
+    {
+      title: { fa: "تأسیس کارخانه‌های جدید دخانیات و صنایع غذایی", en: "New Tobacco and Food Industry Factories Established" },
+      description: { fa: "انحصار دولتی تنباکو و تأسیس کارخانه‌های مواد غذایی", en: "Government tobacco monopoly and establishment of food industry factories" },
+      details: {
+        fa: "صنعت دخانیات به طور کامل تحت انحصار دولت درآمد و کارخانه‌های سیگارسازی مدرن تأسیس شدند. همزمان کارخانه‌های صنایع غذایی از جمله کنسروسازی و روغن‌کشی در شهرهای مختلف راه‌اندازی شدند. درآمد حاصل از انحصار دخانیات بخش مهمی از بودجه دولت را تأمین می‌کرد. این صنایع اگرچه به توسعه اقتصادی کمک کردند اما بخش خصوصی را تضعیف نمودند.",
+        en: "The tobacco industry came entirely under government monopoly and modern cigarette-manufacturing factories were established. Simultaneously, food industry factories including canning and oil-pressing plants were launched in various cities. Revenue from the tobacco monopoly constituted an important part of the government budget. While these industries contributed to economic development, they weakened the private sector.",
+      },
+    },
+    {
+      title: { fa: "گسترش نظام آموزشی و اعزام دانشجو", en: "Education System Expansion and Students Abroad" },
+      description: { fa: "افزایش تعداد مدارس و دانشجویان ایرانی در اروپا", en: "Growing number of schools and Iranian students in Europe" },
+      details: {
+        fa: "نظام آموزشی ایران توسعه بیشتری یافت و تعداد مدارس ابتدایی و دبیرستان‌ها در سراسر کشور افزایش یافت. بیش از ۵۰۰ دانشجوی ایرانی در فرانسه، آلمان، بلژیک و سوئیس مشغول تحصیل بودند. دانشکده‌های فنی و حقوق برای تربیت نیروی متخصص مورد نیاز دولت تأسیس شدند. آموزش دختران نیز گسترش یافت و مدارس دخترانه بیشتری در شهرهای بزرگ دایر شد.",
+        en: "Iran's education system expanded further with more primary schools and high schools established across the country. Over 500 Iranian students were studying in France, Germany, Belgium, and Switzerland. Technical and law colleges were established to train the specialist workforce needed by the government. Girls' education also expanded with more girls' schools opening in major cities.",
       },
     }],
     world: [
@@ -1842,6 +2658,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "رضا شاه نظام آموزشی مدرن را گسترش داد و آموزش ابتدایی را رایگان و اجباری اعلام کرد. تعداد مدارس دولتی در سراسر کشور افزایش چشمگیری یافت و برنامه اعزام دانشجو به خارج گسترش پیدا کرد. صدها دانشجو برای تحصیل به فرانسه، آلمان و سایر کشورهای اروپایی فرستاده شدند. این نسل تحصیل‌کرده بعدها نقش مهمی در تحولات سیاسی و فرهنگی ایران ایفا کردند.",
         en: "Reza Shah expanded the modern education system and declared primary education free and compulsory. The number of public schools increased dramatically across the country, and the program of sending students abroad was expanded. Hundreds of students were sent to France, Germany, and other European countries. This educated generation later played a significant role in Iran's political and cultural developments.",
+      },
+    },
+    {
+      title: { fa: "تجارت پایاپای ایران و آلمان نازی", en: "Iran-Nazi Germany Barter Trade" },
+      description: { fa: "سیستم تجارت پایاپای بین ایران و آلمان نازی گسترش یافت", en: "Barter trade system between Iran and Nazi Germany expands" },
+      details: {
+        fa: "سیستم تجارت پایاپای بین ایران و آلمان نازی گسترش یافت. ایران مواد خام مانند پنبه، پشم و مواد معدنی به آلمان ارسال می‌کرد و در مقابل ماشین‌آلات صنعتی، تجهیزات راه‌آهن و محصولات فنی دریافت می‌نمود. آلمان حدود ۴۲ درصد از تجارت خارجی ایران را به خود اختصاص داد. بریتانیا از رشد نفوذ اقتصادی آلمان در ایران نگران بود.",
+        en: "The barter trade system between Iran and Nazi Germany expanded. Iran sent raw materials like cotton, wool, and minerals to Germany and received industrial machinery, railway equipment, and technical products in return. Germany accounted for about 42 percent of Iran's foreign trade. Britain was concerned about the growth of German economic influence in Iran.",
+      },
+    },
+    {
+      title: { fa: "تأسیس بانک کشاورزی و توسعه کشاورزی", en: "Agricultural Bank Established and Agricultural Development" },
+      description: { fa: "بانک کشاورزی برای تأمین اعتبار کشاورزان تأسیس شد", en: "Agricultural Bank established to provide credit to farmers" },
+      details: {
+        fa: "بانک کشاورزی ایران تأسیس شد تا اعتبارات مالی مورد نیاز کشاورزان را فراهم کند و از وابستگی آنها به رباخواران محلی بکاهد. دولت همچنین برنامه‌هایی برای بهبود روش‌های کشاورزی و آبیاری اجرا کرد. با این حال، ساختار فئودالی زمین‌داری بزرگ تغییر نکرد و بیشتر کشاورزان همچنان در فقر و وابستگی به مالکان بزرگ زندگی می‌کردند.",
+        en: "The Agricultural Bank of Iran was established to provide financial credit to farmers and reduce their dependence on local moneylenders. The government also implemented programs to improve farming methods and irrigation. However, the feudal system of large landholding remained unchanged, and most farmers continued to live in poverty and dependence on large landowners.",
+      },
+    },
+    {
+      title: { fa: "آغاز خدمات هوایی و تأسیس فرودگاه‌ها", en: "Beginning of Air Services and Airport Construction" },
+      description: { fa: "خطوط هوایی ایران تأسیس و فرودگاه‌های جدید ساخته شد", en: "Iranian airlines established and new airports built" },
+      details: {
+        fa: "خطوط هوایی ایران با کمک فنی شرکت‌های آلمانی تأسیس شد و پروازهای داخلی بین تهران و شهرهای بزرگ آغاز گردید. فرودگاه‌های جدید در تهران و سایر شهرها ساخته شدند. نیروی هوایی ارتش نیز با خرید هواپیماهای نظامی از آلمان و بریتانیا تقویت شد. توسعه صنعت هوانوردی بخشی از برنامه مدرن‌سازی زیرساخت‌های ایران بود.",
+        en: "Iranian airlines were established with technical assistance from German companies and domestic flights between Tehran and major cities began. New airports were built in Tehran and other cities. The air force was also strengthened with purchase of military aircraft from Germany and Britain. Development of the aviation industry was part of Iran's infrastructure modernization program.",
       },
     }],
     world: [
@@ -1901,6 +2741,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "رضا شاه سیاست تخته‌قاپو (اسکان اجباری) عشایر و ایلات را با شدت ادامه داد. قشقایی‌ها، بختیاری‌ها، لرها و سایر ایلات بزرگ مجبور به ترک زندگی کوچ‌نشینی و اسکان در روستاها شدند. ارتش برای سرکوب مقاومت عشایر اعزام شد و رهبران ایلی دستگیر یا تبعید شدند. این سیاست باعث فقر و مرگ بسیاری از عشایر شد اما قدرت مرکزی دولت را تثبیت کرد.",
         en: "Reza Shah intensified his policy of forced settlement of nomadic tribes. The Qashqai, Bakhtiari, Lurs, and other major tribes were forced to abandon their nomadic lifestyle and settle in villages. The army was deployed to suppress tribal resistance and tribal leaders were arrested or exiled. This policy caused poverty and death among many tribal communities but consolidated central government authority.",
       },
+    },
+    {
+      title: { fa: "توسعه صنعت ذوب‌آهن و معادن", en: "Development of Iron Smelting and Mining Industry" },
+      description: { fa: "ایران برنامه استخراج معادن و تولید فولاد را آغاز کرد", en: "Iran begins mining and steel production program" },
+      details: {
+        fa: "رضا شاه برنامه توسعه صنعت معدن و ذوب‌آهن را با هدف ایجاد صنعت سنگین در ایران آغاز کرد. مطالعات زمین‌شناسی برای شناسایی ذخایر آهن و سایر مواد معدنی انجام شد. کارشناسان آلمانی در طراحی کارخانه ذوب‌آهن مشارکت داشتند. اگرچه این پروژه‌ها در دوران رضا شاه به نتیجه کامل نرسید، اما پایه‌های صنعت فولاد ایران را بنا نهاد.",
+        en: "Reza Shah launched a program to develop mining and iron smelting industries with the goal of establishing heavy industry in Iran. Geological surveys were conducted to identify iron and other mineral deposits. German experts participated in designing the iron smelting plant. Although these projects were not fully realized during Reza Shah's era, they laid the foundations for Iran's steel industry.",
+      },
+    },
+    {
+      title: { fa: "تکمیل بخش‌هایی از راه‌آهن و پل‌های بزرگ", en: "Completion of Railway Sections and Major Bridges" },
+      description: { fa: "بخش‌های مهمی از راه‌آهن سراسری از جمله پل ورسک تکمیل شد", en: "Key sections of Trans-Iranian Railway including Veresk Bridge completed" },
+      details: {
+        fa: "بخش‌های مهم و دشواری از مسیر راه‌آهن سراسری ایران تکمیل شد. پل ورسک، شاهکار مهندسی این پروژه، در ارتفاعات البرز ساخته شد و از عمیق‌ترین دره‌های مسیر عبور کرد. تونل‌های متعدد در کوه‌های زاگرس و البرز حفر شدند. این پروژه به لحاظ فنی یکی از چالش‌برانگیزترین پروژه‌های راه‌آهن جهان بود و با تلفات انسانی قابل توجهی همراه بود.",
+        en: "Important and challenging sections of the Trans-Iranian Railway were completed. The Veresk Bridge, an engineering masterpiece of the project, was built in the Alborz heights crossing the deepest valleys along the route. Numerous tunnels were carved through the Zagros and Alborz mountains. This project was technically one of the most challenging railway projects in the world and came with significant human casualties.",
+      },
+    },
+    {
+      title: { fa: "اصلاح نظام مالیاتی و بودجه دولتی", en: "Tax System Reform and Government Budget" },
+      description: { fa: "نظام مالیاتی مدرن جایگزین سیستم سنتی مالیات‌گیری شد", en: "Modern tax system replaces traditional taxation" },
+      details: {
+        fa: "دولت رضا شاه اصلاحات مالیاتی مهمی انجام داد و نظام مالیاتی مدرن‌تری جایگزین روش‌های سنتی جمع‌آوری مالیات شد. مالیات بر درآمد، مالیات بر واردات و مالیات‌های انحصاری دولتی بخش عمده بودجه را تأمین می‌کردند. درآمد نفتی حدود ۱۵ درصد بودجه دولت را تشکیل می‌داد. بقیه بودجه از مالیات‌های غیرمستقیم و انحصارات دولتی تأمین می‌شد.",
+        en: "Reza Shah's government implemented important tax reforms, replacing traditional tax collection methods with a more modern system. Income tax, import duties, and government monopoly taxes comprised the major part of the budget. Oil revenue accounted for about 15 percent of the government budget. The rest came from indirect taxes and government monopolies.",
+      },
     }],
   },
   {
@@ -1920,6 +2784,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "برنامه صنعتی‌سازی رضا شاه به اوج خود رسید و ده‌ها کارخانه جدید در صنایع مختلف از جمله چرم‌سازی، شیشه‌سازی، صابون‌سازی و صنایع غذایی تأسیس شدند. تعداد کارخانه‌های مدرن ایران از حدود ۲۰ واحد در ابتدای سلطنت رضا شاه به بیش از ۳۰۰ واحد رسید. با این حال، بسیاری از این کارخانه‌ها بدون مطالعه اقتصادی کافی ساخته شده و ناکارآمد بودند.",
         en: "Reza Shah's industrialization program reached its peak with dozens of new factories established in various industries including leather, glass, soap, and food processing. The number of modern factories in Iran grew from about 20 at the beginning of Reza Shah's reign to over 300. However, many of these factories were built without adequate economic studies and proved inefficient.",
+      },
+    },
+    {
+      title: { fa: "گسترش شبکه مخابرات و تلفن", en: "Expansion of Telecommunications and Telephone Network" },
+      description: { fa: "شبکه تلفن و تلگراف بین شهرهای بزرگ ایران گسترش یافت", en: "Telephone and telegraph network expanded between major Iranian cities" },
+      details: {
+        fa: "شبکه مخابراتی ایران با توسعه خطوط تلفن و تلگراف بین شهرهای بزرگ گسترش یافت. مرکز تلفن خودکار تهران راه‌اندازی شد و ارتباطات تلفنی بین تهران و شهرهای اصلی برقرار گردید. اداره پست و تلگراف و تلفن مدرن شد و خدمات پستی بین‌المللی بهبود یافت. این زیرساخت‌ها برای تمرکز اداری و کنترل سیاسی دولت مرکزی ضروری بودند.",
+        en: "Iran's telecommunications network expanded with development of telephone and telegraph lines between major cities. Tehran's automatic telephone exchange was launched and telephone communications between Tehran and major cities were established. The Post, Telegraph, and Telephone administration was modernized and international postal services improved. These infrastructures were essential for administrative centralization and political control by the central government.",
+      },
+    },
+    {
+      title: { fa: "تقویت روابط با آلمان نازی و ورود مستشاران آلمانی", en: "Strengthening Ties with Nazi Germany and German Advisors" },
+      description: { fa: "صدها مستشار و کارشناس آلمانی در پروژه‌های صنعتی ایران فعال بودند", en: "Hundreds of German advisors and experts active in Iranian industrial projects" },
+      details: {
+        fa: "حضور مستشاران و کارشناسان آلمانی در ایران به اوج خود رسید. صدها مهندس، تکنسین و متخصص آلمانی در پروژه‌های صنعتی، راه‌آهن، معدن و کشاورزی فعال بودند. آلمان نازی حدود نیمی از تجارت خارجی ایران را به خود اختصاص داد. رادیو برلین برنامه‌های فارسی‌زبان پخش می‌کرد. بریتانیا و شوروی از رشد نفوذ آلمان در ایران به شدت نگران بودند.",
+        en: "The presence of German advisors and experts in Iran reached its peak. Hundreds of German engineers, technicians, and specialists were active in industrial, railway, mining, and agricultural projects. Nazi Germany accounted for about half of Iran's foreign trade. Radio Berlin broadcast Persian-language programs. Britain and the Soviet Union were deeply concerned about Germany's growing influence in Iran.",
+      },
+    },
+    {
+      title: { fa: "رشد شهرنشینی و تغییر بافت اجتماعی", en: "Urbanization Growth and Social Transformation" },
+      description: { fa: "جمعیت شهرها افزایش یافت و شیوه زندگی شهری تغییر کرد", en: "City populations grow and urban lifestyle changes" },
+      details: {
+        fa: "شهرنشینی در ایران رشد قابل توجهی کرد و جمعیت تهران و شهرهای بزرگ افزایش یافت. خیابان‌های جدید، ساختمان‌های دولتی مدرن و فضاهای عمومی ساخته شدند. طبقه متوسط شهری در حال شکل‌گیری بود و سبک زندگی غربی در میان اقشار تحصیل‌کرده رواج یافت. در عین حال، مهاجرت روستاییان به شهرها مشکلات اجتماعی جدیدی مانند حاشیه‌نشینی و فقر شهری ایجاد کرد.",
+        en: "Urbanization in Iran grew significantly and populations of Tehran and major cities increased. New streets, modern government buildings, and public spaces were constructed. An urban middle class was forming and Western lifestyles became popular among educated groups. At the same time, rural migration to cities created new social problems such as slum development and urban poverty.",
       },
     }],
     world: [
@@ -1974,6 +2862,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "رضا شاه برنامه گسترش آموزش عالی را ادامه داد و دانشکده‌های جدیدی در تهران و شهرستان‌ها تأسیس شدند. تعداد دانشجویان ایرانی در خارج از کشور به بیش از هزار نفر رسید. مدارس نظام (نظامی) نیز گسترش یافتند و نقش مهمی در تربیت افسران ارتش مدرن ایفا کردند. با این حال، آزادی آکادمیک محدود بود و فضای سیاسی دانشگاه‌ها تحت کنترل شدید دولت قرار داشت.",
         en: "Reza Shah continued his higher education expansion program with new colleges established in Tehran and provincial cities. The number of Iranian students abroad exceeded one thousand. Military academies were also expanded, playing an important role in training officers for the modern army. However, academic freedom was limited and the political atmosphere of universities was under strict government control.",
+      },
+    },
+    {
+      title: { fa: "تقویت ارتش و خرید تسلیحات", en: "Military Strengthening and Arms Procurement" },
+      description: { fa: "رضا شاه بودجه نظامی را افزایش داد و تسلیحات جدید خریداری کرد", en: "Reza Shah increases military budget and purchases new weapons" },
+      details: {
+        fa: "با آغاز جنگ جهانی دوم، رضا شاه بودجه نظامی را افزایش داد و تسلیحات جدیدی از آلمان و چکسلواکی خریداری کرد. ارتش ایران به حدود ۱۲۰ هزار نفر رسید و تجهیزات مدرن شامل تانک، هواپیما و توپخانه داشت. با این حال، آموزش نظامی و فرماندهی ضعف‌های جدی داشت که در اشغال ۱۹۴۱ آشکار شد.",
+        en: "With the outbreak of World War II, Reza Shah increased the military budget and purchased new weapons from Germany and Czechoslovakia. The Iranian army grew to about 120,000 troops with modern equipment including tanks, aircraft, and artillery. However, military training and command had serious weaknesses that became apparent during the 1941 occupation.",
+      },
+    },
+    {
+      title: { fa: "بحران تجارت خارجی به دلیل جنگ جهانی", en: "Foreign Trade Crisis Due to World War" },
+      description: { fa: "آغاز جنگ تجارت ایران با آلمان را مختل کرد", en: "War outbreak disrupts Iran's trade with Germany" },
+      details: {
+        fa: "آغاز جنگ جهانی دوم ضربه شدیدی به تجارت خارجی ایران وارد کرد. محاصره دریایی بریتانیا مانع از ادامه تجارت ایران با آلمان شد و ایران بزرگ‌ترین شریک تجاری خود را از دست داد. واردات کالاهای صنعتی و ماشین‌آلات به شدت کاهش یافت و کمبود کالا در بازارها آغاز شد. دولت مجبور شد سیاست‌های جیره‌بندی و کنترل قیمت را اعمال کند.",
+        en: "The outbreak of World War II dealt a severe blow to Iran's foreign trade. Britain's naval blockade prevented Iran from continuing trade with Germany, and Iran lost its largest trading partner. Imports of industrial goods and machinery declined sharply and commodity shortages began appearing in markets. The government was forced to implement rationing and price control policies.",
+      },
+    },
+    {
+      title: { fa: "اصلاحات اداری و تمرکز بیشتر قدرت", en: "Administrative Reforms and Further Power Centralization" },
+      description: { fa: "ساختار اداری کشور مدرن‌تر شد اما قدرت بیشتری در دست شاه متمرکز گردید", en: "Administrative structure modernized but more power concentrated in Shah's hands" },
+      details: {
+        fa: "رضا شاه ساختار اداری کشور را بازسازی کرد و استان‌بندی و تقسیمات کشوری جدیدی ایجاد نمود. فرمانداران و استانداران مستقیماً توسط مرکز منصوب می‌شدند و هرگونه خودمختاری محلی از بین رفت. مجلس شورای ملی عملاً نقش تأیید تصمیمات شاه را داشت و نمایندگان از سوی دولت انتخاب می‌شدند. تمام تصمیمات مهم توسط شخص رضا شاه گرفته می‌شد.",
+        en: "Reza Shah restructured the country's administrative system and created new provincial divisions. Governors were directly appointed by the center and all local autonomy was eliminated. The National Assembly effectively served to rubber-stamp the Shah's decisions and representatives were selected by the government. All important decisions were made personally by Reza Shah.",
       },
     }],
     world: [
@@ -2034,6 +2946,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "نفوذ آلمان نازی در ایران به اوج خود رسید. بیش از هزار تبعه آلمانی از جمله مستشاران نظامی، مهندسان و بازرگانان در ایران فعال بودند. رادیو برلین برنامه‌های فارسی پخش می‌کرد و تبلیغات نازی با تأکید بر نژاد آریایی مشترک ایرانیان و آلمانی‌ها در ایران گسترش یافت. متفقین بارها از رضا شاه خواستند آلمانی‌ها را اخراج کند اما او امتناع ورزید.",
         en: "Nazi German influence in Iran reached its peak. Over a thousand German nationals including military advisors, engineers, and merchants were active in Iran. Radio Berlin broadcast programs in Persian and Nazi propaganda emphasizing the shared Aryan heritage of Iranians and Germans spread in Iran. The Allies repeatedly asked Reza Shah to expel the Germans, but he refused.",
       },
+    },
+    {
+      title: { fa: "کمبود کالا و آغاز مشکلات اقتصادی", en: "Commodity Shortages and Beginning of Economic Problems" },
+      description: { fa: "قطع تجارت با آلمان و محدودیت‌های جنگی باعث کمبود کالا شد", en: "Trade cutoff with Germany and wartime restrictions cause commodity shortages" },
+      details: {
+        fa: "قطع تجارت با آلمان که بزرگ‌ترین شریک تجاری ایران بود، باعث کمبود شدید کالاهای صنعتی و مصرفی شد. قیمت مواد غذایی و کالاهای اساسی افزایش یافت و زندگی مردم عادی دشوارتر شد. کارخانه‌هایی که به مواد اولیه وارداتی وابسته بودند با مشکل مواجه شدند. دولت تلاش کرد با جایگزینی منابع تأمین و اعمال کنترل قیمت بحران را مدیریت کند.",
+        en: "The trade cutoff with Germany, Iran's largest trading partner, caused severe shortages of industrial and consumer goods. Food prices and basic commodities rose and life became more difficult for ordinary people. Factories dependent on imported raw materials faced problems. The government tried to manage the crisis by finding alternative supply sources and implementing price controls.",
+      },
+    },
+    {
+      title: { fa: "فشار بریتانیا برای اخراج اتباع آلمانی", en: "British Pressure to Expel German Nationals" },
+      description: { fa: "بریتانیا و شوروی از ایران خواستند اتباع آلمانی را اخراج کند", en: "Britain and USSR demand Iran expel German nationals" },
+      details: {
+        fa: "بریتانیا و شوروی بارها از رضا شاه خواستند صدها تبعه آلمانی حاضر در ایران را اخراج کند. متفقین نگران بودند که آلمانی‌ها ممکن است عملیات خرابکارانه علیه تأسیسات نفتی و راه‌آهن ایران انجام دهند. رضا شاه از پذیرش این خواسته امتناع ورزید و اصرار کرد که آلمانی‌ها تکنسین‌های غیرنظامی هستند. این امتناع بهانه‌ای شد که متفقین برای اشغال ایران در سال بعد استفاده کردند.",
+        en: "Britain and the USSR repeatedly demanded that Reza Shah expel hundreds of German nationals present in Iran. The Allies were concerned that Germans might conduct sabotage operations against Iran's oil facilities and railway. Reza Shah refused to comply, insisting the Germans were civilian technicians. This refusal became the pretext the Allies used for occupying Iran the following year.",
+      },
+    },
+    {
+      title: { fa: "بودجه نظامی و آمادگی ارتش", en: "Military Budget and Army Readiness" },
+      description: { fa: "رضا شاه بخش بزرگی از بودجه را به ارتش اختصاص داد اما آمادگی رزمی ضعیف بود", en: "Reza Shah allocates large share of budget to military but combat readiness remains weak" },
+      details: {
+        fa: "بیش از یک‌سوم بودجه دولت صرف ارتش و تسلیحات شد. رضا شاه بر اهمیت ارتش قوی تأکید داشت و تجهیزات نظامی مدرن خریداری کرده بود. با این حال، فرماندهان ارتش بر اساس وفاداری به شاه انتخاب می‌شدند نه شایستگی نظامی. آموزش رزمی ناکافی بود و هماهنگی بین نیروها وجود نداشت. این ضعف‌ها در شهریور ۱۳۲۰ آشکار شد که ارتش ایران در عرض سه روز شکست خورد.",
+        en: "Over one-third of the government budget was spent on the military and armaments. Reza Shah emphasized the importance of a strong army and had purchased modern military equipment. However, army commanders were chosen based on loyalty to the Shah rather than military competence. Combat training was inadequate and coordination between forces was lacking. These weaknesses became apparent in August 1941 when the Iranian army was defeated within three days.",
+      },
     }],
   },
   {
@@ -2058,6 +2994,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "پس از تبعید رضا شاه و روی کار آمدن محمدرضا شاه جوان، فضای سیاسی ایران باز شد. احزاب سیاسی متعددی تأسیس شدند، مطبوعات آزادی نسبی به دست آوردند و مجلس قدرت واقعی یافت. حزب توده ایران نیز در همین سال تأسیس شد و به سرعت به یکی از مهم‌ترین نیروهای سیاسی کشور تبدیل گشت. این دوره آزادی سیاسی تا اوایل دهه ۱۳۳۰ ادامه یافت.",
         en: "After Reza Shah's exile and the young Mohammad Reza Shah's accession, Iran's political atmosphere opened up. Numerous political parties were established, the press gained relative freedom, and parliament gained real power. The Tudeh Party of Iran was also founded in this year and quickly became one of the country's most important political forces. This period of political freedom continued until the early 1950s.",
+      },
+    },
+    {
+      title: { fa: "تأسیس حزب توده ایران", en: "Tudeh Party of Iran Founded" },
+      description: { fa: "حزب توده به عنوان حزب کمونیست ایران با حمایت شوروی تأسیس شد", en: "Tudeh Party founded as Iran's communist party with Soviet support" },
+      details: {
+        fa: "حزب توده ایران در مهر ۱۳۲۰ با شرکت ۲۷ فعال سیاسی چپ‌گرا که بسیاری از آنها از زندانیان سیاسی دوران رضا شاه بودند تأسیس شد. حزب توده به سرعت در میان کارگران، روشنفکران، معلمان و نظامیان نفوذ یافت و به قوی‌ترین حزب سیاسی ایران تبدیل شد. حزب توده ارتباط نزدیکی با شوروی داشت و خواستار عدالت اجتماعی و اصلاحات کارگری بود.",
+        en: "The Tudeh Party of Iran was founded in October 1941 with 27 left-wing political activists, many of whom were political prisoners from the Reza Shah era. The Tudeh Party quickly gained influence among workers, intellectuals, teachers, and military officers, becoming Iran's strongest political party. The party had close ties to the Soviet Union and advocated for social justice and labor reforms.",
+      },
+    },
+    {
+      title: { fa: "پیمان سه‌گانه و اشغال رسمی ایران", en: "Tripartite Treaty and Formal Occupation of Iran" },
+      description: { fa: "قرارداد اتحاد سه‌گانه بین ایران، بریتانیا و شوروی امضا شد", en: "Tripartite Alliance treaty signed between Iran, Britain, and the USSR" },
+      details: {
+        fa: "پیمان سه‌جانبه ایران، بریتانیا و شوروی در ژانویه ۱۹۴۲ امضا شد که بر اساس آن متفقین حق استفاده از خاک ایران برای ارسال تدارکات به شوروی را داشتند. در مقابل، استقلال و تمامیت ارضی ایران تضمین شد و متفقین متعهد شدند حداکثر شش ماه پس از پایان جنگ ایران را ترک کنند. این پیمان عملاً حاکمیت ایران را محدود کرد و کشور تحت کنترل نظامی متفقین درآمد.",
+        en: "The Tripartite Treaty between Iran, Britain, and the USSR was signed in January 1942, granting the Allies the right to use Iranian territory to send supplies to the Soviet Union. In return, Iran's independence and territorial integrity were guaranteed, and the Allies committed to leaving Iran within six months after the war's end. This treaty effectively limited Iran's sovereignty and placed the country under Allied military control.",
+      },
+    },
+    {
+      title: { fa: "آزادی زندانیان سیاسی و احیای فعالیت مطبوعاتی", en: "Release of Political Prisoners and Revival of Press Activity" },
+      description: { fa: "پس از سقوط رضا شاه زندانیان سیاسی آزاد و مطبوعات فعال شدند", en: "After Reza Shah's fall, political prisoners freed and press becomes active" },
+      details: {
+        fa: "با سقوط رضا شاه و فضای باز سیاسی، صدها زندانی سیاسی از جمله فعالان کمونیست و ملی‌گرا آزاد شدند. ده‌ها روزنامه و مجله جدید منتشر شد و فضای مطبوعاتی آزادی بی‌سابقه‌ای را تجربه کرد. از «گروه ۵۳ نفر» که در دوران رضا شاه به اتهام فعالیت کمونیستی زندانی شده بودند تا سیاستمداران ملی‌گرا، همه به عرصه سیاست بازگشتند. این آزادی‌ها تا اوایل دهه ۱۳۳۰ ادامه یافت.",
+        en: "With Reza Shah's fall and the opening of political space, hundreds of political prisoners including communist and nationalist activists were freed. Dozens of new newspapers and magazines were published and the press experienced unprecedented freedom. From the 'Group of 53' imprisoned under Reza Shah for communist activities to nationalist politicians, all returned to the political arena. These freedoms continued until the early 1950s.",
       },
     }],
     world: [
@@ -2118,6 +3078,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "اشغال ایران توسط متفقین باعث بحران اقتصادی وحشتناکی شد. ارتش‌های اشغالگر مواد غذایی و منابع ایران را مصادره کردند و قحطی شدیدی در سراسر کشور رخ داد. تورم به شدت افزایش یافت و قیمت نان و مایحتاج اولیه چندین برابر شد. هزاران ایرانی بر اثر گرسنگی و بیماری جان باختند. این بحران انسانی بزرگ تأثیر عمیقی بر حافظه جمعی ایرانیان و دیدگاه آنها نسبت به قدرت‌های خارجی گذاشت.",
         en: "The Allied occupation of Iran caused a devastating economic crisis. Occupying armies requisitioned food and resources, causing severe famine across the country. Inflation skyrocketed and prices of bread and basic necessities multiplied several times. Thousands of Iranians died from hunger and disease. This major humanitarian crisis deeply affected Iranians' collective memory and their view of foreign powers.",
       },
+    },
+    {
+      title: { fa: "حضور نظامی آمریکا در ایران", en: "American Military Presence in Iran" },
+      description: { fa: "نیروهای آمریکایی برای مدیریت خطوط تدارکاتی وارد ایران شدند", en: "American forces enter Iran to manage supply lines" },
+      details: {
+        fa: "نیروهای آمریکایی تحت فرماندهی ژنرال کانلی وارد ایران شدند و مدیریت بخشی از عملیات حمل‌ونقل تدارکات به شوروی را بر عهده گرفتند. حدود ۳۰ هزار سرباز آمریکایی در ایران مستقر شدند. آمریکا همچنین مستشارانی برای مشاوره در امور مالی، ارتش و ژاندارمری به ایران فرستاد. این اولین حضور گسترده آمریکا در ایران بود و آغاز نفوذ فزاینده آمریکا در امور ایران شد.",
+        en: "American forces under General Connolly entered Iran and took charge of part of the supply transport operations to the Soviet Union. About 30,000 American soldiers were stationed in Iran. The US also sent advisors to Iran for financial, military, and gendarmerie matters. This was the first extensive American presence in Iran and marked the beginning of growing US influence in Iranian affairs.",
+      },
+    },
+    {
+      title: { fa: "تورم شدید و احتکار مواد غذایی", en: "Severe Inflation and Food Hoarding" },
+      description: { fa: "قیمت مواد غذایی چندین برابر شد و مردم از گرسنگی رنج می‌بردند", en: "Food prices multiply several times and people suffer from hunger" },
+      details: {
+        fa: "تورم شدید اقتصاد ایران را فلج کرد. قیمت نان، برنج و سایر مواد غذایی اساسی چندین برابر شد. احتکار مواد غذایی توسط تاجران و زمین‌داران بزرگ بحران را تشدید کرد. ارتش‌های اشغالگر بخش بزرگی از محصولات کشاورزی را مصادره می‌کردند. دولت ناتوان از کنترل اوضاع بود و مردم فقیر بیشترین آسیب را دیدند. هزاران نفر بر اثر سوءتغذیه و بیماری جان باختند.",
+        en: "Severe inflation paralyzed Iran's economy. Prices of bread, rice, and other basic foodstuffs multiplied several times. Food hoarding by merchants and large landowners worsened the crisis. Occupying armies requisitioned a large portion of agricultural products. The government was unable to control the situation and poor people suffered the most. Thousands died from malnutrition and disease.",
+      },
+    },
+    {
+      title: { fa: "رشد جنبش کارگری و اعتصابات", en: "Growth of Labor Movement and Strikes" },
+      description: { fa: "کارگران صنعت نفت و کارخانه‌ها اعتصاب کردند", en: "Oil industry and factory workers go on strike" },
+      details: {
+        fa: "جنبش کارگری ایران در فضای باز سیاسی پس از سقوط رضا شاه رشد قابل توجهی کرد. اعتصابات کارگری در صنعت نفت خوزستان، کارخانه‌های نساجی اصفهان و سایر مراکز صنعتی رخ داد. حزب توده نقش مهمی در سازماندهی کارگران داشت. کارگران خواستار افزایش دستمزد، بهبود شرایط کاری و حق تشکیل اتحادیه بودند. شرکت نفت ایران-انگلیس با مقاومت در برابر خواسته‌ها واکنش نشان داد.",
+        en: "Iran's labor movement grew significantly in the open political atmosphere following Reza Shah's fall. Worker strikes occurred in the Khuzestan oil industry, Isfahan textile factories, and other industrial centers. The Tudeh Party played an important role in organizing workers. Workers demanded higher wages, better working conditions, and the right to form unions. The Anglo-Iranian Oil Company responded by resisting these demands.",
+      },
     }],
     world: [
       {
@@ -2169,6 +3153,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "کمبود شدید نان و مواد غذایی در تهران و شهرهای بزرگ منجر به شورش‌های گسترده مردمی شد. نانوایی‌ها مورد حمله قرار گرفتند و انبارهای دولتی غارت شدند. دولت ناتوان از کنترل اوضاع بود و متفقین نیز توجهی به بحران انسانی ایران نداشتند. این شورش‌ها نشان‌دهنده عمق بحران اجتماعی و اقتصادی ایران در دوران اشغال بود.",
         en: "Severe shortages of bread and food in Tehran and major cities led to widespread popular riots. Bakeries were attacked and government warehouses were looted. The government was unable to control the situation and the Allies paid no attention to Iran's humanitarian crisis. These riots demonstrated the depth of Iran's social and economic crisis during the occupation.",
       },
+    },
+    {
+      title: { fa: "رشد فعالیت‌های حزب توده و سازمان‌دهی کارگری", en: "Growth of Tudeh Party Activities and Labor Organization" },
+      description: { fa: "حزب توده به قوی‌ترین حزب سیاسی ایران تبدیل شد", en: "Tudeh Party becomes Iran's most powerful political party" },
+      details: {
+        fa: "حزب توده در ۱۹۴۳ به قوی‌ترین و سازمان‌یافته‌ترین حزب سیاسی ایران تبدیل شد. حزب توده شعبات خود را در سراسر کشور گسترش داد و روزنامه «رهبر» را منتشر می‌کرد. اتحادیه‌های کارگری وابسته به حزب در صنعت نفت و کارخانه‌ها فعال بودند. حزب همچنین در میان دانشجویان، نظامیان و روشنفکران نفوذ زیادی داشت. غرب از رشد نفوذ کمونیسم در ایران نگران بود.",
+        en: "The Tudeh Party became Iran's strongest and most organized political party in 1943. The party expanded its branches across the country and published the newspaper 'Rahbar.' Party-affiliated labor unions were active in the oil industry and factories. The party also had significant influence among students, military officers, and intellectuals. The West was concerned about the growth of communist influence in Iran.",
+      },
+    },
+    {
+      title: { fa: "بیانیه تهران درباره استقلال ایران", en: "Tehran Declaration on Iran's Independence" },
+      description: { fa: "متفقین استقلال و تمامیت ارضی ایران را تضمین کردند", en: "Allies guarantee Iran's independence and territorial integrity" },
+      details: {
+        fa: "در حاشیه کنفرانس تهران، روزولت، چرچیل و استالین بیانیه‌ای صادر کردند که استقلال، حاکمیت و تمامیت ارضی ایران را تضمین می‌کرد. این بیانیه همچنین وعده کمک اقتصادی به ایران پس از جنگ را می‌داد. با این حال، در عمل ایران همچنان تحت اشغال نظامی بود و اقتصادش در بحران قرار داشت. بسیاری از ایرانیان این بیانیه را وعده‌ای توخالی می‌دانستند.",
+        en: "On the sidelines of the Tehran Conference, Roosevelt, Churchill, and Stalin issued a declaration guaranteeing Iran's independence, sovereignty, and territorial integrity. The declaration also promised economic assistance to Iran after the war. However, in practice Iran remained under military occupation and its economy was in crisis. Many Iranians viewed this declaration as an empty promise.",
+      },
+    },
+    {
+      title: { fa: "بحران مالی و سقوط ارزش ریال", en: "Financial Crisis and Devaluation of the Rial" },
+      description: { fa: "ارزش ریال ایران سقوط کرد و بحران مالی تشدید شد", en: "Iranian rial's value plummets and financial crisis intensifies" },
+      details: {
+        fa: "ارزش ریال ایران در دوران اشغال به شدت سقوط کرد. اشغالگران ریال چاپ می‌کردند و پول بدون پشتوانه وارد گردش شد. تورم سرسام‌آور بود و قدرت خرید مردم به شدت کاهش یافت. دولت ایران قادر به کنترل سیاست‌های پولی نبود زیرا متفقین کنترل عملی اقتصاد را در دست داشتند. بحران مالی فقر و نابرابری اجتماعی را تشدید کرد.",
+        en: "The Iranian rial's value plummeted during the occupation. Occupying powers printed rials and unbacked money entered circulation. Inflation was staggering and people's purchasing power declined sharply. The Iranian government was unable to control monetary policies as the Allies held practical control of the economy. The financial crisis intensified poverty and social inequality.",
+      },
     }],
     world: [
       {
@@ -2219,6 +3227,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "حزب توده با سازماندهی کارگران صنعت نفت در خوزستان قدرت خود را نشان داد. اعتصابات کارگری متعددی در پالایشگاه آبادان و مناطق نفتی جنوب رخ داد. کارگران خواهان بهبود شرایط کاری، افزایش دستمزد و پایان تبعیض بین کارگران ایرانی و انگلیسی بودند. شرکت نفت ایران-انگلیس با بی‌توجهی به خواسته‌های کارگران، زمینه‌ساز رشد احساسات ضد بریتانیایی شد.",
         en: "The Tudeh Party demonstrated its power by organizing oil industry workers in Khuzestan. Numerous worker strikes occurred at the Abadan refinery and southern oil regions. Workers demanded better working conditions, higher wages, and an end to discrimination between Iranian and British workers. The Anglo-Iranian Oil Company's disregard for workers' demands fueled growing anti-British sentiment.",
       },
+    },
+    {
+      title: { fa: "قانون منع واگذاری امتیاز نفت (قانون مصدق)", en: "Law Prohibiting Oil Concession Grants (Mossadegh's Law)" },
+      description: { fa: "مجلس با پیشنهاد مصدق اعطای هرگونه امتیاز نفتی را بدون تصویب مجلس ممنوع کرد", en: "Parliament, on Mossadegh's proposal, bans any oil concession without parliamentary approval" },
+      details: {
+        fa: "مجلس شورای ملی به پیشنهاد دکتر محمد مصدق قانونی تصویب کرد که هرگونه مذاکره و واگذاری امتیاز نفت به کشورهای خارجی را بدون تصویب مجلس ممنوع می‌کرد. این قانون در پاسخ به درخواست شوروی برای امتیاز نفت شمال ایران بود. مصدق با دفاع شجاعانه از حاکمیت ملی بر منابع نفتی، مسیری را آغاز کرد که به جنبش ملی شدن نفت منجر شد.",
+        en: "The National Assembly, on Dr. Mohammad Mossadegh's proposal, passed a law prohibiting any negotiation or granting of oil concessions to foreign countries without parliamentary approval. This law was in response to the Soviet Union's demand for a northern Iran oil concession. Mossadegh, with his courageous defense of national sovereignty over oil resources, set the path that led to the oil nationalization movement.",
+      },
+    },
+    {
+      title: { fa: "بحران غلات و اقدامات اضطراری دولت", en: "Grain Crisis and Government Emergency Measures" },
+      description: { fa: "کمبود شدید گندم و نان باعث بحران غذایی در شهرها شد", en: "Severe wheat and bread shortage causes food crisis in cities" },
+      details: {
+        fa: "کمبود شدید گندم و آرد بحران غذایی خطرناکی در شهرهای بزرگ ایران ایجاد کرد. بخش بزرگی از تولید کشاورزی توسط ارتش‌های اشغالگر مصادره می‌شد و زمین‌داران بزرگ غلات را احتکار می‌کردند. دولت مجبور شد سیستم جیره‌بندی نان را اعمال کند اما این سیستم با فساد و ناکارآمدی همراه بود. صف‌های طولانی نان و شورش‌های مردمی بخشی از زندگی روزمره شهرها شد.",
+        en: "Severe wheat and flour shortages created a dangerous food crisis in Iran's major cities. A large portion of agricultural production was requisitioned by occupying armies and large landowners hoarded grain. The government was forced to implement a bread rationing system, but this system was plagued by corruption and inefficiency. Long bread lines and popular protests became part of daily life in cities.",
+      },
+    },
+    {
+      title: { fa: "فعالیت جنبش‌های سیاسی و قومی", en: "Political and Ethnic Movement Activities" },
+      description: { fa: "احزاب سیاسی و جنبش‌های قومی در آذربایجان و کردستان فعال شدند", en: "Political parties and ethnic movements become active in Azerbaijan and Kurdistan" },
+      details: {
+        fa: "در فضای باز سیاسی دوران اشغال، جنبش‌های قومی و سیاسی در مناطق مختلف ایران فعال شدند. در آذربایجان، فرقه دموکرات آذربایجان با حمایت شوروی شکل گرفت. در کردستان نیز حزب دموکرات کردستان تأسیس شد. این جنبش‌ها خواستار خودمختاری و حقوق فرهنگی بودند. دولت مرکزی ایران توان کنترل این مناطق را نداشت زیرا شمال کشور تحت اشغال شوروی قرار داشت.",
+        en: "In the open political atmosphere of the occupation era, ethnic and political movements became active in various parts of Iran. In Azerbaijan, the Azerbaijan Democratic Party formed with Soviet support. In Kurdistan, the Kurdistan Democratic Party was also established. These movements demanded autonomy and cultural rights. Iran's central government lacked the ability to control these regions as the north was under Soviet occupation.",
+      },
     }],
   },
   {
@@ -2238,6 +3270,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "با پایان جنگ جهانی دوم، بریتانیا و آمریکا نیروهای خود را از ایران خارج کردند اما شوروی از تخلیه شمال ایران امتناع ورزید. استالین قصد داشت از موقعیت خود برای کسب امتیاز نفت شمال و ایجاد مناطق نفوذ در آذربایجان و کردستان استفاده کند. این اقدام شوروی به اولین بحران جنگ سرد تبدیل شد و ایران موضوع را به شورای امنیت سازمان ملل برد.",
         en: "With the end of World War II, Britain and the US withdrew their forces from Iran, but the Soviet Union refused to evacuate northern Iran. Stalin intended to use his position to gain a northern oil concession and create zones of influence in Azerbaijan and Kurdistan. This Soviet action became the first crisis of the Cold War, and Iran brought the matter to the UN Security Council.",
+      },
+    },
+    {
+      title: { fa: "تأسیس جمهوری خودمختار آذربایجان", en: "Autonomous Republic of Azerbaijan Established" },
+      description: { fa: "جعفر پیشه‌وری با حمایت شوروی حکومت خودمختار آذربایجان را تأسیس کرد", en: "Ja'far Pishevari establishes autonomous Azerbaijan government with Soviet backing" },
+      details: {
+        fa: "جعفر پیشه‌وری با حمایت شوروی فرقه دموکرات آذربایجان را تأسیس کرد و حکومت خودمختار آذربایجان ایران را اعلام نمود. این حکومت زبان ترکی آذربایجانی را رسمی کرد و اصلاحات ارضی انجام داد. ارتش ایران قادر به ورود به آذربایجان نبود زیرا نیروهای شوروی مانع می‌شدند. این بحران اولین بحران جنگ سرد شد و ایران موضوع را به شورای امنیت سازمان ملل برد.",
+        en: "Ja'far Pishevari established the Azerbaijan Democratic Party with Soviet backing and declared the autonomous government of Iranian Azerbaijan. This government made the Azerbaijani Turkish language official and carried out land reforms. The Iranian army was unable to enter Azerbaijan as Soviet forces blocked them. This crisis became the first Cold War crisis and Iran brought the matter to the UN Security Council.",
+      },
+    },
+    {
+      title: { fa: "جمهوری مهاباد کردستان", en: "Republic of Mahabad Kurdistan" },
+      description: { fa: "قاضی محمد جمهوری کردستان را در مهاباد اعلام کرد", en: "Qazi Muhammad declares Republic of Kurdistan in Mahabad" },
+      details: {
+        fa: "قاضی محمد با حمایت شوروی جمهوری کردستان را در مهاباد اعلام کرد. این جمهوری از حمایت حزب دموکرات کردستان و نیروهای مسلح مصطفی بارزانی برخوردار بود. جمهوری مهاباد اصلاحات آموزشی و فرهنگی به زبان کردی انجام داد. پس از عقب‌نشینی شوروی در ۱۹۴۶، ارتش ایران مهاباد را بازپس گرفت و قاضی محمد اعدام شد.",
+        en: "Qazi Muhammad declared the Republic of Kurdistan in Mahabad with Soviet support. This republic was backed by the Kurdistan Democratic Party and Mustafa Barzani's armed forces. The Republic of Mahabad carried out educational and cultural reforms in the Kurdish language. After the Soviet withdrawal in 1946, the Iranian army recaptured Mahabad and Qazi Muhammad was executed.",
+      },
+    },
+    {
+      title: { fa: "اعتصاب بزرگ کارگران نفت در خوزستان", en: "Major Oil Workers Strike in Khuzestan" },
+      description: { fa: "هزاران کارگر نفت در آبادان و خوزستان اعتصاب کردند", en: "Thousands of oil workers strike in Abadan and Khuzestan" },
+      details: {
+        fa: "هزاران کارگر ایرانی شرکت نفت ایران-انگلیس در آبادان و مناطق نفتی خوزستان دست به اعتصاب زدند. کارگران خواستار افزایش دستمزد، بهبود مسکن و شرایط بهداشتی و پایان تبعیض نژادی بین کارگران ایرانی و انگلیسی بودند. حزب توده نقش مهمی در سازماندهی اعتصاب داشت. شرکت نفت برخی امتیازات جزئی داد اما تبعیض اساسی ادامه یافت.",
+        en: "Thousands of Iranian workers at the Anglo-Iranian Oil Company in Abadan and Khuzestan oil regions went on strike. Workers demanded higher wages, better housing and sanitary conditions, and an end to racial discrimination between Iranian and British workers. The Tudeh Party played a major role in organizing the strike. The oil company made some minor concessions but fundamental discrimination continued.",
       },
     }],
     world: [
@@ -2308,6 +3364,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "احمد قوام (قوام‌السلطنه) به عنوان نخست‌وزیر با زیرکی دیپلماتیک بی‌نظیری بحران آذربایجان را مدیریت کرد. او به مسکو سفر کرد و با استالین مذاکره نمود و وعده امتیاز نفت شمال را داد. حتی سه وزیر توده‌ای را وارد کابینه کرد تا شوروی را راضی کند. پس از عقب‌نشینی شوروی و بازپس‌گیری آذربایجان، مجلس قرارداد نفت شمال را رد کرد و وزیران توده‌ای نیز برکنار شدند.",
         en: "Ahmad Qavam as Prime Minister managed the Azerbaijan crisis with remarkable diplomatic cunning. He traveled to Moscow, negotiated with Stalin, and promised a northern oil concession. He even included three Tudeh ministers in his cabinet to appease the Soviets. After the Soviet withdrawal and recapture of Azerbaijan, parliament rejected the northern oil deal and the Tudeh ministers were dismissed.",
       },
+    },
+    {
+      title: { fa: "رد قرارداد نفت شمال در مجلس", en: "Northern Oil Agreement Rejected in Parliament" },
+      description: { fa: "مجلس قرارداد نفت با شوروی را با اکثریت قاطع رد کرد", en: "Parliament rejects oil agreement with Soviet Union by overwhelming majority" },
+      details: {
+        fa: "مجلس پانزدهم قرارداد امتیاز نفت شمال ایران به شوروی را که قوام‌السلطنه وعده داده بود با اکثریت قاطع رد کرد. از ۱۰۲ نماینده، تنها ۲ نفر به قرارداد رأی مثبت دادند. این رأی‌گیری تاریخی نشان‌دهنده رشد احساسات ملی‌گرایانه و مخالفت با واگذاری منابع نفتی به خارجیان بود. مصدق نقش مهمی در بسیج افکار عمومی علیه قرارداد ایفا کرد.",
+        en: "The 15th Parliament rejected the northern Iran oil concession to the Soviet Union, which Qavam had promised, by an overwhelming majority. Of 102 deputies, only 2 voted in favor. This historic vote demonstrated the growth of nationalist sentiments and opposition to granting oil resources to foreigners. Mossadegh played an important role in mobilizing public opinion against the agreement.",
+      },
+    },
+    {
+      title: { fa: "اعدام قاضی محمد و پایان جمهوری مهاباد", en: "Execution of Qazi Muhammad and End of Republic of Mahabad" },
+      description: { fa: "ارتش ایران کردستان را بازپس گرفت و قاضی محمد اعدام شد", en: "Iranian army recaptures Kurdistan and Qazi Muhammad is executed" },
+      details: {
+        fa: "پس از عقب‌نشینی شوروی، ارتش ایران در آذر ۱۳۲۵ وارد مهاباد شد و جمهوری کردستان را برچید. قاضی محمد و چند تن از همراهانش دستگیر و در اسفند ۱۳۲۵ در میدان مهاباد اعدام شدند. مصطفی بارزانی با نیروهایش به شوروی گریخت. سرکوب آذربایجان و کردستان باعث تلفات جانی و تبعید بسیاری از فعالان شد. ارتش ایران اقتدار دولت مرکزی را بازیابی کرد.",
+        en: "After the Soviet withdrawal, the Iranian army entered Mahabad in December 1946 and dismantled the Republic of Kurdistan. Qazi Muhammad and several of his associates were arrested and executed in Mahabad's main square in March 1947. Mustafa Barzani fled to the Soviet Union with his forces. The suppression of Azerbaijan and Kurdistan caused casualties and exile of many activists. The Iranian army restored central government authority.",
+      },
+    },
+    {
+      title: { fa: "بحران اقتصادی پس از جنگ و مشکلات معیشتی", en: "Post-War Economic Crisis and Livelihood Problems" },
+      description: { fa: "اقتصاد ایران پس از جنگ همچنان در بحران بود", en: "Iran's economy remains in crisis after the war" },
+      details: {
+        fa: "اقتصاد ایران پس از پایان جنگ جهانی دوم همچنان در بحران عمیق بود. تورم بالا، کمبود کالا و بیکاری زندگی مردم را تحت فشار قرار داده بود. زیرساخت‌های کشور در دوران اشغال آسیب دیده بود و ذخایر ارزی تقریباً تمام شده بود. درآمد نفتی ناچیز بود و بودجه دولت با کسری شدید مواجه بود. بخش کشاورزی نیز از رکود رنج می‌برد.",
+        en: "Iran's economy remained in deep crisis after the end of World War II. High inflation, commodity shortages, and unemployment pressured people's lives. The country's infrastructure had been damaged during the occupation and foreign currency reserves were nearly depleted. Oil revenue was minimal and the government budget faced severe deficits. The agricultural sector also suffered from recession.",
+      },
     }],
     world: [
       {
@@ -2357,6 +3437,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "مجلس اولین برنامه عمرانی هفت‌ساله ایران را تصویب کرد. این برنامه با بودجه ۶۵۶ میلیون دلاری شامل پروژه‌های کشاورزی، صنعتی، حمل و نقل و بهداشتی بود. شرکت مشاوره آمریکایی موریسون-نادسن برای اجرای پروژه‌ها استخدام شد. اما کمبود درآمد نفتی و ناکارآمدی اداری باعث شد برنامه به اهداف خود نرسد.",
         en: "Parliament approved Iran's first seven-year development plan. The plan, with a budget of $656 million, included agricultural, industrial, transportation, and health projects. The American consulting firm Morrison-Knudsen was hired to implement projects. However, insufficient oil revenue and administrative inefficiency prevented the plan from achieving its goals.",
       },
+    },
+    {
+      title: { fa: "مأموریت هیئت مستشاری آمریکایی (مأموریت میلسپو)", en: "American Advisory Mission (Millspaugh Mission)" },
+      description: { fa: "مستشاران مالی آمریکایی برای اصلاح نظام مالی ایران فعالیت کردند", en: "American financial advisors work to reform Iran's financial system" },
+      details: {
+        fa: "دکتر آرتور میلسپو و تیم مستشاران مالی آمریکایی که از ۱۹۴۲ در ایران فعال بودند، تلاش کردند نظام مالیاتی و بودجه‌ای ایران را اصلاح کنند. اما مقاومت زمین‌داران بزرگ و سیاستمداران محافظه‌کار مانع اصلاحات جدی شد. مأموریت میلسپو در نهایت با شکست مواجه شد و مستشاران آمریکایی ایران را ترک کردند. این تجربه نشان داد که اصلاحات بدون تغییر ساختارهای قدرت ممکن نیست.",
+        en: "Dr. Arthur Millspaugh and his team of American financial advisors, active in Iran since 1942, attempted to reform Iran's taxation and budgetary systems. But resistance from large landowners and conservative politicians blocked serious reforms. The Millspaugh Mission ultimately failed and the American advisors left Iran. This experience showed that reforms were impossible without changing power structures.",
+      },
+    },
+    {
+      title: { fa: "تصویب قانون برنامه هفت‌ساله اول عمرانی", en: "First Seven-Year Development Plan Law Approved" },
+      description: { fa: "مجلس اولین برنامه جامع توسعه اقتصادی ایران را تصویب کرد", en: "Parliament approves Iran's first comprehensive economic development plan" },
+      details: {
+        fa: "مجلس اولین برنامه هفت‌ساله عمرانی ایران را با بودجه ۶۵۶ میلیون دلار تصویب کرد. سازمان برنامه برای اجرای پروژه‌های توسعه تأسیس شد. برنامه شامل پروژه‌های سدسازی، آبیاری، راه‌سازی، بهداشت و صنعت بود. شرکت مشاوره آمریکایی موریسون-نادسن برای مشاوره فنی استخدام شد. اما کمبود بودجه و ناکارآمدی اداری مانع اجرای کامل برنامه شد.",
+        en: "Parliament approved Iran's first seven-year development plan with a budget of $656 million. The Plan Organization was established to implement development projects. The plan included dam construction, irrigation, road-building, health, and industrial projects. American consulting firm Morrison-Knudsen was hired for technical advice. However, budget shortages and administrative inefficiency prevented full implementation of the plan.",
+      },
+    },
+    {
+      title: { fa: "فعالیت فداییان اسلام و ترور هژیر", en: "Fada'iyan-e Islam Activity and Assassination of Hazhir" },
+      description: { fa: "گروه فداییان اسلام فعال شد و سیاستمداران را تهدید کرد", en: "Fada'iyan-e Islam group becomes active and threatens politicians" },
+      details: {
+        fa: "گروه فداییان اسلام به رهبری سید نواب صفوی فعالیت‌های خود را گسترش داد. این گروه بنیادگرای اسلامی خواستار اجرای شریعت و مبارزه با نفوذ غرب بود. فداییان اسلام احمد کسروی، نویسنده و مورخ برجسته را ترور کردند. این گروه بعداً در ترور نخست‌وزیر رزم‌آرا و سایر شخصیت‌های سیاسی نقش داشت و تأثیر مهمی بر سیاست ایران گذاشت.",
+        en: "The Fada'iyan-e Islam group, led by Navvab Safavi, expanded its activities. This Islamic fundamentalist group demanded implementation of Sharia law and fighting Western influence. The Fada'iyan-e Islam assassinated Ahmad Kasravi, a prominent writer and historian. The group later played a role in assassinating PM Razmara and other political figures, significantly impacting Iranian politics.",
+      },
     }],
     world: [
       {
@@ -2405,6 +3509,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "قرارداد الحاقی نفت (معروف به گس-گلشائیان) که بین دولت ایران و شرکت نفت ایران-انگلیس مذاکره شده بود، با مخالفت شدید مجلس مواجه شد. نمایندگان ملی‌گرا به رهبری مصدق استدلال کردند که این قرارداد منافع ایران را تأمین نمی‌کند و سهم ایران ناعادلانه است. رد این قرارداد زمینه‌ساز جنبش ملی شدن نفت شد.",
         en: "The Supplementary Oil Agreement (known as the Gass-Golshaiyan agreement), negotiated between the Iranian government and the Anglo-Iranian Oil Company, faced fierce opposition in parliament. Nationalist deputies led by Mossadegh argued that the agreement did not serve Iran's interests and that Iran's share was unfair. The rejection of this agreement set the stage for the oil nationalization movement.",
+      },
+    },
+    {
+      title: { fa: "تشکیل مجلس مؤسسان و افزایش اختیارات شاه", en: "Constituent Assembly and Expansion of Shah's Powers" },
+      description: { fa: "شاه پس از ترور نافرجام، اختیارات خود را از طریق مجلس مؤسسان افزایش داد", en: "Shah expands his powers through Constituent Assembly after assassination attempt" },
+      details: {
+        fa: "پس از ترور نافرجام محمدرضا شاه در بهمن ۱۳۲۷، مجلس مؤسسان تشکیل شد و اختیارات شاه را گسترش داد. حق انحلال مجلس شورای ملی و سنا به شاه اعطا شد. مجلس سنا نیز برای اولین بار تأسیس شد که نیمی از اعضای آن منتصب شاه بودند. این تغییرات قانون اساسی زمینه‌ساز تمرکز بیشتر قدرت در دست شاه و حرکت به سمت حکومت استبدادی شد.",
+        en: "Following the failed assassination attempt on Mohammad Reza Shah in February 1949, a Constituent Assembly was convened and expanded the Shah's powers. The right to dissolve the National Assembly and Senate was granted to the Shah. The Senate was established for the first time, with half its members appointed by the Shah. These constitutional changes paved the way for further concentration of power in the Shah's hands and a move toward authoritarian rule.",
+      },
+    },
+    {
+      title: { fa: "افزایش تقاضا برای تجدیدنظر در قرارداد نفت", en: "Growing Demands to Revise Oil Agreement" },
+      description: { fa: "نمایندگان ملی‌گرا خواستار سهم بیشتر ایران از درآمد نفت شدند", en: "Nationalist deputies demand greater Iranian share of oil revenue" },
+      details: {
+        fa: "نمایندگان ملی‌گرا در مجلس به رهبری مصدق خواستار تجدیدنظر اساسی در قرارداد نفت ایران و انگلیس شدند. آنها به قراردادهای نفتی سایر کشورها اشاره می‌کردند که سهم عادلانه‌تری به کشورهای تولیدکننده می‌دادند. عربستان سعودی قرارداد تقسیم سود پنجاه-پنجاه با آرامکو امضا کرده بود. مقایسه شرایط ایران با عربستان خشم عمومی را تشدید کرد.",
+        en: "Nationalist deputies in parliament, led by Mossadegh, demanded fundamental revision of the Iran-British oil agreement. They pointed to other countries' oil contracts that gave more equitable shares to producing nations. Saudi Arabia had signed a fifty-fifty profit-sharing deal with ARAMCO. Comparing Iran's terms with Saudi Arabia intensified public anger.",
+      },
+    },
+    {
+      title: { fa: "تأسیس بنگاه‌های اقتصادی دولتی جدید", en: "New State Economic Enterprises Established" },
+      description: { fa: "دولت بنگاه‌های اقتصادی جدیدی برای توسعه صنعتی تأسیس کرد", en: "Government establishes new economic enterprises for industrial development" },
+      details: {
+        fa: "دولت بنگاه‌های اقتصادی جدیدی در بخش‌های مختلف صنعتی تأسیس کرد. کارخانه‌های جدید در صنایع غذایی، نساجی و مصالح ساختمانی راه‌اندازی شدند. سازمان برنامه تلاش کرد زیرساخت‌های صنعتی کشور را توسعه دهد اما کمبود سرمایه و نیروی متخصص مانع پیشرفت بود. درآمد نفتی ناکافی بود و برنامه هفت‌ساله اول با مشکلات مالی جدی مواجه شد.",
+        en: "The government established new economic enterprises in various industrial sectors. New factories in food processing, textiles, and building materials were launched. The Plan Organization tried to develop the country's industrial infrastructure, but lack of capital and skilled labor hindered progress. Oil revenue was insufficient and the first seven-year plan faced serious financial difficulties.",
       },
     }],
     world: [
@@ -2456,6 +3584,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "محمدرضا شاه پس از ترور نافرجام بهمن ۱۳۲۷ از فرصت استفاده کرد و مجلس مؤسسان تشکیل داد. این مجلس اختیارات شاه را گسترش داد و حق انحلال مجلس شورای ملی و سنا را به او اعطا کرد. مجلس سنا نیز برای اولین بار تأسیس شد که نیمی از اعضای آن منتصب شاه بودند. این تغییرات قانون اساسی زمینه‌ساز تمرکز قدرت در دست شاه شد.",
         en: "Mohammad Reza Shah exploited the February 1949 assassination attempt to convene a constituent assembly. This assembly expanded the Shah's powers and granted him the right to dissolve both the National Assembly and the Senate. The Senate was established for the first time, with half its members appointed by the Shah. These constitutional changes laid the groundwork for the concentration of power in the Shah's hands.",
       },
+    },
+    {
+      title: { fa: "ممنوعیت حزب توده و سرکوب چپ", en: "Tudeh Party Banned and Left Suppressed" },
+      description: { fa: "پس از ترور نافرجام شاه، حزب توده غیرقانونی و فعالانش دستگیر شدند", en: "After failed assassination of Shah, Tudeh Party outlawed and activists arrested" },
+      details: {
+        fa: "پس از ترور نافرجام محمدرضا شاه، دولت حزب توده را به دست داشتن در ترور متهم کرد و آن را غیرقانونی اعلام نمود. صدها عضو حزب توده دستگیر شدند و روزنامه‌ها و نشریات حزب توقیف گردید. رهبران حزب یا به زندان افتادند یا به شوروی گریختند. با این حال، حزب توده به فعالیت مخفیانه ادامه داد و شبکه نظامی قوی خود را حفظ کرد.",
+        en: "After the failed assassination attempt on Mohammad Reza Shah, the government accused the Tudeh Party of involvement and declared it illegal. Hundreds of Tudeh members were arrested and party newspapers and publications were shut down. Party leaders were either imprisoned or fled to the Soviet Union. However, the Tudeh Party continued operating underground and maintained its strong military network.",
+      },
+    },
+    {
+      title: { fa: "اصلاحات ارضی محدود و مسئله زمین", en: "Limited Land Reforms and the Land Question" },
+      description: { fa: "فروش اراضی خالصه (دولتی) به دهقانان آغاز شد", en: "Sale of crown lands to peasants begins" },
+      details: {
+        fa: "محمدرضا شاه فروش بخشی از املاک خالصه (اراضی سلطنتی) به دهقانان را آغاز کرد. این اقدام تلاشی محدود برای اصلاحات ارضی بود اما در مقیاس کوچکی انجام شد و تأثیر چندانی بر ساختار فئودالی نداشت. اکثر زمین‌های کشاورزی همچنان در تملک مالکان بزرگ بود و میلیون‌ها دهقان بدون زمین زندگی فقیرانه‌ای داشتند. فشار برای اصلاحات ارضی اساسی‌تر ادامه داشت.",
+        en: "Mohammad Reza Shah began selling a portion of crown estates to peasants. This was a limited attempt at land reform, carried out on a small scale with little impact on the feudal structure. Most agricultural land remained in the hands of large landowners and millions of landless peasants lived in poverty. Pressure for more fundamental land reform continued.",
+      },
+    },
+    {
+      title: { fa: "تأسیس مؤسسات مالی و بانکی جدید", en: "New Financial and Banking Institutions Established" },
+      description: { fa: "بانک‌ها و مؤسسات مالی جدید برای تأمین سرمایه توسعه تأسیس شدند", en: "New banks and financial institutions established to fund development" },
+      details: {
+        fa: "مؤسسات مالی و بانکی جدیدی از جمله بانک رهنی و بانک‌های توسعه‌ای تأسیس شدند تا سرمایه مورد نیاز پروژه‌های عمرانی و صنعتی را تأمین کنند. نظام بانکی ایران در حال مدرن شدن بود و بانک‌های خصوصی نیز شروع به فعالیت کردند. با این حال، سیستم مالی کشور هنوز توسعه‌نیافته بود و بخش بزرگی از سرمایه‌گذاری‌ها از محل درآمد نفتی تأمین می‌شد.",
+        en: "New financial and banking institutions including the Mortgage Bank and development banks were established to provide capital for development and industrial projects. Iran's banking system was modernizing and private banks also began operating. However, the country's financial system was still underdeveloped and a large portion of investments were funded by oil revenue.",
+      },
     }],
     world: [
       {
@@ -2505,6 +3657,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "جبهه ملی ایران به رهبری دکتر محمد مصدق تأسیس شد و ائتلافی از نیروهای ملی‌گرا، لیبرال و مذهبی را گرد هم آورد. هدف اصلی جبهه ملی شدن صنعت نفت و پایان دادن به سلطه بریتانیا بر منابع نفتی ایران بود. آیت‌الله کاشانی، حسین مکی و دکتر باقر کاظمی از اعضای برجسته جبهه بودند. جبهه ملی به سرعت محبوبیت گسترده‌ای در میان مردم کسب کرد.",
         en: "The National Front of Iran was founded under the leadership of Dr. Mohammad Mossadegh, bringing together a coalition of nationalist, liberal, and religious forces. The main goal was the nationalization of the oil industry and ending British domination over Iran's oil resources. Ayatollah Kashani, Hossein Makki, and Dr. Bagher Kazemi were prominent members. The National Front quickly gained widespread popularity among the people.",
+      },
+    },
+    {
+      title: { fa: "ورود مصدق به رهبری جنبش ملی نفت", en: "Mossadegh Takes Leadership of Oil National Movement" },
+      description: { fa: "مصدق رهبری جبهه ملی و جنبش ملی شدن نفت را بر عهده گرفت", en: "Mossadegh leads the National Front and oil nationalization movement" },
+      details: {
+        fa: "دکتر محمد مصدق با بهره‌گیری از نارضایتی عمومی از قرارداد نفت ایران و انگلیس، رهبری جنبش ملی شدن نفت را بر عهده گرفت. جبهه ملی ائتلاف گسترده‌ای از نیروهای سیاسی مختلف بود. مصدق با سخنرانی‌های آتشین در مجلس و تجمعات عمومی، افکار عمومی را به سمت ملی شدن نفت هدایت کرد. شعار «نفت ما باید ملی شود» در سراسر کشور طنین‌انداز شد.",
+        en: "Dr. Mohammad Mossadegh, leveraging public discontent with the Anglo-Iranian oil agreement, assumed leadership of the oil nationalization movement. The National Front was a broad coalition of various political forces. Through fiery speeches in parliament and public rallies, Mossadegh steered public opinion toward oil nationalization. The slogan 'Our oil must be nationalized' echoed across the country.",
+      },
+    },
+    {
+      title: { fa: "بحران بودجه و کسری مالی دولت", en: "Budget Crisis and Government Fiscal Deficit" },
+      description: { fa: "درآمد نفتی ناکافی و هزینه‌های بالای دولت باعث کسری بودجه شد", en: "Insufficient oil revenue and high government spending cause budget deficit" },
+      details: {
+        fa: "بودجه دولت با کسری شدید مواجه بود. درآمد نفتی که بخش اصلی بودجه را تشکیل می‌داد ناکافی بود زیرا سهم ایران از درآمد نفت بسیار ناچیز بود. برنامه هفت‌ساله عمرانی به دلیل کمبود بودجه کند پیش می‌رفت. دولت مجبور شد برای تأمین هزینه‌ها از چاپ پول بدون پشتوانه استفاده کند که تورم را تشدید کرد. فشار مالی یکی از عوامل تسریع جنبش ملی شدن نفت بود.",
+        en: "The government budget faced severe deficit. Oil revenue, the main source of budget income, was insufficient as Iran's share of oil income was very meager. The seven-year development plan progressed slowly due to budget shortages. The government was forced to print unbacked money to cover expenses, worsening inflation. Financial pressure was one of the factors accelerating the oil nationalization movement.",
+      },
+    },
+    {
+      title: { fa: "مقایسه قراردادهای نفتی و رشد ناسیونالیسم", en: "Comparison of Oil Contracts and Rise of Nationalism" },
+      description: { fa: "قرارداد پنجاه-پنجاه آرامکو در عربستان خشم ایرانیان را برانگیخت", en: "ARAMCO's fifty-fifty deal in Saudi Arabia sparks Iranian outrage" },
+      details: {
+        fa: "قرارداد تقسیم سود پنجاه-پنجاه بین عربستان سعودی و شرکت آرامکو باعث خشم شدید ایرانیان شد. سهم ایران از درآمد نفت تنها ۲۰ درصد بود در حالی که عربستان ۵۰ درصد دریافت می‌کرد. شرکت نفت ایران-انگلیس حاضر به قبول قرارداد مشابه نشد. این مقایسه احساسات ملی‌گرایانه را تقویت کرد و خواست ملی شدن نفت را به مطالبه‌ای عمومی تبدیل نمود.",
+        en: "The fifty-fifty profit-sharing deal between Saudi Arabia and ARAMCO sparked intense Iranian outrage. Iran's share of oil revenue was only about 20 percent while Saudi Arabia received 50 percent. The Anglo-Iranian Oil Company refused to accept a similar deal. This comparison strengthened nationalist sentiments and turned the demand for oil nationalization into a popular movement.",
       },
     }],
     world: [
@@ -2561,6 +3737,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "پس از ملی شدن صنعت نفت، پالایشگاه آبادان که بزرگ‌ترین پالایشگاه جهان بود تعطیل شد و تمام کارکنان بریتانیایی شرکت نفت ایران-انگلیس اخراج شدند. بریتانیا با اعزام ناوگان جنگی به خلیج فارس تهدید نظامی کرد و تحریم نفتی شدیدی اعمال نمود. هیچ شرکت نفتی بین‌المللی حاضر به خرید نفت ایران نشد و درآمد نفتی کشور به صفر رسید. مصدق در سازمان ملل و دیوان بین‌المللی لاهه از حق ایران دفاع کرد.",
         en: "After oil nationalization, the Abadan refinery, the world's largest, was shut down and all British employees of the Anglo-Iranian Oil Company were expelled. Britain sent warships to the Persian Gulf as a military threat and imposed a severe oil embargo. No international oil company agreed to buy Iranian oil and the country's oil revenue dropped to zero. Mossadegh defended Iran's rights at the UN and the International Court of Justice at The Hague.",
       },
+    },
+    {
+      title: { fa: "سخنرانی تاریخی مصدق در شورای امنیت سازمان ملل", en: "Mossadegh's Historic Speech at UN Security Council" },
+      description: { fa: "مصدق در سازمان ملل از حق ایران بر نفت خود دفاع کرد", en: "Mossadegh defends Iran's right to its oil at the United Nations" },
+      details: {
+        fa: "مصدق در اکتبر ۱۹۵۱ به نیویورک سفر کرد و در شورای امنیت سازمان ملل از ملی شدن صنعت نفت ایران دفاع کرد. سخنرانی پرشور مصدق توجه جهانی را جلب کرد و او را به چهره‌ای بین‌المللی تبدیل کرد. شورای امنیت تصمیم گرفت موضوع را به دیوان بین‌المللی دادگستری لاهه ارجاع دهد. مصدق همچنین از فیلادلفیا و واشنگتن بازدید کرد و در مصاحبه‌های مطبوعاتی متعدد شرکت نمود.",
+        en: "Mossadegh traveled to New York in October 1951 and defended Iran's oil nationalization at the UN Security Council. His passionate speech attracted worldwide attention and made him an international figure. The Security Council decided to refer the matter to the International Court of Justice at The Hague. Mossadegh also visited Philadelphia and Washington and participated in numerous press interviews.",
+      },
+    },
+    {
+      title: { fa: "تحریم نفتی بریتانیا و بحران اقتصادی ایران", en: "British Oil Embargo and Iran's Economic Crisis" },
+      description: { fa: "تحریم نفتی بریتانیا درآمد ایران را به صفر رساند", en: "British oil embargo reduces Iran's revenue to zero" },
+      details: {
+        fa: "بریتانیا تحریم نفتی شدیدی علیه ایران اعمال کرد و با تهدید شرکت‌های نفتی جهان، هیچ کشوری حاضر به خرید نفت ایران نشد. نیروی دریایی سلطنتی بریتانیا در خلیج فارس مستقر شد تا از صادرات نفت ایران جلوگیری کند. درآمد نفتی ایران از ۴۵ میلیون پوند به صفر رسید. دولت مصدق با بحران مالی شدید مواجه شد و مجبور به صرفه‌جویی شدید و چاپ اسکناس شد.",
+        en: "Britain imposed a severe oil embargo on Iran and, by threatening global oil companies, ensured no country would buy Iranian oil. The Royal Navy was stationed in the Persian Gulf to prevent Iranian oil exports. Iran's oil revenue dropped from 45 million pounds to zero. Mossadegh's government faced severe financial crisis and was forced to implement strict austerity measures and print banknotes.",
+      },
+    },
+    {
+      title: { fa: "رأی دیوان بین‌المللی لاهه به نفع ایران", en: "International Court of Justice Rules in Iran's Favor" },
+      description: { fa: "دیوان لاهه اعلام کرد صلاحیت رسیدگی به شکایت بریتانیا را ندارد", en: "The Hague Court declares it lacks jurisdiction over Britain's complaint" },
+      details: {
+        fa: "دیوان بین‌المللی دادگستری لاهه در ژوئیه ۱۹۵۲ رأی داد که صلاحیت رسیدگی به شکایت بریتانیا علیه ملی شدن نفت ایران را ندارد. این رأی پیروزی حقوقی بزرگی برای ایران بود و نشان داد که ملی شدن نفت حق قانونی ایران است. مصدق از این پیروزی استقبال کرد اما بریتانیا همچنان تحریم نفتی و فشارهای سیاسی را ادامه داد و به طراحی کودتا روی آورد.",
+        en: "The International Court of Justice at The Hague ruled in July 1952 that it lacked jurisdiction to hear Britain's complaint against Iran's oil nationalization. This was a major legal victory for Iran, demonstrating that oil nationalization was Iran's legal right. Mossadegh welcomed this victory, but Britain continued the oil embargo and political pressure and turned to planning a coup.",
+      },
     }],
     world: [
       {
@@ -2610,6 +3810,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "مصدق در مهر ۱۳۳۱ (اکتبر ۱۹۵۲) روابط دیپلماتیک ایران با بریتانیا را قطع کرد و سفارت بریتانیا در تهران بسته شد. این اقدام در پاسخ به توطئه‌های بریتانیا علیه دولت ایران و ادامه تحریم نفتی بود. بریتانیا که دیگر نمی‌توانست مستقیماً در ایران عمل کند، از آمریکا خواست تا در سرنگونی مصدق مشارکت کند. آیزنهاور که در نوامبر ۱۹۵۲ رئیس‌جمهور شد، برخلاف ترومن، با طرح کودتا موافقت کرد.",
         en: "Mossadegh severed Iran's diplomatic relations with Britain in October 1952 and the British Embassy in Tehran was closed. This action was in response to British conspiracies against the Iranian government and the continued oil embargo. Britain, no longer able to operate directly in Iran, asked the US to participate in overthrowing Mossadegh. Eisenhower, who became president in November 1952, unlike Truman, agreed to the coup plan.",
       },
+    },
+    {
+      title: { fa: "اختیارات فوق‌العاده مصدق و اصلاحات", en: "Mossadegh's Emergency Powers and Reforms" },
+      description: { fa: "مصدق با اختیارات فوق‌العاده اصلاحات مالیاتی و قضایی را آغاز کرد", en: "Mossadegh launches tax and judicial reforms with emergency powers" },
+      details: {
+        fa: "مصدق پس از دریافت اختیارات فوق‌العاده از مجلس، مجموعه‌ای از اصلاحات را آغاز کرد. اصلاحات مالیاتی برای افزایش درآمد دولت انجام شد و مالیات بر ثروتمندان افزایش یافت. اصلاحات قضایی و اداری نیز انجام شد. مصدق همچنین تلاش کرد بودجه نظامی را کاهش و هزینه‌های آموزشی و بهداشتی را افزایش دهد. این اقدامات با مخالفت شاه و ارتش مواجه شد.",
+        en: "After receiving emergency powers from parliament, Mossadegh launched a series of reforms. Tax reforms were implemented to increase government revenue with higher taxes on the wealthy. Judicial and administrative reforms were also carried out. Mossadegh also tried to reduce the military budget and increase education and health spending. These measures faced opposition from the Shah and the military.",
+      },
+    },
+    {
+      title: { fa: "فشار اقتصادی تحریم نفتی بر مردم", en: "Economic Pressure of Oil Embargo on the People" },
+      description: { fa: "تحریم نفتی بریتانیا اقتصاد ایران را فلج کرد", en: "British oil embargo paralyzes Iran's economy" },
+      details: {
+        fa: "تحریم نفتی بریتانیا اقتصاد ایران را به شدت تحت فشار قرار داد. درآمد نفتی به صفر رسیده بود و بودجه دولت با کسری شدید مواجه بود. مصدق مجبور شد سیاست‌های ریاضتی شدید اعمال کند. صادرات غیرنفتی نتوانست جایگزین درآمد نفتی شود. با این حال، مصدق از محبوبیت گسترده‌ای در میان مردم برخوردار بود و بسیاری حاضر به تحمل سختی‌ها به خاطر استقلال ملی بودند.",
+        en: "The British oil embargo placed severe pressure on Iran's economy. Oil revenue had dropped to zero and the government budget faced severe deficit. Mossadegh was forced to implement strict austerity policies. Non-oil exports could not replace oil revenue. However, Mossadegh enjoyed widespread popularity among the people, and many were willing to endure hardships for the sake of national independence.",
+      },
+    },
+    {
+      title: { fa: "شکست طرح اولیه کودتای بریتانیا", en: "Failure of Britain's Initial Coup Plan" },
+      description: { fa: "MI6 طرح کودتا علیه مصدق را آماده کرد اما به تنهایی قادر به اجرا نبود", en: "MI6 prepares coup plan against Mossadegh but cannot execute it alone" },
+      details: {
+        fa: "بریتانیا پس از قطع روابط دیپلماتیک و بسته شدن سفارت در تهران، قادر به اجرای مستقیم عملیات علیه مصدق نبود. MI6 طرح کودتا (عملیات چکمه) را تهیه کرده بود اما برای اجرای آن به کمک آمریکا نیاز داشت. ترومن رئیس‌جمهور آمریکا با کودتا مخالف بود، اما بریتانیا امیدوار بود رئیس‌جمهور بعدی موافقت کند. با پیروزی آیزنهاور در انتخابات نوامبر ۱۹۵۲، این امید محقق شد.",
+        en: "After severing diplomatic relations and closing its embassy in Tehran, Britain was unable to directly conduct operations against Mossadegh. MI6 had prepared a coup plan (Operation Boot) but needed American help to execute it. President Truman opposed the coup, but Britain hoped the next president would agree. With Eisenhower's victory in the November 1952 elections, this hope was realized.",
+      },
     }],
   },
   {
@@ -2634,6 +3858,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "پس از کودتای ۲۸ مرداد، مصدق دستگیر و در دادگاه نظامی محاکمه شد. او در دادگاه دفاعیه شجاعانه‌ای از ملی شدن نفت و حاکمیت ملی ایران ارائه داد. مصدق به سه سال زندان محکوم شد و پس از آن تا پایان عمر در تبعید خانگی در احمدآباد ماند. اعضای جبهه ملی و حزب توده به شدت سرکوب شدند، ده‌ها نفر اعدام و صدها نفر زندانی شدند. دوران آزادی سیاسی ایران به پایان رسید.",
         en: "After the August 19 coup, Mossadegh was arrested and tried in a military court. He delivered a courageous defense of oil nationalization and Iranian national sovereignty. Mossadegh was sentenced to three years in prison and afterward remained under house arrest in Ahmadabad until his death. Members of the National Front and Tudeh Party were severely repressed; dozens were executed and hundreds imprisoned. Iran's era of political freedom came to an end.",
+      },
+    },
+    {
+      title: { fa: "عملیات آژاکس و سرنگونی مصدق", en: "Operation Ajax and Overthrow of Mossadegh" },
+      description: { fa: "CIA و MI6 با استفاده از اوباش و بخشی از ارتش مصدق را سرنگون کردند", en: "CIA and MI6 use hired mobs and part of military to overthrow Mossadegh" },
+      details: {
+        fa: "عملیات آژاکس (نام رمز CIA) و عملیات چکمه (نام رمز MI6) در مرداد ۱۳۳۲ اجرا شد. کرمیت روزولت مأمور CIA عملیات را در تهران هدایت کرد. تلاش اول در ۲۵ مرداد شکست خورد و شاه به بغداد و سپس رم گریخت. در ۲۸ مرداد اوباش سازمان‌یافته به رهبری شعبان بی‌مخ و بخشی از ارتش به رهبری ژنرال زاهدی مصدق را سرنگون کردند. مصدق دستگیر و محاکمه شد.",
+        en: "Operation Ajax (CIA codename) and Operation Boot (MI6 codename) were executed in August 1953. CIA operative Kermit Roosevelt directed the operation in Tehran. The first attempt on August 15 failed and the Shah fled to Baghdad then Rome. On August 19, organized mobs led by Sha'ban Bimokh and part of the military under General Zahedi overthrew Mossadegh. Mossadegh was arrested and tried.",
+      },
+    },
+    {
+      title: { fa: "بازگشت شاه و آغاز استبداد نوین", en: "Shah's Return and Beginning of New Authoritarianism" },
+      description: { fa: "محمدرضا شاه به تهران بازگشت و حکومت مطلقه را آغاز کرد", en: "Mohammad Reza Shah returns to Tehran and begins absolute rule" },
+      details: {
+        fa: "محمدرضا شاه پس از موفقیت کودتای ۲۸ مرداد از رم به تهران بازگشت. شاه که پیش از کودتا قدرت محدودی داشت، اکنون با حمایت آمریکا و بریتانیا قدرت مطلقه را در دست گرفت. ژنرال فضل‌الله زاهدی نخست‌وزیر شد و سرکوب گسترده مخالفان آغاز شد. دوران آزادی سیاسی ایران که از ۱۹۴۱ آغاز شده بود به پایان رسید و دوران استبداد جدیدی آغاز گردید.",
+        en: "Mohammad Reza Shah returned to Tehran from Rome after the successful August 19 coup. The Shah, who had limited power before the coup, now assumed absolute power with US and British backing. General Fazlollah Zahedi became Prime Minister and widespread repression of opponents began. The era of political freedom in Iran that had begun in 1941 came to an end, and a new era of authoritarianism began.",
+      },
+    },
+    {
+      title: { fa: "اعتراف بعدی CIA به اشتباه بودن کودتا", en: "CIA's Later Admission That the Coup Was a Mistake" },
+      description: { fa: "اسناد محرمانه CIA بعدها نقش آمریکا در کودتا را تأیید کرد", en: "Classified CIA documents later confirm US role in the coup" },
+      details: {
+        fa: "سال‌ها بعد اسناد محرمانه‌زدایی‌شده CIA نقش مستقیم آمریکا در طراحی و اجرای کودتای ۲۸ مرداد را تأیید کرد. در سال ۲۰۰۰ مادلین آلبرایت وزیر خارجه آمریکا اذعان کرد که کودتا «بوضوح یک عقب‌گرد برای حکومت دموکراتیک ایران بود». باراک اوباما نیز در سخنرانی قاهره ۲۰۰۹ به نقش آمریکا اشاره کرد. این کودتا ضربه عمیقی به اعتماد ایرانیان نسبت به آمریکا وارد آورد.",
+        en: "Years later, declassified CIA documents confirmed the direct US role in planning and executing the August 1953 coup. In 2000, US Secretary of State Madeleine Albright acknowledged the coup was 'clearly a setback for Iran's democratic government.' Barack Obama also referenced the US role in his 2009 Cairo speech. The coup dealt a deep blow to Iranians' trust in America.",
       },
     }],
     world: [
@@ -2684,6 +3932,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "پس از کودتای ۲۸ مرداد، دولت زاهدی موج گسترده‌ای از دستگیری‌ها را آغاز کرد. محمد مصدق در دادگاه نظامی محاکمه و به سه سال زندان محکوم شد و سپس تا پایان عمر در احمدآباد تبعید ماند. رهبران جبهه ملی بازداشت یا خانه‌نشین شدند. شبکه نظامی حزب توده کشف و صدها افسر ارتش دستگیر شدند. فضای سیاسی کشور به شدت بسته شد و شاه با حمایت آمریکا و بریتانیا قدرت مطلقه خود را تثبیت کرد.",
         en: "After the August 1953 coup, the Zahedi government launched a sweeping wave of arrests. Mohammad Mossadegh was tried in a military court, sentenced to three years in prison, and then lived in internal exile in Ahmadabad until his death. National Front leaders were detained or placed under house arrest. The Tudeh Party's military network was uncovered and hundreds of army officers were arrested. The country's political space was severely restricted as the Shah consolidated absolute power with American and British support.",
       },
+    },
+    {
+      title: { fa: "امضای قرارداد کنسرسیوم نفت بین‌المللی", en: "International Oil Consortium Agreement Signed" },
+      description: { fa: "کنسرسیومی از شرکت‌های نفتی غربی جایگزین ملی شدن نفت شد", en: "Consortium of Western oil companies replaces oil nationalization" },
+      details: {
+        fa: "دولت زاهدی قرارداد کنسرسیوم نفت را امضا کرد که بر اساس آن شرکت‌های نفتی آمریکایی (۴۰ درصد)، بریتانیایی (۴۰ درصد)، هلندی و فرانسوی عملیات نفتی ایران را اداره می‌کردند. سهم ایران ۵۰ درصد سود تعیین شد. شرکت ملی نفت ایران رسماً باقی ماند اما کنترل عملی در دست کنسرسیوم بود. منتقدان این قرارداد را خیانت به ملی شدن نفت می‌دانستند.",
+        en: "The Zahedi government signed the Oil Consortium Agreement under which American (40%), British (40%), Dutch, and French oil companies managed Iran's oil operations. Iran's share was set at 50% of profits. The National Iranian Oil Company formally remained but practical control was in the consortium's hands. Critics viewed this agreement as a betrayal of oil nationalization.",
+      },
+    },
+    {
+      title: { fa: "کمک‌های اقتصادی و نظامی آمریکا به ایران", en: "US Economic and Military Aid to Iran" },
+      description: { fa: "آمریکا کمک‌های مالی و نظامی قابل توجهی به ایران ارسال کرد", en: "US sends significant financial and military aid to Iran" },
+      details: {
+        fa: "پس از کودتای ۲۸ مرداد، آمریکا کمک‌های اقتصادی و نظامی قابل توجهی به ایران ارسال کرد. ۴۵ میلیون دلار کمک فوری و وام‌های متعدد به دولت ایران داده شد. تجهیزات نظامی آمریکایی وارد ایران شد و مستشاران نظامی آمریکایی آموزش ارتش ایران را بر عهده گرفتند. این کمک‌ها وابستگی ایران به آمریکا را تشدید کرد و ایران را به یکی از متحدان اصلی آمریکا در جنگ سرد تبدیل نمود.",
+        en: "After the August 1953 coup, the US sent significant economic and military aid to Iran. $45 million in emergency aid and numerous loans were given to the Iranian government. American military equipment was imported and US military advisors took charge of training the Iranian army. This aid deepened Iran's dependence on the US and turned Iran into one of America's main Cold War allies.",
+      },
+    },
+    {
+      title: { fa: "کشف و انهدام شبکه نظامی حزب توده", en: "Discovery and Destruction of Tudeh Party Military Network" },
+      description: { fa: "شبکه نظامی حزب توده در ارتش کشف و صدها افسر دستگیر شدند", en: "Tudeh Party's military network in army discovered and hundreds of officers arrested" },
+      details: {
+        fa: "ساواک و اطلاعات ارتش شبکه مخفی نظامی حزب توده در ارتش ایران را کشف کردند. صدها افسر ارتش که عضو مخفی حزب توده بودند دستگیر شدند. برخی اعدام و بسیاری به زندان‌های طولانی‌مدت محکوم شدند. کشف این شبکه نشان داد که حزب توده نفوذ عمیقی در ارتش داشته و خطر جدی برای نظام حاکم محسوب می‌شد. این سرکوب حزب توده را برای سال‌ها فلج کرد.",
+        en: "SAVAK and military intelligence discovered the Tudeh Party's secret military network within the Iranian army. Hundreds of army officers who were secret Tudeh members were arrested. Some were executed and many sentenced to long prison terms. The discovery of this network showed that the Tudeh Party had deep infiltration of the military and posed a serious threat to the ruling system. This crackdown paralyzed the Tudeh Party for years.",
+      },
     }],
   },
   {
@@ -2704,6 +3976,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "برنامه عمرانی هفت‌ساله دوم ایران با تمرکز بر صنعتی‌سازی و زیرساخت‌ها آغاز شد. سازمان برنامه با کمک مالی و فنی آمریکا پروژه‌های بزرگ سدسازی، راه‌سازی و کشاورزی را اجرا کرد. درآمدهای نفتی رو به افزایش بود و ایران از کمک‌های اصل چهار ترومن بهره‌مند شد. این دوره آغاز مدرنیزاسیون اقتصادی ایران تحت نظارت شاه بود.",
         en: "Iran's Second Seven-Year Development Plan began with a focus on industrialization and infrastructure. The Plan Organization, with American financial and technical assistance, implemented major dam construction, road-building, and agricultural projects. Oil revenues were increasing and Iran benefited from Truman's Point Four aid programs. This period marked the beginning of Iran's economic modernization under the Shah's direction.",
       },
+    },
+    {
+      title: { fa: "پیوستن ایران به پیمان بغداد (سنتو)", en: "Iran Joins the Baghdad Pact (CENTO)" },
+      description: { fa: "ایران به اتحاد نظامی غرب در خاورمیانه پیوست", en: "Iran joins Western military alliance in the Middle East" },
+      details: {
+        fa: "ایران رسماً به پیمان بغداد پیوست. این پیمان نظامی شامل ترکیه، عراق، پاکستان و بریتانیا بود و هدف آن مقابله با نفوذ شوروی در منطقه بود. عضویت ایران همسویی کامل شاه با بلوک غرب در جنگ سرد را نشان می‌داد. شوروی این اقدام را تحریک‌آمیز خواند و روابط ایران و شوروی تیره شد. مصر ناصر و کشورهای عربی نیز از این پیمان انتقاد کردند.",
+        en: "Iran officially joined the Baghdad Pact. This military alliance included Turkey, Iraq, Pakistan, and Britain, aimed at countering Soviet influence in the region. Iran's membership demonstrated the Shah's complete alignment with the Western bloc in the Cold War. The Soviet Union called this provocative and Iran-Soviet relations deteriorated. Nasser's Egypt and Arab countries also criticized the pact.",
+      },
+    },
+    {
+      title: { fa: "سازمان برنامه و برنامه عمرانی دوم", en: "Plan Organization and Second Development Plan" },
+      description: { fa: "ابوالحسن ابتهاج مدیریت سازمان برنامه و اجرای پروژه‌های عمرانی را بر عهده گرفت", en: "Abolhassan Ebtehaj takes charge of Plan Organization and development projects" },
+      details: {
+        fa: "ابوالحسن ابتهاج، مدیر توانمند سازمان برنامه، اجرای برنامه هفت‌ساله دوم عمرانی را با جدیت آغاز کرد. پروژه‌های بزرگ سدسازی مانند سد کرج و سد دز طراحی شدند. راه‌ها و جاده‌های جدید ساخته شد و زیرساخت‌های شهری بهبود یافت. ابتهاج بر استقلال سازمان برنامه از دخالت‌های سیاسی اصرار داشت که این موضع باعث اختلاف او با شاه و سرانجام برکناری‌اش شد.",
+        en: "Abolhassan Ebtehaj, the capable director of the Plan Organization, earnestly began implementing the Second Seven-Year Development Plan. Major dam projects like Karaj Dam and Dez Dam were designed. New roads were built and urban infrastructure improved. Ebtehaj insisted on the Plan Organization's independence from political interference, a position that caused friction with the Shah and eventually led to his dismissal.",
+      },
+    },
+    {
+      title: { fa: "رشد درآمدهای نفتی و آغاز رونق اقتصادی", en: "Growth of Oil Revenues and Beginning of Economic Boom" },
+      description: { fa: "درآمد نفتی ایران پس از قرارداد کنسرسیوم رو به افزایش بود", en: "Iran's oil revenue increases after the consortium agreement" },
+      details: {
+        fa: "درآمد نفتی ایران پس از امضای قرارداد کنسرسیوم به تدریج افزایش یافت و از ۹۰ میلیون دلار در ۱۹۵۵ فراتر رفت. این درآمد بخش اصلی بودجه دولت و برنامه عمرانی را تأمین می‌کرد. اقتصاد ایران آرام‌آرام وارد دوره رونق شد و ساخت‌وساز در شهرها افزایش یافت. با این حال، وابستگی بودجه به درآمد نفت خطر ساختاری بلندمدتی ایجاد کرد.",
+        en: "Iran's oil revenue gradually increased after the consortium agreement, exceeding $90 million in 1955. This revenue constituted the main source of the government budget and development plan. Iran's economy slowly entered a boom period and construction in cities increased. However, the budget's dependence on oil revenue created a long-term structural risk.",
+      },
     }],
   },
   {
@@ -2723,6 +4019,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "سازمان اطلاعات و امنیت کشور (ساواک) رسماً تأسیس شد. تیمور بختیار اولین رئیس ساواک بود. این سازمان با کمک فنی سیا و موساد ایجاد شد و وظیفه مبارزه با مخالفان داخلی و جاسوسی خارجی را بر عهده داشت. ساواک به سرعت به ابزار اصلی سرکوب سیاسی تبدیل شد و به خاطر شکنجه زندانیان سیاسی و نظارت گسترده بر جامعه بدنام شد.",
         en: "The Organization of Intelligence and National Security (SAVAK) was formally established. Teimur Bakhtiar was its first director. The organization was created with technical assistance from the CIA and Mossad, tasked with combating domestic opposition and foreign espionage. SAVAK quickly became the primary instrument of political repression and became notorious for torturing political prisoners and conducting extensive surveillance of society.",
+      },
+    },
+    {
+      title: { fa: "تأسیس رسمی ساواک و سرکوب سیاسی", en: "Formal Establishment of SAVAK and Political Repression" },
+      description: { fa: "ساواک با کمک فنی سیا و موساد به ابزار اصلی سرکوب تبدیل شد", en: "SAVAK becomes primary repression tool with CIA and Mossad technical help" },
+      details: {
+        fa: "ساواک (سازمان اطلاعات و امنیت کشور) با کمک فنی سیا و موساد عملاً شروع به فعالیت کرد و تیمور بختیار اولین رئیس آن بود. ساواک با استفاده از روش‌های پیشرفته جاسوسی و شکنجه، مخالفان سیاسی را شناسایی و سرکوب می‌کرد. زندان‌های سیاسی پر از فعالان جبهه ملی، حزب توده و سایر گروه‌ها شد. ساواک تا سقوط شاه در ۱۹۷۹ ابزار اصلی سرکوب باقی ماند.",
+        en: "SAVAK (Organization of Intelligence and National Security), with technical help from the CIA and Mossad, effectively began operations with Teimur Bakhtiar as its first director. Using advanced espionage and torture methods, SAVAK identified and suppressed political opponents. Political prisons filled with National Front, Tudeh Party, and other group activists. SAVAK remained the primary instrument of repression until the Shah's fall in 1979.",
+      },
+    },
+    {
+      title: { fa: "گسترش صنعت نفت و افزایش تولید", en: "Oil Industry Expansion and Production Increase" },
+      description: { fa: "تولید نفت ایران افزایش یافت و درآمدهای نفتی رو به رشد بود", en: "Iran's oil production increases and oil revenues grow" },
+      details: {
+        fa: "تولید نفت ایران تحت مدیریت کنسرسیوم بین‌المللی افزایش یافت. میدان‌های نفتی جدید در خوزستان و مناطق جنوبی کشف و بهره‌برداری شدند. پالایشگاه آبادان نیز دوباره با ظرفیت بالا فعال شد. درآمد نفتی ایران در حال رشد بود و بودجه دولت از محل این درآمدها تأمین می‌شد. با این حال، کنترل عملی صنعت نفت در دست شرکت‌های خارجی باقی ماند.",
+        en: "Iran's oil production increased under the management of the international consortium. New oil fields in Khuzestan and southern regions were discovered and exploited. The Abadan refinery also resumed operations at high capacity. Iran's oil revenue was growing and the government budget was funded from these revenues. However, practical control of the oil industry remained in the hands of foreign companies.",
+      },
+    },
+    {
+      title: { fa: "مسئله اصلاحات ارضی و فقر روستایی", en: "Land Reform Question and Rural Poverty" },
+      description: { fa: "فقر دهقانان و نابرابری زمین‌داری چالش اصلی ایران بود", en: "Peasant poverty and land inequality remain Iran's main challenge" },
+      details: {
+        fa: "اکثر زمین‌های کشاورزی ایران در تملک چند هزار مالک بزرگ بود و میلیون‌ها دهقان بدون زمین در فقر مطلق زندگی می‌کردند. نظام ارباب-رعیتی ساختار اجتماعی روستاها را شکل می‌داد. فشار بین‌المللی و داخلی برای اصلاحات ارضی افزایش یافت. آمریکا از شاه خواست اصلاحات ارضی انجام دهد تا از گسترش کمونیسم در روستاها جلوگیری شود. اما مالکان بزرگ و نمایندگان مجلس مانع اصلاحات بودند.",
+        en: "Most of Iran's agricultural land was owned by a few thousand large landowners while millions of landless peasants lived in absolute poverty. The landlord-peasant system shaped rural social structure. International and domestic pressure for land reform increased. The US urged the Shah to implement land reforms to prevent the spread of communism in rural areas. But large landowners and parliamentary representatives blocked reforms.",
       },
     }],
     world: [
@@ -2773,6 +4093,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "ایران و آمریکا قرارداد همکاری هسته‌ای صلح‌آمیز را در چارچوب برنامه «اتم برای صلح» آیزنهاور امضا کردند. مرکز تحقیقات اتمی دانشگاه تهران تأسیس شد و اولین راکتور تحقیقاتی ایران از آمریکا خریداری شد. همزمان سازمان برنامه با مدیریت ابوالحسن ابتهاج پروژه‌های عمرانی بزرگی را اجرا می‌کرد، اگرچه ابتهاج به خاطر استقلال عمل با شاه اختلاف پیدا کرد و سرانجام برکنار شد.",
         en: "Iran and the United States signed a civilian nuclear cooperation agreement under Eisenhower's Atoms for Peace program. The Tehran University Nuclear Research Center was established and Iran's first research reactor was purchased from the US. Meanwhile, the Plan Organization under Abolhassan Ebtehaj was implementing major development projects, though Ebtehaj's independent management style led to friction with the Shah and his eventual dismissal.",
       },
+    },
+    {
+      title: { fa: "برکناری ابتهاج از سازمان برنامه", en: "Ebtehaj Dismissed from Plan Organization" },
+      description: { fa: "ابوالحسن ابتهاج به دلیل استقلال‌طلبی از مدیریت سازمان برنامه برکنار شد", en: "Abolhassan Ebtehaj dismissed from Plan Organization for seeking independence" },
+      details: {
+        fa: "ابوالحسن ابتهاج، مدیر کاردان سازمان برنامه، به دلیل اصرار بر استقلال سازمان از دخالت‌های سیاسی و فساد برکنار شد. ابتهاج در اداره شفاف و کارآمد سازمان برنامه موفق بود اما مقاومتش در برابر فشار شاه و دربار برای دخالت در پروژه‌ها باعث عزل او شد. بعدها ابتهاج بازداشت و زندانی شد. برکناری او ضربه‌ای به توسعه مستقل اقتصادی ایران بود.",
+        en: "Abolhassan Ebtehaj, the competent director of the Plan Organization, was dismissed for insisting on the organization's independence from political interference and corruption. Ebtehaj had been successful in running the Plan Organization transparently and efficiently, but his resistance to pressure from the Shah and court to interfere in projects led to his dismissal. Ebtehaj was later arrested and imprisoned. His removal was a blow to Iran's independent economic development.",
+      },
+    },
+    {
+      title: { fa: "افزایش حضور مستشاران نظامی آمریکا", en: "Increase in US Military Advisors' Presence" },
+      description: { fa: "مستشاران نظامی آمریکایی نقش بیشتری در ارتش ایران یافتند", en: "American military advisors take larger role in Iranian army" },
+      details: {
+        fa: "حضور مستشاران نظامی آمریکایی در ایران افزایش یافت و آنها نقش مهمی در آموزش و تجهیز ارتش ایران ایفا کردند. تسلیحات آمریکایی شامل هواپیماهای جنگی، تانک‌ها و تجهیزات مدرن وارد ایران شد. ایران به یکی از بزرگ‌ترین دریافت‌کنندگان کمک نظامی آمریکا در خاورمیانه تبدیل شد. وابستگی نظامی ایران به آمریکا عمیق‌تر شد و ارتش ایران تحت تأثیر دکترین نظامی آمریکا قرار گرفت.",
+        en: "The presence of American military advisors in Iran increased and they played an important role in training and equipping the Iranian army. American weapons including fighter jets, tanks, and modern equipment were imported to Iran. Iran became one of the largest recipients of US military aid in the Middle East. Iran's military dependence on America deepened and the Iranian army came under the influence of American military doctrine.",
+      },
+    },
+    {
+      title: { fa: "توسعه شهری تهران و ساخت‌وسازهای مدرن", en: "Urban Development of Tehran and Modern Construction" },
+      description: { fa: "تهران با ساخت خیابان‌ها و ساختمان‌های مدرن تغییر چهره داد", en: "Tehran transforms with construction of modern streets and buildings" },
+      details: {
+        fa: "تهران در اواخر دهه ۱۹۵۰ دوره تحولات شهری بزرگی را تجربه کرد. خیابان‌های جدید و بلوارهای عریض ساخته شدند و ساختمان‌های مدرن جایگزین بافت قدیمی شد. بانک‌ها، هتل‌ها و فروشگاه‌های مدرن افتتاح شدند. جمعیت تهران به سرعت افزایش یافت و حاشیه‌نشینی گسترش پیدا کرد. شکاف بین شمال و جنوب تهران به نماد نابرابری اجتماعی ایران تبدیل شد.",
+        en: "Tehran experienced major urban transformations in the late 1950s. New streets and wide boulevards were built and modern buildings replaced old fabric. Banks, hotels, and modern shops opened. Tehran's population grew rapidly and slum development expanded. The gap between north and south Tehran became a symbol of Iran's social inequality.",
+      },
     }],
     world: [
       {
@@ -2822,6 +4166,30 @@ export const timelineData: TimelineEntry[] = [
         fa: "پس از سقوط سلطنت هاشمی در عراق و نگرانی از گسترش انقلاب‌های جمهوری‌خواه در منطقه، ایران و آمریکا پیمان دوجانبه دفاعی امضا کردند. این پیمان تعهد رسمی آمریکا به دفاع از ایران در برابر تجاوز خارجی را شامل می‌شد. شاه از این فرصت برای درخواست کمک‌های نظامی و اقتصادی بیشتر از آمریکا استفاده کرد. روابط نظامی ایران و آمریکا وارد مرحله جدیدی شد.",
         en: "Following the fall of the Hashemite monarchy in Iraq and concerns about the spread of republican revolutions in the region, Iran and the United States signed a bilateral defense agreement. The pact included a formal US commitment to defend Iran against foreign aggression. The Shah used this opportunity to request increased military and economic aid from America. Iran-US military relations entered a new phase.",
       },
+    },
+    {
+      title: { fa: "نگرانی شاه از سقوط سلطنت عراق", en: "Shah's Concern Over Iraqi Monarchy's Fall" },
+      description: { fa: "کودتای عراق شاه ایران را به شدت نگران کرد", en: "Iraqi coup deeply concerns the Shah of Iran" },
+      details: {
+        fa: "کودتای ۱۴ ژوئیه ۱۹۵۸ در عراق و قتل ملک فیصل دوم و خانواده سلطنتی، شوک بزرگی به محمدرضا شاه وارد کرد. شاه نگران بود که موج انقلاب‌های جمهوری‌خواه به ایران نیز برسد. پیمان بغداد با سقوط سلطنت عراق ضربه سختی خورد. شاه از آمریکا خواست تعهدات امنیتی خود را تقویت کند و به سمت اصلاحات محدود کنترل‌شده سوق پیدا کرد.",
+        en: "The July 14, 1958 coup in Iraq and the killing of King Faisal II and the royal family sent shockwaves through Mohammad Reza Shah. The Shah feared that the wave of republican revolutions might reach Iran. The Baghdad Pact was severely damaged by the fall of the Iraqi monarchy. The Shah asked the US to strengthen its security commitments and began moving toward limited, controlled reforms.",
+      },
+    },
+    {
+      title: { fa: "رشد طبقه متوسط شهری و تغییرات اجتماعی", en: "Growth of Urban Middle Class and Social Changes" },
+      description: { fa: "طبقه متوسط تحصیل‌کرده در شهرهای بزرگ رشد کرد", en: "Educated middle class grows in major cities" },
+      details: {
+        fa: "طبقه متوسط شهری ایران در اواخر دهه ۱۹۵۰ رشد قابل توجهی کرد. تعداد فارغ‌التحصیلان دانشگاهی افزایش یافت و بخش خدمات و بوروکراسی دولتی گسترش پیدا کرد. سبک زندگی غربی در میان طبقه متوسط رواج یافت. سینما، رادیو و مطبوعات فرهنگ عمومی را تغییر دادند. با این حال، فاصله طبقاتی بین ثروتمندان و فقرا همچنان بزرگ بود و اکثریت مردم در فقر زندگی می‌کردند.",
+        en: "Iran's urban middle class grew significantly in the late 1950s. The number of university graduates increased and the services sector and government bureaucracy expanded. Western lifestyles became common among the middle class. Cinema, radio, and press transformed popular culture. However, the class gap between rich and poor remained large and the majority of people lived in poverty.",
+      },
+    },
+    {
+      title: { fa: "اصلاح نظام آموزشی و گسترش دانشگاه‌ها", en: "Education System Reform and University Expansion" },
+      description: { fa: "دانشگاه‌های جدید تأسیس و نظام آموزشی بازنگری شد", en: "New universities established and education system revised" },
+      details: {
+        fa: "دانشگاه‌های جدیدی از جمله دانشگاه تبریز و دانشگاه شیراز تأسیس شدند و ظرفیت آموزش عالی کشور افزایش یافت. نظام آموزشی بازنگری شد و برنامه‌های درسی مدرن‌تری تدوین گردید. تعداد دانشجویان داخلی و خارجی رو به افزایش بود. با این حال، دانشگاه‌ها به مراکز فعالیت سیاسی تبدیل شدند و جنبش دانشجویی علیه حکومت شاه در حال شکل‌گیری بود.",
+        en: "New universities including the University of Tabriz and Shiraz University were established, increasing the country's higher education capacity. The education system was revised and more modern curricula were developed. The number of domestic and international students was growing. However, universities became centers of political activity and the student movement against the Shah's government was taking shape.",
+      },
     }],
     world: [
       {
@@ -2870,6 +4238,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "اقتصاد ایران دچار رکود و بحران شد. کسری بودجه افزایش یافت و تورم زندگی مردم را تحت فشار قرار داد. دولت کندی در آمریکا نگران ثبات ایران بود و از شاه خواست اصلاحات سیاسی و اقتصادی انجام دهد. انتخابات مجلس بیستم به دلیل تقلب گسترده ابطال شد. شاه تحت فشار داخلی و خارجی به فکر اصلاحات افتاد که بعداً به انقلاب سفید منجر شد.",
         en: "Iran's economy fell into recession and crisis. The budget deficit grew and inflation pressured people's livelihoods. The Kennedy administration was concerned about Iran's stability and urged the Shah to implement political and economic reforms. The 20th Majles elections were annulled due to widespread fraud. Under domestic and foreign pressure, the Shah began contemplating reforms that would later lead to the White Revolution.",
+      },
+    },
+    {
+      title: { fa: "ابطال انتخابات مجلس بیستم", en: "Twentieth Majles Elections Annulled" },
+      description: { fa: "انتخابات مجلس بیستم به دلیل تقلب گسترده ابطال شد", en: "Twentieth Majles elections annulled due to widespread fraud" },
+      details: {
+        fa: "انتخابات مجلس شورای ملی دوره بیستم با تقلب گسترده و دخالت دولت همراه بود. جبهه ملی دوم و دانشجویان اعتراض‌های گسترده‌ای برگزار کردند. تحت فشار افکار عمومی و دولت آمریکا، شاه مجبور شد انتخابات را ابطال کند. این ابطال نشان‌دهنده ضعف مشروعیت نظام سیاسی بود و فشار برای اصلاحات واقعی را افزایش داد.",
+        en: "The 20th National Assembly elections were marred by widespread fraud and government interference. The Second National Front and students held extensive protests. Under pressure from public opinion and the US government, the Shah was forced to annul the elections. This annulment demonstrated the weakness of the political system's legitimacy and increased pressure for genuine reforms.",
+      },
+    },
+    {
+      title: { fa: "تأسیس اوپک در بغداد", en: "OPEC Founded in Baghdad" },
+      description: { fa: "ایران از بنیان‌گذاران سازمان کشورهای صادرکننده نفت بود", en: "Iran among founders of Organization of Petroleum Exporting Countries" },
+      details: {
+        fa: "سازمان کشورهای صادرکننده نفت (اوپک) در سپتامبر ۱۹۶۰ در بغداد توسط ایران، عراق، عربستان سعودی، کویت و ونزوئلا تأسیس شد. هدف اصلی مقابله با کاهش یک‌جانبه قیمت نفت توسط شرکت‌های نفتی غربی بود. تأسیس اوپک نقطه عطفی در تاریخ صنعت نفت جهان بود و به کشورهای تولیدکننده قدرت چانه‌زنی بیشتری داد. ایران نقش فعالی در شکل‌دهی این سازمان ایفا کرد.",
+        en: "The Organization of Petroleum Exporting Countries (OPEC) was founded in September 1960 in Baghdad by Iran, Iraq, Saudi Arabia, Kuwait, and Venezuela. The main goal was to counter unilateral oil price cuts by Western oil companies. OPEC's founding was a turning point in the history of the world oil industry and gave producing countries greater bargaining power. Iran played an active role in shaping this organization.",
+      },
+    },
+    {
+      title: { fa: "رکود اقتصادی و فشار آمریکا برای اصلاحات", en: "Economic Recession and US Pressure for Reforms" },
+      description: { fa: "دولت کندی از شاه خواست اصلاحات سیاسی و اقتصادی جدی انجام دهد", en: "Kennedy administration urges Shah to implement serious political and economic reforms" },
+      details: {
+        fa: "اقتصاد ایران در ۱۹۶۰ دچار رکود شد و تورم و بیکاری افزایش یافت. دولت کندی در آمریکا نگران بی‌ثباتی ایران و خطر انقلاب بود و از شاه خواست اصلاحات جدی سیاسی و اقتصادی از جمله اصلاحات ارضی انجام دهد. شاه تحت فشار داخلی جبهه ملی و فشار خارجی آمریکا به ناچار تن به اصلاحات داد و علی امینی را که مورد حمایت آمریکا بود نخست‌وزیر کرد.",
+        en: "Iran's economy fell into recession in 1960 with rising inflation and unemployment. The Kennedy administration in the US was concerned about Iran's instability and the risk of revolution, urging the Shah to implement serious political and economic reforms including land reform. Under domestic pressure from the National Front and external pressure from the US, the Shah reluctantly agreed to reforms and appointed Ali Amini, supported by the US, as Prime Minister.",
       },
     }],
     world: [
@@ -2921,7 +4313,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "معلمان ایران در اعتراض به حقوق پایین و شرایط کاری نامناسب دست به اعتصاب سراسری زدند. در جریان تظاهرات معلمان در تهران، نیروهای امنیتی به تظاهرکنندگان حمله کردند و دکتر خانعلی، یکی از معلمان معترض، کشته شد. مرگ او به نمادی از مبارزه معلمان تبدیل شد. این اعتصاب یکی از نشانه‌های نارضایتی اجتماعی گسترده در اوایل دهه ۱۳۴۰ بود.",
         en: "Iranian teachers launched a nationwide strike to protest low wages and poor working conditions. During a teachers demonstration in Tehran, security forces attacked the protesters and Dr. Khanali, one of the protesting teachers, was killed. His death became a symbol of teachers' struggle. This strike was one of the signs of widespread social discontent in the early 1960s.",
       },
-    }],
+    },
+    {
+      title: { fa: "انحلال مجلس و حکومت بدون پارلمان", en: "Parliament Dissolved — Rule Without Legislature" },
+      description: { fa: "شاه مجلس بیستم را منحل کرد و امینی بدون پارلمان حکومت کرد", en: "Shah dissolves 20th Majlis, Amini governs without parliament" },
+      details: {
+        fa: "محمدرضا شاه مجلس بیستم شورای ملی را منحل کرد و نخست‌وزیر امینی بدون پارلمان حکومت می‌کرد. این دوره حکومت بدون مجلس نشان‌دهنده تمرکز قدرت در دست شاه بود. مخالفان از جمله جبهه ملی و روحانیون این وضعیت را غیرقانونی می‌دانستند. فقدان نظارت پارلمانی امکان اجرای اصلاحات از بالا را بدون بحث عمومی فراهم کرد.",
+        en: "Mohammad Reza Shah dissolved the 20th National Consultative Assembly, and PM Amini governed without a parliament. This period of rule without a legislature demonstrated the concentration of power in the Shah's hands. Opponents including the National Front and clergy considered the situation unconstitutional. The absence of parliamentary oversight enabled top-down reforms without public debate.",
+      },
+    },
+    {
+      title: { fa: "افزایش تولید نفت و مذاکره با کنسرسیوم", en: "Rising Oil Production & Consortium Negotiations" },
+      description: { fa: "تولید نفت ایران افزایش یافت و مذاکرات برای سهم بیشتر ادامه داشت", en: "Iran's oil production rises, negotiations for greater share continue" },
+      details: {
+        fa: "تولید نفت ایران در سال ۱۹۶۱ افزایش یافت و درآمدهای نفتی منبع اصلی بودجه دولت بود. ایران تلاش می‌کرد سهم بیشتری از درآمد نفت را از کنسرسیوم بین‌المللی نفت به دست آورد. همزمان سازمان اوپک که سال قبل تأسیس شده بود فعالیت‌های خود را برای هماهنگی قیمت نفت گسترش می‌داد. اقتصاد ایران به شدت به درآمد نفت وابسته بود.",
+        en: "Iran's oil production increased in 1961 and oil revenues were the main source of government budget. Iran sought a greater share of oil revenues from the international oil consortium. Meanwhile, OPEC, founded the previous year, was expanding its activities to coordinate oil prices. Iran's economy was heavily dependent on oil revenue.",
+      },
+    },
+    {
+      title: { fa: "فعالیت ساواک و بازداشت مخالفان سیاسی", en: "SAVAK Operations & Arrest of Political Dissidents" },
+      description: { fa: "ساواک شبکه‌های مخالفان را شناسایی و سرکوب کرد", en: "SAVAK identifies and suppresses opposition networks" },
+      details: {
+        fa: "سازمان اطلاعات و امنیت کشور (ساواک) در سال ۱۳۴۰ فعالیت‌های خود را گسترش داد و شبکه‌های مخالفان سیاسی از جمله حزب توده، جبهه ملی و گروه‌های مذهبی را تحت نظر گرفت. بازداشت‌های گسترده‌ای صورت گرفت و زندانیان سیاسی تحت فشار و شکنجه قرار گرفتند. ساواک با همکاری سیا و موساد آموزش دیده بود و از روش‌های پیچیده اطلاعاتی استفاده می‌کرد.",
+        en: "The Organization of Intelligence and National Security (SAVAK) expanded its operations in 1961, monitoring political opposition networks including the Tudeh Party, the National Front, and religious groups. Widespread arrests were carried out and political prisoners were subjected to pressure and torture. SAVAK had been trained in cooperation with the CIA and Mossad.",
+      },
+    },
+    ],
   },
   {
     year: 1962,
@@ -2941,7 +4358,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "اصلاحات ارضی به صورت جدی آغاز شد و زمین‌های بزرگ مالکان بین روستاییان تقسیم شد. حسن ارسنجانی وزیر کشاورزی مجری اصلاحات بود. مالکان بزرگ و بخشی از روحانیون که خود صاحب اوقاف و زمین بودند با اصلاحات مخالفت کردند. رفراندوم انقلاب سفید در بهمن ۱۳۴۱ با اکثریت آرا تصویب شد، اگرچه مخالفان آن را تحمیلی دانستند. خمینی شدیداً به اصلاحات حمله کرد.",
         en: "Land reform began in earnest as large landowner estates were redistributed among peasants. Agriculture Minister Hassan Arsanjani spearheaded the reforms. Large landowners and some clergy who themselves controlled religious endowments and land opposed the reforms. The White Revolution referendum in January 1963 passed with a large majority, though opponents considered it imposed. Khomeini fiercely attacked the reforms.",
       },
-    }],
+    },
+    {
+      title: { fa: "عزل ارسنجانی و کندی شدن اصلاحات", en: "Arsanjani Dismissed & Reforms Slow Down" },
+      description: { fa: "وزیر کشاورزی اصلاح‌طلب برکنار شد و شتاب اصلاحات کاهش یافت", en: "Reformist Agriculture Minister removed, pace of reforms slows" },
+      details: {
+        fa: "حسن ارسنجانی وزیر کشاورزی که موتور اصلاحات ارضی بود، به دلیل محبوبیت بیش از حد و نگرانی شاه از قدرت‌گیری او برکنار شد. پس از عزل ارسنجانی، شتاب اصلاحات ارضی کاهش یافت و زمین‌داران بزرگ توانستند بخشی از نفوذ خود را حفظ کنند. جایگزینان ارسنجانی تعهد کمتری به اصلاحات عمیق داشتند.",
+        en: "Agriculture Minister Hassan Arsanjani, the driving force behind land reform, was dismissed due to his excessive popularity and the Shah's concern about his growing power. After Arsanjani's removal, the pace of land reform slowed and large landowners managed to retain some of their influence.",
+      },
+    },
+    {
+      title: { fa: "رشد فعالیت‌های اوپک و نقش ایران", en: "Growing OPEC Activities & Iran's Role" },
+      description: { fa: "ایران نقش فعالی در تثبیت قیمت نفت و سیاست‌های اوپک ایفا کرد", en: "Iran plays active role in OPEC price stabilization policies" },
+      details: {
+        fa: "ایران به عنوان یکی از اعضای مؤسس اوپک نقش فعالی در تلاش برای تثبیت قیمت نفت و افزایش سهم کشورهای تولیدکننده از درآمد نفت ایفا کرد. در این سال اوپک دبیرخانه دائمی خود را تأسیس کرد. هدف اصلی سازمان مقابله با کاهش یک‌جانبه قیمت نفت توسط شرکت‌های بزرگ نفتی بود. درآمد نفت ایران همچنان منبع اصلی تأمین مالی برنامه‌های توسعه بود.",
+        en: "Iran, as one of OPEC's founding members, played an active role in efforts to stabilize oil prices and increase producer countries' share of oil revenues. OPEC established its permanent secretariat this year. The organization's main goal was to counter unilateral oil price cuts by major oil companies.",
+      },
+    },
+    {
+      title: { fa: "تأسیس دانشگاه‌های جدید و گسترش آموزش عالی", en: "New Universities Founded & Higher Education Expansion" },
+      description: { fa: "دانشگاه‌های جدید تأسیس شد و دسترسی به آموزش عالی افزایش یافت", en: "New universities established, access to higher education increases" },
+      details: {
+        fa: "در راستای سیاست‌های نوسازی، دانشگاه‌های جدیدی در شهرهای مختلف ایران تأسیس شدند. دانشگاه شیراز، دانشگاه اصفهان و مراکز آموزش عالی دیگر گسترش یافتند. تعداد دانشجویان به سرعت افزایش می‌یافت و بسیاری برای تحصیل به خارج اعزام شدند. اما دانشگاه‌ها به مراکز مخالفت سیاسی نیز تبدیل شدند.",
+        en: "As part of modernization policies, new universities were established in various Iranian cities. Shiraz University, Isfahan University, and other higher education centers expanded. Student numbers were rapidly increasing and many were sent abroad for education. However, universities also became centers of political opposition.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -2991,7 +4433,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "انقلاب سفید شاه با شش اصل اصلی اجرا شد: اصلاحات ارضی، ملی کردن جنگل‌ها و مراتع، خصوصی‌سازی کارخانه‌های دولتی، سهیم کردن کارگران در سود، حق رأی زنان و تشکیل سپاه دانش. میلیون‌ها هکتار زمین بین دو میلیون خانواده روستایی تقسیم شد. سپاه دانش هزاران جوان تحصیل‌کرده را به روستاها فرستاد. زنان برای اولین بار حق رأی گرفتند. اما اصلاحات از بالا تحمیل شد و ساختار قدرت سیاسی تغییر نکرد.",
         en: "The Shah's White Revolution was implemented with six main principles: land reform, nationalization of forests and pastures, privatization of state factories, worker profit-sharing, women's suffrage, and the Literacy Corps. Millions of hectares were distributed among two million rural families. The Literacy Corps sent thousands of educated youth to villages. Women gained the right to vote for the first time. However, reforms were imposed from above and the political power structure remained unchanged.",
       },
-    }],
+    },
+    {
+      title: { fa: "سرکوب جبهه ملی و محدودیت احزاب", en: "National Front Suppressed & Party Restrictions" },
+      description: { fa: "جبهه ملی سرکوب شد و رهبران آن بازداشت شدند", en: "National Front suppressed and its leaders arrested" },
+      details: {
+        fa: "پس از قیام ۱۵ خرداد، حکومت سرکوب گسترده‌ای را علیه تمام گروه‌های مخالف آغاز کرد. رهبران جبهه ملی از جمله کریم سنجابی و شاپور بختیار بازداشت شدند. فعالیت احزاب سیاسی به شدت محدود شد و فضای سیاسی بسته‌تر از قبل گردید. ساواک کنترل خود را بر دانشگاه‌ها و مراکز فرهنگی تشدید کرد.",
+        en: "After the June 1963 uprising, the government launched a broad crackdown against all opposition groups. National Front leaders including Karim Sanjabi and Shapour Bakhtiar were arrested. Political party activities were severely restricted and the political atmosphere became more closed than before.",
+      },
+    },
+    {
+      title: { fa: "افزایش درآمد نفت و رونق اقتصادی", en: "Rising Oil Revenue & Economic Boom" },
+      description: { fa: "درآمد نفتی ایران افزایش یافت و رشد اقتصادی شتاب گرفت", en: "Iran's oil revenue increases, economic growth accelerates" },
+      details: {
+        fa: "درآمد نفتی ایران در سال ۱۳۴۲ افزایش قابل توجهی یافت و دولت توانست برنامه‌های عمرانی و صنعتی خود را گسترش دهد. نرخ رشد تولید ناخالص داخلی به بالای هشت درصد رسید. سرمایه‌گذاری در صنایع سنگین، پتروشیمی و زیرساخت‌ها افزایش یافت. اما رشد اقتصادی عمدتاً بر پایه درآمد نفت بود و بخش کشاورزی عقب‌مانده بود.",
+        en: "Iran's oil revenue increased significantly in 1963 and the government was able to expand its development and industrial programs. GDP growth rate exceeded eight percent. Investment in heavy industry, petrochemicals, and infrastructure increased. However, economic growth was mainly based on oil revenue.",
+      },
+    },
+    {
+      title: { fa: "تأسیس سپاه دانش و مبارزه با بی‌سوادی", en: "Literacy Corps Established & Fight Against Illiteracy" },
+      description: { fa: "سپاه دانش جوانان تحصیل‌کرده را به روستاها فرستاد", en: "Literacy Corps sends educated youth to rural villages" },
+      details: {
+        fa: "سپاه دانش به عنوان یکی از اصول انقلاب سفید تأسیس شد و جوانان تحصیل‌کرده به جای خدمت سربازی به روستاها فرستاده شدند تا به کودکان و بزرگسالان خواندن و نوشتن بیاموزند. نرخ باسوادی در ایران در آن زمان کمتر از سی درصد بود. سپاه دانش توانست میلیون‌ها نفر را باسواد کند و یکی از موفق‌ترین برنامه‌های اجتماعی دوره پهلوی بود.",
+        en: "The Literacy Corps was established as one of the White Revolution's principles, sending educated youth to villages instead of military service to teach reading and writing. Iran's literacy rate at the time was below thirty percent. The Literacy Corps managed to make millions literate and was one of the most successful social programs of the Pahlavi era.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -3041,7 +4508,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "پس از تصویب لایحه کاپیتولاسیون، مجلس وام ۲۰۰ میلیون دلاری از آمریکا برای خرید تسلیحات نظامی را تصویب کرد. این وام برای مدرن‌سازی ارتش ایران و خرید تجهیزات نظامی پیشرفته آمریکایی صرف شد. ارتباط مستقیم بین وام نظامی و اعطای مصونیت به آمریکاییان مورد انتقاد گسترده قرار گرفت و یکی از عوامل نارضایتی عمومی شد.",
         en: "After the Status of Forces Agreement was passed, parliament approved a $200 million US loan for military arms purchases. The loan was used to modernize Iran's army and purchase advanced American military equipment. The direct connection between the military loan and granting immunity to Americans was widely criticized and became one of the factors behind public discontent.",
       },
-    }],
+    },
+    {
+      title: { fa: "تشدید فعالیت ساواک و زندانیان سیاسی", en: "Intensified SAVAK Activity & Political Prisoners" },
+      description: { fa: "ساواک بازداشت‌ها و شکنجه مخالفان را تشدید کرد", en: "SAVAK intensifies arrests and torture of dissidents" },
+      details: {
+        fa: "پس از تبعید خمینی و سرکوب قیام ۱۵ خرداد، ساواک فعالیت‌های خود را به شدت گسترش داد. صدها فعال سیاسی، دانشجو و روحانی بازداشت و زندانی شدند. شکنجه در زندان‌های ساواک به خصوص زندان اوین رایج شد. گزارش‌های سازمان‌های حقوق بشری بین‌المللی درباره نقض حقوق بشر در ایران افزایش یافت.",
+        en: "After Khomeini's exile and the suppression of the June 1963 uprising, SAVAK dramatically expanded its activities. Hundreds of political activists, students, and clerics were arrested and imprisoned. Torture became routine in SAVAK prisons, particularly Evin Prison. International human rights reports on violations in Iran increased.",
+      },
+    },
+    {
+      title: { fa: "گسترش برق‌رسانی و شبکه حمل‌ونقل", en: "Electrification & Transportation Network Expansion" },
+      description: { fa: "پروژه‌های برق‌رسانی و جاده‌سازی در سراسر کشور گسترش یافت", en: "Electrification and road-building projects expand nationwide" },
+      details: {
+        fa: "دولت پروژه‌های گسترده برق‌رسانی را در شهرها و روستاها آغاز کرد. سدهای جدید برای تولید برق آبی ساخته شد و شبکه توزیع برق گسترش یافت. همزمان شبکه جاده‌ای کشور با ساخت بزرگراه‌های جدید بین شهرهای بزرگ بهبود یافت. این پروژه‌ها بخشی از تلاش برای مدرنیزاسیون ایران بود اما عمدتاً شهرها بهره‌مند شدند.",
+        en: "The government launched extensive electrification projects in cities and villages. New dams were built for hydroelectric power generation and the electricity distribution network expanded. Simultaneously, the national road network improved with new highways between major cities. These were part of Iran's modernization effort but mainly benefited urban areas.",
+      },
+    },
+    {
+      title: { fa: "افزایش نقش ایران در اوپک", en: "Iran's Growing Role in OPEC" },
+      description: { fa: "ایران خواستار افزایش سهمیه تولید و قیمت بالاتر نفت شد", en: "Iran demands higher production quotas and oil prices" },
+      details: {
+        fa: "ایران در نشست‌های اوپک نقش فعال‌تری ایفا کرد و خواستار افزایش قیمت نفت و سهم بیشتر کشورهای تولیدکننده شد. شاه به تدریج از ابزار نفت به عنوان اهرم سیاسی استفاده می‌کرد. تولید نفت ایران به بیش از یک و نیم میلیون بشکه در روز رسید. درآمدهای نفتی اجازه گسترش برنامه‌های نظامی و عمرانی را فراهم کرد.",
+        en: "Iran played a more active role in OPEC meetings, demanding higher oil prices and a greater share for producing countries. The Shah was increasingly using oil as a political lever. Iran's oil production exceeded 1.5 million barrels per day. Oil revenues enabled the expansion of military and development programs.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -3091,7 +4583,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "برنامه عمرانی سوم با تمرکز بر صنعتی‌سازی و زیرساخت‌ها ادامه یافت. کارخانه ذوب‌آهن اصفهان با کمک شوروی ساخته شد. صنایع خودروسازی، پتروشیمی و فولاد گسترش یافت. درآمدهای نفتی رو به افزایش بود و نرخ رشد اقتصادی به بیش از ده درصد رسید. اما فاصله طبقاتی بین شهر و روستا و بین غنی و فقیر همچنان در حال افزایش بود.",
         en: "The Third Development Plan continued with a focus on industrialization and infrastructure. The Isfahan steel mill was built with Soviet assistance. Automotive, petrochemical, and steel industries expanded. Oil revenues were increasing and the economic growth rate exceeded ten percent. However, the class gap between urban and rural areas and between rich and poor continued to widen.",
       },
-    }],
+    },
+    {
+      title: { fa: "اعدام اعضای فداییان اسلام", en: "Execution of Fada'iyan-e Islam Members" },
+      description: { fa: "عاملان ترور منصور اعدام شدند", en: "Mansur assassination perpetrators executed" },
+      details: {
+        fa: "پس از ترور نخست‌وزیر حسنعلی منصور، عاملان ترور از جمله محمد بخارایی و چند عضو دیگر فداییان اسلام محاکمه و اعدام شدند. دادگاه‌های نظامی به سرعت احکام اعدام صادر کردند. این اعدام‌ها فضای ارعاب سیاسی را تشدید کرد.",
+        en: "After the assassination of PM Hassan-Ali Mansur, the perpetrators including Mohammad Bokharaei and several other Fada'iyan-e Islam members were tried and executed. Military courts quickly issued death sentences. These executions intensified the atmosphere of political intimidation.",
+      },
+    },
+    {
+      title: { fa: "ساخت کارخانه ذوب‌آهن اصفهان با کمک شوروی", en: "Isfahan Steel Mill Built with Soviet Assistance" },
+      description: { fa: "بزرگ‌ترین پروژه صنعتی ایران با همکاری شوروی ساخته شد", en: "Iran's largest industrial project built with Soviet cooperation" },
+      details: {
+        fa: "کارخانه ذوب‌آهن اصفهان به عنوان بزرگ‌ترین پروژه صنعتی ایران با کمک فنی و مالی اتحاد جماهیر شوروی در حال ساخت بود. این پروژه نشان‌دهنده سیاست موازنه ایران بین شرق و غرب بود. کارخانه بعدها به یکی از مهم‌ترین واحدهای صنعتی ایران تبدیل شد.",
+        en: "The Isfahan Steel Mill, Iran's largest industrial project, was under construction with technical and financial assistance from the Soviet Union. This project demonstrated Iran's policy of balancing between East and West. The factory later became one of Iran's most important industrial units.",
+      },
+    },
+    {
+      title: { fa: "رشد صنعت خودروسازی و مونتاژ", en: "Growth of Auto Assembly & Manufacturing Industry" },
+      description: { fa: "صنایع مونتاژ خودرو و لوازم خانگی گسترش یافت", en: "Auto assembly and home appliance manufacturing expand" },
+      details: {
+        fa: "صنعت خودروسازی ایران با مونتاژ خودروهای خارجی رشد چشمگیری داشت. شرکت‌هایی مانند ایران ناسیونال با همکاری شرکت‌های اروپایی خودرو تولید می‌کردند. صنایع مونتاژ لوازم خانگی نیز گسترش یافت. این رشد صنعتی اشتغال شهری را افزایش داد و مهاجرت روستاییان به شهرها را تسریع کرد.",
+        en: "Iran's automotive industry experienced significant growth through assembly of foreign vehicles. Companies like Iran National produced cars in cooperation with European firms. Home appliance assembly industries also expanded. This industrial growth increased urban employment and accelerated rural-to-urban migration.",
+      },
+    },
+    ],
   },
   {
     year: 1966,
@@ -3111,7 +4628,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "مرکز تحقیقات اتمی دانشگاه تهران با راکتور تحقیقاتی پنج مگاواتی که از آمریکا خریداری شده بود راه‌اندازی شد. این راکتور با اورانیوم غنی‌شده کار می‌کرد و برای تحقیقات علمی و آموزش متخصصان هسته‌ای استفاده می‌شد. شاه جاه‌طلبی‌های هسته‌ای خود را آغاز کرد و ایران را به عنوان قدرت فناورانه منطقه معرفی نمود.",
         en: "The Tehran University Atomic Research Center was activated with a five-megawatt research reactor purchased from the United States. The reactor operated with enriched uranium and was used for scientific research and training nuclear specialists. The Shah began his nuclear ambitions, presenting Iran as a regional technological power.",
       },
-    }],
+    },
+    {
+      title: { fa: "افزایش صادرات نفت و درآمدهای ارزی", en: "Rising Oil Exports & Foreign Exchange Revenues" },
+      description: { fa: "صادرات نفت ایران از دو میلیون بشکه در روز گذشت", en: "Iran's oil exports surpass two million barrels per day" },
+      details: {
+        fa: "صادرات نفت ایران در سال ۱۹۶۶ از دو میلیون بشکه در روز گذشت و درآمدهای ارزی کشور به طور قابل توجهی افزایش یافت. این درآمدها صرف اجرای برنامه‌های عمرانی، خرید تسلیحات و توسعه صنعتی شد. ایران به یکی از بزرگ‌ترین صادرکنندگان نفت جهان تبدیل شد.",
+        en: "Iran's oil exports in 1966 surpassed two million barrels per day and the country's foreign exchange revenues increased significantly. These revenues were spent on development programs, arms purchases, and industrial expansion. Iran became one of the world's largest oil exporters.",
+      },
+    },
+    {
+      title: { fa: "گسترش سپاه بهداشت و خدمات درمانی روستایی", en: "Health Corps Expansion & Rural Healthcare" },
+      description: { fa: "سپاه بهداشت خدمات درمانی را به روستاهای دورافتاده برد", en: "Health Corps brings medical services to remote villages" },
+      details: {
+        fa: "سپاه بهداشت به عنوان یکی از برنامه‌های انقلاب سفید گسترش یافت و پزشکان و بهداشتکاران جوان را به روستاهای دورافتاده فرستاد. واکسیناسیون کودکان، بهبود بهداشت مادران و مبارزه با بیماری‌های واگیردار از اولویت‌ها بود. نرخ مرگ‌ومیر نوزادان کاهش یافت و جمعیت ایران رشد سریعی را تجربه کرد.",
+        en: "The Health Corps expanded as one of the White Revolution programs, sending young doctors and health workers to remote villages. Child vaccination, maternal health improvement, and combating infectious diseases were priorities. Infant mortality rates declined and Iran's population experienced rapid growth.",
+      },
+    },
+    {
+      title: { fa: "فعالیت‌های زیرزمینی گروه‌های مخالف", en: "Underground Activities of Opposition Groups" },
+      description: { fa: "گروه‌های مخالف در فضای بسته سیاسی به فعالیت مخفیانه روی آوردند", en: "Opposition groups turn to clandestine activity in closed political space" },
+      details: {
+        fa: "در فضای بسته سیاسی ایران، گروه‌های مخالف به فعالیت‌های زیرزمینی روی آوردند. روشنفکران و دانشجویان محافل مطالعاتی مخفی تشکیل دادند. برخی فعالان سیاسی که از مبارزه مسالمت‌آمیز ناامید شده بودند به فکر مبارزه مسلحانه افتادند. ساواک تلاش می‌کرد این شبکه‌ها را شناسایی و متلاشی کند.",
+        en: "In Iran's closed political environment, opposition groups turned to underground activities. Intellectuals and students formed secret study circles. Some political activists who had lost hope in peaceful struggle began considering armed resistance. SAVAK tried to identify and dismantle these networks.",
+      },
+    },
+    ],
   },
   {
     year: 1967,
@@ -3131,7 +4673,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "قانون حمایت خانواده تصویب شد و تحول بزرگی در حقوق زنان ایجاد کرد. چندهمسری مشروط شد و زنان حق درخواست طلاق از دادگاه را به دست آوردند. سن ازدواج دختران افزایش یافت و حضانت فرزندان قابل تقسیم شد. روحانیون سنتی با این قانون مخالفت شدیدی داشتند و آن را مغایر شریعت اسلام می‌دانستند. این قانون یکی از نقاط اختلاف کلیدی بین حکومت و روحانیت بود.",
         en: "The Family Protection Law was passed, creating a major transformation in women's rights. Polygamy was made conditional and women gained the right to petition courts for divorce. The marriage age for girls was raised and child custody could be shared. Traditional clergy strongly opposed this law, considering it contrary to Islamic jurisprudence. This law became one of the key points of contention between the government and the clerical establishment.",
       },
-    }],
+    },
+    {
+      title: { fa: "توسعه صنایع پتروشیمی و پالایشگاهی", en: "Petrochemical & Refinery Industry Development" },
+      description: { fa: "مجتمع‌های پتروشیمی و پالایشگاه‌های جدید ساخته شد", en: "New petrochemical complexes and refineries constructed" },
+      details: {
+        fa: "صنایع پتروشیمی ایران با ساخت مجتمع‌های جدید گسترش یافت. شرکت ملی پتروشیمی ایران پروژه‌های بزرگی را آغاز کرد. پالایشگاه‌های نفت نیز توسعه یافتند تا نیاز داخلی به فرآورده‌های نفتی تأمین شود. هدف دولت کاهش صادرات نفت خام و افزایش ارزش افزوده از طریق فرآوری بود.",
+        en: "Iran's petrochemical industry expanded with the construction of new complexes. The National Petrochemical Company launched major projects. Oil refineries were also developed to meet domestic demand for petroleum products. The government aimed to reduce crude oil exports and increase value-added through processing.",
+      },
+    },
+    {
+      title: { fa: "ساخت سد دز و پروژه‌های آبیاری بزرگ", en: "Dez Dam & Major Irrigation Projects" },
+      description: { fa: "سد دز و پروژه‌های آبیاری کشاورزی مدرن را گسترش دادند", en: "Dez Dam and irrigation projects expand modern agriculture" },
+      details: {
+        fa: "سد دز در خوزستان به عنوان یکی از بزرگ‌ترین سدهای ایران بهره‌برداری شد و هم برق تولید می‌کرد و هم آب کشاورزی فراهم می‌نمود. کشت و صنعت‌های بزرگ تأسیس شدند. اما مکانیزاسیون کشاورزی باعث بیکاری بسیاری از روستاییان و مهاجرت آنها به حاشیه شهرها شد.",
+        en: "The Dez Dam in Khuzestan, one of Iran's largest dams, became operational, generating both electricity and providing irrigation water. Large agro-industrial complexes were established. However, agricultural mechanization caused unemployment among many villagers and their migration to urban fringes.",
+      },
+    },
+    {
+      title: { fa: "تشکیل سازمان تأمین اجتماعی گسترده", en: "Expanded Social Security Organization" },
+      description: { fa: "نظام بیمه تأمین اجتماعی برای کارگران گسترش یافت", en: "Social insurance system for workers expanded" },
+      details: {
+        fa: "سازمان تأمین اجتماعی ایران گسترش یافت و پوشش بیمه‌ای کارگران صنعتی افزایش یافت. بیمه بازنشستگی، بیمه درمان و بیمه بیکاری برای کارگران شاغل در صنایع بزرگ فراهم شد. اما بخش بزرگی از نیروی کار به ویژه کارگران روستایی از پوشش بیمه‌ای محروم بودند.",
+        en: "Iran's Social Security Organization expanded and insurance coverage for industrial workers increased. Pension, health, and unemployment insurance were provided for workers in large industries. However, a large portion of the workforce, especially rural workers, lacked insurance coverage.",
+      },
+    },
+    ],
     world: [
       {
         country: "world",
@@ -3180,7 +4747,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "در فضای بسته سیاسی ایران، گروه‌های مسلح زیرزمینی شکل گرفتند. سازمان مجاهدین خلق ایران با ایدئولوژی اسلام انقلابی و سازمان چریک‌های فدایی خلق با گرایش مارکسیستی تأسیس شدند. این گروه‌ها معتقد بودند مبارزه مسالمت‌آمیز در برابر دیکتاتوری شاه بی‌فایده است و باید به مبارزه مسلحانه روی آورد. اعضای این سازمان‌ها عمدتاً دانشجویان و فارغ‌التحصیلان دانشگاهی بودند.",
         en: "In Iran's closed political environment, underground armed groups took shape. The People's Mojahedin Organization of Iran was founded with a revolutionary Islamic ideology, and the Organization of Iranian People's Fadai Guerrillas with a Marxist orientation. These groups believed that peaceful struggle against the Shah's dictatorship was futile and armed resistance was necessary. Members were primarily university students and graduates.",
       },
-    }],
+    },
+    {
+      title: { fa: "اجرای برنامه عمرانی چهارم", en: "Fourth Development Plan Implementation" },
+      description: { fa: "برنامه عمرانی چهارم با تمرکز بر صنعت و زیرساخت اجرا شد", en: "Fourth Development Plan focuses on industry and infrastructure" },
+      details: {
+        fa: "برنامه عمرانی چهارم ایران با تمرکز بیشتر بر صنعتی‌سازی و توسعه زیرساخت‌ها اجرا شد. سرمایه‌گذاری دولتی در صنایع فولاد، مس و پتروشیمی افزایش یافت. نرخ رشد اقتصادی به دو رقمی رسید اما توزیع ثروت نابرابر بود و فاصله طبقاتی عمیق‌تر شد.",
+        en: "Iran's Fourth Development Plan was implemented with greater focus on industrialization and infrastructure. Government investment in steel, copper, and petrochemical industries increased. Economic growth reached double digits but wealth distribution was unequal and class disparity deepened.",
+      },
+    },
+    {
+      title: { fa: "افزایش بودجه نظامی و خرید تسلیحات", en: "Military Budget Increase & Arms Purchases" },
+      description: { fa: "هزینه‌های نظامی ایران به شدت افزایش یافت", en: "Iran's military spending increases sharply" },
+      details: {
+        fa: "با افزایش درآمدهای نفتی، شاه بودجه نظامی ایران را به طور چشمگیری افزایش داد. خرید تسلیحات پیشرفته از آمریکا و بریتانیا گسترش یافت. ارتش ایران به یکی از بزرگ‌ترین ارتش‌های منطقه تبدیل شد. شاه نقش ژاندارم منطقه‌ای را دنبال می‌کرد.",
+        en: "With rising oil revenues, the Shah dramatically increased Iran's military budget. Purchases of advanced weaponry from the US and Britain expanded. Iran's army became one of the largest in the region. The Shah pursued the role of regional gendarme.",
+      },
+    },
+    {
+      title: { fa: "نخستین کنگره نویسندگان ایران", en: "First Congress of Iranian Writers" },
+      description: { fa: "نویسندگان و شاعران خواستار آزادی بیان و پایان سانسور شدند", en: "Writers and poets demand freedom of expression and end to censorship" },
+      details: {
+        fa: "نخستین کنگره نویسندگان ایران در تهران برگزار شد و نویسندگان برجسته خواستار آزادی بیان و پایان سانسور شدند. این کنگره نشان‌دهنده تضاد بین رشد فرهنگی و سرکوب سیاسی بود. کتاب «غربزدگی» جلال آل‌احمد به متن مهم روشنفکری ضدغربی تبدیل شده بود.",
+        en: "The first Congress of Iranian Writers was held in Tehran, with prominent writers demanding freedom of expression and an end to censorship. This congress reflected the contradiction between cultural growth and political repression. Jalal Al-e-Ahmad's book 'Weststruckness' had become an important anti-Western intellectual text.",
+      },
+    },
+    ],
     world: [
       {
         country: "world",
@@ -3238,7 +4830,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "ایران به طور یک‌جانبه قرارداد ۱۹۳۷ مربوط به اروندرود را لغو کرد و اعلام کرد مرز باید در خط تالوگ (عمیق‌ترین نقطه رودخانه) باشد، نه در ساحل ایرانی. شاه کشتی‌های ایرانی را بدون پرچم عراق از اروندرود عبور داد. عراق ناتوان از واکنش نظامی بود. این اختلاف تا توافقنامه الجزایر ۱۹۷۵ ادامه یافت و یکی از ریشه‌های جنگ ایران و عراق در ۱۹۸۰ شد.",
         en: "Iran unilaterally abrogated the 1937 treaty concerning the Shatt al-Arab waterway and declared that the border should follow the thalweg line rather than the Iranian bank. The Shah sent Iranian ships through the waterway without Iraqi flags. Iraq was unable to respond militarily. This dispute continued until the 1975 Algiers Agreement and became one of the root causes of the Iran-Iraq War in 1980.",
       },
-    }],
+    },
+    {
+      title: { fa: "توسعه صنعت گاز و خط لوله ایگات", en: "Gas Industry Development & IGAT Pipeline" },
+      description: { fa: "خط لوله گاز ایران به شوروی آغاز به کار کرد", en: "Iran-Soviet gas pipeline begins operation" },
+      details: {
+        fa: "خط لوله گاز بین‌المللی ایران-شوروی (ایگات-۱) آغاز به کار کرد و ایران صادرات گاز طبیعی به شوروی را شروع نمود. در مقابل، شوروی به ایران در ساخت کارخانه ذوب‌آهن اصفهان کمک می‌کرد. صنعت گاز ایران به تدریج در کنار نفت به منبع مهم درآمدی تبدیل شد.",
+        en: "The Iran-Soviet International Gas Pipeline (IGAT-1) began operation and Iran started exporting natural gas to the Soviet Union. In return, the Soviet Union assisted Iran in building the Isfahan steel mill. Iran's gas industry gradually became an important revenue source alongside oil.",
+      },
+    },
+    {
+      title: { fa: "تأسیس بورس اوراق بهادار تهران", en: "Tehran Stock Exchange Established" },
+      description: { fa: "بورس اوراق بهادار تهران فعالیت رسمی خود را آغاز کرد", en: "Tehran Stock Exchange begins official operations" },
+      details: {
+        fa: "بورس اوراق بهادار تهران تأسیس شد و فعالیت رسمی خود را آغاز کرد. در ابتدا سهام تعداد محدودی از شرکت‌ها و اوراق قرضه دولتی معامله می‌شد. هدف تأسیس بورس جذب سرمایه‌های خرد مردم و تقویت بازار سرمایه بود.",
+        en: "The Tehran Stock Exchange was established and began official operations. Initially, shares of a limited number of companies and government bonds were traded. The goal was to attract small public investments and strengthen the capital market.",
+      },
+    },
+    {
+      title: { fa: "تشدید سانسور مطبوعات و کنترل سیاسی", en: "Press Censorship Tightening & Political Control" },
+      description: { fa: "سانسور مطبوعات تشدید و فعالیت‌های سیاسی محدودتر شد", en: "Press censorship tightens, political activities further restricted" },
+      details: {
+        fa: "دولت هویدا سانسور مطبوعات را تشدید کرد و روزنامه‌ها و مجلات مستقل تحت فشار قرار گرفتند. فعالیت‌های سیاسی دانشگاهی محدودتر شد و ساواک نظارت بر دانشگاه‌ها را افزایش داد. این فضای سرکوب زمینه را برای رشد جنبش‌های زیرزمینی فراهم کرد.",
+        en: "Hoveyda's government intensified press censorship and independent newspapers and magazines were pressured. University political activities were further restricted and SAVAK increased surveillance. This repressive atmosphere provided fertile ground for underground movements.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -3288,7 +4905,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "زلزله ویرانگری در منطقه گیلان و قزوین رخ داد و هزاران نفر کشته شدند. ضعف امدادرسانی دولت مورد انتقاد قرار گرفت. همزمان سپاه بهداشت و سپاه دانش به عنوان بخشی از انقلاب سفید گسترش یافتند. برنامه‌های بهداشتی منجر به کاهش مرگ‌ومیر نوزادان شد و نرخ باسوادی افزایش یافت. جمعیت ایران به سرعت رشد می‌کرد و مهاجرت از روستا به شهر شتاب گرفته بود.",
         en: "A devastating earthquake struck the Gilan and Qazvin region, killing thousands. The government's poor relief response was criticized. Meanwhile, the Health Corps and Literacy Corps expanded as part of the White Revolution. Health programs led to reduced infant mortality and literacy rates increased. Iran's population was growing rapidly and rural-to-urban migration had accelerated.",
       },
-    }],
+    },
+    {
+      title: { fa: "افزایش تولید نفت و مذاکرات اوپک", en: "Rising Oil Production & OPEC Negotiations" },
+      description: { fa: "ایران تولید نفت خود را افزایش داد و در اوپک خواستار قیمت بالاتر شد", en: "Iran increases oil production, demands higher prices in OPEC" },
+      details: {
+        fa: "تولید نفت ایران در سال ۱۹۷۰ به بیش از سه و نیم میلیون بشکه در روز رسید. شاه در نشست‌های اوپک خواستار افزایش قیمت نفت شد. اوپک در کنفرانس کاراکاس قطعنامه افزایش قیمت را تصویب کرد. درآمدهای نفتی بیشتر شد اما هزینه‌های نظامی و عمرانی نیز افزایش یافت.",
+        en: "Iran's oil production in 1970 exceeded 3.5 million barrels per day. The Shah demanded higher oil prices at OPEC meetings. OPEC approved a price increase at its Caracas conference. Oil revenues grew but military and development spending also increased.",
+      },
+    },
+    {
+      title: { fa: "رشد جنبش دانشجویی در خارج از کشور", en: "Growth of Student Movement Abroad" },
+      description: { fa: "دانشجویان ایرانی در اروپا و آمریکا علیه رژیم شاه فعالیت کردند", en: "Iranian students in Europe and US organize against Shah's regime" },
+      details: {
+        fa: "کنفدراسیون جهانی دانشجویان ایرانی فعالیت‌های خود را گسترش داد. دانشجویان ایرانی در آمریکا و اروپا تظاهرات علیه رژیم شاه و نقض حقوق بشر برگزار کردند. ساواک تلاش داشت فعالیت‌های دانشجویان را در خارج نیز کنترل کند.",
+        en: "The Confederation of Iranian Students abroad expanded its activities. Iranian students in America and Europe organized demonstrations against the Shah's regime and human rights violations. SAVAK also tried to monitor student activities abroad.",
+      },
+    },
+    {
+      title: { fa: "توسعه شبکه بانکی و اعتبارات صنعتی", en: "Banking Network Expansion & Industrial Credits" },
+      description: { fa: "شبکه بانکی گسترش یافت و وام‌های صنعتی افزایش یافت", en: "Banking network expands, industrial loans increase" },
+      details: {
+        fa: "شبکه بانکی ایران با تأسیس بانک‌های جدید و گسترش شعب توسعه یافت. بانک‌های تخصصی صنعتی و کشاورزی وام‌های ارزان‌قیمت ارائه دادند. بانک توسعه صنعتی و معدنی نقش مهمی در تأمین مالی پروژه‌های صنعتی ایفا کرد. بخش خصوصی به تدریج فعال‌تر شد.",
+        en: "Iran's banking network expanded with new banks and branch growth. Specialized industrial and agricultural banks provided low-interest loans. The Industrial and Mining Development Bank played an important role in financing industrial projects. The private sector gradually became more active.",
+      },
+    },
+    ],
   },
   {
     year: 1971,
@@ -3309,7 +4951,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "یک روز پیش از استقلال امارات متحده عربی، نیروهای ایران جزایر تنب بزرگ، تنب کوچک و ابوموسی را در خلیج فارس تصرف کردند. شاه مدعی بود این جزایر تاریخاً متعلق به ایران هستند. بریتانیا که تا آن زمان از این جزایر محافظت می‌کرد، مخالفتی نکرد. این اقدام روابط ایران با اعراب خلیج فارس را تیره کرد و عراق در اعتراض روابط دیپلماتیک خود با ایران را قطع کرد.",
         en: "One day before the United Arab Emirates gained independence, Iranian forces seized the islands of Greater Tunb, Lesser Tunb, and Abu Musa in the Persian Gulf. The Shah claimed these islands historically belonged to Iran. Britain, which had been protecting these islands, did not object. This action strained Iran's relations with Arab Gulf states, and Iraq severed diplomatic relations with Iran in protest.",
       },
-    }],
+    },
+    {
+      title: { fa: "عملیات نظامی در ظفار عمان", en: "Military Operations in Dhofar, Oman" },
+      description: { fa: "ایران نیروهای نظامی به عمان فرستاد تا شورش ظفار را سرکوب کند", en: "Iran sends military forces to Oman to suppress Dhofar rebellion" },
+      details: {
+        fa: "شاه نیروهای نظامی ایران را برای کمک به سلطان قابوس عمان در سرکوب شورش مارکسیستی ظفار اعزام کرد. این اعزام نیرو نشان‌دهنده جاه‌طلبی شاه برای ایفای نقش ژاندارم منطقه بود. نیروهای ایرانی تا ۱۹۷۶ در عمان حضور داشتند.",
+        en: "The Shah dispatched Iranian military forces to assist Sultan Qaboos of Oman in suppressing the Marxist Dhofar rebellion. This deployment demonstrated the Shah's ambition to play the regional gendarme role. Iranian forces remained in Oman until 1976.",
+      },
+    },
+    {
+      title: { fa: "افتتاح مجتمع‌های پتروشیمی جدید", en: "New Petrochemical Complexes Inaugurated" },
+      description: { fa: "مجتمع‌های پتروشیمی جدید در جنوب ایران افتتاح شدند", en: "New petrochemical complexes inaugurated in southern Iran" },
+      details: {
+        fa: "مجتمع‌های پتروشیمی جدید در جنوب ایران افتتاح شدند. شرکت ملی پتروشیمی ایران با سرمایه‌گذاری مشترک خارجی کارخانه‌های تولید کود شیمیایی و پلاستیک راه‌اندازی کرد. صنعت پتروشیمی به عنوان صنعت مکمل نفت توسعه یافت.",
+        en: "New petrochemical complexes were inaugurated in southern Iran. The National Petrochemical Company, through joint ventures with foreign investment, launched chemical fertilizer and plastics factories. The petrochemical industry developed as a complementary industry to oil.",
+      },
+    },
+    {
+      title: { fa: "افزایش چشمگیر بودجه نظامی ایران", en: "Dramatic Increase in Iran's Military Budget" },
+      description: { fa: "هزینه‌های نظامی ایران به طور چشمگیری افزایش یافت", en: "Iran's military expenditure increases dramatically" },
+      details: {
+        fa: "بودجه نظامی ایران به طور چشمگیری افزایش یافت و بخش بزرگی از درآمدهای نفتی صرف خرید تسلیحات شد. ایران جنگنده‌های اف-۴ فانتوم و هلیکوپترهای جنگی از آمریکا خریداری کرد. ارتش ایران به یکی از مجهزترین ارتش‌های خاورمیانه تبدیل شد.",
+        en: "Iran's military budget increased dramatically and a large portion of oil revenues was spent on advanced weaponry. Iran purchased F-4 Phantom fighters and attack helicopters from the US. Iran's army became one of the best-equipped in the Middle East.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -3358,7 +5025,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "ریچارد نیکسون و هنری کیسینجر در سفر به تهران تصمیم بی‌سابقه‌ای گرفتند: شاه مجاز شد هر سلاح غیرهسته‌ای آمریکایی را بدون محدودیت خریداری کند. شاه جنگنده‌های اف-۱۴ و ناوشکن‌های پیشرفته سفارش داد. هزینه‌های نظامی ایران به شدت افزایش یافت و بخش بزرگی از درآمد نفت صرف خرید سلاح شد. این تصمیم ایران را به بزرگ‌ترین خریدار تسلیحات آمریکایی در جهان تبدیل کرد.",
         en: "Richard Nixon and Henry Kissinger made an unprecedented decision during their visit to Tehran: the Shah was authorized to purchase any non-nuclear American weapon without restriction. The Shah ordered F-14 fighters and advanced destroyers. Iran's military spending increased dramatically and a large portion of oil revenue was spent on arms purchases. This decision made Iran the largest buyer of US arms in the world.",
       },
-    }],
+    },
+    {
+      title: { fa: "سهیم‌سازی کارگران در سود کارخانه‌ها", en: "Worker Profit-Sharing in Factories" },
+      description: { fa: "قانون سهیم‌سازی کارگران در سود کارخانه‌ها اجرایی شد", en: "Worker profit-sharing law in factories implemented" },
+      details: {
+        fa: "طرح سهیم‌سازی کارگران در سود کارخانه‌ها اجرایی‌تر شد. کارگران صنعتی سهمی از سود سالانه دریافت کردند. اما در عمل میزان سود ناچیز بود. اتحادیه‌های کارگری مستقل همچنان ممنوع بودند و سندیکاهای دولتی جای آنها را گرفته بود.",
+        en: "The worker profit-sharing scheme became more operational. Industrial workers received a share of annual profits. However, in practice, distributed profits were minimal. Independent labor unions remained banned and government-controlled syndicates had replaced them.",
+      },
+    },
+    {
+      title: { fa: "گسترش شبکه برق سراسری ایران", en: "National Electricity Grid Expansion" },
+      description: { fa: "شبکه برق سراسری با اتصال شهرها و روستاها گسترش یافت", en: "National electricity grid expands connecting more cities and villages" },
+      details: {
+        fa: "شبکه برق‌رسانی سراسری ایران با ساخت نیروگاه‌ها و خطوط انتقال جدید گسترش یافت. برق‌رسانی به شهرهای کوچک و برخی روستاها افزایش چشمگیری داشت. مصرف برق خانگی و صنعتی به سرعت رشد کرد.",
+        en: "Iran's national electricity grid expanded with new power plants and transmission lines. Electrification of small cities and some villages increased significantly. Domestic and industrial electricity consumption grew rapidly.",
+      },
+    },
+    {
+      title: { fa: "رشد مهاجرت روستا به شهر و حاشیه‌نشینی", en: "Rural-Urban Migration & Slum Growth" },
+      description: { fa: "مهاجرت روستاییان به شهرها تسریع شد و حاشیه‌نشینی رشد کرد", en: "Rural migration to cities accelerates, urban slums expand" },
+      details: {
+        fa: "مکانیزاسیون کشاورزی و شکست نسبی اصلاحات ارضی باعث مهاجرت گسترده روستاییان به شهرها شد. حاشیه‌نشینی در اطراف تهران و شهرهای بزرگ رشد کرد. این جمعیت حاشیه‌نشین بعدها یکی از پایگاه‌های اصلی انقلاب ۱۳۵۷ شد.",
+        en: "Agricultural mechanization and the relative failure of land reform caused mass rural-to-urban migration. Slums grew around Tehran and major cities. This marginalized population later became one of the main bases of the 1979 revolution.",
+      },
+    },
+    ],
   },
   {
     year: 1973,
@@ -3378,7 +5070,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "شاه ایران با استفاده از بحران نفتی و قدرت چانه‌زنی بیشتر، کنترل کامل تولید و فروش نفت را از کنسرسیوم بین‌المللی بازپس گرفت. قرارداد کنسرسیوم ۱۹۵۴ عملاً لغو شد و شرکت‌های خارجی به خریداران نفت ایران تبدیل شدند. شاه نقش فعالی در اوپک ایفا کرد و از افزایش قیمت نفت حمایت کرد. ایران به یکی از ثروتمندترین کشورهای منطقه تبدیل شد اما این ثروت باد آورده مشکلات اقتصادی جدیدی ایجاد کرد.",
         en: "The Shah leveraged the oil crisis and increased bargaining power to take full control of oil production and sales from the international consortium. The 1954 Consortium Agreement was effectively nullified and foreign companies became buyers of Iranian oil. The Shah played an active role in OPEC and supported oil price increases. Iran became one of the wealthiest countries in the region, but this windfall wealth created new economic problems.",
       },
-    }],
+    },
+    {
+      title: { fa: "تأسیس سازمان انرژی اتمی ایران", en: "Atomic Energy Organization of Iran Established" },
+      description: { fa: "سازمان انرژی اتمی ایران برای توسعه برنامه هسته‌ای تأسیس شد", en: "Atomic Energy Organization of Iran founded for nuclear development" },
+      details: {
+        fa: "سازمان انرژی اتمی ایران تأسیس شد و اکبر اعتماد ریاست آن را بر عهده گرفت. شاه برنامه‌های بلندپروازانه‌ای برای ساخت بیش از بیست نیروگاه اتمی داشت. غرب از برنامه هسته‌ای صلح‌آمیز ایران حمایت می‌کرد و فناوری هسته‌ای را آزادانه ارائه می‌داد.",
+        en: "The Atomic Energy Organization of Iran was established with Akbar Etemad as its head. The Shah had ambitious plans to build over twenty nuclear power plants. The West supported Iran's peaceful nuclear program and freely provided nuclear technology.",
+      },
+    },
+    {
+      title: { fa: "تورم شدید و فشار اقتصادی بر مردم", en: "Severe Inflation & Economic Pressure on Public" },
+      description: { fa: "ثروت نفتی باعث تورم شدید و گرانی مسکن و مواد غذایی شد", en: "Oil wealth causes severe inflation in housing and food prices" },
+      details: {
+        fa: "سرازیر شدن دلارهای نفتی به اقتصاد ایران تورم شدیدی ایجاد کرد. قیمت مسکن و مواد غذایی به شدت افزایش یافت. طبقه متوسط و فقیر تحت فشار قرار گرفتند. شاه مأموران ضد گران‌فروشی فرستاد اما این اقدامات تأثیر چندانی نداشت و فساد اقتصادی گسترده بود.",
+        en: "The flood of petrodollars into Iran's economy created severe inflation. Housing and food prices increased sharply. The middle class and poor were squeezed. The Shah sent anti-profiteering agents but these measures had little effect and economic corruption was widespread.",
+      },
+    },
+    {
+      title: { fa: "خرید تسلیحات گسترده از آمریکا", en: "Massive Arms Purchases from the US" },
+      description: { fa: "ایران قراردادهای تسلیحاتی چند میلیارد دلاری با آمریکا امضا کرد", en: "Iran signs multi-billion dollar arms deals with the US" },
+      details: {
+        fa: "با جهش درآمدهای نفتی، شاه قراردادهای تسلیحاتی عظیمی با آمریکا امضا کرد. ایران به بزرگ‌ترین خریدار تسلیحات آمریکایی در جهان تبدیل شد. هزاران مستشار نظامی آمریکایی در ایران مستقر شدند که حضور آنها نارضایتی عمومی ایجاد کرد.",
+        en: "With the jump in oil revenues, the Shah signed massive arms deals with the US. Iran became the largest buyer of American arms in the world. Thousands of US military advisors were stationed in Iran, and their presence created public resentment.",
+      },
+    },
+    ],
     world: [
       {
         country: "world",
@@ -3428,7 +5145,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "با سرازیر شدن دلارهای نفتی، شاه برنامه‌های بلندپروازانه هسته‌ای اعلام کرد. قرارداد ساخت دو نیروگاه اتمی در بوشهر با شرکت آلمانی کرافت‌ورک‌یونیون (زیمنس) امضا شد. برنامه‌ریزی برای ساخت نیروگاه‌های اتمی دیگر با فرانسه نیز آغاز شد. شاه اعلام کرد ایران باید بیست و سه نیروگاه اتمی بسازد. غرب در آن زمان از برنامه هسته‌ای ایران حمایت می‌کرد.",
         en: "With the flood of petrodollars, the Shah announced ambitious nuclear plans. A contract was signed with the German company Kraftwerk Union (Siemens) to build two nuclear power plants in Bushehr. Planning for additional nuclear plants with France also began. The Shah declared that Iran must build twenty-three nuclear power plants. The West at that time supported Iran's nuclear program.",
       },
-    }],
+    },
+    {
+      title: { fa: "تأسیس صنایع فولاد و مس ملی", en: "National Steel & Copper Industries Established" },
+      description: { fa: "مجتمع‌های فولاد و مس ملی با سرمایه‌گذاری کلان تأسیس شدند", en: "National steel and copper complexes established with massive investment" },
+      details: {
+        fa: "با سرازیر شدن پترودلارها، مجتمع‌های صنعتی بزرگی تأسیس شدند. صنایع مس سرچشمه در کرمان و توسعه ذوب‌آهن اصفهان از مهم‌ترین پروژه‌ها بودند. اما بسیاری از این پروژه‌ها با مدیریت ضعیف و فساد مالی مواجه بودند.",
+        en: "With the flood of petrodollars, large industrial complexes were established. The Sarcheshmeh copper complex in Kerman and Isfahan steel expansion were among the most important. However, many suffered from poor management and financial corruption.",
+      },
+    },
+    {
+      title: { fa: "اعطای وام به کشورهای خارجی", en: "Foreign Loans from Oil Revenue" },
+      description: { fa: "ایران از ثروت نفتی به کشورهای مختلف وام داد", en: "Iran lends oil wealth to various countries" },
+      details: {
+        fa: "با جهش درآمدهای نفتی، ایران به وام‌دهنده تبدیل شد و به بریتانیا، فرانسه و مصر وام‌های کلان ارائه داد. شاه از این وام‌ها برای افزایش نفوذ سیاسی استفاده می‌کرد. منتقدان معتقد بودند این پول‌ها باید صرف توسعه داخلی و رفع فقر می‌شد.",
+        en: "With the jump in oil revenues, Iran became a lender, providing large loans to Britain, France, and Egypt. The Shah used these loans to increase political influence. Critics argued this money should have been spent on domestic development and poverty reduction.",
+      },
+    },
+    {
+      title: { fa: "مهاجرت نیروی کار خارجی به ایران", en: "Foreign Labor Migration to Iran" },
+      description: { fa: "کمبود نیروی کار باعث ورود صدها هزار کارگر خارجی شد", en: "Labor shortages lead to hundreds of thousands of foreign workers" },
+      details: {
+        fa: "رشد سریع اقتصادی و پروژه‌های عظیم عمرانی باعث کمبود نیروی کار شد. صدها هزار کارگر خارجی از افغانستان، پاکستان و کره جنوبی به ایران آمدند. هزاران متخصص آمریکایی و اروپایی نیز در پروژه‌ها حضور داشتند. حضور گسترده خارجی‌ها تنش‌های فرهنگی ایجاد کرد.",
+        en: "Rapid economic growth and massive construction projects created labor shortages. Hundreds of thousands of foreign workers from Afghanistan, Pakistan, and South Korea came to Iran. Thousands of American and European experts were also present. The large foreign presence created cultural tensions.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -3477,7 +5219,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "شاه ایران و صدام حسین معاون رئیس‌جمهور عراق توافقنامه الجزایر را امضا کردند. بر اساس این توافق، مرز ایران و عراق در اروندرود بر اساس خط تالوگ تعیین شد. در مقابل، ایران حمایت خود از کردهای عراق به رهبری ملا مصطفی بارزانی را قطع کرد. کردهای عراق که سال‌ها با حمایت ایران علیه بغداد می‌جنگیدند، بلافاصله سرکوب شدند. صدام حسین بعداً این توافقنامه را در ۱۹۸۰ لغو و به ایران حمله کرد.",
         en: "The Shah and Iraqi Vice President Saddam Hussein signed the Algiers Agreement. Under this accord, the Iran-Iraq border along the Shatt al-Arab was determined by the thalweg line. In exchange, Iran cut its support for Iraqi Kurds led by Mulla Mustafa Barzani. The Iraqi Kurds, who had fought Baghdad with Iranian support for years, were immediately crushed. Saddam Hussein later abrogated this agreement in 1980 and invaded Iran.",
       },
-    }],
+    },
+    {
+      title: { fa: "افزایش تورم و سیاست ضد گران‌فروشی", en: "Rising Inflation & Anti-Profiteering Campaign" },
+      description: { fa: "شاه مأموران ضد گران‌فروشی فرستاد اما تورم مهار نشد", en: "Shah sends anti-profiteering agents but inflation persists" },
+      details: {
+        fa: "تورم شدید ناشی از هجوم پترودلارها ادامه یافت. شاه دستور تشکیل گروه‌های بازرسی ضد گران‌فروشی داد که بازاریان را جریمه و حتی زندانی کردند. این سیاست بازاریان سنتی را از حکومت بیگانه کرد. تورم بالا یکی از عوامل نارضایتی عمومی بود.",
+        en: "Severe inflation caused by the influx of petrodollars continued. The Shah ordered anti-profiteering teams that fined and even imprisoned bazaar merchants. This policy alienated traditional bazaar merchants. High inflation was one of the factors behind public discontent.",
+      },
+    },
+    {
+      title: { fa: "گسترش پوشش تأمین اجتماعی", en: "Social Security Coverage Expansion" },
+      description: { fa: "پوشش تأمین اجتماعی به بخش‌های بیشتری از جامعه گسترش یافت", en: "Social security coverage expanded to more segments of society" },
+      details: {
+        fa: "نظام تأمین اجتماعی ایران با گسترش پوشش بیمه‌ای توسعه یافت. بیمه درمانی و بازنشستگی برای کارگران صنعتی تقویت شد. اما بخش بزرگی از نیروی کار در اقتصاد غیررسمی از پوشش بیمه‌ای محروم بودند. شکاف رفاهی بین شهر و روستا همچنان وجود داشت.",
+        en: "Iran's social security system expanded insurance coverage. Health and pension insurance for industrial workers was strengthened. However, a large portion of the workforce in the informal economy lacked coverage. The welfare gap between urban and rural areas persisted.",
+      },
+    },
+    {
+      title: { fa: "قدرت‌نمایی ایران در اوپک و بازار نفت", en: "Iran's Power Play in OPEC & Oil Market" },
+      description: { fa: "ایران قدرت خود در اوپک را تقویت کرد و بر افزایش قیمت نفت پافشاری نمود", en: "Iran strengthens OPEC position, insists on higher oil prices" },
+      details: {
+        fa: "ایران از نتایج تحریم نفتی ۱۹۷۳ حداکثر بهره را برد. شاه در اوپک از افزایش قیمت نفت حمایت کرد. قیمت نفت همچنان بالا بود و درآمدهای نفتی سرسام‌آور شد. اما وابستگی شدید به درآمد نفت آسیب‌پذیری اقتصاد را افزایش داد.",
+        en: "Iran maximally benefited from the 1973 oil embargo. The Shah supported higher oil prices in OPEC. Oil prices remained high and revenues became staggering. However, heavy dependence on oil revenue increased economic vulnerability.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -3526,7 +5293,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "شاه در اقدامی بحث‌برانگیز، مبدأ تقویم ایران را از هجرت پیامبر اسلام به تأسیس شاهنشاهی هخامنشی تغییر داد. بر این اساس، سال ۱۳۵۵ شمسی به سال ۲۵۳۵ شاهنشاهی تبدیل شد. این تصمیم خشم گسترده روحانیون و مسلمانان مذهبی را برانگیخت که آن را حمله به هویت اسلامی ایران تلقی کردند. حتی بسیاری از حامیان سکولار شاه نیز این اقدام را نامعقول و تحریک‌آمیز دانستند. این تقویم پس از انقلاب لغو شد.",
         en: "In a controversial move, the Shah changed Iran's calendar epoch from the Islamic Prophet's migration to the founding of the Achaemenid Empire. The year 1355 Solar Hijri became 2535 Imperial. This decision sparked widespread anger among clerics and religious Muslims who saw it as an attack on Iran's Islamic identity. Even many of the Shah's secular supporters considered the move unreasonable and provocative. This calendar was abolished after the revolution.",
       },
-    }],
+    },
+    {
+      title: { fa: "رکود اقتصادی و کاهش درآمد نفت", en: "Economic Slowdown & Declining Oil Revenue" },
+      description: { fa: "رشد اقتصادی کند شد و درآمدهای نفتی کاهش یافت", en: "Economic growth slows and oil revenues decline" },
+      details: {
+        fa: "پس از رونق بی‌سابقه نفتی، اقتصاد ایران با رکود مواجه شد. درآمدهای نفتی کاهش یافت و پروژه‌های عظیم ناتمام ماندند. تورم بالا بود و قدرت خرید مردم کاهش یافت. دولت مجبور به استقراض خارجی شد.",
+        en: "After the unprecedented oil boom, Iran's economy faced a slowdown. Oil revenues declined and massive projects were left unfinished. Inflation remained high and purchasing power decreased. The government was forced to borrow from abroad.",
+      },
+    },
+    {
+      title: { fa: "فشار حزب رستاخیز و نارضایتی اجتماعی", en: "Rastakhiz Party Pressure & Social Discontent" },
+      description: { fa: "فشار برای عضویت اجباری در حزب رستاخیز نارضایتی را تشدید کرد", en: "Forced Rastakhiz Party membership intensifies discontent" },
+      details: {
+        fa: "حزب رستاخیز تلاش کرد کنترل بیشتری بر جامعه اعمال کند. مأموران حزب فشار آوردند تا همه عضو شوند. روشنفکران، بازاریان و روحانیون ناراضی بودند. این حزب نارضایتی عمومی را تشدید کرد و مردم را بیشتر از حکومت بیگانه ساخت.",
+        en: "The Rastakhiz Party attempted greater control over society. Party agents pressured everyone to join. Intellectuals, bazaar merchants, and clergy were unhappy. The party intensified public discontent and further alienated people from the government.",
+      },
+    },
+    {
+      title: { fa: "گسترش ساواک و گزارش‌های حقوق بشری", en: "SAVAK Expansion & Human Rights Reports" },
+      description: { fa: "گزارش‌های بین‌المللی از شکنجه و نقض حقوق بشر افزایش یافت", en: "International reports of torture and human rights violations increase" },
+      details: {
+        fa: "سازمان عفو بین‌الملل گزارش‌های مفصلی درباره شکنجه زندانیان سیاسی در ایران منتشر کرد. ساواک متهم به شکنجه سیستماتیک بود. تعداد زندانیان سیاسی افزایش یافت. فشارهای بین‌المللی شاه را در موضع دشواری قرار داد.",
+        en: "Amnesty International published detailed reports about torture of political prisoners in Iran. SAVAK was accused of systematic torture. The number of political prisoners increased. International pressure placed the Shah in a difficult position.",
+      },
+    },
+    ],
     world: [
       {
         country: "china",
@@ -3575,7 +5367,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "فشار حقوق بشری کارتر فضای سیاسی ایران را اندکی باز کرد. روشنفکران و نویسندگان سه نامه سرگشاده خطاب به شاه نوشتند و خواستار آزادی بیان و پایان سانسور شدند. شب‌های شعر انستیتو گوته در تهران به تجمعات اعتراضی هزاران نفره تبدیل شد. کانون نویسندگان ایران فعالیت خود را از سر گرفت. وکلا و قضات خواستار استقلال قوه قضاییه شدند. این تحرکات زمینه‌ساز جنبش انقلابی سال بعد شد.",
         en: "Carter's human rights pressure slightly opened Iran's political space. Intellectuals and writers addressed three open letters to the Shah demanding freedom of expression and an end to censorship. Poetry nights at Tehran's Goethe Institute turned into protest gatherings of thousands. The Iranian Writers' Association resumed its activities. Lawyers and judges demanded judicial independence. These movements laid the groundwork for the revolutionary movement the following year.",
       },
-    }],
+    },
+    {
+      title: { fa: "فعالیت کانون وکلا و حقوقدانان", en: "Lawyers' Association & Jurists' Activities" },
+      description: { fa: "وکلا و حقوقدانان خواستار استقلال قوه قضاییه شدند", en: "Lawyers and jurists demand judicial independence" },
+      details: {
+        fa: "کانون وکلای دادگستری نامه‌هایی خطاب به مقامات نوشت و خواستار استقلال قوه قضاییه و آزادی وکلا شد. وکلای مدافع زندانیان سیاسی تحت فشار ساواک بودند. جنبش حقوقی بخشی از موج اعتراضات مدنی بود که با فشار حقوق بشری کارتر تقویت شده بود.",
+        en: "The Bar Association wrote letters to authorities demanding judicial independence and lawyers' freedom. Lawyers defending political prisoners were under SAVAK pressure. The legal movement was part of civil protests strengthened by Carter's human rights pressure.",
+      },
+    },
+    {
+      title: { fa: "رکود اقتصادی و سیاست‌های ریاضتی", en: "Economic Recession & Austerity Measures" },
+      description: { fa: "دولت سیاست‌های انقباضی اجرا کرد و بیکاری افزایش یافت", en: "Government implements contractionary policies, unemployment rises" },
+      details: {
+        fa: "پس از سال‌ها رونق نفتی، اقتصاد ایران وارد رکود شد. دولت آموزگار سیاست‌های انقباضی اجرا کرد: کاهش هزینه‌های دولتی و توقف پروژه‌های عمرانی. بیکاری افزایش یافت و کارگران ساختمانی مهاجر شغل خود را از دست دادند.",
+        en: "After years of oil boom, Iran's economy entered a recession. The Amouzegar government implemented contractionary policies: reducing spending and halting construction. Unemployment rose and migrant construction workers lost their jobs.",
+      },
+    },
+    {
+      title: { fa: "مرگ مشکوک مصطفی خمینی در نجف", en: "Suspicious Death of Mostafa Khomeini in Najaf" },
+      description: { fa: "پسر خمینی در نجف در شرایط مشکوکی درگذشت", en: "Khomeini's son dies in Najaf under suspicious circumstances" },
+      details: {
+        fa: "سید مصطفی خمینی پسر بزرگ آیت‌الله خمینی در آبان ۱۳۵۶ در نجف در شرایط مشکوکی درگذشت. هواداران خمینی ساواک را مسئول دانستند. مراسم بزرگداشت در شهرهای مختلف ایران به تظاهرات ضد حکومتی تبدیل شد.",
+        en: "Seyyed Mostafa Khomeini, Ayatollah Khomeini's eldest son, died in Najaf in November 1977 under suspicious circumstances. Khomeini's supporters blamed SAVAK. Memorial services in various cities turned into anti-government demonstrations.",
+      },
+    },
+    ],
     world: [
       {
         country: "usa",
@@ -3624,7 +5441,32 @@ export const timelineData: TimelineEntry[] = [
         fa: "در ۱۷ دی ۱۳۵۶ روزنامه اطلاعات مقاله‌ای توهین‌آمیز علیه آیت‌الله خمینی منتشر کرد. این مقاله باعث اعتراضات خونین در قم شد و چرخه چهلم آغاز گشت: هر چهل روز پس از کشته شدن معترضان، مراسم یادبود به اعتراض جدید تبدیل می‌شد. تبریز، یزد، اصفهان و شهرهای دیگر یکی پس از دیگری شاهد اعتراضات شدند. حکومت نظامی اعلام شد اما اعتراضات گسترده‌تر شد. خمینی از نجف به پاریس رفت و از آنجا رهبری انقلاب را هدایت کرد.",
         en: "On January 7, 1978, the Ettela'at newspaper published an article insulting Ayatollah Khomeini. This article triggered bloody protests in Qom and started the 40-day cycle: every forty days after protesters were killed, memorial ceremonies turned into new protests. Tabriz, Yazd, Isfahan, and other cities witnessed protests one after another. Martial law was declared but protests only intensified. Khomeini moved from Najaf to Paris and directed the revolution from there.",
       },
-    }],
+    },
+    {
+      title: { fa: "اعتصاب سراسری کارگران نفت", en: "Nationwide Oil Workers Strike" },
+      description: { fa: "اعتصاب کارگران نفت اقتصاد ایران را فلج کرد", en: "Oil workers' strike paralyzes Iran's economy" },
+      details: {
+        fa: "کارگران صنعت نفت در مهر ۱۳۵۷ اعتصاب سراسری کردند و تولید نفت از شش میلیون بشکه به کمتر از یک میلیون کاهش یافت. این اعتصاب ضربه‌ای مهلک به اقتصاد رژیم بود. درآمد نفتی دولت سقوط کرد و توانایی مالی حکومت تضعیف شد.",
+        en: "Oil industry workers launched a nationwide strike in October 1978, reducing production from six million barrels to less than one million. This was a fatal blow to the regime's economy. Government oil revenue plummeted.",
+      },
+    },
+    {
+      title: { fa: "حکومت نظامی ازهاری و فرار سرمایه", en: "Azhari Martial Law & Capital Flight" },
+      description: { fa: "حکومت نظامی اعلام شد و میلیاردها دلار سرمایه از کشور خارج شد", en: "Martial law declared, billions in capital flee the country" },
+      details: {
+        fa: "شاه ارتشبد ازهاری را به نخست‌وزیری حکومت نظامی منصوب کرد اما اعتراضات ادامه یافت. میلیاردها دلار سرمایه از ایران خارج شد. بانک‌ها با بحران مواجه شدند و ارزش ریال سقوط کرد. اقتصاد در آستانه فروپاشی بود.",
+        en: "The Shah appointed General Azhari as martial law PM but protests continued. Billions of dollars fled Iran. Banks faced crisis and the rial collapsed. The economy was on the verge of collapse.",
+      },
+    },
+    {
+      title: { fa: "استقرار خمینی در پاریس و رهبری انقلاب", en: "Khomeini Settles in Paris & Leads Revolution" },
+      description: { fa: "خمینی از نجف به پاریس رفت و رهبری انقلاب را از آنجا هدایت کرد", en: "Khomeini moves from Najaf to Paris and directs revolution from there" },
+      details: {
+        fa: "پس از فشار دولت عراق، خمینی نجف را ترک کرد و در نوفل‌لوشاتو نزدیک پاریس مستقر شد. حضور در فرانسه دسترسی او به رسانه‌های بین‌المللی را آسان کرد. خمینی مصاحبه‌های متعددی با رسانه‌های جهانی انجام داد و چهره‌ای معتدل ارائه کرد.",
+        en: "Under pressure from Iraq, Khomeini left Najaf and settled in Neauphle-le-Chateau near Paris. His presence in France gave easy access to international media. Khomeini gave numerous interviews presenting a moderate image.",
+      },
+    },
+    ],
     world: [
       {
         country: "world",
@@ -3678,6 +5520,30 @@ export const timelineData: TimelineEntry[] = [
       details: {
         fa: "در ۱۳ آبان ۱۳۵۸ دانشجویان پیرو خط امام سفارت آمریکا در تهران را اشغال کردند و ۵۲ دیپلمات آمریکایی را به گروگان گرفتند. این بحران ۴۴۴ روز ادامه یافت. خمینی از گروگانگیری حمایت کرد و آن را «انقلاب دوم» نامید. همزمان قانون اساسی جمهوری اسلامی با اصل ولایت فقیه در رفراندوم آذر ۱۳۵۸ تصویب شد و خمینی رهبر مادام‌العمر شد. قدرت سیاسی در دست روحانیون متمرکز شد.",
         en: "On November 4, 1979, students following Khomeini's line seized the US Embassy in Tehran and took 52 American diplomats hostage. The crisis lasted 444 days. Khomeini supported the hostage-taking, calling it a 'second revolution.' Meanwhile, the Islamic Republic's constitution with the principle of Velayat-e Faqih was approved by referendum in December 1979, making Khomeini supreme leader for life. Political power became concentrated in the hands of the clergy.",
+      },
+    },
+    {
+      title: { fa: "ملی‌سازی بانک‌ها و صنایع بزرگ", en: "Nationalization of Banks & Major Industries" },
+      description: { fa: "دولت انقلابی بانک‌ها و صنایع بزرگ خصوصی را ملی کرد", en: "Revolutionary government nationalizes banks and major private industries" },
+      details: {
+        fa: "شورای انقلاب تمام بانک‌های خصوصی و صنایع بزرگ را ملی‌سازی کرد. سرمایه‌داران و صنعتگرانی که کشور را ترک نکرده بودند اموال خود را از دست دادند. این ملی‌سازی‌ها ساختار اقتصادی ایران را به شدت تغییر داد و بخش دولتی را مسلط بر اقتصاد کرد.",
+        en: "The Revolutionary Council nationalized all private banks and major industries. Capitalists who had not left lost their assets. These nationalizations dramatically changed Iran's economic structure and made the public sector dominant.",
+      },
+    },
+    {
+      title: { fa: "سرکوب قیام‌های کردستان و ترکمن‌صحرا", en: "Suppression of Kurdistan & Turkmen Sahra Uprisings" },
+      description: { fa: "حکومت انقلابی قیام‌های خودمختاری‌طلبانه را سرکوب کرد", en: "Revolutionary government suppresses autonomy uprisings" },
+      details: {
+        fa: "پس از انقلاب، کردها و ترکمن‌ها خواستار خودمختاری شدند. درگیری‌های مسلحانه در کردستان بین نیروهای حکومتی و پیشمرگه‌ها آغاز شد. خمینی دستور سرکوب نظامی داد و صدها نفر کشته شدند. مسئله خودمختاری اقوام حل‌نشده باقی ماند.",
+        en: "After the revolution, Kurds and Turkmen demanded autonomy. Armed clashes broke out in Kurdistan between government forces and Peshmerga. Khomeini ordered military suppression and hundreds were killed. The ethnic autonomy issue remained unresolved.",
+      },
+    },
+    {
+      title: { fa: "اخراج ارتشیان و تأسیس سپاه پاسداران", en: "Military Purges & IRGC Formation" },
+      description: { fa: "ژنرال‌ها اعدام و سپاه پاسداران انقلاب اسلامی تأسیس شد", en: "Generals executed and Islamic Revolutionary Guard Corps established" },
+      details: {
+        fa: "حکومت انقلابی ده‌ها ژنرال ارتش شاهنشاهی را اعدام و هزاران افسر را اخراج کرد. ارتش به شدت تضعیف شد. همزمان سپاه پاسداران انقلاب اسلامی به عنوان نیروی نظامی موازی و وفادار به انقلاب تأسیس شد.",
+        en: "The revolutionary government executed dozens of Imperial Army generals and dismissed thousands of officers. The army was severely weakened. Simultaneously, the Islamic Revolutionary Guard Corps was established as a parallel military force loyal to the revolution.",
       },
     }],
     world: [
@@ -3742,7 +5608,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "در اردیبهشت ۱۳۵۹ عملیات پنجه عقاب برای نجات ۵۲ گروگان آمریکایی در سفارت تهران در صحرای طبس با شکست مواجه شد. دو هواپیما با هم برخورد کردند و ۸ نظامی آمریکایی کشته شدند. این شکست به اعتبار نظامی آمریکا آسیب زد و موضع مذاکراتی ایران را تقویت کرد. بقایای هواپیماها هنوز در صحرای طبس باقی‌ست.",
           en: "In April 1980, Operation Eagle Claw to rescue 52 American hostages at the Tehran embassy failed in the Tabas desert. Two aircraft collided, killing 8 US servicemen. The failure damaged American military credibility and strengthened Iran's negotiating position. Wreckage of the aircraft remains in the Tabas desert.",
         },
-      }
+      },
+    {
+      title: { fa: "محاصره اقتصادی آمریکا علیه ایران", en: "US Economic Sanctions Against Iran" },
+      description: { fa: "آمریکا دارایی‌های ایران را مسدود و تحریم‌های اقتصادی اعمال کرد", en: "US freezes Iranian assets and imposes economic sanctions" },
+      details: {
+        fa: "پس از گروگانگیری سفارت، کارتر دارایی‌های ایران در بانک‌های آمریکایی را به مبلغ حدود ۱۲ میلیارد دلار مسدود کرد. تحریم‌های گسترده اعمال شد: ممنوعیت واردات نفت ایران و قطع روابط تجاری. این آغاز دوره طولانی تحریم‌های آمریکایی علیه ایران بود.",
+        en: "After the embassy seizure, Carter froze approximately $12 billion in Iranian assets in American banks. Sweeping sanctions were imposed: banning Iranian oil imports and severing trade. This marked the beginning of a long era of US sanctions against Iran.",
+      },
+    },
+    {
+      title: { fa: "بمباران هوایی شهرها و ویرانی خوزستان", en: "Aerial Bombing & Khuzestan Devastation" },
+      description: { fa: "عراق شهرهای ایران را بمباران کرد و خرمشهر سقوط کرد", en: "Iraq bombs Iranian cities, Khorramshahr falls" },
+      details: {
+        fa: "هواپیماهای جنگی عراق شهرهای اهواز، دزفول، آبادان و خرمشهر را بمباران سنگین کردند. خرمشهر پس از مقاومت ۳۴ روزه سقوط کرد. صدها هزار نفر آواره شدند. پالایشگاه آبادان که زمانی بزرگ‌ترین پالایشگاه جهان بود تعطیل شد.",
+        en: "Iraqi warplanes heavily bombed Ahvaz, Dezful, Abadan, and Khorramshahr. Khorramshahr fell after 34 days of resistance. Hundreds of thousands were displaced. The Abadan refinery, once the world's largest, was shut down.",
+      },
+    },
+    {
+      title: { fa: "تصویب قانون اساسی و نظام ولایت فقیه", en: "Constitution Approved & Velayat-e Faqih System" },
+      description: { fa: "قانون اساسی جمهوری اسلامی با اصل ولایت فقیه تصویب شد", en: "Islamic Republic constitution with Velayat-e Faqih principle approved" },
+      details: {
+        fa: "قانون اساسی جمهوری اسلامی نظام ولایت فقیه را به عنوان اصل بنیادین حکومت تثبیت کرد. خمینی به عنوان ولی فقیه اختیارات گسترده‌ای دریافت کرد. منتقدان معتقد بودند این نظام مردم‌سالاری واقعی ایجاد نمی‌کند اما مخالفت سرکوب شد.",
+        en: "The Islamic Republic's constitution established the Velayat-e Faqih system as the fundamental governing principle. Khomeini as Supreme Leader received broad powers. Critics believed this system did not create true democracy but opposition was suppressed.",
+      },
+    }
     ],
     world: [
       {
@@ -3800,7 +5690,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۳۰ دی ۱۳۵۹ (۲۰ ژانویه ۱۹۸۱) همزمان با مراسم تحلیف ریگان، ۵۲ گروگان آمریکایی پس از ۴۴۴ روز اسارت آزاد شدند. بر اساس توافق‌نامه الجزایر، آمریکا متعهد به عدم دخالت در امور داخلی ایران شد و دارایی‌های مسدودشده ایران آزاد گردید. این بحران روابط ایران و آمریکا را برای دهه‌ها تحت تأثیر قرار داد.",
           en: "On January 20, 1981, coinciding with Reagan's inauguration, 52 American hostages were freed after 444 days of captivity. Under the Algiers Accords, the US pledged non-interference in Iran's internal affairs and Iran's frozen assets were released. This crisis shaped Iran-US relations for decades.",
         },
-      }
+      },
+    {
+      title: { fa: "اعدام‌های گسترده مخالفان سیاسی", en: "Mass Executions of Political Opponents" },
+      description: { fa: "هزاران عضو گروه‌های مخالف اعدام شدند", en: "Thousands of opposition group members executed" },
+      details: {
+        fa: "پس از آغاز مبارزه مسلحانه مجاهدین خلق، موج اعدام‌های گسترده آغاز شد. هزاران جوان اعدام شدند. شرایط محاکمه‌ها عمدتاً غیرعادلانه بود. خانواده‌ها اغلب بدون اطلاع قبلی با اعدام عزیزان خود مواجه شدند.",
+        en: "After the MEK began armed struggle, a wave of mass executions began. Thousands of young people were executed. Trial conditions were mostly unfair. Families often learned of executions without prior notice.",
+      },
+    },
+    {
+      title: { fa: "بسیج نیروهای مردمی برای جنگ", en: "Popular Forces Mobilization for War" },
+      description: { fa: "بسیج مستضعفین برای اعزام داوطلبان به جبهه تقویت شد", en: "Basij mobilization strengthened to send volunteers to war fronts" },
+      details: {
+        fa: "نیروی مقاومت بسیج مستضعفین تقویت شد. هزاران جوان و نوجوان داوطلبانه به جبهه‌ها اعزام شدند. مساجد به پایگاه‌های اعزام نیرو تبدیل شدند. روحیه مذهبی و میهن‌پرستانه نقش مهمی در جذب داوطلبان داشت.",
+        en: "The Basij Resistance Force was strengthened. Thousands of young people volunteered for the front lines. Mosques became deployment bases. Religious and patriotic sentiment played an important role in attracting volunteers.",
+      },
+    },
+    {
+      title: { fa: "سقوط ارزش ریال و بحران اقتصادی", en: "Rial Value Collapse & Economic Crisis" },
+      description: { fa: "ارزش ریال سقوط کرد و اقتصاد جنگ‌زده با بحران مواجه شد", en: "Rial value collapses, war-torn economy faces crisis" },
+      details: {
+        fa: "ارزش ریال در بازار آزاد به شدت سقوط کرد. جنگ، تحریم‌ها و فرار سرمایه اقتصاد را فلج کرد. دولت نظام ارزی چندنرخی اعمال کرد. کمبود کالاهای اساسی و افزایش قیمت‌ها فشار شدیدی بر زندگی مردم وارد کرد.",
+        en: "The rial's value plummeted in the free market. War, sanctions, and capital flight paralyzed the economy. The government imposed a multi-tier exchange rate. Shortages and price increases put severe pressure on people's lives.",
+      },
+    },
     ],
     world: [
       {
@@ -3858,7 +5772,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "پس از آزادسازی خرمشهر و خروج نیروهای عراقی از خاک ایران، شورای امنیت ملی و فرماندهی نظامی بر سر ادامه جنگ به داخل خاک عراق بحث کردند. عراق و میانجیگران بین‌المللی پیشنهاد آتش‌بس دادند. اما تصمیم گرفته شد که جنگ تا سقوط صدام ادامه یابد. این تصمیم شش سال دیگر جنگ فرسایشی را رقم زد.",
           en: "After the liberation of Khorramshahr and the withdrawal of Iraqi forces from Iranian soil, the National Security Council and military command debated continuing the war into Iraqi territory. Iraq and international mediators offered a ceasefire. However, the decision was made to continue the war until Saddam's fall. This decision resulted in six more years of attritional warfare.",
         },
-      }
+      },
+    {
+      title: { fa: "تشکیل نهادهای اقتصادی انقلابی", en: "Formation of Revolutionary Economic Institutions" },
+      description: { fa: "بنیادهای اقتصادی انقلاب دارایی‌های مصادره‌ای را مدیریت کردند", en: "Revolutionary foundations manage confiscated assets" },
+      details: {
+        fa: "بنیادهای انقلابی مانند بنیاد مستضعفان و بنیاد شهید تشکیل شدند و دارایی‌های مصادره‌شده را مدیریت کردند. این بنیادها تحت نظارت رهبری بودند و از مالیات معاف. بنیاد مستضعفان به یکی از بزرگ‌ترین مجموعه‌های اقتصادی ایران تبدیل شد.",
+        en: "Revolutionary foundations such as the Mostazafan Foundation and Martyrs Foundation were formed to manage confiscated assets. These were under the Supreme Leader's supervision and tax-exempt. The Mostazafan Foundation became one of Iran's largest economic conglomerates.",
+      },
+    },
+    {
+      title: { fa: "تثبیت نظام جمهوری اسلامی", en: "Consolidation of the Islamic Republic" },
+      description: { fa: "حکومت پس از حذف رقبا قدرت خود را تثبیت کرد", en: "Government consolidates power after eliminating rivals" },
+      details: {
+        fa: "پس از سرکوب مجاهدین خلق و گروه‌های چپ، جمهوری اسلامی قدرت خود را تثبیت کرد. خامنه‌ای رئیس‌جمهور و موسوی نخست‌وزیر شدند. ساختار حکومتی با محوریت ولایت فقیه شکل گرفت.",
+        en: "After suppressing the MEK and leftist groups, the Islamic Republic consolidated power. Khamenei became president and Mousavi prime minister. Government structure formed around the Supreme Leader.",
+      },
+    },
+    {
+      title: { fa: "فشار جنگ بر اقتصاد و صنعت نفت", en: "War Pressure on Economy & Oil Industry" },
+      description: { fa: "بمباران تأسیسات نفتی تولید و درآمد نفت را کاهش داد", en: "Bombing of oil facilities reduces production and revenue" },
+      details: {
+        fa: "عراق حملات به تأسیسات نفتی ایران به خصوص جزیره خارگ را تشدید کرد. تولید نفت ایران کاهش یافت و درآمد نفتی به کمتر از نصف دوران قبل از جنگ رسید. اقتصاد جنگی با سهمیه‌بندی اعمال شد.",
+        en: "Iraq intensified attacks on Iran's oil facilities, especially Kharg Island. Oil production dropped and revenue fell to less than half of pre-war levels. A war economy with rationing was imposed.",
+      },
+    },
     ],
     world: [
       {
@@ -3916,7 +5854,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "در سال ۱۳۶۲ حزب توده ایران که در ابتدا از انقلاب حمایت کرده بود، به اتهام جاسوسی برای شوروی منحل شد. رهبر حزب نورالدین کیانوری و دهها عضو ارشد دستگیر و در تلویزیون اعتراف کردند. شبکه جاسوسی نظامی حزب توده نیز لو رفت. این آخرین حزب سیاسی مجاز بود که سرکوب شد.",
           en: "In 1983, the Tudeh Party of Iran, which had initially supported the revolution, was dissolved on charges of spying for the Soviet Union. Party leader Noureddin Kianouri and dozens of senior members were arrested and made televised confessions. The party's military espionage network was also exposed. This was the last permitted political party to be suppressed.",
         },
-      }
+      },
+    {
+      title: { fa: "بازگشایی دانشگاه‌ها پس از انقلاب فرهنگی", en: "Universities Reopen After Cultural Revolution" },
+      description: { fa: "دانشگاه‌ها پس از سه سال تعطیلی بازگشایی شدند", en: "Universities reopen after three years of closure" },
+      details: {
+        fa: "دانشگاه‌های ایران پس از سه سال تعطیلی بازگشایی شدند. برنامه‌های درسی بازنویسی شده بود و بسیاری از اساتید اخراج شده بودند. گزینش ایدئولوژیک دانشجویان اعمال شد و آزادی آکادمیک محدود گردید.",
+        en: "Iranian universities reopened after three years of closure. Curricula had been rewritten and many professors dismissed. Ideological screening of students was implemented and academic freedom restricted.",
+      },
+    },
+    {
+      title: { fa: "تشدید عملیات‌های نظامی والفجر", en: "Intensification of Valfajr Military Operations" },
+      description: { fa: "ایران عملیات‌های بزرگ والفجر را برای نفوذ به خاک عراق آغاز کرد", en: "Iran launches major Valfajr operations to push into Iraq" },
+      details: {
+        fa: "نیروهای مسلح ایران عملیات‌های والفجر را برای نفوذ به خاک عراق آغاز کردند. عراق از سلاح‌های شیمیایی در مقیاس وسیع‌تری استفاده کرد. جامعه بین‌المللی خواستار آتش‌بس شد اما ایران نپذیرفت.",
+        en: "Iranian forces launched Valfajr operations to push into Iraq. Iraq used chemical weapons on a wider scale. The international community called for a ceasefire but Iran rejected it.",
+      },
+    },
+    {
+      title: { fa: "ساخت مسکن برای آوارگان جنگی", en: "Housing Construction for War Refugees" },
+      description: { fa: "بنیاد مسکن ساخت مسکن برای آوارگان جنگی را آغاز کرد", en: "Housing Foundation begins building homes for war refugees" },
+      details: {
+        fa: "بنیاد مسکن انقلاب اسلامی برنامه‌های گسترده‌ای برای ساخت مسکن اجرا کرد. صدها هزار نفر از مناطق جنگی مهاجرت کرده بودند و نیاز فوری به مسکن داشتند. ساخت شهرک‌های مسکونی برای آوارگان آغاز شد.",
+        en: "The Islamic Revolution Housing Foundation implemented extensive housing programs. Hundreds of thousands had migrated from war zones and urgently needed housing. Construction of residential towns for refugees began.",
+      },
+    },
     ],
   },
   {
@@ -3945,7 +5907,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "عراق در سال ۱۹۸۴ استفاده از سلاح‌های شیمیایی از جمله گاز خردل و تابون را به طور گسترده در جبهه‌ها آغاز کرد. هزاران سرباز ایرانی مسموم شدند. سازمان ملل استفاده عراق از سلاح شیمیایی را تأیید کرد اما اقدام مؤثری نکرد. قدرت‌های غربی به خصوص آلمان و فرانسه مواد اولیه این سلاح‌ها را به عراق فروخته بودند.",
           en: "In 1984, Iraq began widespread use of chemical weapons including mustard gas and tabun on the frontlines. Thousands of Iranian soldiers were poisoned. The UN confirmed Iraq's use of chemical weapons but took no effective action. Western powers, especially Germany and France, had sold Iraq the precursors for these weapons.",
         },
-      }
+      },
+    {
+      title: { fa: "کاهش شدید درآمد نفتی و بحران ارزی", en: "Sharp Oil Revenue Decline & Currency Crisis" },
+      description: { fa: "حملات عراق به تأسیسات نفتی درآمد ارزی ایران را کاهش داد", en: "Iraqi attacks on oil facilities reduce Iran's foreign exchange" },
+      details: {
+        fa: "حملات مکرر عراق به جزیره خارگ صادرات نفت را به شدت کاهش داد. درآمد ارزی سقوط کرد و کمبود ارز تشدید شد. دولت مجبور به جیره‌بندی بیشتر شد. نرخ ارز آزاد به شدت افزایش یافت.",
+        en: "Repeated Iraqi attacks on Kharg Island sharply reduced oil exports. Foreign exchange revenue plummeted and currency shortages intensified. The government was forced to increase rationing. The free market exchange rate soared.",
+      },
+    },
+    {
+      title: { fa: "عملیات‌های خیبر و بدر در جنوب عراق", en: "Khaybar & Badr Operations in Southern Iraq" },
+      description: { fa: "ایران عملیات‌های بزرگ نظامی در هورالعظیم انجام داد", en: "Iran conducts major military operations in Hawizeh Marshes" },
+      details: {
+        fa: "نیروهای ایرانی عملیات‌های خیبر و بدر را اجرا کردند. هدف قطع جاده بصره-بغداد بود. مقاومت عراقی‌ها و سلاح شیمیایی مانع پیشروی شد. تلفات سنگینی وارد آمد و جنگ به بن‌بست رسید.",
+        en: "Iranian forces carried out Khaybar and Badr operations. The objective was to cut the Basra-Baghdad road. Iraqi resistance and chemical weapons prevented advances. Heavy casualties showed the war had reached a stalemate.",
+      },
+    },
+    {
+      title: { fa: "تقویت سپاه پاسداران و صنایع دفاعی", en: "IRGC Strengthening & Defense Industry Growth" },
+      description: { fa: "سپاه پاسداران تقویت و صنایع نظامی داخلی توسعه یافت", en: "IRGC strengthened and domestic military industries developed" },
+      details: {
+        fa: "سپاه پاسداران به نیروی قدرتمندی در کنار ارتش تبدیل شد. صنایع نظامی داخلی برای مقابله با تحریم تسلیحاتی توسعه یافت. ایران تولید داخلی مهمات و تجهیزات نظامی سبک را آغاز کرد. خودکفایی نظامی شعار اصلی شد.",
+        en: "The IRGC became a powerful force alongside the army. Domestic military industries developed to counter arms embargoes. Iran began domestic production of ammunition and light equipment. Military self-sufficiency became the main slogan.",
+      },
+    },
     ],
   },
   {
@@ -3974,7 +5960,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "قیمت نفت در سال ۱۹۸۵ به شدت سقوط کرد و درآمد نفتی ایران که منبع اصلی تأمین مالی جنگ بود به کمتر از نصف رسید. عربستان سعودی با افزایش تولید نفت عامل اصلی کاهش قیمت بود. این بحران اقتصادی همراه با هزینه‌های سنگین جنگ فشار مضاعفی بر اقتصاد ایران وارد کرد و کمبود ارز خارجی تشدید شد.",
           en: "Oil prices crashed in 1985 and Iran's oil revenue, the main source of war financing, fell to less than half. Saudi Arabia's production increase was the main cause of the price drop. This economic crisis combined with heavy war costs put double pressure on Iran's economy and foreign currency shortages intensified.",
         },
-      }
+      },
+    {
+      title: { fa: "آغاز برنامه موشکی ایران", en: "Iran's Missile Program Begins" },
+      description: { fa: "ایران با کمک کره شمالی برنامه موشکی خود را آغاز کرد", en: "Iran starts missile program with North Korean assistance" },
+      details: {
+        fa: "ایران با کمک فنی کره شمالی و چین برنامه توسعه موشک‌های بالستیک را آغاز کرد. موشک‌های اسکاد-بی خریداری شدند. هدف ایجاد بازدارندگی در برابر حملات موشکی عراق بود. این برنامه پایه‌گذار صنعت موشکی ایران شد.",
+        en: "Iran began its ballistic missile development program with North Korean and Chinese assistance. Scud-B missiles were purchased. The goal was deterrence against Iraqi missile attacks. This program laid the foundation for Iran's missile industry.",
+      },
+    },
+    {
+      title: { fa: "فروش مخفیانه سلاح آمریکایی به ایران", en: "Secret US Arms Sales to Iran" },
+      description: { fa: "دولت ریگان مخفیانه از طریق اسرائیل به ایران سلاح فروخت", en: "Reagan administration secretly sells arms to Iran through Israel" },
+      details: {
+        fa: "دولت ریگان مخفیانه به ایران سلاح فروخت. هدف آزادی گروگان‌های آمریکایی در لبنان بود. مک‌فارلین مخفیانه به تهران سفر کرد. درآمد حاصل برای تأمین مالی شورشیان کنترای نیکاراگوئه استفاده شد.",
+        en: "The Reagan administration secretly sold arms to Iran. The stated goal was freeing American hostages in Lebanon. McFarlane secretly visited Tehran. Proceeds were used to fund Contra rebels in Nicaragua.",
+      },
+    },
+    {
+      title: { fa: "گسترش اقتصاد غیررسمی و بازار سیاه", en: "Informal Economy & Black Market Expansion" },
+      description: { fa: "کمبود کالا و سهمیه‌بندی بازار سیاه را گسترش داد", en: "Goods shortages and rationing expand black market" },
+      details: {
+        fa: "سیستم سهمیه‌بندی اقتصاد رسمی را محدود کرد و بازار سیاه رونق گرفت. کالاهای اساسی با قیمت‌های چند برابر فروخته می‌شد. فاصله طبقاتی بین صاحبان ارز دولتی و مردم عادی افزایش یافت. فساد اقتصادی گسترش یافت.",
+        en: "The rationing system constrained the formal economy and the black market flourished. Basic goods were sold at several times their price. The gap between those with subsidized currency and ordinary people widened. Economic corruption spread.",
+      },
+    },
     ],
     world: [
       {
@@ -4032,7 +6042,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "در بهمن ۱۳۶۴ نیروهای ایرانی در عملیات والفجر ۸ شبه‌جزیره فاو در جنوب عراق را تصرف کردند. این بزرگ‌ترین پیشروی ایران به داخل خاک عراق بود و بندر مهم ام‌القصر را تهدید می‌کرد. تصرف فاو زنگ خطر را برای کشورهای عربی خلیج فارس و قدرت‌های غربی به صدا درآورد و حمایت بین‌المللی از عراق افزایش یافت.",
           en: "In February 1986, Iranian forces captured Iraq's Faw Peninsula in Operation Valfajr 8. This was Iran's deepest advance into Iraqi territory and threatened the important port of Umm Qasr. The capture alarmed Arab Gulf states and Western powers, increasing international support for Iraq.",
         },
-      }
+      },
+    {
+      title: { fa: "سقوط قیمت نفت و بحران بودجه", en: "Oil Price Collapse & Budget Crisis" },
+      description: { fa: "قیمت نفت به کمتر از ده دلار سقوط کرد و بودجه ایران بحرانی شد", en: "Oil price falls below $10, Iran's budget enters crisis" },
+      details: {
+        fa: "قیمت جهانی نفت به کمتر از ده دلار سقوط کرد. عربستان با افزایش تولید عامل اصلی بود. درآمد نفتی ایران به شدت کاهش یافت. دولت با کسری بودجه شدید مواجه شد و تأمین مالی جنگ دشوارتر شد.",
+        en: "Global oil prices crashed below $10 per barrel. Saudi Arabia's production increase was the main driver. Iran's oil revenue dropped sharply. The government faced a severe budget deficit and financing the war became harder.",
+      },
+    },
+    {
+      title: { fa: "تشدید تحریم تسلیحاتی بین‌المللی", en: "International Arms Embargo Intensification" },
+      description: { fa: "تحریم‌های تسلیحاتی علیه ایران تشدید شد", en: "Arms embargo against Iran intensifies" },
+      details: {
+        fa: "پس از افشای ایران-کنترا، فشارها برای تحریم تسلیحاتی ایران تشدید شد. ایران مجبور شد از بازار سیاه تسلیحاتی و کشورهایی مانند چین و کره شمالی سلاح تهیه کند. کمبود قطعات یدکی تجهیزات آمریکایی مشکل بزرگی بود.",
+        en: "After the Iran-Contra exposure, pressure for arms embargoes against Iran intensified. Iran was forced to procure arms from the black market and countries like China and North Korea. Shortage of spare parts for American equipment was a major problem.",
+      },
+    },
+    {
+      title: { fa: "توسعه صنایع دفاعی داخلی", en: "Domestic Defense Industry Development" },
+      description: { fa: "ایران تولید داخلی سلاح و مهمات را گسترش داد", en: "Iran expands domestic weapons and ammunition production" },
+      details: {
+        fa: "تحریم تسلیحاتی ایران را مجبور به توسعه صنایع دفاعی داخلی کرد. کارخانه‌های تولید مهمات و تجهیزات نظامی تأسیس شدند. ایران برخی تسلیحات مورد نیاز را در داخل تولید کرد. این تجربه پایه صنایع دفاعی پیشرفته در دهه‌های بعد شد.",
+        en: "The arms embargo forced Iran to develop domestic defense industries. Ammunition and equipment factories were established. Iran managed to produce some needed weapons domestically. This became the foundation for advanced defense industries in later decades.",
+      },
+    },
     ],
     world: [
       {
@@ -4090,7 +6124,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "آمریکا عملیات ارنست ویل را برای محافظت از نفتکش‌های کویتی که پرچم آمریکا بر آنها نصب شده بود آغاز کرد. بیش از ۳۰ کشتی جنگی آمریکایی در خلیج فارس مستقر شدند. درگیری‌های مستقیم بین نیروهای ایرانی و آمریکایی افزایش یافت. این بزرگ‌ترین حضور نظامی آمریکا در خلیج فارس تا آن زمان بود.",
           en: "The US launched Operation Earnest Will to escort Kuwaiti tankers reflagged under the American flag. Over 30 US warships were deployed to the Persian Gulf. Direct clashes between Iranian and American forces increased. This was the largest US military presence in the Persian Gulf up to that time.",
         },
-      }
+      },
+    {
+      title: { fa: "حمله آمریکا به سکوهای نفتی ایران", en: "US Attacks on Iranian Oil Platforms" },
+      description: { fa: "نیروی دریایی آمریکا سکوهای نفتی ایران را منهدم کرد", en: "US Navy destroys Iranian oil platforms in the Persian Gulf" },
+      details: {
+        fa: "نیروی دریایی آمریکا در عملیات نیمبل آرچر سکوهای نفتی رشادت و رسالت ایران را بمباران و منهدم کرد. این بزرگ‌ترین درگیری مستقیم بین نیروهای نظامی ایران و آمریکا از زمان گروگانگیری بود.",
+        en: "The US Navy in Operation Nimble Archer bombed and destroyed Iran's Reshadat and Resalat oil platforms. This was the largest direct confrontation between Iranian and American forces since the hostage crisis.",
+      },
+    },
+    {
+      title: { fa: "بحران ارزی و تشدید تورم", en: "Currency Crisis & Worsening Inflation" },
+      description: { fa: "ارزش ریال سقوط کرد و تورم به بالاترین سطح رسید", en: "Rial value crashes, inflation reaches highest levels" },
+      details: {
+        fa: "ارزش ریال در بازار آزاد به شدت سقوط کرد. تورم به بالاترین سطح از شروع جنگ رسید. کمبود کالاهای مصرفی تشدید شد و صف‌های طولانی تشکیل شد. مردم از سختی‌های اقتصادی جنگ خسته شده بودند.",
+        en: "The rial crashed in the free market. Inflation reached its highest level since the war began. Consumer goods shortages worsened and long queues formed. People were exhausted by the economic hardships of war.",
+      },
+    },
+    {
+      title: { fa: "تشدید موشک‌باران شهرهای ایران", en: "Intensification of Missile Attacks on Iranian Cities" },
+      description: { fa: "عراق با موشک‌های اسکاد شهرهای ایران را بمباران کرد", en: "Iraq bombards Iranian cities with Scud missiles" },
+      details: {
+        fa: "عراق حملات موشکی به شهرهای ایران از جمله تهران را تشدید کرد. تلفات غیرنظامی سنگینی وارد شد. هزاران خانواده از تهران فرار کردند. ایران نیز شهرهای عراق را هدف قرار داد. جنگ شهرها روحیه مردم را تضعیف کرد.",
+        en: "Iraq intensified missile attacks on Iranian cities including Tehran. Heavy civilian casualties resulted. Thousands of families fled Tehran. Iran also targeted Iraqi cities. The war of cities weakened public morale.",
+      },
+    },
     ],
     world: [
       {
@@ -4149,7 +6207,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "در مرداد ۱۳۶۷ آیت‌الله خمینی قطعنامه ۵۹۸ شورای امنیت را پذیرفت و آن را به «نوشیدن جام زهر» تشبیه کرد. جنگ هشت ساله با حدود یک میلیون کشته و خسارات صدها میلیارد دلاری پایان یافت. مرزها تغییری نکرد و هیچ طرفی پیروز نشد. ایران با اقتصاد ویران و جمعیت جوان آسیب‌دیده وارد دوران بازسازی شد.",
           en: "In August 1988, Ayatollah Khomeini accepted UN Security Council Resolution 598, comparing it to 'drinking the chalice of poison.' The eight-year war ended with approximately one million dead and hundreds of billions of dollars in damage. Borders remained unchanged and neither side won. Iran entered a reconstruction period with a devastated economy and a traumatized young population.",
         },
-      }
+      },
+    {
+      title: { fa: "عملیات آفت دعا - نبرد دریایی ایران و آمریکا", en: "Operation Praying Mantis - Iran-US Naval Battle" },
+      description: { fa: "آمریکا در بزرگ‌ترین نبرد دریایی پس از جنگ جهانی دوم ناوهای ایرانی را منهدم کرد", en: "US destroys Iranian warships in largest naval battle since WWII" },
+      details: {
+        fa: "نیروی دریایی آمریکا در عملیات آفت دعا دو سکوی نفتی ایران را منهدم کرد و ناوچه سهند غرق شد. این بزرگ‌ترین نبرد دریایی آمریکا پس از جنگ جهانی دوم بود و ضعف نیروی دریایی ایران را آشکار کرد.",
+        en: "The US Navy in Operation Praying Mantis destroyed two Iranian oil platforms and sank the frigate Sahand. This was the US Navy's largest battle since WWII and exposed the weakness of Iran's navy.",
+      },
+    },
+    {
+      title: { fa: "اعدام‌های تابستان ۶۷ - فاجعه زندانیان سیاسی", en: "Summer 1988 Executions - Political Prisoner Tragedy" },
+      description: { fa: "هزاران زندانی سیاسی در تابستان ۱۳۶۷ اعدام شدند", en: "Thousands of political prisoners executed in summer 1988" },
+      details: {
+        fa: "پس از پذیرش قطعنامه ۵۹۸، «کمیته‌های مرگ» در زندان‌ها تشکیل شد. هزاران زندانی سیاسی اعدام شدند. آیت‌الله منتظری اعتراض کرد و از جانشینی عزل شد. این فاجعه یکی از تاریک‌ترین فصول تاریخ جمهوری اسلامی است.",
+        en: "After accepting Resolution 598, 'death committees' were formed in prisons. Thousands of political prisoners were executed. Ayatollah Montazeri protested and was removed from succession. This is one of the darkest chapters of the Islamic Republic's history.",
+      },
+    },
+    {
+      title: { fa: "ویرانی اقتصادی پایان جنگ هشت‌ساله", en: "Economic Devastation at End of Eight-Year War" },
+      description: { fa: "جنگ هشت ساله اقتصاد ایران را ویران کرد", en: "Eight-year war devastates Iran's economy" },
+      details: {
+        fa: "جنگ هشت ساله خسارات اقتصادی هنگفتی وارد کرد. زیرساخت‌های خوزستان ویران شد. بیکاری و تورم بالا بود. صنایع بسیاری آسیب دیده بودند. نیاز فوری به بازسازی گسترده وجود داشت اما منابع مالی محدود بود.",
+        en: "The eight-year war inflicted massive economic damage. Khuzestan infrastructure was devastated. Unemployment and inflation were high. Many industries were damaged. There was urgent need for reconstruction but financial resources were limited.",
+      },
+    },
     ],
     world: [
       {
@@ -4209,7 +6291,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "اکبر هاشمی رفسنجانی در شهریور ۱۳۶۸ رئیس‌جمهور شد و دوره «سازندگی» را آغاز کرد. اولویت‌های او بازسازی زیرساخت‌های ویران‌شده، آزادسازی اقتصادی و بهبود روابط خارجی بود. برنامه تعدیل ساختاری اقتصاد شامل خصوصی‌سازی و حذف یارانه‌ها اجرا شد. رفسنجانی تلاش کرد ایران را از انزوای بین‌المللی خارج کند.",
           en: "Akbar Hashemi Rafsanjani became president in August 1989 and launched the 'reconstruction' era. His priorities were rebuilding war-damaged infrastructure, economic liberalization, and improving foreign relations. A structural adjustment program including privatization and subsidy removal was implemented. Rafsanjani tried to bring Iran out of international isolation.",
         },
-      }
+      },
+    {
+      title: { fa: "بازنگری قانون اساسی و حذف نخست‌وزیری", en: "Constitutional Revision & PM Post Eliminated" },
+      description: { fa: "قانون اساسی اصلاح شد و مقام نخست‌وزیری حذف گردید", en: "Constitution amended, Prime Minister position eliminated" },
+      details: {
+        fa: "قانون اساسی بازنگری شد: مقام نخست‌وزیری حذف شد، اختیارات رهبری تقویت شد و مجمع تشخیص مصلحت تأسیس گردید. شرط مرجعیت برای رهبری حذف شد تا جانشینی خامنه‌ای ممکن شود.",
+        en: "The constitution was revised: PM position eliminated, Leader's powers strengthened, Expediency Council established. The marja requirement for Leader was removed to enable Khamenei's succession.",
+      },
+    },
+    {
+      title: { fa: "عزل منتظری از جانشینی رهبری", en: "Montazeri Removed from Leadership Succession" },
+      description: { fa: "منتظری به دلیل انتقاد از اعدام‌های ۶۷ از جانشینی عزل شد", en: "Montazeri removed over criticism of 1988 executions" },
+      details: {
+        fa: "آیت‌الله منتظری جانشین رسمی خمینی، به دلیل انتقاد از اعدام‌های تابستان ۶۷ از جانشینی عزل شد. نامه‌های اعتراضی او بعدها منتشر شد. منتظری تا پایان عمر تحت حصر خانگی در قم بود.",
+        en: "Ayatollah Montazeri, Khomeini's designated successor, was removed from succession for criticizing the 1988 executions. His protest letters were later published. Montazeri remained under house arrest in Qom until his death.",
+      },
+    },
+    {
+      title: { fa: "آغاز خصوصی‌سازی و آزادسازی اقتصادی", en: "Privatization & Economic Liberalization Begin" },
+      description: { fa: "دولت رفسنجانی خصوصی‌سازی و اصلاحات اقتصادی را آغاز کرد", en: "Rafsanjani government launches privatization and economic reforms" },
+      details: {
+        fa: "دولت رفسنجانی سیاست‌های خصوصی‌سازی و آزادسازی اقتصادی را آغاز کرد. مناطق آزاد تجاری در کیش و قشم تأسیس شد. دولت تلاش کرد سرمایه‌گذاری خارجی جذب کند. اما مقاومت نهادهای انقلابی مانع خصوصی‌سازی واقعی شد.",
+        en: "Rafsanjani launched privatization and economic liberalization policies. Free trade zones were established in Kish and Qeshm. The government tried to attract foreign investment. However, resistance from revolutionary institutions prevented genuine privatization.",
+      },
+    },
     ],
     world: [
       {
@@ -4278,7 +6384,31 @@ export const timelineData: TimelineEntry[] = [
           fa: "دولت رفسنجانی برنامه پنج ساله اول توسعه را با هدف بازسازی پس از جنگ و آزادسازی اقتصادی اجرا کرد. نرخ ارز یکسان‌سازی شد، محدودیت‌های واردات کاهش یافت و خصوصی‌سازی برخی صنایع آغاز شد. اما وابستگی به وام‌های خارجی و سقوط قیمت نفت در سال‌های بعد این برنامه را با مشکل مواجه کرد.",
           en: "Rafsanjani's government implemented the first five-year development plan aimed at post-war reconstruction and economic liberalization. Exchange rates were unified, import restrictions reduced, and privatization of some industries began. However, reliance on foreign loans and oil price drops in subsequent years would challenge this program.",
         },
-      }
+      },
+    {
+      title: { fa: "پذیرش کمک‌های بین‌المللی پس از زلزله", en: "Accepting International Aid After Earthquake" },
+      description: { fa: "ایران برای اولین بار پس از انقلاب کمک‌های بین‌المللی گسترده پذیرفت", en: "Iran accepts extensive international aid for first time since revolution" },
+      details: {
+        fa: "زلزله منجیل که بیش از ۴۰ هزار نفر را کشت، ایران را مجبور به پذیرش کمک‌های بین‌المللی کرد. بیش از ۴۰ کشور کمک فرستادند. حتی آمریکا پیشنهاد کمک داد. این فرصتی برای بهبود روابط دیپلماتیک شد.",
+        en: "The Manjil earthquake that killed over 40,000 forced Iran to accept international aid. Over 40 countries sent assistance. Even the US offered help. This provided an opportunity to improve diplomatic relations.",
+      },
+    },
+    {
+      title: { fa: "بی‌طرفی ایران در جنگ خلیج فارس", en: "Iran's Neutrality in the Gulf War" },
+      description: { fa: "ایران در جنگ خلیج فارس بی‌طرفی اعلام کرد اما از تضعیف عراق سود برد", en: "Iran declares Gulf War neutrality but benefits from Iraq's weakening" },
+      details: {
+        fa: "پس از حمله عراق به کویت، ایران بی‌طرفی اعلام کرد اما از تضعیف عراق سود برد. برخی هواپیماهای جنگی عراقی به ایران پناه آوردند و مصادره شدند. قیمت نفت افزایش یافت. موضع ایران نشان‌دهنده عملگرایی رفسنجانی بود.",
+        en: "After Iraq's invasion of Kuwait, Iran declared neutrality but benefited from Iraq's weakening. Some Iraqi warplanes sought refuge in Iran and were confiscated. Oil prices rose. Iran's stance reflected Rafsanjani's pragmatism.",
+      },
+    },
+    {
+      title: { fa: "آغاز برنامه پنج‌ساله اول توسعه", en: "First Five-Year Development Plan Begins" },
+      description: { fa: "نخستین برنامه توسعه پس از جنگ برای بازسازی اقتصاد اجرا شد", en: "First post-war development plan to rebuild economy implemented" },
+      details: {
+        fa: "برنامه پنج‌ساله اول توسعه با هدف بازسازی و رشد اقتصادی اجرا شد. اهداف شامل رشد هشت درصدی، کاهش تورم و بازسازی زیرساخت‌ها بود. دولت از وام‌های بین‌المللی و درآمد نفت استفاده کرد. اما بسیاری از اهداف محقق نشد.",
+        en: "The first five-year development plan was implemented for reconstruction and growth. Goals included eight percent growth, inflation reduction, and infrastructure rebuilding. International loans and oil revenue were used. However, many objectives were not achieved.",
+      },
+    },
     ],
     world: [
       {
@@ -4336,6 +6466,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "فروپاشی اتحاد جماهیر شوروی فرصت‌های جدیدی برای ایران در جمهوری‌های تازه‌استقلال‌یافته آسیای مرکزی و قفقاز ایجاد کرد. ایران به سرعت روابط دیپلماتیک با این کشورها برقرار کرد. اما رقابت ترکیه و غرب بر سر نفوذ در این منطقه نیز آغاز شد. همچنین تهدید همسایه شمالی قدرتمند برای همیشه برطرف شد.",
           en: "The collapse of the Soviet Union created new opportunities for Iran in the newly independent Central Asian and Caucasus republics. Iran quickly established diplomatic relations with these countries. However, competition with Turkey and the West for influence in the region also began. The threat of a powerful northern neighbor was also permanently removed.",
+        },
+      },
+      {
+        title: { fa: "تأسیس مناطق آزاد تجاری کیش و قشم", en: "Establishment of Kish & Qeshm Free Trade Zones" },
+        description: { fa: "مناطق آزاد تجاری برای جذب سرمایه‌گذاری خارجی تأسیس شدند", en: "Free trade zones established to attract foreign investment" },
+        details: {
+          fa: "مجلس شورای اسلامی قانون تأسیس مناطق آزاد تجاری-صنعتی کیش، قشم و چابهار را تصویب کرد. هدف از این مناطق جذب سرمایه‌گذاری خارجی، توسعه صادرات غیرنفتی و ایجاد اشتغال بود. معافیت‌های مالیاتی و گمرکی ویژه‌ای برای این مناطق در نظر گرفته شد. این طرح بخشی از برنامه سازندگی رفسنجانی برای ادغام ایران در اقتصاد جهانی بود.",
+          en: "The Majles passed legislation establishing the Kish, Qeshm, and Chabahar free trade-industrial zones. These zones aimed to attract foreign investment, develop non-oil exports, and create employment. Special tax and customs exemptions were granted. This plan was part of Rafsanjani's reconstruction program to integrate Iran into the global economy.",
+        },
+      },
+      {
+        title: { fa: "آغاز همکاری هسته‌ای با روسیه - نیروگاه بوشهر", en: "Nuclear Cooperation with Russia Begins - Bushehr Plant" },
+        description: { fa: "ایران و روسیه مذاکرات تکمیل نیروگاه اتمی بوشهر را آغاز کردند", en: "Iran and Russia begin negotiations to complete Bushehr nuclear plant" },
+        details: {
+          fa: "ایران و روسیه مذاکرات جدی برای تکمیل نیروگاه اتمی بوشهر را آغاز کردند. این نیروگاه که ساخت آن توسط شرکت آلمانی زیمنس در دوران انقلاب و جنگ متوقف شده بود، قرار بود با فناوری روسی تکمیل شود. آمریکا با این همکاری مخالفت کرد و آن را پوششی برای برنامه تسلیحات هسته‌ای خواند.",
+          en: "Iran and Russia began serious negotiations to complete the Bushehr nuclear power plant. Construction by German company Siemens had been halted during the revolution and war, and was to be completed with Russian technology. The US opposed this cooperation, calling it a cover for a nuclear weapons program.",
+        },
+      },
+      {
+        title: { fa: "اعتراضات مردمی در شیراز و اراک", en: "Popular Protests in Shiraz & Arak" },
+        description: { fa: "اعتراضات پراکنده به گرانی و بیکاری در چند شهر رخ داد", en: "Scattered protests over high prices and unemployment in several cities" },
+        details: {
+          fa: "در سال ۱۳۷۰ اعتراضات پراکنده‌ای در شیراز، اراک و برخی شهرهای دیگر به دلیل افزایش قیمت کالاهای اساسی و بیکاری رخ داد. این اعتراضات نشان‌دهنده نارضایتی عمومی از سیاست‌های تعدیل اقتصادی رفسنجانی بود. نیروهای انتظامی اعتراضات را سرکوب کردند. دولت وعده کنترل قیمت‌ها و ایجاد اشتغال داد.",
+          en: "In 1991, scattered protests erupted in Shiraz, Arak, and other cities over rising prices of basic goods and unemployment. These protests reflected public discontent with Rafsanjani's economic adjustment policies. Security forces suppressed the protests. The government promised price controls and job creation.",
         },
       }
     ],
@@ -4396,6 +6550,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در سپتامبر ۱۹۹۲ چهار رهبر حزب دموکرات کردستان ایران در رستوران میکونوس برلین ترور شدند. دادگاه آلمان بعدها رهبران ارشد ایران را در دستور این ترور مقصر دانست. این ترور بخشی از مجموعه ترورهای مخالفان در خارج از کشور بود و بحران دیپلماتیک جدی بین ایران و اتحادیه اروپا ایجاد کرد.",
           en: "In September 1992, four leaders of the Democratic Party of Iranian Kurdistan were assassinated at the Mykonos restaurant in Berlin. A German court later found senior Iranian leaders responsible for ordering the assassination. This was part of a series of assassinations of opponents abroad and created a serious diplomatic crisis between Iran and the EU.",
         },
+      },
+      {
+        title: { fa: "انتخابات مجلس چهارم - تقویت محافظه‌کاران", en: "Fourth Majles Elections - Conservatives Strengthened" },
+        description: { fa: "شورای نگهبان نامزدهای چپ‌گرا را رد صلاحیت کرد", en: "Guardian Council disqualifies leftist candidates" },
+        details: {
+          fa: "انتخابات مجلس شورای اسلامی دوره چهارم با نظارت استصوابی سخت‌تر شورای نگهبان برگزار شد. بسیاری از نامزدهای جناح چپ و حامیان خط امام رد صلاحیت شدند. محافظه‌کاران اکثریت قاطع مجلس را به دست آوردند. این مجلس در مقابل سیاست‌های خصوصی‌سازی رفسنجانی مقاومت کرد و فضای سیاسی محدودتر شد.",
+          en: "The Fourth Majles elections were held with stricter Guardian Council vetting. Many leftist candidates and Imam's Line supporters were disqualified. Conservatives won a decisive parliamentary majority. This parliament resisted Rafsanjani's privatization policies and the political space narrowed further.",
+        },
+      },
+      {
+        title: { fa: "آغاز برنامه اول توسعه اقتصادی", en: "First Economic Development Plan Launched" },
+        description: { fa: "برنامه پنج‌ساله اول توسعه با تمرکز بر بازسازی اجرا شد", en: "First five-year development plan focused on reconstruction implemented" },
+        details: {
+          fa: "برنامه اول توسعه اقتصادی، اجتماعی و فرهنگی (۱۳۶۸-۱۳۷۲) در مراحل پایانی اجرا بود. این برنامه بر بازسازی زیرساخت‌های جنگ‌زده، خصوصی‌سازی و آزادسازی تجاری تمرکز داشت. اما تورم بالا، بدهی خارجی سنگین و مقاومت بنیادهای انقلابی در برابر خصوصی‌سازی مانع تحقق بسیاری از اهداف شد.",
+          en: "The First Economic, Social, and Cultural Development Plan (1989-1993) was in its final implementation stages. The plan focused on rebuilding war-damaged infrastructure, privatization, and trade liberalization. However, high inflation, heavy foreign debt, and resistance of revolutionary foundations to privatization prevented many goals from being achieved.",
+        },
+      },
+      {
+        title: { fa: "سرکوب مطبوعات و محدودیت آزادی بیان", en: "Press Crackdown & Restrictions on Free Speech" },
+        description: { fa: "چندین نشریه توقیف و روزنامه‌نگاران بازداشت شدند", en: "Several publications banned and journalists arrested" },
+        details: {
+          fa: "در سال ۱۳۷۱ فشار بر مطبوعات و نویسندگان افزایش یافت. چندین نشریه منتقد توقیف شدند. کانون نویسندگان ایران خواستار آزادی بیان شد اما با فشار امنیتی مواجه گشت. فهرست نویسندگان و روشنفکرانی که مورد تعقیب قرار گرفتند طولانی‌تر شد. این محدودیت‌ها در تضاد با ادعاهای دولت رفسنجانی مبنی بر گشایش سیاسی بود.",
+          en: "In 1992, pressure on the press and writers increased. Several critical publications were banned. The Iranian Writers' Association demanded freedom of expression but faced security pressure. The list of writers and intellectuals under prosecution grew. These restrictions contradicted Rafsanjani's claims of political openness.",
+        },
       }
     ],
     world: [
@@ -4453,6 +6631,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "رفسنجانی در خرداد ۱۳۷۲ برای دور دوم انتخاب شد اما مشارکت مردم کاهش یافته بود. مشکلات اقتصادی، تورم بالا و ناکامی در برخی وعده‌های دور اول نارضایتی ایجاد کرده بود. در دور دوم تمرکز بر کنترل تورم و کاهش بدهی خارجی بود. روابط با کشورهای عربی خلیج فارس بهبود یافت.",
           en: "Rafsanjani was elected for a second term in June 1993 but voter turnout had declined. Economic problems, high inflation, and failure to deliver on some first-term promises had created discontent. The second term focused on controlling inflation and reducing foreign debt. Relations with Arab Gulf states improved.",
+        },
+      },
+      {
+        title: { fa: "توسعه صنعت پتروشیمی ایران", en: "Expansion of Iran's Petrochemical Industry" },
+        description: { fa: "ایران سرمایه‌گذاری گسترده‌ای در صنعت پتروشیمی آغاز کرد", en: "Iran launches major investment in petrochemical industry" },
+        details: {
+          fa: "دولت رفسنجانی سرمایه‌گذاری گسترده‌ای در توسعه صنعت پتروشیمی ایران آغاز کرد. مجتمع‌های پتروشیمی جدید در بندر امام، ماهشهر و عسلویه طراحی شدند. هدف کاهش وابستگی به صادرات نفت خام و افزایش ارزش افزوده بود. این سرمایه‌گذاری‌ها در دهه‌های بعد ایران را به یکی از بزرگ‌ترین تولیدکنندگان پتروشیمی خاورمیانه تبدیل کرد.",
+          en: "Rafsanjani's government launched major investment in expanding Iran's petrochemical industry. New petrochemical complexes were designed in Bandar Imam, Mahshahr, and Assaluyeh. The goal was to reduce dependence on crude oil exports and increase value-added production. These investments in subsequent decades made Iran one of the Middle East's largest petrochemical producers.",
+        },
+      },
+      {
+        title: { fa: "فعالیت‌های قوه قضاییه علیه مخالفان", en: "Judiciary Actions Against Dissidents" },
+        description: { fa: "قوه قضاییه فعالان سیاسی و نویسندگان را محاکمه کرد", en: "Judiciary prosecutes political activists and writers" },
+        details: {
+          fa: "قوه قضاییه در سال ۱۳۷۲ فشار بر فعالان سیاسی و نویسندگان منتقد را افزایش داد. چندین عضو نهضت آزادی بازداشت و محاکمه شدند. کانون نویسندگان ایران با انتشار بیانیه‌ای خواستار آزادی بیان شد. دادگاه‌های انقلاب با محاکمات غیرعلنی و بدون وکیل مدافع، فعالان را به زندان محکوم کردند.",
+          en: "In 1993, the judiciary increased pressure on political activists and critical writers. Several members of the Freedom Movement were arrested and tried. The Iranian Writers' Association issued a statement demanding freedom of expression. Revolutionary courts convicted activists in closed trials without defense lawyers.",
+        },
+      },
+      {
+        title: { fa: "بیکاری بالای جوانان و رشد جمعیت", en: "High Youth Unemployment & Population Growth" },
+        description: { fa: "نرخ بیکاری جوانان از ۳۰ درصد گذشت", en: "Youth unemployment exceeds 30%" },
+        details: {
+          fa: "نرخ بیکاری جوانان در ایران از ۳۰ درصد گذشت. نسل بزرگ متولدین دهه ۱۳۶۰ وارد بازار کار شده بود اما اقتصاد توان جذب آنها را نداشت. جمعیت ایران از ۵۵ میلیون نفر گذشته بود و دولت سیاست‌های کنترل جمعیت و تنظیم خانواده را تقویت کرد. فقر شهری و حاشیه‌نشینی افزایش یافت.",
+          en: "Youth unemployment in Iran exceeded 30%. The large generation born in the 1980s had entered the labor market but the economy could not absorb them. Iran's population had exceeded 55 million and the government strengthened population control and family planning policies. Urban poverty and marginalization increased.",
         },
       }
     ],
@@ -4513,6 +6715,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در سال‌های ۱۳۷۳-۱۳۷۲ شورش‌های شهری در اسلامشهر، مشهد و قزوین رخ داد. مردم علیه افزایش قیمت‌ها، بیکاری و فقر اعتراض کردند. در قزوین مردم خواستار جدا شدن شهر از استان زنجان بودند. این شورش‌ها با خشونت سرکوب شدند. شورش‌ها هشداری بود درباره پیامدهای اجتماعی سیاست‌های تعدیل اقتصادی.",
           en: "In 1994-95, urban riots erupted in Islamshahr, Mashhad, and Qazvin. People protested against price increases, unemployment, and poverty. In Qazvin, residents demanded separation from Zanjan province. These riots were violently suppressed. The unrest was a warning about the social consequences of economic adjustment policies.",
         },
+      },
+      {
+        title: { fa: "سقوط ارزش ریال و بحران تورمی", en: "Rial Depreciation & Inflationary Crisis" },
+        description: { fa: "تورم به بیش از ۳۵ درصد رسید و قدرت خرید مردم کاهش یافت", en: "Inflation exceeds 35% and purchasing power declines" },
+        details: {
+          fa: "تورم در سال ۱۳۷۳ به بیش از ۳۵ درصد رسید و ارزش ریال در بازار آزاد به شدت سقوط کرد. سیاست نرخ ارز چندگانه رانت‌خواری گسترده ایجاد کرده بود. قیمت مسکن و کالاهای اساسی به شدت افزایش یافت. طبقه متوسط فقیرتر شد و شکاف طبقاتی عمیق‌تر گردید. دولت با کسری بودجه شدید مواجه بود.",
+          en: "Inflation exceeded 35% in 1994 and the rial's value plummeted in the free market. The multiple exchange rate policy had created widespread rent-seeking. Housing and basic goods prices rose sharply. The middle class grew poorer and class divisions deepened. The government faced severe budget deficits.",
+        },
+      },
+      {
+        title: { fa: "انتخابات میاندوره‌ای و فشار بر مخالفان", en: "By-Elections & Pressure on Opposition" },
+        description: { fa: "فضای سیاسی بسته‌تر شد و فشار بر گروه‌های اپوزیسیون افزایش یافت", en: "Political space narrows and pressure on opposition groups increases" },
+        details: {
+          fa: "فضای سیاسی ایران در سال ۱۳۷۳ بسته‌تر شد. نهضت آزادی و سایر گروه‌های اپوزیسیون قانونی تحت فشار شدید قرار گرفتند. فعالان حقوق بشر و وکلای مدافع بازداشت شدند. دادگاه ویژه روحانیت نیز روحانیون منتقد را محاکمه کرد. این فشارها نشان‌دهنده تمایل نهادهای امنیتی به حفظ کنترل سیاسی بود.",
+          en: "Iran's political space narrowed in 1994. The Freedom Movement and other legal opposition groups came under severe pressure. Human rights activists and defense lawyers were arrested. The Special Clergy Court also prosecuted critical clerics. These pressures reflected the security establishment's determination to maintain political control.",
+        },
+      },
+      {
+        title: { fa: "آغاز طرح خودکفایی گندم و کشاورزی", en: "Launch of Wheat Self-Sufficiency & Agriculture Plan" },
+        description: { fa: "دولت برنامه خودکفایی در تولید گندم را آغاز کرد", en: "Government launches wheat production self-sufficiency program" },
+        details: {
+          fa: "دولت رفسنجانی برنامه خودکفایی در تولید گندم را آغاز کرد تا وابستگی به واردات غذایی کاهش یابد. قیمت خرید تضمینی گندم افزایش یافت و تسهیلات ویژه به کشاورزان ارائه شد. سطح زیر کشت گندم افزایش یافت اما مشکلات آبی و زیرساختی مانع دستیابی کامل به خودکفایی شد. بخش کشاورزی همچنان با بهره‌وری پایین دست و پنجه نرم می‌کرد.",
+          en: "Rafsanjani's government launched a wheat production self-sufficiency program to reduce dependence on food imports. Guaranteed wheat purchase prices were raised and special facilities offered to farmers. Wheat cultivation area increased but water and infrastructure problems prevented full self-sufficiency. The agricultural sector continued to struggle with low productivity.",
+        },
       }
     ],
     world: [
@@ -4571,6 +6797,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در اواسط دهه ۱۹۹۰ گزارش‌هایی درباره برنامه هسته‌ای ایران و همکاری با روسیه برای ساخت نیروگاه بوشهر و خرید فناوری هسته‌ای از شبکه عبدالقدیر خان پاکستان منتشر شد. آمریکا فشار بر روسیه و چین برای قطع همکاری هسته‌ای با ایران را افزایش داد. این آغاز بحران هسته‌ای بود که دهه‌ها ادامه یافت.",
           en: "In the mid-1990s, reports emerged about Iran's nuclear program and cooperation with Russia on the Bushehr power plant and acquisition of nuclear technology from Pakistan's A.Q. Khan network. The US increased pressure on Russia and China to cut nuclear cooperation with Iran. This marked the beginning of the nuclear crisis that would last decades.",
         },
+      },
+      {
+        title: { fa: "افزایش تولید نفت و درآمد نفتی", en: "Increased Oil Production & Revenue" },
+        description: { fa: "ایران تولید نفت را برای جبران کسری بودجه افزایش داد", en: "Iran increases oil production to offset budget deficit" },
+        details: {
+          fa: "ایران تولید نفت خود را افزایش داد تا کسری بودجه ناشی از بحران اقتصادی را جبران کند. صادرات نفت به حدود ۲.۵ میلیون بشکه در روز رسید. درآمد نفتی بخش عمده بودجه دولت را تشکیل می‌داد و وابستگی اقتصاد ایران به نفت همچنان شدید بود. تحریم‌های آمریکا واردات فناوری نفتی را دشوار کرده بود.",
+          en: "Iran increased oil production to offset budget deficits from the economic crisis. Oil exports reached approximately 2.5 million barrels per day. Oil revenue constituted the bulk of the government budget and Iran's economic dependence on oil remained severe. US sanctions had made importing oil technology difficult.",
+        },
+      },
+      {
+        title: { fa: "انتخابات شوراهای اسلامی شهر و روستا", en: "Islamic City & Village Council Elections" },
+        description: { fa: "اولین دوره انتخابات شوراها پس از انقلاب نزدیک شد", en: "First post-revolution council elections approach" },
+        details: {
+          fa: "بحث درباره برگزاری انتخابات شوراهای اسلامی شهر و روستا که در قانون اساسی پیش‌بینی شده بود اما هرگز اجرا نشده بود، جدی‌تر شد. طرفداران تمرکززدایی خواستار اجرای این اصل قانون اساسی بودند. اما محافظه‌کاران نگران از دست دادن کنترل محلی بودند. این انتخابات سرانجام در دوره خاتمی در سال ۱۳۷۸ برگزار شد.",
+          en: "Debate about holding Islamic city and village council elections, which were stipulated in the constitution but never implemented, became more serious. Advocates of decentralization demanded implementation of this constitutional provision. However, conservatives worried about losing local control. These elections were ultimately held during Khatami's presidency in 1999.",
+        },
+      },
+      {
+        title: { fa: "فرار سرمایه و مهاجرت نخبگان", en: "Capital Flight & Brain Drain" },
+        description: { fa: "فرار سرمایه و مهاجرت تحصیلکردگان تشدید شد", en: "Capital flight and emigration of educated Iranians intensifies" },
+        details: {
+          fa: "تحریم‌های آمریکا، بی‌ثباتی اقتصادی و فضای سیاسی بسته باعث تشدید فرار سرمایه و مهاجرت نخبگان شد. هزاران ایرانی تحصیلکرده به کانادا، آمریکا و اروپا مهاجرت کردند. سرمایه‌داران ایرانی نیز سرمایه خود را به دوبی و ترکیه منتقل کردند. بانک جهانی ایران را یکی از کشورهای با بالاترین نرخ فرار مغزها در جهان اعلام کرد.",
+          en: "US sanctions, economic instability, and a closed political environment intensified capital flight and brain drain. Thousands of educated Iranians emigrated to Canada, the US, and Europe. Iranian business owners also transferred their capital to Dubai and Turkey. The World Bank identified Iran as one of the countries with the highest brain drain rates in the world.",
+        },
       }
     ],
     world: [
@@ -4628,6 +6878,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "انتخابات مجلس پنجم با رقابت شدید بین جناح‌های مختلف برگزار شد. شورای نگهبان بسیاری از نامزدهای اصلاح‌طلب را رد صلاحیت کرد. محافظه‌کاران اکثریت مجلس را به دست آوردند. این مجلس سیاست‌های اقتصادی دولت رفسنجانی را زیر سؤال برد و زمینه تقابل جناحی شدیدتر در انتخابات ریاست‌جمهوری ۱۳۷۶ را فراهم کرد.",
           en: "The Fifth Majles elections were held with intense competition between factions. The Guardian Council disqualified many reformist candidates. Conservatives won a majority in parliament. This Majles questioned Rafsanjani's economic policies and set the stage for more intense factional confrontation in the 1997 presidential election.",
+        },
+      },
+      {
+        title: { fa: "رونق صنعت خودروسازی ایران", en: "Iranian Automotive Industry Boom" },
+        description: { fa: "ایران خودرو و سایپا تولید را افزایش دادند", en: "Iran Khodro and SAIPA increase production" },
+        details: {
+          fa: "صنعت خودروسازی ایران با حمایت دولت رشد قابل توجهی داشت. ایران خودرو تولید پژو ۴۰۵ را با لیسانس فرانسه آغاز کرد و سایپا نیز خودروی پراید را تولید می‌کرد. تولید سالانه خودرو از ۲۰۰ هزار دستگاه گذشت. اما کیفیت پایین، فناوری قدیمی و حمایت‌های گمرکی بالا مانع رقابتی شدن این صنعت در سطح جهانی شد.",
+          en: "Iran's automotive industry grew significantly with government support. Iran Khodro began producing the Peugeot 405 under French license and SAIPA produced the Pride. Annual car production exceeded 200,000 units. However, low quality, outdated technology, and high customs protections prevented this industry from becoming globally competitive.",
+        },
+      },
+      {
+        title: { fa: "انفجار برج‌های الخبر عربستان - ایران متهم شد", en: "Khobar Towers Bombing - Iran Accused" },
+        description: { fa: "انفجار پادگان آمریکایی در عربستان با ۱۹ کشته - ایران متهم شد", en: "US military barracks bombing in Saudi Arabia kills 19 - Iran accused" },
+        details: {
+          fa: "در ژوئن ۱۹۹۶ بمبی در نزدیکی برج‌های الخبر در عربستان سعودی منفجر شد و ۱۹ نظامی آمریکایی کشته شدند. آمریکا و عربستان حزب‌الله حجاز و ایران را متهم به برنامه‌ریزی این حمله کردند. ایران هرگونه دخالت را رد کرد. این واقعه تنش‌های ایران و آمریکا و ایران و عربستان را تشدید کرد و بهانه‌ای برای سخت‌تر شدن تحریم‌ها شد.",
+          en: "In June 1996, a bomb exploded near the Khobar Towers in Saudi Arabia, killing 19 US military personnel. The US and Saudi Arabia accused Hezbollah al-Hejaz and Iran of planning the attack. Iran denied any involvement. This incident heightened tensions between Iran and both the US and Saudi Arabia and provided justification for tighter sanctions.",
+        },
+      },
+      {
+        title: { fa: "افزایش بودجه نظامی و توسعه موشکی", en: "Increased Defense Budget & Missile Development" },
+        description: { fa: "ایران برنامه توسعه موشک‌های بالستیک را تسریع کرد", en: "Iran accelerates ballistic missile development program" },
+        details: {
+          fa: "ایران برنامه توسعه موشک‌های بالستیک شهاب را با کمک فناوری کره شمالی تسریع کرد. موشک شهاب-۳ با برد ۱,۳۰۰ کیلومتر در مراحل آزمایش بود. بودجه نظامی افزایش یافت و سپاه پاسداران نقش بزرگ‌تری در اقتصاد و سیاست ایفا کرد. آمریکا و اسرائیل این برنامه موشکی را تهدیدی جدی می‌دانستند.",
+          en: "Iran accelerated its Shahab ballistic missile development program with North Korean technology assistance. The Shahab-3 missile with a 1,300 km range was in testing stages. The defense budget increased and the IRGC played a larger role in the economy and politics. The US and Israel considered this missile program a serious threat.",
         },
       }
     ],
@@ -4689,6 +6963,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "پس از انتخاب خاتمی، فضای مطبوعاتی ایران شکوفا شد. ده‌ها روزنامه و مجله جدید منتشر شدند. عطاءالله مهاجرانی وزیر فرهنگ خاتمی فضای بازتری برای نشریات ایجاد کرد. روزنامه‌هایی مانند جامعه، توس و صبح امروز نقش مهمی در نقد قدرت ایفا کردند. این دوره به «بهار مطبوعات» معروف شد.",
           en: "After Khatami's election, Iran's press landscape flourished. Dozens of new newspapers and magazines were published. Khatami's Culture Minister Ataollah Mohajerani created a more open environment for publications. Newspapers like Jame'eh, Tous, and Sobh-e Emrooz played an important role in criticizing power. This period became known as the 'Press Spring.'",
         },
+      },
+      {
+        title: { fa: "اولین انتخابات شوراهای شهر و روستا", en: "First City & Village Council Elections" },
+        description: { fa: "قانون شوراها برای اولین بار پس از انقلاب اجرایی شد", en: "Council law implemented for first time since revolution" },
+        details: {
+          fa: "با روی کار آمدن خاتمی، زمینه برگزاری اولین دوره انتخابات شوراهای اسلامی شهر و روستا فراهم شد. اصل ۱۰۰ قانون اساسی اداره امور محلی را به شوراها واگذار کرده بود اما تا آن زمان اجرا نشده بود. قانون شوراها در مجلس تصویب و مقدمات اجرا فراهم شد. این شوراها قرار بود تمرکززدایی و مشارکت مردمی را تقویت کنند.",
+          en: "With Khatami's election, the groundwork was laid for the first Islamic city and village council elections. Article 100 of the constitution had delegated local governance to councils but had never been implemented. The council law was passed in parliament and preparations began. These councils were meant to strengthen decentralization and public participation.",
+        },
+      },
+      {
+        title: { fa: "رشد بورس تهران و خصوصی‌سازی", en: "Tehran Stock Exchange Growth & Privatization" },
+        description: { fa: "بورس تهران رشد قابل توجهی داشت و خصوصی‌سازی ادامه یافت", en: "Tehran Stock Exchange grows significantly and privatization continues" },
+        details: {
+          fa: "بورس اوراق بهادار تهران در سال ۱۳۷۶ رشد قابل توجهی داشت و شاخص بورس افزایش یافت. دولت سهام برخی شرکت‌های دولتی را در بورس عرضه کرد. اما خصوصی‌سازی واقعی محدود بود و بسیاری از شرکت‌ها به نهادهای شبه‌دولتی و بنیادهای انقلابی واگذار شدند. ساختار انحصاری اقتصاد مانع رقابت سالم می‌شد.",
+          en: "The Tehran Stock Exchange grew significantly in 1997 and the stock index rose. The government offered shares of some state-owned enterprises on the exchange. However, real privatization was limited and many companies were transferred to quasi-governmental entities and revolutionary foundations. The monopolistic economic structure prevented healthy competition.",
+        },
+      },
+      {
+        title: { fa: "ورود زنان به عرصه سیاسی", en: "Women Enter Political Arena" },
+        description: { fa: "زنان نقش فعال‌تری در انتخابات و جامعه مدنی ایفا کردند", en: "Women play more active role in elections and civil society" },
+        details: {
+          fa: "انتخابات ۱۳۷۶ نقطه عطفی در مشارکت سیاسی زنان بود. زنان نقش تعیین‌کننده‌ای در رأی به خاتمی داشتند. فعالان حقوق زنان خواستار اصلاح قوانین تبعیض‌آمیز شدند. نشریات زنان افزایش یافت و NGOهای زنان فعال‌تر شدند. خاتمی معصومه ابتکار را به عنوان معاون رئیس‌جمهور در امور محیط زیست منصوب کرد که اولین زن در این سطح پس از انقلاب بود.",
+          en: "The 1997 election was a turning point in women's political participation. Women played a decisive role in voting for Khatami. Women's rights activists demanded reform of discriminatory laws. Women's publications increased and women's NGOs became more active. Khatami appointed Masoumeh Ebtekar as Vice President for Environmental Affairs, the first woman at this level since the revolution.",
+        },
       }
     ],
     world: [
@@ -4746,6 +7044,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "محمد خاتمی در مجمع عمومی سازمان ملل نظریه «گفتگوی تمدن‌ها» را در برابر نظریه «برخورد تمدن‌ها»ی ساموئل هانتینگتون مطرح کرد. سازمان ملل سال ۲۰۰۱ را سال گفتگوی تمدن‌ها اعلام کرد. خاتمی همچنین گام‌هایی برای بهبود روابط با غرب و کشورهای عربی برداشت و مصاحبه تاریخی با شبکه CNN انجام داد.",
           en: "Mohammad Khatami proposed the 'Dialogue Among Civilizations' theory at the UN General Assembly as a counter to Samuel Huntington's 'Clash of Civilizations.' The UN declared 2001 the Year of Dialogue Among Civilizations. Khatami also took steps to improve relations with the West and Arab countries and gave a historic interview to CNN.",
+        },
+      },
+      {
+        title: { fa: "سقوط قیمت نفت و بحران بودجه", en: "Oil Price Crash & Budget Crisis" },
+        description: { fa: "قیمت نفت به ۱۰ دلار سقوط کرد و بودجه ایران با بحران مواجه شد", en: "Oil price crashes to $10, creating Iranian budget crisis" },
+        details: {
+          fa: "قیمت نفت در سال ۱۹۹۸ به حدود ۱۰ دلار در هر بشکه سقوط کرد و درآمد نفتی ایران به شدت کاهش یافت. دولت خاتمی با کسری بودجه شدید مواجه شد و مجبور به کاهش هزینه‌های عمرانی شد. بیکاری افزایش یافت و نارضایتی عمومی رشد کرد. این بحران آسیب‌پذیری اقتصاد ایران در برابر نوسانات قیمت نفت را آشکار ساخت.",
+          en: "Oil prices crashed to about $10 per barrel in 1998, sharply reducing Iran's oil revenue. Khatami's government faced a severe budget deficit and was forced to cut infrastructure spending. Unemployment rose and public discontent grew. This crisis exposed Iran's economic vulnerability to oil price fluctuations.",
+        },
+      },
+      {
+        title: { fa: "اولین انتخابات شوراهای شهر و روستا", en: "Preparations for First Council Elections" },
+        description: { fa: "مقدمات برگزاری اولین دوره انتخابات شوراها فراهم شد", en: "Preparations made for first round of council elections" },
+        details: {
+          fa: "دولت خاتمی مقدمات برگزاری اولین دوره انتخابات شوراهای اسلامی شهر و روستا را فراهم کرد. قانون شوراها اصلاح و نهایی شد. این انتخابات که قرار بود در اسفند ۱۳۷۷ برگزار شود، فرصتی برای مشارکت مردمی در مدیریت محلی بود. اصلاح‌طلبان امیدوار بودند از شوراها برای پیشبرد اصلاحات از پایین استفاده کنند.",
+          en: "Khatami's government prepared for the first Islamic city and village council elections. The council law was revised and finalized. These elections, scheduled for February 1999, were an opportunity for public participation in local governance. Reformists hoped to use the councils to advance reforms from the bottom up.",
+        },
+      },
+      {
+        title: { fa: "رونق سینمای ایران و جوایز بین‌المللی", en: "Iranian Cinema Boom & International Awards" },
+        description: { fa: "سینمای ایران با فیلم‌های عباس کیارستمی و مجید مجیدی جوایز جهانی کسب کرد", en: "Iranian cinema wins global awards with films by Kiarostami and Majidi" },
+        details: {
+          fa: "سینمای ایران در دوره خاتمی شکوفا شد. فیلم «طعم گیلاس» عباس کیارستمی نخل طلای کن را برد و «بچه‌های آسمان» مجید مجیدی نامزد اسکار شد. فضای فرهنگی بازتر جشنواره‌ها و تولیدات سینمایی را رونق بخشید. اما سانسور همچنان وجود داشت و بسیاری از فیلم‌ها اجازه اکران داخلی نداشتند.",
+          en: "Iranian cinema flourished during the Khatami era. Abbas Kiarostami's 'Taste of Cherry' won the Cannes Palme d'Or and Majid Majidi's 'Children of Heaven' was nominated for an Oscar. The more open cultural atmosphere boosted festivals and film production. However, censorship persisted and many films were not allowed domestic screening.",
         },
       }
     ],
@@ -4805,6 +7127,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "پس از سقوط قیمت نفت به ۱۰ دلار در ۱۹۹۸، قیمت نفت در ۱۹۹۹ بهبود یافت و درآمد نفتی ایران افزایش پیدا کرد. دولت خاتمی از این درآمد برای پرداخت بدهی‌های خارجی و تأمین مالی پروژه‌های عمرانی استفاده کرد. صندوق ذخیره ارزی برای کاهش وابستگی به نفت پیشنهاد شد که بعدها در برنامه سوم توسعه تأسیس گردید.",
           en: "After oil prices crashed to $10 in 1998, prices recovered in 1999 and Iran's oil revenue increased. The Khatami government used this revenue to pay foreign debts and fund infrastructure projects. A foreign exchange reserve fund was proposed to reduce oil dependency, which was later established in the Third Development Plan.",
         },
+      },
+      {
+        title: { fa: "اولین انتخابات شوراهای شهر و روستا", en: "First City & Village Council Elections Held" },
+        description: { fa: "اصلاح‌طلبان در اولین انتخابات شوراها پیروز شدند", en: "Reformists win first council elections" },
+        details: {
+          fa: "اولین دوره انتخابات شوراهای اسلامی شهر و روستا در اسفند ۱۳۷۷ برگزار شد. اصلاح‌طلبان در اکثر شهرهای بزرگ پیروز شدند. در تهران لیست اصلاح‌طلبان به پیروزی رسید. این انتخابات نشان‌دهنده تمایل مردم به مشارکت سیاسی محلی بود. شوراها اختیارات محدودی داشتند اما نمادی از تمرکززدایی بودند.",
+          en: "The first Islamic city and village council elections were held in February 1999. Reformists won in most major cities. In Tehran, the reformist list won. These elections demonstrated public desire for local political participation. Councils had limited powers but symbolized decentralization.",
+        },
+      },
+      {
+        title: { fa: "بسته شدن روزنامه سلام", en: "Closure of Salam Newspaper" },
+        description: { fa: "توقیف روزنامه سلام جرقه اعتراضات دانشجویی شد", en: "Salam newspaper closure sparks student protests" },
+        details: {
+          fa: "دادگاه مطبوعات دستور توقیف روزنامه سلام به مدیرمسئولی محمد موسوی خوئینی‌ها را صادر کرد. سلام سندی درباره تلاش عوامل وزارت اطلاعات برای تصویب قانون محدودکننده مطبوعات منتشر کرده بود. توقیف این روزنامه جرقه اعتراضات ۱۸ تیر دانشگاه تهران شد. این رویداد نشان داد اصلاحات مطبوعاتی با مقاومت جدی نهادهای قدرت مواجه است.",
+          en: "The press court ordered the closure of Salam newspaper, managed by Mohammad Mousavi Khoeiniha. Salam had published a document about intelligence ministry agents' efforts to pass a restrictive press law. The closure sparked the July 9 (18 Tir) Tehran University protests. This event showed that press reforms faced serious resistance from power institutions.",
+        },
+      },
+      {
+        title: { fa: "طرح صندوق ذخیره ارزی", en: "Foreign Exchange Reserve Fund Proposed" },
+        description: { fa: "دولت خاتمی طرح صندوق ذخیره ارزی را برای کاهش وابستگی نفتی پیشنهاد کرد", en: "Khatami government proposes reserve fund to reduce oil dependency" },
+        details: {
+          fa: "دولت خاتمی در چارچوب برنامه سوم توسعه طرح تأسیس صندوق ذخیره ارزی را پیشنهاد کرد. هدف این صندوق ذخیره‌سازی مازاد درآمد نفتی و کاهش وابستگی بودجه به نفت بود. این صندوق در سال ۱۳۷۹ تأسیس شد و قرار بود بخشی از درآمد نفتی را برای نسل‌های آینده ذخیره و بخشی را به بخش خصوصی وام دهد.",
+          en: "Khatami's government proposed establishing a Foreign Exchange Reserve Fund within the Third Development Plan framework. The fund aimed to save excess oil revenue and reduce budget dependency on oil. The fund was established in 2000 and was intended to save part of oil revenue for future generations and lend part to the private sector.",
+        },
       }
     ],
     world: [
@@ -4863,6 +7209,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "دادگاه مطبوعات در سال ۲۰۰۰ بیش از ۲۰ نشریه اصلاح‌طلب از جمله روزنامه‌های صبح امروز، نشاط، آفتاب امروز و عصر آزادگان را توقیف کرد. روزنامه‌نگاران بازداشت و محاکمه شدند. اکبر گنجی روزنامه‌نگار معروف به زندان افتاد. بسته شدن مطبوعات پایان «بهار مطبوعات» و شروع محدودیت‌های جدی فضای سیاسی بود.",
           en: "The Press Court shut down more than 20 reformist publications including Sobh-e Emrooz, Neshat, Aftab-e Emrooz, and Asr-e Azadegan in 2000. Journalists were arrested and tried. Prominent journalist Akbar Ganji was imprisoned. The press closures marked the end of the 'Press Spring' and the beginning of serious restrictions on political space.",
+        },
+      },
+      {
+        title: { fa: "سفر خاتمی به آلمان و اروپا", en: "Khatami's Visit to Germany & Europe" },
+        description: { fa: "خاتمی اولین سفر رسمی یک رئیس‌جمهور ایران به اروپا پس از انقلاب را انجام داد", en: "Khatami makes first official European visit by an Iranian president since revolution" },
+        details: {
+          fa: "محمد خاتمی سفرهای رسمی به آلمان، فرانسه و ایتالیا انجام داد. این اولین سفرهای رسمی یک رئیس‌جمهور ایران به اروپای غربی پس از انقلاب بود. خاتمی در برلین سخنرانی کرد و از «گفتگوی تمدن‌ها» سخن گفت. روابط اقتصادی ایران و اروپا بهبود یافت و قراردادهای تجاری امضا شد.",
+          en: "Mohammad Khatami made official visits to Germany, France, and Italy. These were the first official visits by an Iranian president to Western Europe since the revolution. Khatami spoke in Berlin about 'Dialogue Among Civilizations.' Iran-Europe economic relations improved and trade contracts were signed.",
+        },
+      },
+      {
+        title: { fa: "تأسیس صندوق ذخیره ارزی", en: "Foreign Exchange Reserve Fund Established" },
+        description: { fa: "صندوق ذخیره ارزی برای مدیریت درآمد نفتی تأسیس شد", en: "Reserve fund established to manage oil revenue" },
+        details: {
+          fa: "صندوق ذخیره ارزی در چارچوب برنامه سوم توسعه رسماً تأسیس شد. مازاد درآمد نفتی بالاتر از سقف بودجه‌ای به این صندوق واریز می‌شد. هدف تثبیت بودجه در برابر نوسانات قیمت نفت و حمایت از بخش خصوصی بود. اما در عمل دولت‌های بعدی از منابع صندوق برای پوشش کسری بودجه استفاده کردند و هدف اصلی محقق نشد.",
+          en: "The Foreign Exchange Reserve Fund was officially established within the Third Development Plan. Excess oil revenue above the budget ceiling was deposited into the fund. The goal was to stabilize the budget against oil price fluctuations and support the private sector. However, subsequent governments used the fund's resources to cover budget deficits, defeating its original purpose.",
+        },
+      },
+      {
+        title: { fa: "تشدید محدودیت‌های اینترنت", en: "Internet Restrictions Tightened" },
+        description: { fa: "اینترنت در ایران گسترش یافت اما فیلترینگ نیز آغاز شد", en: "Internet expands in Iran but filtering begins" },
+        details: {
+          fa: "استفاده از اینترنت در ایران به سرعت رشد کرد و تعداد کاربران از یک میلیون نفر گذشت. اما همزمان دستگاه‌های امنیتی شروع به فیلتر کردن سایت‌های سیاسی و اجتماعی کردند. کمیته تعیین مصادیق مجرمانه محتوای اینترنتی تشکیل شد. وبلاگ‌نویسی فارسی به سرعت رشد کرد و به ابزار مهمی برای بیان آزاد تبدیل شد.",
+          en: "Internet usage in Iran grew rapidly and the number of users exceeded one million. However, security apparatus simultaneously began filtering political and social websites. A committee to determine criminal internet content was established. Persian blogging grew rapidly and became an important tool for free expression.",
         },
       }
     ],
@@ -4961,6 +7331,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "پس از حملات ۱۱ سپتامبر، ایران حملات تروریستی را محکوم کرد و مردم تهران شمع روشن کردند. ایران در سرنگونی طالبان با آمریکا همکاری کرد و در کنفرانس بن نقش سازنده‌ای ایفا نمود. اما جورج بوش در ژانویه ۲۰۰۲ ایران را همراه عراق و کره شمالی در «محور شرارت» قرار داد که شوک بزرگی بود و روند بهبود روابط را متوقف کرد.",
           en: "After the September 11 attacks, Iran condemned the terrorist attacks and Tehran residents held candlelight vigils. Iran cooperated with the US in toppling the Taliban and played a constructive role at the Bonn Conference. But George W. Bush placed Iran alongside Iraq and North Korea in the 'Axis of Evil' in January 2002, which was a major shock and halted the process of improving relations.",
         },
+      },
+      {
+        title: { fa: "اصلاح قانون مطبوعات و مقاومت نهادها", en: "Press Law Reform Attempts & Institutional Resistance" },
+        description: { fa: "تلاش مجلس ششم برای اصلاح قانون مطبوعات با حکم رهبری متوقف شد", en: "Sixth Majles press law reform halted by Supreme Leader's order" },
+        details: {
+          fa: "مجلس ششم تلاش کرد قانون مطبوعات را اصلاح کند و محدودیت‌های ناعادلانه را بردارد. اما مقام رهبری با نامه‌ای بی‌سابقه به مجلس دستور توقف بررسی این لایحه را داد. این اقدام محدودیت‌های ساختاری قدرت مجلس و ریاست‌جمهوری را نشان داد. اصلاح‌طلبان دریافتند که تغییرات اساسی از مسیر نهادهای انتخابی ممکن نیست.",
+          en: "The Sixth Majles attempted to reform the press law and remove unjust restrictions. However, the Supreme Leader sent an unprecedented letter ordering parliament to stop deliberating the bill. This action demonstrated the structural limitations of parliamentary and presidential power. Reformists realized that fundamental changes through elected institutions were not possible.",
+        },
+      },
+      {
+        title: { fa: "رشد بخش مخابرات و تلفن همراه", en: "Telecommunications & Mobile Phone Growth" },
+        description: { fa: "شبکه تلفن همراه ایران گسترش یافت و تعداد مشترکان افزایش پیدا کرد", en: "Iran's mobile network expands and subscriber numbers increase" },
+        details: {
+          fa: "بخش مخابرات ایران رشد سریعی داشت و تعداد مشترکان تلفن همراه به بیش از ۳ میلیون نفر رسید. شرکت مخابرات ایران خطوط تلفن ثابت و موبایل را توسعه داد. اما انحصار دولتی مانع رقابت و کاهش قیمت‌ها بود. بخش خصوصی خواستار آزادسازی بازار مخابرات شد که سال‌ها بعد با ورود ایرانسل محقق شد.",
+          en: "Iran's telecommunications sector grew rapidly and mobile phone subscribers exceeded 3 million. Iran Telecom expanded fixed and mobile lines. However, the state monopoly prevented competition and price reduction. The private sector demanded telecom market liberalization, which was realized years later with the entry of Irancell.",
+        },
+      },
+      {
+        title: { fa: "بحران آب و خشکی زاینده‌رود", en: "Water Crisis & Zayandeh-Rud Drying" },
+        description: { fa: "بحران آب در اصفهان و مناطق مرکزی ایران تشدید شد", en: "Water crisis in Isfahan and central Iran intensifies" },
+        details: {
+          fa: "بحران آب در اصفهان و مناطق مرکزی ایران تشدید شد و زاینده‌رود بخش‌هایی از سال خشک بود. سدسازی بی‌رویه در بالادست و برداشت بیش از حد آب‌های زیرزمینی مشکل را وخیم‌تر کرده بود. کشاورزان و محیط‌زیستی‌ها هشدار دادند اما توسعه صنعتی و کشاورزی بدون توجه به منابع آبی ادامه داشت.",
+          en: "The water crisis in Isfahan and central Iran intensified, with the Zayandeh-Rud river dry for parts of the year. Excessive dam construction upstream and over-extraction of groundwater had worsened the problem. Farmers and environmentalists warned but industrial and agricultural development continued without regard to water resources.",
+        },
       }
     ],
     world: [
@@ -5045,6 +7439,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در سال ۱۳۸۱ اعتراضات دانشجویی در واکنش به حکم اعدام هاشم آقاجری استاد دانشگاه که در سخنرانی‌اش «پروتستانتیسم اسلامی» را مطرح کرده بود رخ داد. هزاران دانشجو در تهران و شهرهای دیگر تظاهرات کردند. دادگاه تجدیدنظر بعداً حکم اعدام را لغو کرد. این رویداد شکاف بین جامعه مدنی و قوه قضائیه را نشان داد.",
           en: "In 2002, student protests erupted in response to the death sentence of university professor Hashem Aghajari, who had proposed 'Islamic Protestantism' in a speech. Thousands of students demonstrated in Tehran and other cities. An appeals court later overturned the death sentence. This event highlighted the rift between civil society and the judiciary.",
+        },
+      },
+      {
+        title: { fa: "تصویب لوایح دوقلوی خاتمی در مجلس", en: "Khatami's Twin Bills Passed in Majles" },
+        description: { fa: "مجلس لوایح افزایش اختیارات رئیس‌جمهور را تصویب کرد", en: "Majles passes bills to increase presidential powers" },
+        details: {
+          fa: "مجلس ششم لوایح دوقلوی خاتمی را تصویب کرد: یکی محدود کردن نظارت استصوابی شورای نگهبان و دیگری افزایش اختیارات رئیس‌جمهور در نظارت بر اجرای قانون اساسی. اما شورای نگهبان هر دو لایحه را رد کرد. خاتمی تهدید به استعفا کرد اما در نهایت تسلیم شد. این شکست عملاً پایان تلاش‌های اصلاحی قانونی بود.",
+          en: "The Sixth Majles passed Khatami's twin bills: one limiting Guardian Council vetting power and another increasing presidential authority to oversee constitutional implementation. However, the Guardian Council rejected both bills. Khatami threatened to resign but ultimately yielded. This defeat effectively ended legal reform efforts.",
+        },
+      },
+      {
+        title: { fa: "توسعه منطقه ویژه انرژی پارس جنوبی", en: "South Pars Energy Zone Development" },
+        description: { fa: "ایران توسعه میدان گازی پارس جنوبی را تسریع کرد", en: "Iran accelerates development of South Pars gas field" },
+        details: {
+          fa: "ایران توسعه فازهای مختلف میدان گازی عظیم پارس جنوبی را تسریع کرد. این میدان که بزرگ‌ترین ذخیره گاز طبیعی جهان را با قطر به اشتراک می‌گذارد، منبع اصلی تأمین گاز و صادرات پتروشیمی ایران بود. شرکت‌های خارجی از جمله توتال فرانسه در توسعه فازها مشارکت داشتند. اما تحریم‌ها و مشکلات فنی روند توسعه را کند کردند.",
+          en: "Iran accelerated development of various phases of the massive South Pars gas field. This field, which shares the world's largest natural gas reserve with Qatar, was Iran's main source of gas supply and petrochemical exports. Foreign companies including France's Total participated in phase development. However, sanctions and technical problems slowed the development pace.",
+        },
+      },
+      {
+        title: { fa: "رشد حاشیه‌نشینی و فقر شهری", en: "Growth of Urban Slums & Poverty" },
+        description: { fa: "حاشیه‌نشینی در کلانشهرهای ایران به شدت افزایش یافت", en: "Slum growth in Iran's major cities increases dramatically" },
+        details: {
+          fa: "مهاجرت روستاییان به شهرها و بحران اقتصادی باعث رشد شدید حاشیه‌نشینی در تهران، مشهد، تبریز و اهواز شد. میلیون‌ها نفر در مناطق حاشیه‌ای با شرایط نامناسب زندگی می‌کردند. فقر، بیکاری و اعتیاد در این مناطق شدت داشت. دولت خاتمی طرح‌هایی برای ساماندهی ارائه کرد اما منابع کافی نداشت.",
+          en: "Rural-to-urban migration and the economic crisis caused rapid slum growth in Tehran, Mashhad, Tabriz, and Ahvaz. Millions lived in peripheral areas under poor conditions. Poverty, unemployment, and addiction were severe in these areas. Khatami's government proposed plans for improvement but lacked sufficient resources.",
         },
       }
     ],
@@ -5139,6 +7557,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۵ دی ۱۳۸۲ زلزله ۶.۶ ریشتری شهر تاریخی بم در استان کرمان را ویران کرد. بیش از ۲۶,۰۰۰ نفر کشته و ۳۰,۰۰۰ نفر زخمی شدند. ارگ تاریخی بم که قدمت ۲,۰۰۰ ساله داشت به شدت آسیب دید. کمک‌های بین‌المللی گسترده‌ای ارسال شد و حتی آمریکا پیشنهاد کمک داد. این بزرگ‌ترین فاجعه طبیعی ایران در دهه‌های اخیر بود.",
           en: "On December 26, 2003, a 6.6 magnitude earthquake devastated the historic city of Bam in Kerman province. Over 26,000 people were killed and 30,000 injured. The historic Arg-e Bam citadel, with a 2,000-year history, was severely damaged. Extensive international aid was sent and even the US offered assistance. This was Iran's worst natural disaster in recent decades.",
         },
+      },
+      {
+        title: { fa: "جایزه نوبل صلح شیرین عبادی", en: "Shirin Ebadi Wins Nobel Peace Prize" },
+        description: { fa: "شیرین عبادی اولین ایرانی و زن مسلمان برنده نوبل صلح شد", en: "Shirin Ebadi becomes first Iranian and Muslim woman to win Nobel Peace Prize" },
+        details: {
+          fa: "شیرین عبادی حقوقدان و فعال حقوق بشر ایرانی جایزه نوبل صلح ۲۰۰۳ را دریافت کرد. او اولین ایرانی و اولین زن مسلمان برنده این جایزه بود. عبادی به دلیل تلاش‌هایش برای دموکراسی و حقوق بشر، به‌ویژه حقوق زنان و کودکان، این جایزه را دریافت کرد. واکنش حکومت ایران سرد بود و رسانه‌های دولتی این جایزه را سیاسی خواندند.",
+          en: "Iranian lawyer and human rights activist Shirin Ebadi received the 2003 Nobel Peace Prize. She was the first Iranian and first Muslim woman to win this prize. Ebadi received the award for her efforts for democracy and human rights, particularly women's and children's rights. The Iranian government's reaction was cold and state media called the prize political.",
+        },
+      },
+      {
+        title: { fa: "پیشنهاد بزرگ ایران به آمریکا (گرند بارگین)", en: "Iran's Grand Bargain Proposal to the US" },
+        description: { fa: "ایران پیشنهاد جامع مذاکره با آمریکا را ارسال کرد اما رد شد", en: "Iran sends comprehensive negotiation proposal to US but is rejected" },
+        details: {
+          fa: "دولت خاتمی از طریق سفارت سوئیس پیشنهاد جامعی برای مذاکره با آمریکا ارسال کرد که شامل برنامه هسته‌ای، حمایت از حزب‌الله و حماس، و به رسمیت شناختن اسرائیل بود. دولت بوش این پیشنهاد را رد کرد و حتی سفیر سوئیس را به دلیل ارسال آن توبیخ کرد. این فرصت از دست رفته یکی از بحث‌برانگیزترین تصمیمات دیپلماتیک تاریخ روابط ایران و آمریکا شد.",
+          en: "Khatami's government sent a comprehensive negotiation proposal to the US through the Swiss embassy, covering the nuclear program, support for Hezbollah and Hamas, and recognition of Israel. The Bush administration rejected the proposal and even reprimanded the Swiss ambassador for transmitting it. This missed opportunity became one of the most debated diplomatic decisions in US-Iran relations history.",
+        },
+      },
+      {
+        title: { fa: "تحریم بانکی و مشکلات نقل و انتقال مالی", en: "Banking Sanctions & Financial Transfer Problems" },
+        description: { fa: "فشارهای مالی بر سیستم بانکی ایران افزایش یافت", en: "Financial pressures on Iran's banking system increase" },
+        details: {
+          fa: "فشارهای آمریکا بر سیستم بانکی بین‌المللی برای محدود کردن معاملات با ایران افزایش یافت. بانک‌های اروپایی به تدریج از معامله با بانک‌های ایرانی خودداری کردند. تجار ایرانی برای نقل و انتقال پول با مشکلات جدی مواجه شدند. این محدودیت‌ها حتی قبل از تحریم‌های رسمی سازمان ملل، تجارت بین‌المللی ایران را مختل کرده بود.",
+          en: "US pressure on the international banking system to restrict transactions with Iran increased. European banks gradually stopped dealing with Iranian banks. Iranian merchants faced serious difficulties in money transfers. These restrictions disrupted Iran's international trade even before formal UN sanctions.",
+        },
       }
     ],
     world: [
@@ -5223,6 +7665,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "ایران اعلام کرد که فعالیت‌های تبدیل اورانیوم در تأسیسات اصفهان را از سر خواهد گرفت. مذاکرات با اروپا به بن‌بست رسیده بود و ایران معتقد بود اروپا به وعده‌های خود عمل نکرده است. این تصمیم فشار بین‌المللی را افزایش داد و زمینه ارجاع پرونده هسته‌ای ایران به شورای امنیت سازمان ملل را فراهم کرد.",
           en: "Iran announced it would resume uranium conversion activities at the Isfahan facility. Negotiations with Europe had reached a deadlock and Iran believed Europe had not fulfilled its promises. This decision increased international pressure and paved the way for referring Iran's nuclear file to the UN Security Council.",
+        },
+      },
+      {
+        title: { fa: "انتخابات مجلس هفتم با مشارکت پایین", en: "Seventh Majles Elections with Low Turnout" },
+        description: { fa: "مشارکت مردم به دلیل رد صلاحیت‌ها به شدت کاهش یافت", en: "Public participation drops sharply due to disqualifications" },
+        details: {
+          fa: "مشارکت در انتخابات مجلس هفتم به زیر ۵۰ درصد در تهران سقوط کرد. بسیاری از مردم در اعتراض به رد صلاحیت گسترده اصلاح‌طلبان، انتخابات را تحریم کردند. خاتمی از شورای نگهبان انتقاد کرد اما قادر به تغییر وضعیت نبود. این کاهش مشارکت نشانه بحران مشروعیت انتخاباتی بود.",
+          en: "Turnout in the Seventh Majles elections fell below 50% in Tehran. Many people boycotted the election in protest of the widespread disqualification of reformists. Khatami criticized the Guardian Council but could not change the situation. This low turnout signaled a crisis of electoral legitimacy.",
+        },
+      },
+      {
+        title: { fa: "توسعه صنعت توریسم و میراث فرهنگی", en: "Tourism Industry & Cultural Heritage Development" },
+        description: { fa: "ایران تلاش کرد صنعت گردشگری را توسعه دهد", en: "Iran attempts to develop its tourism industry" },
+        details: {
+          fa: "دولت خاتمی تلاش کرد صنعت گردشگری را به عنوان منبع درآمد غیرنفتی توسعه دهد. ایران با ۲۴ اثر ثبت‌شده در فهرست میراث جهانی یونسکو، پتانسیل بالایی در گردشگری داشت. ویزای ورود ساده‌تر شد و زیرساخت‌های هتلداری بهبود یافت. اما مشکلات زیرساختی، تحریم‌ها و تصویر منفی بین‌المللی مانع رشد قابل توجه شد.",
+          en: "Khatami's government tried to develop the tourism industry as a non-oil revenue source. Iran, with 24 UNESCO World Heritage sites, had high tourism potential. Entry visas were simplified and hospitality infrastructure improved. However, infrastructure problems, sanctions, and negative international image prevented significant growth.",
+        },
+      },
+      {
+        title: { fa: "تشدید سانسور اینترنت و وبلاگ‌ها", en: "Internet & Blog Censorship Intensified" },
+        description: { fa: "فیلترینگ اینترنت تشدید شد و وبلاگ‌نویسان بازداشت شدند", en: "Internet filtering intensified and bloggers arrested" },
+        details: {
+          fa: "فیلترینگ اینترنت در ایران به شدت تشدید شد. هزاران سایت سیاسی، اجتماعی و فرهنگی فیلتر شدند. چندین وبلاگ‌نویس معروف بازداشت و زندانی شدند. ایران یکی از سخت‌ترین سانسورهای اینترنتی جهان را داشت. با این حال، فناوری‌های دور زدن فیلتر (فیلترشکن) بین ایرانیان محبوب شد.",
+          en: "Internet filtering in Iran intensified dramatically. Thousands of political, social, and cultural websites were filtered. Several prominent bloggers were arrested and imprisoned. Iran had one of the world's strictest internet censorships. Nevertheless, filtering circumvention technologies (VPNs) became popular among Iranians.",
         },
       }
     ],
@@ -5318,6 +7784,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "دولت احمدی‌نژاد تعلیق غنی‌سازی اورانیوم را لغو کرد و فعالیت غنی‌سازی در نطنز را از سر گرفت. احمدی‌نژاد غنی‌سازی را حق مسلم ملت ایران خواند. اتحادیه اروپا و آمریکا این اقدام را نقض تعهدات ایران دانستند. مذاکرات هسته‌ای با اروپا عملاً متوقف شد و پرونده ایران به شورای امنیت ارجاع داده شد.",
           en: "The Ahmadinejad government ended the uranium enrichment suspension and resumed enrichment activities at Natanz. Ahmadinejad called enrichment the 'inalienable right' of the Iranian nation. The EU and US considered this a violation of Iran's commitments. Nuclear negotiations with Europe effectively stopped and Iran's case was referred to the Security Council.",
         },
+      },
+      {
+        title: { fa: "سخنرانی جنجالی احمدی‌نژاد درباره اسرائیل", en: "Ahmadinejad's Controversial Speech About Israel" },
+        description: { fa: "سخنرانی «اسرائیل باید از صفحه روزگار محو شود» واکنش جهانی برانگیخت", en: "'Israel must be wiped off the map' speech provokes global reaction" },
+        details: {
+          fa: "احمدی‌نژاد در کنفرانس «جهان بدون صهیونیسم» گفت اسرائیل باید از صفحه روزگار محو شود. این سخنرانی واکنش شدید بین‌المللی برانگیخت و فشار برای تحریم ایران را تشدید کرد. ایران ادعا کرد ترجمه نادرست بوده و منظور پایان رژیم صهیونیستی بوده نه نابودی مردم. اما آسیب دیپلماتیک شدید بود.",
+          en: "Ahmadinejad at a 'World Without Zionism' conference said Israel must be wiped off the map. This speech provoked severe international reaction and intensified pressure for sanctions. Iran claimed the translation was inaccurate and the intent was the end of the Zionist regime, not destruction of people. But the diplomatic damage was severe.",
+        },
+      },
+      {
+        title: { fa: "طرح مسکن مهر", en: "Mehr Housing Project Launched" },
+        description: { fa: "احمدی‌نژاد طرح مسکن مهر برای اقشار کم‌درآمد را اعلام کرد", en: "Ahmadinejad announces Mehr housing project for low-income groups" },
+        details: {
+          fa: "احمدی‌نژاد طرح مسکن مهر را با هدف ساخت مسکن ارزان‌قیمت برای اقشار کم‌درآمد اعلام کرد. زمین رایگان دولتی واگذار و وام‌های ارزان‌قیمت ارائه شد. هدف ساخت ۱.۵ میلیون واحد مسکونی بود. اما اجرای ضعیف، مشکلات زیربنایی و کیفیت پایین ساخت انتقادات زیادی برانگیخت. بسیاری از واحدها سال‌ها ناتمام ماندند.",
+          en: "Ahmadinejad announced the Mehr housing project aimed at building affordable housing for low-income groups. Free government land was allocated and cheap loans provided. The goal was to build 1.5 million housing units. However, poor implementation, infrastructure problems, and low construction quality drew much criticism. Many units remained unfinished for years.",
+        },
+      },
+      {
+        title: { fa: "افزایش نقش سپاه در اقتصاد", en: "IRGC's Growing Role in the Economy" },
+        description: { fa: "سپاه پاسداران نقش فزاینده‌ای در پروژه‌های اقتصادی ایفا کرد", en: "IRGC plays growing role in economic projects" },
+        details: {
+          fa: "با روی کار آمدن احمدی‌نژاد، نقش سپاه پاسداران در اقتصاد ایران به شدت افزایش یافت. شرکت‌های وابسته به سپاه مانند قرارگاه خاتم‌الانبیا قراردادهای بزرگ نفتی، گازی و عمرانی دریافت کردند. خصوصی‌سازی اصل ۴۴ قانون اساسی عملاً به نفع نهادهای شبه‌دولتی و نظامی تمام شد. بخش خصوصی واقعی حاشیه‌ای شد.",
+          en: "With Ahmadinejad's rise, the IRGC's role in Iran's economy dramatically increased. IRGC-affiliated companies like Khatam al-Anbiya received major oil, gas, and construction contracts. Article 44 privatization effectively benefited quasi-governmental and military entities. The real private sector was marginalized.",
+        },
       }
     ],
     world: [
@@ -5401,6 +7891,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در آذر ۱۳۸۵ شورای امنیت قطعنامه ۱۷۳۷ را تصویب کرد که تحریم‌هایی علیه برنامه هسته‌ای و موشکی ایران وضع می‌کرد. دارایی‌های افراد و نهادهای مرتبط با برنامه هسته‌ای مسدود شد. ایران این قطعنامه را ناعادلانه خواند و اعلام کرد از حق هسته‌ای خود عقب نمی‌نشیند. احمدی‌نژاد گفت تحریم‌ها «کاغذپاره» هستند.",
           en: "In December 2006, the Security Council passed Resolution 1737 imposing sanctions on Iran's nuclear and missile programs. Assets of individuals and entities related to the nuclear program were frozen. Iran called the resolution unfair and declared it would not retreat from its nuclear rights. Ahmadinejad called the sanctions 'a torn piece of paper.'",
+        },
+      },
+      {
+        title: { fa: "انتخابات شوراهای شهر و روستا - پیروزی محافظه‌کاران", en: "City & Village Council Elections - Conservative Victory" },
+        description: { fa: "محافظه‌کاران شوراهای شهرهای بزرگ را به دست آوردند", en: "Conservatives win major city councils" },
+        details: {
+          fa: "در انتخابات شوراهای اسلامی شهر و روستا در آذر ۱۳۸۵، محافظه‌کاران و حامیان احمدی‌نژاد اکثریت شوراهای شهرهای بزرگ از جمله تهران را به دست آوردند. اما لیست احمدی‌نژاد در تهران نتیجه ضعیفی داشت و رفسنجانی با رأی بالا به شورای شهر تهران راه یافت. مشارکت مردم در مقایسه با دوره‌های قبل کاهش یافته بود.",
+          en: "In the December 2006 Islamic city and village council elections, conservatives and Ahmadinejad supporters won majority of major city councils including Tehran. However, Ahmadinejad's list performed poorly in Tehran and Rafsanjani entered Tehran City Council with high votes. Public participation had declined compared to previous rounds.",
+        },
+      },
+      {
+        title: { fa: "کنفرانس جنجالی بررسی هولوکاست در تهران", en: "Controversial Holocaust Review Conference in Tehran" },
+        description: { fa: "ایران کنفرانس بین‌المللی بررسی هولوکاست برگزار کرد", en: "Iran hosts international conference reviewing the Holocaust" },
+        details: {
+          fa: "دولت احمدی‌نژاد کنفرانسی با عنوان «بررسی هولوکاست» در تهران برگزار کرد. شرکت‌کنندگان شامل منکران هولوکاست از سراسر جهان بودند. این کنفرانس محکومیت گسترده بین‌المللی برانگیخت. حتی برخی متحدان ایران از این اقدام انتقاد کردند. کنفرانس به انزوای بین‌المللی ایران افزود و موقعیت مذاکراتی ایران را تضعیف کرد.",
+          en: "Ahmadinejad's government hosted a conference titled 'Review of the Holocaust' in Tehran. Participants included Holocaust deniers from around the world. The conference provoked widespread international condemnation. Even some of Iran's allies criticized the move. The conference added to Iran's international isolation and weakened its negotiating position.",
+        },
+      },
+      {
+        title: { fa: "جنگ ۳۳ روزه لبنان و حمایت ایران از حزب‌الله", en: "33-Day Lebanon War & Iran's Support for Hezbollah" },
+        description: { fa: "ایران از حزب‌الله در جنگ ۳۳ روزه با اسرائیل حمایت کرد", en: "Iran supports Hezbollah in 33-day war with Israel" },
+        details: {
+          fa: "در تابستان ۲۰۰۶ جنگ ۳۳ روزه بین اسرائیل و حزب‌الله لبنان رخ داد. ایران حمایت مالی، تسلیحاتی و اطلاعاتی از حزب‌الله کرد. مقاومت حزب‌الله در برابر ارتش اسرائیل در ایران و جهان عرب تحسین شد. این جنگ نفوذ منطقه‌ای ایران را تقویت کرد اما نگرانی‌ها درباره برنامه موشکی و هسته‌ای ایران را نیز افزایش داد.",
+          en: "In summer 2006, a 33-day war between Israel and Hezbollah in Lebanon erupted. Iran provided financial, military, and intelligence support to Hezbollah. Hezbollah's resistance against the Israeli army was praised in Iran and the Arab world. The war strengthened Iran's regional influence but also increased concerns about Iran's missile and nuclear programs.",
         },
       }
     ],
@@ -5495,6 +8009,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "شورای امنیت قطعنامه ۱۷۴۷ را تصویب کرد و تحریم‌ها علیه ایران را گسترش داد. فروش سلاح به ایران ممنوع شد و محدودیت‌های مالی بیشتری اعمال گردید. بانک سپه ایران تحریم شد. ایران با وجود فشارها، تعداد سانتریفیوژهای فعال در نطنز را افزایش داد و اعلام کرد غنی‌سازی صنعتی را آغاز کرده است.",
           en: "The Security Council passed Resolution 1747, expanding sanctions against Iran. Arms sales to Iran were banned and more financial restrictions were imposed. Iran's Bank Sepah was sanctioned. Despite the pressure, Iran increased the number of active centrifuges at Natanz and announced it had begun industrial-scale enrichment.",
         },
+      },
+      {
+        title: { fa: "بازداشت شهروندان دوتابعیتی", en: "Detention of Dual Nationals" },
+        description: { fa: "چند شهروند ایرانی-آمریکایی و ایرانی-اروپایی بازداشت شدند", en: "Several Iranian-American and Iranian-European citizens detained" },
+        details: {
+          fa: "نهادهای امنیتی ایران چندین شهروند دوتابعیتی ایرانی-آمریکایی و ایرانی-اروپایی را بازداشت کردند. هاله اسفندیاری پژوهشگر در بنیاد وودرو ویلسون و کیان تاجبخش پژوهشگر از جمله بازداشت‌شدگان بودند. آنها به جاسوسی و اقدام علیه امنیت ملی متهم شدند. این بازداشت‌ها انتقاد بین‌المللی برانگیخت و روابط ایران با غرب را تیره‌تر کرد.",
+          en: "Iranian security agencies detained several Iranian-American and Iranian-European dual nationals. Haleh Esfandiari, a researcher at the Woodrow Wilson Foundation, and Kian Tajbakhsh, a researcher, were among those detained. They were accused of espionage and acting against national security. These detentions provoked international criticism and further strained Iran's relations with the West.",
+        },
+      },
+      {
+        title: { fa: "سهمیه‌بندی بنزین و اعتراضات", en: "Gasoline Rationing & Public Anger" },
+        description: { fa: "اعلام ناگهانی سهمیه‌بندی بنزین خشم عمومی برانگیخت", en: "Sudden gasoline rationing announcement sparks public anger" },
+        details: {
+          fa: "دولت احمدی‌نژاد در تیرماه ۱۳۸۶ بدون اطلاع‌رسانی قبلی سهمیه‌بندی بنزین را اعلام کرد. مردم خشمگین چندین پمپ‌بنزین و بانک در تهران و شهرهای دیگر را آتش زدند. ایران دومین ذخایر گاز جهان را داشت اما به دلیل کمبود ظرفیت پالایشگاهی واردکننده بنزین بود. این بحران نتیجه سال‌ها سوءمدیریت بخش انرژی و قیمت‌گذاری یارانه‌ای بود.",
+          en: "Ahmadinejad's government announced gasoline rationing in June 2007 without prior notice. Angry citizens set fire to several gas stations and banks in Tehran and other cities. Iran had the world's second-largest gas reserves but was a gasoline importer due to insufficient refining capacity. This crisis resulted from years of energy sector mismanagement and subsidized pricing.",
+        },
+      },
+      {
+        title: { fa: "رشد صنعت پتروشیمی و صادرات غیرنفتی", en: "Petrochemical Industry Growth & Non-Oil Exports" },
+        description: { fa: "صادرات پتروشیمی ایران افزایش یافت", en: "Iran's petrochemical exports increase" },
+        details: {
+          fa: "صنعت پتروشیمی ایران با بهره‌برداری از فازهای جدید پارس جنوبی رشد قابل توجهی داشت. صادرات پتروشیمی به بیش از ۱۰ میلیارد دلار رسید و ایران یکی از بزرگ‌ترین تولیدکنندگان پتروشیمی خاورمیانه شد. دولت تلاش کرد صادرات غیرنفتی را افزایش دهد تا وابستگی به نفت خام کاهش یابد. اما صادرات غیرنفتی همچنان بخش کوچکی از درآمد ارزی بود.",
+          en: "Iran's petrochemical industry grew significantly with new South Pars phases coming online. Petrochemical exports exceeded $10 billion and Iran became one of the Middle East's largest petrochemical producers. The government tried to increase non-oil exports to reduce crude oil dependency. However, non-oil exports remained a small portion of foreign exchange earnings.",
+        },
       }
     ],
     world: [
@@ -5578,6 +8116,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "شورای امنیت قطعنامه ۱۸۰۳ و سپس ۱۸۳۵ را تصویب کرد و فشار مالی بر ایران را افزایش داد. بانک ملی ایران از سیستم مالی بین‌المللی محدود شد. کشورهای غربی فراتر از قطعنامه‌های سازمان ملل، تحریم‌های یک‌جانبه خود را نیز اعمال کردند. نقل و انتقالات مالی ایران با دنیا به شدت دشوار شد.",
           en: "The Security Council passed Resolutions 1803 and 1835, increasing financial pressure on Iran. Bank Melli Iran was restricted from the international financial system. Western countries imposed their own unilateral sanctions beyond UN resolutions. Iran's financial transactions with the world became extremely difficult.",
+        },
+      },
+      {
+        title: { fa: "انتخابات مجلس هشتم - تقویت محافظه‌کاران", en: "Eighth Majles Elections - Conservatives Strengthened" },
+        description: { fa: "محافظه‌کاران مجلس هشتم را در دست گرفتند", en: "Conservatives take control of Eighth Majles" },
+        details: {
+          fa: "انتخابات مجلس هشتم در اسفند ۱۳۸۶ برگزار شد. شورای نگهبان بسیاری از نامزدهای اصلاح‌طلب را رد صلاحیت کرد. محافظه‌کاران اکثریت مجلس را به دست آوردند. اما اختلاف بین حامیان احمدی‌نژاد و محافظه‌کاران سنتی (به رهبری لاریجانی) در مجلس آشکار شد. مشارکت مردم نسبت به دوره‌های قبل کاهش یافته بود.",
+          en: "The Eighth Majles elections were held in March 2008. The Guardian Council disqualified many reformist candidates. Conservatives won the parliamentary majority. However, divisions between Ahmadinejad supporters and traditional conservatives (led by Larijani) became apparent in parliament. Public participation had declined compared to previous rounds.",
+        },
+      },
+      {
+        title: { fa: "توزیع سبد کالا و یارانه نقدی به اقشار محروم", en: "Food Basket Distribution & Cash Subsidies for the Poor" },
+        description: { fa: "دولت احمدی‌نژاد سبد کالا و کمک‌های نقدی توزیع کرد", en: "Ahmadinejad government distributes food baskets and cash assistance" },
+        details: {
+          fa: "دولت احمدی‌نژاد با افزایش تورم و فشار اقتصادی بر اقشار آسیب‌پذیر، سبد کالا و کمک‌های نقدی توزیع کرد. سفرهای استانی احمدی‌نژاد و توزیع پول در این سفرها انتقاد اقتصاددانان را برانگیخت. آنها هشدار دادند این سیاست‌های پوپولیستی تورم را تشدید می‌کند. اما احمدی‌نژاد این انتقادات را رد کرد و نظریه‌های اقتصادی رایج را زیر سؤال برد.",
+          en: "Ahmadinejad's government distributed food baskets and cash assistance as inflation and economic pressure on vulnerable groups increased. Ahmadinejad's provincial trips and cash distribution during them drew criticism from economists. They warned these populist policies would fuel inflation. But Ahmadinejad rejected these criticisms and questioned mainstream economic theories.",
+        },
+      },
+      {
+        title: { fa: "بحران صنعت خودروسازی", en: "Automotive Industry Crisis" },
+        description: { fa: "صنعت خودروسازی ایران با بحران کیفیت و قیمت مواجه شد", en: "Iran's automotive industry faces quality and price crisis" },
+        details: {
+          fa: "صنعت خودروسازی ایران با بحران جدی کیفیت مواجه شد. نرخ خرابی خودروهای ایرانی بالا بود و مصرف‌کنندگان ناراضی بودند. با افزایش تورم، قیمت خودرو به شدت بالا رفت اما کیفیت بهبود نیافت. تحریم‌ها واردات قطعات و فناوری را دشوار کرده بود. ایران خودرو و سایپا با زیان انباشته عمل می‌کردند و یارانه‌های دولتی دریافت می‌کردند.",
+          en: "Iran's automotive industry faced a serious quality crisis. Iranian cars had high breakdown rates and consumers were dissatisfied. As inflation rose, car prices increased sharply but quality did not improve. Sanctions had made importing parts and technology difficult. Iran Khodro and SAIPA operated with accumulated losses and received government subsidies.",
         },
       }
     ],
@@ -5677,6 +8239,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در مهر ۱۳۸۸ اوباما، سارکوزی و براون وجود تأسیسات غنی‌سازی زیرزمینی فردو در نزدیکی قم را فاش کردند. ایران این تأسیسات را در داخل کوه ساخته بود تا در برابر حملات نظامی مقاوم باشد. این افشاگری فشار بین‌المللی بر ایران را به شدت افزایش داد و بحران هسته‌ای را تشدید کرد.",
           en: "In September 2009, Obama, Sarkozy, and Brown revealed the existence of the underground Fordow enrichment facility near Qom. Iran had built this facility inside a mountain to make it resistant to military attacks. This revelation dramatically increased international pressure on Iran and intensified the nuclear crisis.",
         },
+      },
+      {
+        title: { fa: "محاکمات نمایشی معترضان جنبش سبز", en: "Show Trials of Green Movement Protesters" },
+        description: { fa: "دادگاه‌های نمایشی با اعترافات تلویزیونی اجباری برگزار شد", en: "Show trials held with forced televised confessions" },
+        details: {
+          fa: "پس از سرکوب جنبش سبز، دادگاه‌های نمایشی برای محاکمه فعالان سیاسی، روزنامه‌نگاران و دانشجویان برگزار شد. متهمان مجبور به اعترافات تلویزیونی شدند. بسیاری از وکلای مدافع نیز بازداشت شدند. محسن نمازی، سعید حجاریان و دهها سیاستمدار اصلاح‌طلب محاکمه شدند. سازمان‌های حقوق بشری این محاکمات را غیرعادلانه و سیاسی خواندند.",
+          en: "After the Green Movement crackdown, show trials were held for political activists, journalists, and students. Defendants were forced to make televised confessions. Many defense lawyers were also arrested. Mohsen Namazi, Saeed Hajjarian, and dozens of reformist politicians were tried. Human rights organizations called these trials unfair and political.",
+        },
+      },
+      {
+        title: { fa: "تحریم‌های جدید علیه بانک‌های ایرانی", en: "New Sanctions Against Iranian Banks" },
+        description: { fa: "آمریکا تحریم‌های مالی جدیدی علیه بانک‌های ایران اعمال کرد", en: "US imposes new financial sanctions on Iranian banks" },
+        details: {
+          fa: "آمریکا تحریم‌های جدیدی علیه چندین بانک ایرانی از جمله بانک صادرات و بانک ملت اعمال کرد. این بانک‌ها متهم به تأمین مالی برنامه‌های هسته‌ای و موشکی شدند. نقل و انتقال مالی ایران با جهان دشوارتر شد. تجار ایرانی مجبور به استفاده از واسطه‌ها و کانال‌های غیررسمی شدند. هزینه مبادلات تجاری به شدت افزایش یافت.",
+          en: "The US imposed new sanctions on several Iranian banks including Bank Saderat and Bank Mellat. These banks were accused of financing nuclear and missile programs. Iran's financial transfers with the world became more difficult. Iranian merchants were forced to use intermediaries and unofficial channels. The cost of commercial transactions increased dramatically.",
+        },
+      },
+      {
+        title: { fa: "رکود اقتصادی و افزایش بیکاری", en: "Economic Recession & Rising Unemployment" },
+        description: { fa: "بیکاری جوانان به بیش از ۲۵ درصد رسید", en: "Youth unemployment exceeds 25%" },
+        details: {
+          fa: "اقتصاد ایران در سال ۱۳۸۸ با رکود مواجه شد. بیکاری جوانان از ۲۵ درصد گذشت و بیکاری زنان بالاتر بود. بخش تولید با مشکلات جدی مواجه بود و بسیاری از کارخانه‌ها تعطیل یا نیمه‌تعطیل شدند. تحریم‌ها و سوءمدیریت اقتصادی مانع سرمایه‌گذاری خارجی و داخلی شد. مهاجرت جوانان تحصیلکرده تشدید شد.",
+          en: "Iran's economy faced recession in 2009. Youth unemployment exceeded 25% and women's unemployment was higher. The manufacturing sector faced serious problems and many factories closed or were partially shut down. Sanctions and economic mismanagement prevented foreign and domestic investment. Emigration of educated youth intensified.",
+        },
       }
     ],
     world: [
@@ -5771,6 +8357,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در آذر ۱۳۸۹ طرح هدفمندسازی یارانه‌ها اجرا شد. قیمت بنزین، گازوئیل، گاز، برق و برخی کالاهای اساسی چندین برابر شد و در عوض یارانه نقدی ماهانه ۴۵,۵۰۰ تومان به هر نفر پرداخت شد. این بزرگ‌ترین اصلاح اقتصادی تاریخ ایران بود. در ابتدا اجرا نسبتاً موفق بود اما در سال‌های بعد تورم را تشدید کرد.",
           en: "In December 2010, the subsidy reform plan was implemented. Prices of gasoline, diesel, gas, electricity, and some basic goods multiplied several times, and in return a monthly cash subsidy of 45,500 tomans was paid per person. This was the largest economic reform in Iranian history. Initially relatively successful, it later fueled inflation.",
         },
+      },
+      {
+        title: { fa: "ترور مسعود علی‌محمدی - دانشمند هسته‌ای", en: "Assassination of Masoud Alimohammadi - Nuclear Scientist" },
+        description: { fa: "دانشمند فیزیک هسته‌ای در تهران ترور شد", en: "Nuclear physics scientist assassinated in Tehran" },
+        details: {
+          fa: "مسعود علی‌محمدی استاد فیزیک دانشگاه تهران در دی‌ماه ۱۳۸۸ با بمب مغناطیسی چسبیده به خودرویش ترور شد. ایران اسرائیل و آمریکا را مسئول دانست. این ترور آغاز سلسله ترورهای دانشمندان هسته‌ای ایران بود. مجید شهریاری نیز در آذرماه ۱۳۸۹ ترور شد. این ترورها بخشی از فشار چندجانبه برای متوقف کردن برنامه هسته‌ای بود.",
+          en: "Masoud Alimohammadi, a physics professor at Tehran University, was assassinated in January 2010 by a magnetic bomb attached to his car. Iran held Israel and the US responsible. This was the beginning of a series of assassinations of Iranian nuclear scientists. Majid Shahriari was also assassinated in November 2010. These assassinations were part of multilateral pressure to halt the nuclear program.",
+        },
+      },
+      {
+        title: { fa: "اجرای اصل ۴۴ و خصوصی‌سازی صوری", en: "Article 44 Implementation & Sham Privatization" },
+        description: { fa: "خصوصی‌سازی شرکت‌های دولتی به نهادهای شبه‌دولتی واگذار شد", en: "State company privatization transferred to quasi-governmental entities" },
+        details: {
+          fa: "اجرای اصل ۴۴ قانون اساسی که خصوصی‌سازی بخش‌های دولتی را مقرر کرده بود، به واگذاری شرکت‌ها به نهادهای شبه‌دولتی، بنیادها و شرکت‌های وابسته به سپاه تبدیل شد. سهام عدالت بین مردم توزیع شد اما ارزش واقعی آن ناچیز بود. بخش خصوصی واقعی از رقابت محروم ماند و ساختار انحصاری اقتصاد تقویت شد.",
+          en: "Implementation of Article 44 of the constitution, which mandated privatization of state sectors, turned into transferring companies to quasi-governmental entities, foundations, and IRGC-affiliated companies. Justice shares were distributed among people but their real value was negligible. The real private sector was excluded from competition and the monopolistic economic structure was reinforced.",
+        },
+      },
+      {
+        title: { fa: "افزایش تنش‌های قومی و اعتراضات در خوزستان", en: "Rising Ethnic Tensions & Protests in Khuzestan" },
+        description: { fa: "اعتراضات عرب‌های خوزستان به تبعیض و بیکاری", en: "Arab protests in Khuzestan against discrimination and unemployment" },
+        details: {
+          fa: "اعتراضات در مناطق عرب‌نشین خوزستان به دلیل تبعیض، بیکاری بالا و مشکلات زیست‌محیطی ادامه یافت. علی‌رغم وجود ذخایر عظیم نفت و گاز در خوزستان، مردم این منطقه از فقر و بیکاری رنج می‌بردند. ریزگردها و آلودگی هوا نیز به مشکلات مردم افزوده بود. نیروهای امنیتی اعتراضات را سرکوب و فعالان عرب را بازداشت کردند.",
+          en: "Protests in Arab-populated areas of Khuzestan over discrimination, high unemployment, and environmental problems continued. Despite vast oil and gas reserves in Khuzestan, people in the region suffered from poverty and unemployment. Dust storms and air pollution had added to people's problems. Security forces suppressed the protests and arrested Arab activists.",
+        },
       }
     ],
     world: [
@@ -5863,6 +8473,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "اتحادیه اروپا تحریم واردات نفت ایران را تصویب کرد و بانک مرکزی ایران را نیز تحریم نمود. ایران حدود ۲۰ درصد نفت خود را به اروپا صادر می‌کرد. این تحریم‌ها همراه با تحریم‌های آمریکا، صادرات نفت ایران را از ۲.۵ میلیون بشکه در روز به کمتر از یک میلیون بشکه کاهش داد و ارزش ریال سقوط کرد.",
           en: "The EU approved an oil import embargo on Iran and also sanctioned Iran's Central Bank. Iran exported about 20% of its oil to Europe. These sanctions, combined with US sanctions, reduced Iran's oil exports from 2.5 million barrels per day to less than one million, and the rial's value plummeted.",
+        },
+      },
+      {
+        title: { fa: "اختلاف احمدی‌نژاد و خامنه‌ای", en: "Ahmadinejad-Khamenei Rift" },
+        description: { fa: "اختلاف علنی بین رئیس‌جمهور و رهبر آشکار شد", en: "Public rift between president and Supreme Leader emerges" },
+        details: {
+          fa: "اختلاف بین احمدی‌نژاد و خامنه‌ای آشکار شد. احمدی‌نژاد حیدر مصلحی وزیر اطلاعات را برکنار کرد اما خامنه‌ای او را ابقا کرد. احمدی‌نژاد ۱۱ روز در جلسات هیئت دولت شرکت نکرد. حلقه نزدیک احمدی‌نژاد از جمله اسفندیار رحیم مشایی متهم به «جریان انحرافی» شد. این بحران نشان داد حتی رئیس‌جمهوری که مورد تأیید رهبر بود، قادر به مستقل عمل کردن نیست.",
+          en: "The rift between Ahmadinejad and Khamenei became public. Ahmadinejad dismissed Intelligence Minister Heydar Moslehi but Khamenei reinstated him. Ahmadinejad boycotted cabinet meetings for 11 days. His inner circle including Esfandiar Rahim Mashaei was accused of being a 'deviant current.' This crisis showed that even a Supreme Leader-approved president could not act independently.",
+        },
+      },
+      {
+        title: { fa: "بهار عربی و واکنش ایران", en: "Arab Spring & Iran's Response" },
+        description: { fa: "ایران انقلاب‌های عربی را «بیداری اسلامی» نامید اما اعتراض داخلی را سرکوب کرد", en: "Iran calls Arab revolutions 'Islamic Awakening' but suppresses domestic protest" },
+        details: {
+          fa: "ایران انقلاب‌های بهار عربی در تونس، مصر و بحرین را «بیداری اسلامی» نامید و از سقوط مبارک و بن‌علی استقبال کرد. اما در سوریه از بشار اسد در برابر معترضان حمایت کرد. موسوی و کروبی خواستار برگزاری راهپیمایی حمایت از مردم مصر شدند اما حکومت آنها را ممنوع کرد و حصر خانگی رهبران جنبش سبز را تشدید نمود.",
+          en: "Iran called the Arab Spring revolutions in Tunisia, Egypt, and Bahrain 'Islamic Awakening' and welcomed the fall of Mubarak and Ben Ali. But in Syria, it supported Bashar al-Assad against protesters. Mousavi and Karroubi called for rallies supporting the Egyptian people but the government banned them and tightened house arrest of Green Movement leaders.",
+        },
+      },
+      {
+        title: { fa: "حمله به سفارت بریتانیا در تهران", en: "Attack on British Embassy in Tehran" },
+        description: { fa: "دانشجویان بسیجی به سفارت بریتانیا حمله کردند", en: "Basij students storm British Embassy" },
+        details: {
+          fa: "در آذر ۱۳۹۰ گروهی از دانشجویان بسیجی به سفارت بریتانیا در تهران حمله کردند و پرچم بریتانیا را آتش زدند. این حمله در اعتراض به تحریم‌های جدید بریتانیا علیه ایران بود. بریتانیا سفارت خود را تعطیل و دیپلمات‌های ایرانی را اخراج کرد. این واقعه تنش دیپلماتیک شدیدی ایجاد کرد و انزوای بین‌المللی ایران را افزایش داد.",
+          en: "In November 2011, a group of Basij students stormed the British Embassy in Tehran and burned the British flag. The attack was in protest of new British sanctions against Iran. Britain closed its embassy and expelled Iranian diplomats. This incident created severe diplomatic tensions and increased Iran's international isolation.",
         },
       }
     ],
@@ -5958,6 +8592,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "سیستم بین‌المللی انتقال مالی سوئیفت بانک‌های تحریم‌شده ایران را از شبکه خود قطع کرد. این اولین بار بود که یک کشور از سوئیفت قطع می‌شد. نقل و انتقال پول برای تجار ایرانی به شدت دشوار شد و بسیاری مجبور به استفاده از واسطه‌های غیررسمی شدند. این تحریم مؤثرترین ابزار فشار اقتصادی بر ایران بود.",
           en: "The international SWIFT financial transfer system disconnected sanctioned Iranian banks from its network. This was the first time a country had been cut off from SWIFT. Money transfers became extremely difficult for Iranian merchants, forcing many to use informal intermediaries. This sanction was the most effective tool of economic pressure on Iran.",
         },
+      },
+      {
+        title: { fa: "ترور مصطفی احمدی روشن - دانشمند هسته‌ای", en: "Assassination of Mostafa Ahmadi Roshan - Nuclear Scientist" },
+        description: { fa: "آخرین دانشمند هسته‌ای ایران با بمب مغناطیسی ترور شد", en: "Latest Iranian nuclear scientist assassinated by magnetic bomb" },
+        details: {
+          fa: "مصطفی احمدی روشن، دانشمند هسته‌ای و معاون بازرگانی تأسیسات نطنز، در دی‌ماه ۱۳۹۰ با بمب مغناطیسی چسبیده به خودرویش در تهران ترور شد. ایران اسرائیل و آمریکا را مسئول دانست. این پنجمین ترور دانشمند هسته‌ای ایران بود. ترورها اراده ایران برای ادامه برنامه هسته‌ای را تقویت کرد و خشم عمومی را علیه غرب افزایش داد.",
+          en: "Mostafa Ahmadi Roshan, a nuclear scientist and commercial deputy at the Natanz facility, was assassinated in January 2012 by a magnetic bomb attached to his car in Tehran. Iran held Israel and the US responsible. This was the fifth assassination of an Iranian nuclear scientist. The killings strengthened Iran's resolve to continue the nuclear program and increased public anger against the West.",
+        },
+      },
+      {
+        title: { fa: "زلزله مرگبار آذربایجان شرقی", en: "Deadly East Azerbaijan Earthquake" },
+        description: { fa: "زلزله دوگانه در اهر و ورزقان بیش از ۳۰۰ کشته برجای گذاشت", en: "Twin earthquakes in Ahar and Varzaqan leave over 300 dead" },
+        details: {
+          fa: "در مرداد ۱۳۹۱ دو زلزله پیاپی با بزرگی ۶.۴ و ۶.۳ ریشتر مناطق اهر، هریس و ورزقان در آذربایجان شرقی را لرزاند. بیش از ۳۰۰ نفر کشته و ۳,۰۰۰ نفر زخمی شدند. هزاران خانه ویران شد. کمک‌رسانی با کندی انجام شد و مردم از عملکرد ضعیف دولت انتقاد کردند. این زلزله آسیب‌پذیری ساختمان‌های روستایی را نشان داد.",
+          en: "In August 2012, two consecutive earthquakes measuring 6.4 and 6.3 struck the Ahar, Heris, and Varzaqan areas of East Azerbaijan. Over 300 people were killed and 3,000 injured. Thousands of homes were destroyed. Aid delivery was slow and people criticized the government's poor response. The earthquake exposed the vulnerability of rural buildings.",
+        },
+      },
+      {
+        title: { fa: "اعتراضات بازاریان و اصناف", en: "Bazaar Merchant & Trade Union Protests" },
+        description: { fa: "بازاریان تهران در اعتراض به سقوط ریال اعتصاب کردند", en: "Tehran bazaar merchants strike over rial collapse" },
+        details: {
+          fa: "بازاریان تهران و چندین شهر دیگر در اعتراض به سقوط ارزش ریال و نابسامانی اقتصادی اعتصاب کردند. بازار بزرگ تهران برای چند روز تعطیل شد. نیروهای ضد شورش در اطراف بازار مستقر شدند. این اعتصاب‌ها نشان‌دهنده عمق بحران اقتصادی بود. دولت نرخ ارز مرجع تعیین کرد اما نتوانست ثبات را به بازار بازگرداند.",
+          en: "Tehran bazaar merchants and those in several other cities went on strike over the rial's collapse and economic chaos. Tehran's Grand Bazaar was closed for several days. Anti-riot forces were deployed around the bazaar. These strikes demonstrated the depth of the economic crisis. The government set a reference exchange rate but could not restore market stability.",
+        },
       }
     ],
     world: [
@@ -6041,6 +8699,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در آذر ۱۳۹۲ ایران و گروه ۱+۵ توافق موقت ژنو (برنامه اقدام مشترک) را امضا کردند. ایران متعهد شد غنی‌سازی بالای ۵ درصد را متوقف و ذخایر ۲۰ درصد را رقیق کند. در مقابل، بخشی از تحریم‌ها تعلیق و ۷ میلیارد دلار از دارایی‌های مسدودشده ایران آزاد شد. این توافق گام اول به سوی برجام بود.",
           en: "In November 2013, Iran and the P5+1 signed the Geneva interim agreement (Joint Plan of Action). Iran committed to halt enrichment above 5% and dilute its 20% stockpile. In return, some sanctions were suspended and $7 billion of Iran's frozen assets were released. This agreement was the first step toward the JCPOA.",
+        },
+      },
+      {
+        title: { fa: "توافق موقت هسته‌ای و خوش‌بینی اقتصادی", en: "Interim Nuclear Deal & Economic Optimism" },
+        description: { fa: "توافق ژنو امید به رفع تحریم‌ها و بهبود اقتصاد ایجاد کرد", en: "Geneva agreement creates hope for sanctions relief and economic improvement" },
+        details: {
+          fa: "امضای توافق موقت ژنو در آذر ۱۳۹۲ موج خوش‌بینی اقتصادی در ایران ایجاد کرد. نرخ دلار در بازار آزاد کاهش یافت و بورس تهران رشد کرد. سرمایه‌گذاران خارجی به ایران توجه نشان دادند. اما تندروها توافق را خیانت خواندند و مخالفت خود را علنی کردند. مردم امیدوار بودند پس از سال‌ها بحران، گشایش اقتصادی نزدیک باشد.",
+          en: "The signing of the Geneva interim agreement in November 2013 created a wave of economic optimism in Iran. The dollar rate in the free market declined and the Tehran stock exchange grew. Foreign investors showed interest in Iran. But hardliners called the deal a betrayal and publicly opposed it. People hoped that after years of crisis, economic opening was near.",
+        },
+      },
+      {
+        title: { fa: "افزایش مهاجرت افغان‌ها و بحران پناهندگی", en: "Increased Afghan Migration & Refugee Crisis" },
+        description: { fa: "تعداد مهاجران افغان در ایران از ۳ میلیون نفر گذشت", en: "Number of Afghan migrants in Iran exceeds 3 million" },
+        details: {
+          fa: "تعداد مهاجران و پناهندگان افغان در ایران از ۳ میلیون نفر گذشت. بسیاری بدون اقامت قانونی بودند و در شرایط سخت کار می‌کردند. آنها عمدتاً در بخش‌های ساختمان، کشاورزی و کارهای سخت بدنی مشغول بودند. تبعیض علیه افغان‌ها و محدودیت دسترسی به آموزش و بهداشت مورد انتقاد سازمان‌های حقوق بشری قرار گرفت.",
+          en: "The number of Afghan migrants and refugees in Iran exceeded 3 million. Many were undocumented and worked under harsh conditions, mainly in construction, agriculture, and manual labor. Discrimination against Afghans and restricted access to education and healthcare were criticized by human rights organizations.",
+        },
+      },
+      {
+        title: { fa: "بحران ریزگردها و آلودگی هوا", en: "Dust Storm Crisis & Air Pollution" },
+        description: { fa: "ریزگردها و آلودگی هوا در اهواز و شهرهای غربی به بحران تبدیل شد", en: "Dust storms and air pollution become crisis in Ahvaz and western cities" },
+        details: {
+          fa: "بحران ریزگردها در خوزستان و استان‌های غربی به شدت تشدید شد. اهواز یکی از آلوده‌ترین شهرهای جهان شد. مدارس و ادارات بارها تعطیل شدند. خشک شدن تالاب‌های عراق و خوزستان و بیابان‌زایی منابع اصلی ریزگردها بودند. مردم اعتراض کردند اما اقدامات دولت ناکافی بود. بحران محیط زیست به یک مسئله امنیتی تبدیل شد.",
+          en: "The dust storm crisis in Khuzestan and western provinces severely intensified. Ahvaz became one of the world's most polluted cities. Schools and offices were repeatedly closed. Drying of Iraqi and Khuzestani wetlands and desertification were the main sources of dust storms. People protested but government measures were insufficient. The environmental crisis became a security issue.",
         },
       }
     ],
@@ -6134,6 +8816,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "قیمت نفت از ۱۱۰ دلار در ابتدای سال به زیر ۶۰ دلار در پایان سال سقوط کرد. این سقوط قیمت ضربه سنگینی به بودجه ایران زد که وابستگی شدیدی به درآمد نفتی داشت. دولت روحانی مجبور به کاهش بودجه عمرانی و افزایش مالیات شد. این بحران همزمان با تحریم‌ها فشار مضاعفی بر اقتصاد ایران وارد کرد.",
           en: "Oil prices dropped from $110 at the start of the year to below $60 by year-end. This price crash dealt a heavy blow to Iran's budget, which was heavily dependent on oil revenue. Rouhani's government was forced to cut infrastructure spending and raise taxes. This crisis, simultaneous with sanctions, put double pressure on Iran's economy.",
+        },
+      },
+      {
+        title: { fa: "تقویت نقش قاسم سلیمانی در عراق و سوریه", en: "Strengthening of Qassem Soleimani's Role in Iraq & Syria" },
+        description: { fa: "سلیمانی به چهره کلیدی مبارزه با داعش تبدیل شد", en: "Soleimani becomes key figure in fight against ISIS" },
+        details: {
+          fa: "قاسم سلیمانی فرمانده نیروی قدس سپاه با ظهور داعش به چهره کلیدی جبهه مقابله تبدیل شد. او در عراق با فرماندهان کُرد و شیعه هماهنگ کرد و در سوریه عملیات نظامی را هدایت نمود. تصاویر سلیمانی در خطوط مقدم جنگ در رسانه‌های ایرانی پخش شد. او به قهرمان ملی تبدیل شد اما منتقدان هزینه‌های سنگین حضور نظامی ایران در منطقه را زیر سؤال بردند.",
+          en: "Qassem Soleimani, commander of the IRGC Quds Force, became the key figure in the anti-ISIS front with the rise of ISIS. He coordinated with Kurdish and Shia commanders in Iraq and directed military operations in Syria. Images of Soleimani at the front lines were broadcast on Iranian media. He became a national hero but critics questioned the heavy costs of Iran's military presence in the region.",
+        },
+      },
+      {
+        title: { fa: "اعتراضات کارگری و صنفی", en: "Labor & Trade Union Protests" },
+        description: { fa: "اعتراضات کارگران و معلمان در سراسر کشور افزایش یافت", en: "Worker and teacher protests increase nationwide" },
+        details: {
+          fa: "اعتراضات کارگری و صنفی در سراسر ایران افزایش یافت. کارگران معادن، کارخانه‌ها و شرکت‌های پتروشیمی خواستار پرداخت حقوق معوقه شدند. معلمان خواستار افزایش حقوق و بهبود شرایط آموزشی تجمع کردند. فعالان کارگری از جمله جعفر عظیم‌زاده و اسماعیل عبدی بازداشت شدند. حق تشکیل سندیکای مستقل همچنان محدود بود.",
+          en: "Labor and trade union protests increased across Iran. Mine workers, factory workers, and petrochemical company employees demanded payment of overdue wages. Teachers rallied for salary increases and improved educational conditions. Labor activists including Jafar Azimzadeh and Esmail Abdi were arrested. The right to form independent unions remained restricted.",
+        },
+      },
+      {
+        title: { fa: "تلاش دولت روحانی برای جذب سرمایه خارجی", en: "Rouhani Government's Efforts to Attract Foreign Investment" },
+        description: { fa: "روحانی قوانین سرمایه‌گذاری خارجی را اصلاح کرد", en: "Rouhani reforms foreign investment laws" },
+        details: {
+          fa: "دولت روحانی تلاش کرد با اصلاح قوانین سرمایه‌گذاری و بهبود فضای کسب‌وکار، سرمایه‌گذاری خارجی جذب کند. قراردادهای جدید نفتی (IPC) طراحی شد تا جایگزین بای‌بک شود. هیئت‌های تجاری خارجی به تهران سفر کردند. اما تحریم‌ها، فساد، بروکراسی و ریسک سیاسی بالا مانع سرمایه‌گذاری جدی شد. سرمایه‌گذاران منتظر نتیجه مذاکرات هسته‌ای بودند.",
+          en: "Rouhani's government tried to attract foreign investment by reforming investment laws and improving the business environment. New oil contracts (IPC) were designed to replace buy-back contracts. Foreign trade delegations visited Tehran. However, sanctions, corruption, bureaucracy, and high political risk prevented serious investment. Investors were waiting for the outcome of nuclear negotiations.",
         },
       }
     ],
@@ -6229,6 +8935,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "پس از امضای برجام، فضای خوش‌بینی اقتصادی ایجاد شد. شرکت‌های بزرگ اروپایی از جمله ایرباس، توتال و پژو قراردادهایی با ایران امضا کردند. صادرات نفت ایران به تدریج افزایش یافت. سرمایه‌گذاران خارجی به ایران سفر کردند. اما نظام بانکی هنوز مشکلات جدی داشت و بسیاری از بانک‌های بین‌المللی از ترس جریمه آمریکا با ایران کار نمی‌کردند.",
           en: "After the JCPOA signing, economic optimism emerged. Major European companies including Airbus, Total, and Peugeot signed contracts with Iran. Iran's oil exports gradually increased. Foreign investors visited Iran. However, the banking system still had serious problems and many international banks refused to work with Iran for fear of US penalties.",
         },
+      },
+      {
+        title: { fa: "جشن خیابانی مردم پس از توافق برجام", en: "Street Celebrations After JCPOA Agreement" },
+        description: { fa: "مردم ایران پس از اعلام توافق هسته‌ای به خیابان‌ها آمدند", en: "Iranians celebrate in streets after nuclear deal announced" },
+        details: {
+          fa: "پس از اعلام توافق برجام در ۱۴ ژوئیه ۲۰۱۵، مردم در شهرهای مختلف ایران به خیابان‌ها آمدند و جشن گرفتند. بوق ماشین‌ها و شادی مردم نشان‌دهنده امید به پایان تحریم‌ها و بهبود اقتصاد بود. ظریف و تیم مذاکراتی در فرودگاه با استقبال گسترده مواجه شدند. اما تندروها از توافق انتقاد کردند و آن را تسلیم در برابر غرب خواندند.",
+          en: "After the JCPOA was announced on July 14, 2015, people in various Iranian cities took to the streets to celebrate. Car horns and public joy reflected hope for the end of sanctions and economic improvement. Zarif and the negotiating team were warmly welcomed at the airport. However, hardliners criticized the deal and called it surrender to the West.",
+        },
+      },
+      {
+        title: { fa: "فاجعه منا - کشته شدن صدها زائر ایرانی", en: "Mina Stampede - Hundreds of Iranian Pilgrims Killed" },
+        description: { fa: "بیش از ۴۶۰ زائر ایرانی در ازدحام منا در عربستان جان باختند", en: "Over 460 Iranian pilgrims die in Mina stampede in Saudi Arabia" },
+        details: {
+          fa: "در ۲ مهر ۱۳۹۴ (سپتامبر ۲۰۱۵) ازدحام جمعیت در مراسم حج در منا نزدیک مکه رخ داد و بیش از ۲,۰۰۰ زائر از کشورهای مختلف کشته شدند. ایران با ۴۶۴ کشته بیشترین تلفات را داشت. روابط ایران و عربستان به شدت تیره شد و خامنه‌ای عربستان را مسئول دانست. این فاجعه تنش‌های مذهبی و سیاسی ایران و عربستان را تشدید کرد.",
+          en: "On September 24, 2015, a crowd crush during the Hajj pilgrimage in Mina near Mecca killed over 2,000 pilgrims from various countries. Iran suffered the highest casualties with 464 dead. Iran-Saudi relations severely deteriorated and Khamenei held Saudi Arabia responsible. This disaster intensified religious and political tensions between Iran and Saudi Arabia.",
+        },
+      },
+      {
+        title: { fa: "سفر ظریف به اروپا و جذب سرمایه‌گذاری", en: "Zarif's European Tour & Investment Attraction" },
+        description: { fa: "ظریف به اروپا سفر کرد و قراردادهای تجاری مذاکره شد", en: "Zarif tours Europe and trade contracts negotiated" },
+        details: {
+          fa: "محمدجواد ظریف وزیر خارجه پس از برجام سفرهای متعددی به اروپا انجام داد و شرکت‌های اروپایی را برای سرمایه‌گذاری در ایران دعوت کرد. ایرباس قرارداد فروش ۱۱۸ هواپیما به ایران‌ایر امضا کرد. توتال برای توسعه فاز ۱۱ پارس جنوبی توافق کرد. پژو و رنو قراردادهای خودروسازی امضا کردند. اما مشکلات بانکی مانع عملی شدن بسیاری از قراردادها شد.",
+          en: "Foreign Minister Zarif made numerous trips to Europe after the JCPOA and invited European companies to invest in Iran. Airbus signed a contract to sell 118 aircraft to IranAir. Total agreed to develop South Pars Phase 11. Peugeot and Renault signed automotive contracts. However, banking problems prevented many contracts from being implemented.",
+        },
       }
     ],
     world: [
@@ -6321,6 +9051,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در اسفند ۱۳۹۴ انتخابات مجلس شورای اسلامی و مجلس خبرگان همزمان برگزار شد. لیست «امید» متشکل از اصلاح‌طلبان و حامیان روحانی تمام ۳۰ کرسی تهران را در مجلس برد. در مجلس خبرگان نیز چهره‌های تندرو از جمله آیت‌الله یزدی شکست خوردند. این نتایج تأییدی بر حمایت مردمی از سیاست تعامل با جهان بود.",
           en: "In February 2016, Majles and Assembly of Experts elections were held simultaneously. The 'Hope' list of reformists and Rouhani supporters won all 30 Tehran seats in parliament. In the Assembly of Experts, hardline figures including Ayatollah Yazdi were defeated. These results confirmed public support for engagement with the world.",
+        },
+      },
+      {
+        title: { fa: "رشد اقتصادی ۱۲ درصدی پس از برجام", en: "12% Economic Growth After JCPOA" },
+        description: { fa: "اقتصاد ایران پس از سال‌ها رکود رشد مثبت نشان داد", en: "Iran's economy shows positive growth after years of recession" },
+        details: {
+          fa: "اقتصاد ایران در سال ۱۳۹۵ رشد ۱۲.۵ درصدی داشت که عمدتاً ناشی از افزایش صادرات نفت بود. صادرات نفت از زیر یک میلیون بشکه به حدود ۲ میلیون بشکه در روز رسید. تورم کاهش یافت و نرخ ارز ثبات نسبی داشت. اما این رشد عمدتاً نفتی بود و بخش‌های غیرنفتی اقتصاد رشد محدودی داشتند. بیکاری همچنان بالا بود.",
+          en: "Iran's economy grew 12.5% in 2016, mainly due to increased oil exports. Oil exports rose from under one million barrels to about 2 million barrels per day. Inflation declined and the exchange rate was relatively stable. However, this growth was mainly oil-driven and non-oil sectors had limited growth. Unemployment remained high.",
+        },
+      },
+      {
+        title: { fa: "قطع روابط عربستان با ایران", en: "Saudi Arabia Severs Ties with Iran" },
+        description: { fa: "عربستان پس از حمله به سفارتش در تهران روابط را قطع کرد", en: "Saudi Arabia cuts ties after attack on its embassy in Tehran" },
+        details: {
+          fa: "در دی ۱۳۹۴ (ژانویه ۲۰۱۶) پس از اعدام شیخ نمر النمر روحانی شیعه عربستانی، معترضان به سفارت عربستان در تهران و کنسولگری آن در مشهد حمله کردند. عربستان روابط دیپلماتیک با ایران را قطع کرد. چندین کشور عربی نیز روابط خود را کاهش دادند. این بحران رقابت منطقه‌ای ایران و عربستان را تشدید کرد.",
+          en: "In January 2016, after the execution of Shia cleric Sheikh Nimr al-Nimr in Saudi Arabia, protesters attacked the Saudi embassy in Tehran and its consulate in Mashhad. Saudi Arabia severed diplomatic relations with Iran. Several Arab countries also downgraded ties. This crisis intensified the regional rivalry between Iran and Saudi Arabia.",
+        },
+      },
+      {
+        title: { fa: "مشکلات بانکی و عدم بازگشت کامل به سیستم مالی جهانی", en: "Banking Problems & Incomplete Return to Global Financial System" },
+        description: { fa: "بانک‌های بین‌المللی از ترس جریمه آمریکا با ایران کار نمی‌کردند", en: "International banks refuse to work with Iran fearing US penalties" },
+        details: {
+          fa: "علی‌رغم لغو تحریم‌های هسته‌ای، بانک‌های بزرگ بین‌المللی از معامله با ایران خودداری کردند. ترس از جریمه‌های آمریکایی و ادامه تحریم‌های مربوط به تروریسم و حقوق بشر مانع بازگشت کامل ایران به سیستم مالی جهانی شد. این مشکل اصلی‌ترین مانع بهره‌برداری اقتصادی ایران از برجام بود. ظریف و روحانی بارها از این وضعیت شکایت کردند.",
+          en: "Despite the lifting of nuclear sanctions, major international banks refused to deal with Iran. Fear of US penalties and continued terrorism and human rights sanctions prevented Iran's full return to the global financial system. This was the main obstacle to Iran's economic benefit from the JCPOA. Zarif and Rouhani repeatedly complained about this situation.",
         },
       }
     ],
@@ -6415,6 +9169,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در دی‌ماه ۱۳۹۶ اعتراضات از مشهد آغاز شد و به بیش از ۱۰۰ شهر گسترش یافت. معترضان ابتدا علیه گرانی و بیکاری شعار دادند اما شعارها به سرعت سیاسی شد. برخلاف جنبش سبز ۱۳۸۸ که طبقه متوسط شهری بود، این اعتراضات از شهرهای کوچک و طبقات محروم بود. ۲۵ نفر کشته و هزاران نفر بازداشت شدند.",
           en: "In December 2017, protests began in Mashhad and spread to over 100 cities. Protesters initially chanted against high prices and unemployment but slogans quickly became political. Unlike the 2009 Green Movement which was urban middle class, these protests came from small cities and lower classes. 25 people were killed and thousands arrested.",
         },
+      },
+      {
+        title: { fa: "انتخاب مجدد روحانی با ۵۷ درصد آرا", en: "Rouhani Re-elected with 57% of Vote" },
+        description: { fa: "روحانی در برابر رئیسی برای دور دوم انتخاب شد", en: "Rouhani elected for second term over Raisi" },
+        details: {
+          fa: "حسن روحانی در انتخابات خرداد ۱۳۹۶ با ۵۷ درصد آرا ابراهیم رئیسی را شکست داد و برای دور دوم انتخاب شد. مشارکت مردم بالا بود (۷۳ درصد). رئیسی که مورد حمایت تندروها بود، ۳۸ درصد آرا را کسب کرد. مردم با رأی به روحانی حمایت خود از برجام و تعامل با جهان را نشان دادند. اما دور دوم روحانی با چالش‌های اقتصادی بزرگ‌تری مواجه شد.",
+          en: "Hassan Rouhani defeated Ebrahim Raisi with 57% of the vote in the May 2017 election, winning a second term. Voter turnout was high (73%). Raisi, backed by hardliners, received 38%. By voting for Rouhani, people showed their support for the JCPOA and engagement with the world. However, Rouhani's second term faced greater economic challenges.",
+        },
+      },
+      {
+        title: { fa: "حمله داعش به مجلس و حرم امام خمینی", en: "ISIS Attack on Parliament & Imam Khomeini Shrine" },
+        description: { fa: "حمله تروریستی همزمان به مجلس و حرم امام خمینی ۱۷ کشته برجای گذاشت", en: "Simultaneous terrorist attack on parliament and Imam Khomeini shrine kills 17" },
+        details: {
+          fa: "در ۱۷ خرداد ۱۳۹۶ (ژوئن ۲۰۱۷) داعش حملات تروریستی همزمان به ساختمان مجلس شورای اسلامی و حرم امام خمینی انجام داد. ۱۷ نفر کشته و ۴۳ نفر زخمی شدند. این اولین حمله تروریستی بزرگ در تهران از سال‌ها بود. نیروهای امنیتی مهاجمان را کشتند. ایران عربستان را متهم به حمایت غیرمستقیم کرد. این حمله شوک بزرگی به جامعه وارد کرد.",
+          en: "On June 7, 2017, ISIS carried out simultaneous terrorist attacks on the Majles building and Imam Khomeini's shrine. 17 people were killed and 43 injured. This was the first major terrorist attack in Tehran in years. Security forces killed the attackers. Iran accused Saudi Arabia of indirect support. The attack shocked Iranian society.",
+        },
+      },
+      {
+        title: { fa: "بحران بانک‌های خصوصی و مؤسسات مالی", en: "Private Banks & Financial Institutions Crisis" },
+        description: { fa: "ورشکستگی مؤسسات مالی غیرمجاز سپرده‌گذاران را متضرر کرد", en: "Collapse of unauthorized financial institutions harms depositors" },
+        details: {
+          fa: "بحران مؤسسات مالی غیرمجاز که سال‌ها با سودهای بالا سپرده جمع کرده بودند، شدت گرفت. مؤسسات کاسپین، ثامن‌الحجج و آرمان ورشکسته شدند و میلیون‌ها سپرده‌گذار متضرر شدند. مردم مقابل شعب بانک‌ها تجمع و اعتراض کردند. بانک مرکزی متهم به نظارت ضعیف شد. این بحران اعتماد مردم به سیستم بانکی را از بین برد.",
+          en: "The crisis of unauthorized financial institutions that had collected deposits with high interest rates for years intensified. Caspian, Samen al-Hojaj, and Arman institutions went bankrupt, harming millions of depositors. People protested outside bank branches. The Central Bank was accused of weak oversight. This crisis destroyed public trust in the banking system.",
+        },
       }
     ],
     world: [
@@ -6498,6 +9276,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "خروج آمریکا از برجام باعث سقوط شدید ارزش ریال شد. نرخ دلار از حدود ۴,۰۰۰ تومان در ابتدای سال به بیش از ۱۵,۰۰۰ تومان رسید. تورم سالانه به ۴۰ درصد رسید. قیمت مسکن، خودرو و کالاهای اساسی چندین برابر شد. طبقه متوسط ایران به شدت آسیب دید. بازار سیاه ارز رونق گرفت.",
           en: "The US withdrawal from the JCPOA caused a severe rial collapse. The dollar rate jumped from about 4,000 tomans at the start of the year to over 15,000 tomans. Annual inflation reached 40%. Prices of housing, cars, and basic goods multiplied several times. Iran's middle class was severely impacted. The black market for currency flourished.",
+        },
+      },
+      {
+        title: { fa: "اعتراضات کامیونداران و رانندگان", en: "Truck Driver & Transport Worker Strikes" },
+        description: { fa: "کامیونداران سراسر کشور اعتصاب کردند", en: "Truck drivers across the country go on strike" },
+        details: {
+          fa: "کامیونداران ایران در چند نوبت اعتصاب سراسری کردند. آنها خواستار افزایش کرایه حمل، کاهش قیمت لاستیک و لوازم یدکی و بهبود شرایط بیمه بودند. اعتصابات باعث اختلال در زنجیره تأمین و حمل‌ونقل کالا شد. دولت برخی فعالان کارگری را بازداشت کرد. این اعتراضات نشان‌دهنده فشار اقتصادی ناشی از تحریم‌ها بر اقشار مختلف جامعه بود.",
+          en: "Iranian truck drivers went on nationwide strikes on several occasions. They demanded higher freight rates, lower tire and spare part prices, and improved insurance conditions. The strikes disrupted supply chains and goods transportation. The government arrested some labor activists. These protests demonstrated the economic pressure of sanctions on various segments of society.",
+        },
+      },
+      {
+        title: { fa: "خروج شرکت‌های اروپایی از ایران", en: "European Companies Exit Iran" },
+        description: { fa: "توتال، پژو، ایرباس و شرکت‌های بزرگ اروپایی ایران را ترک کردند", en: "Total, Peugeot, Airbus and major European companies leave Iran" },
+        details: {
+          fa: "پس از خروج آمریکا از برجام، شرکت‌های بزرگ اروپایی یکی پس از دیگری ایران را ترک کردند. توتال از پروژه پارس جنوبی خارج شد. پژو و رنو قراردادهای خودروسازی را لغو کردند. ایرباس تحویل هواپیما را متوقف کرد. زیمنس، دایملر و ده‌ها شرکت دیگر نیز خارج شدند. اتحادیه اروپا مکانیسم اینستکس را برای دور زدن تحریم‌ها ایجاد کرد اما عملاً کارآمد نبود.",
+          en: "After the US withdrawal from the JCPOA, major European companies left Iran one after another. Total exited the South Pars project. Peugeot and Renault cancelled automotive contracts. Airbus stopped aircraft deliveries. Siemens, Daimler, and dozens of other companies also left. The EU created the INSTEX mechanism to circumvent sanctions but it was practically ineffective.",
+        },
+      },
+      {
+        title: { fa: "افزایش فشار بر فعالان حقوق زنان و محیط‌ زیست", en: "Increased Pressure on Women's Rights & Environmental Activists" },
+        description: { fa: "فعالان حقوق زنان و محیط‌زیست بازداشت و زندانی شدند", en: "Women's rights and environmental activists arrested and imprisoned" },
+        details: {
+          fa: "فشار بر فعالان مدنی در سال ۱۳۹۷ تشدید شد. نسرین ستوده وکیل حقوق بشر به ۳۸ سال زندان و ۱۴۸ ضربه شلاق محکوم شد. فعالان محیط‌زیست گروه حیات‌وحش ایران بازداشت و به جاسوسی متهم شدند. دختران خیابان انقلاب که حجاب خود را برداشته بودند بازداشت شدند. فضای مدنی ایران به شدت محدود شد.",
+          en: "Pressure on civil activists intensified in 2018. Human rights lawyer Nasrin Sotoudeh was sentenced to 38 years in prison and 148 lashes. Iranian Wildlife Heritage Foundation environmental activists were arrested and accused of espionage. 'Girls of Revolution Street' who had removed their headscarves were arrested. Iran's civic space was severely restricted.",
         },
       }
     ],
@@ -6584,6 +9386,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در خرداد ۱۳۹۸ ایران پهپاد گلوبال‌هاوک آمریکا را بر فراز تنگه هرمز ساقط کرد. ترامپ دستور حمله نظامی داد اما ۱۰ دقیقه قبل از اجرا لغو کرد. ایران نفتکش بریتانیایی استنا ایمپرو را در تنگه هرمز توقیف کرد. حملاتی به تأسیسات نفتی آرامکو عربستان انجام شد. خلیج فارس به آستانه جنگ رسید.",
           en: "In June 2019, Iran shot down a US Global Hawk drone over the Strait of Hormuz. Trump ordered a military strike but canceled it 10 minutes before execution. Iran seized the British tanker Stena Impero in the Strait of Hormuz. Attacks were carried out on Saudi Aramco oil facilities. The Persian Gulf came to the brink of war.",
         },
+      },
+      {
+        title: { fa: "سیل‌های ویرانگر در ۲۵ استان", en: "Devastating Floods in 25 Provinces" },
+        description: { fa: "سیل‌های فروردین ۹۸ بیش از ۲۵ استان را درگیر کرد", en: "March-April 2019 floods affect over 25 provinces" },
+        details: {
+          fa: "در فروردین ۱۳۹۸ سیل‌های ویرانگری بیش از ۲۵ استان ایران را درگیر کرد. استان‌های گلستان، مازندران، لرستان و خوزستان بیشترین آسیب را دیدند. ده‌ها نفر کشته و صدها هزار نفر آواره شدند. زیرساخت‌ها و کشاورزی آسیب شدید دیدند. تحریم‌ها کمک‌رسانی بین‌المللی را محدود کرد. صلیب سرخ از مشکلات انتقال کمک مالی گزارش داد.",
+          en: "In March-April 2019, devastating floods affected over 25 Iranian provinces. Golestan, Mazandaran, Lorestan, and Khuzestan suffered the most damage. Dozens were killed and hundreds of thousands displaced. Infrastructure and agriculture suffered severe damage. Sanctions limited international aid delivery. The Red Cross reported problems transferring financial assistance.",
+        },
+      },
+      {
+        title: { fa: "غنی‌سازی اورانیوم بالاتر از سطح برجام", en: "Uranium Enrichment Beyond JCPOA Limits" },
+        description: { fa: "ایران غنی‌سازی اورانیوم را فراتر از سطح ۳.۶۷ درصد برجام افزایش داد", en: "Iran increases uranium enrichment beyond JCPOA's 3.67% level" },
+        details: {
+          fa: "ایران در واکنش به خروج آمریکا از برجام، تعهدات هسته‌ای خود را گام به گام کاهش داد. غنی‌سازی اورانیوم از ۳.۶۷ درصد (سقف برجام) به ۴.۵ درصد افزایش یافت. ذخایر اورانیوم غنی‌شده از ۳۰۰ کیلوگرم (سقف برجام) فراتر رفت. ایران اعلام کرد این اقدامات قابل بازگشت است اگر طرف‌های دیگر به تعهدات خود عمل کنند.",
+          en: "In response to the US withdrawal from the JCPOA, Iran gradually reduced its nuclear commitments. Uranium enrichment increased from 3.67% (JCPOA cap) to 4.5%. Enriched uranium stockpile exceeded the 300 kg JCPOA limit. Iran stated these measures were reversible if the other parties fulfilled their commitments.",
+        },
+      },
+      {
+        title: { fa: "تشدید بحران اقتصادی و مهاجرت", en: "Deepening Economic Crisis & Emigration" },
+        description: { fa: "تورم به ۴۰ درصد رسید و موج جدید مهاجرت آغاز شد", en: "Inflation reaches 40% and new wave of emigration begins" },
+        details: {
+          fa: "تورم سالانه ایران در سال ۱۳۹۸ به حدود ۴۰ درصد رسید. قیمت مسکن، خودرو و مواد غذایی به شدت افزایش یافت. موج جدید مهاجرت نخبگان و سرمایه‌داران آغاز شد. تعداد متقاضیان ویزای مهاجرت به کانادا، استرالیا و اروپا رکورد زد. بسیاری از پزشکان و مهندسان ایران را ترک کردند. بحران مغزها و سرمایه‌ها تهدید جدی برای آینده اقتصاد ایران بود.",
+          en: "Iran's annual inflation reached about 40% in 2019. Housing, car, and food prices rose sharply. A new wave of elite and capital emigration began. Applications for immigration visas to Canada, Australia, and Europe hit records. Many doctors and engineers left Iran. The brain and capital drain posed a serious threat to Iran's economic future.",
+        },
       }
     ],
     world: [
@@ -6668,6 +9494,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "ایران از اوایل اسفند ۱۳۹۸ یکی از اولین کانون‌های شیوع کرونا خارج از چین شد. قم مرکز اولیه شیوع بود. تحریم‌ها واردات دارو و تجهیزات پزشکی را دشوار کرده بود. اقتصاد ایران که از تحریم‌ها آسیب دیده بود با بحران کرونا ضربه مضاعف خورد. تولید ناخالص داخلی کاهش یافت و بیکاری افزایش پیدا کرد.",
           en: "Iran became one of the first hotspots of COVID-19 outside China from late February 2020. Qom was the initial center of the outbreak. Sanctions had made importing medicine and medical equipment difficult. Iran's economy, already damaged by sanctions, was dealt a double blow by the pandemic. GDP declined and unemployment rose.",
+        },
+      },
+      {
+        title: { fa: "انتخابات مجلس یازدهم با مشارکت تاریخی پایین", en: "11th Majles Elections with Historically Low Turnout" },
+        description: { fa: "مشارکت به ۴۲ درصد سقوط کرد - کمترین در تاریخ جمهوری اسلامی", en: "Turnout drops to 42% - lowest in Islamic Republic history" },
+        details: {
+          fa: "انتخابات مجلس یازدهم در اسفند ۱۳۹۸ با مشارکت ۴۲ درصدی برگزار شد - کمترین مشارکت در تاریخ جمهوری اسلامی. شورای نگهبان بیش از ۹,۰۰۰ نامزد از جمله ۹۰ نماینده فعلی را رد صلاحیت کرده بود. همزمانی با شیوع کرونا نیز مشارکت را کاهش داد. محافظه‌کاران تندرو اکثریت مطلق مجلس را به دست آوردند.",
+          en: "The 11th Majles elections in February 2020 had 42% turnout - the lowest in Islamic Republic history. The Guardian Council had disqualified over 9,000 candidates including 90 sitting members. The COVID-19 outbreak also reduced participation. Hardline conservatives won an absolute majority in parliament.",
+        },
+      },
+      {
+        title: { fa: "تأثیر ویرانگر کرونا بر اقتصاد و بهداشت", en: "COVID-19's Devastating Impact on Economy & Healthcare" },
+        description: { fa: "تولید ناخالص داخلی کاهش یافت و سیستم بهداشتی تحت فشار قرار گرفت", en: "GDP declines and healthcare system comes under pressure" },
+        details: {
+          fa: "پاندمی کرونا اقتصاد ایران را که از تحریم‌ها آسیب دیده بود، بیشتر تضعیف کرد. تولید ناخالص داخلی کاهش یافت و بیکاری افزایش پیدا کرد. سیستم بهداشتی تحت فشار شدید قرار گرفت و کمبود دارو و تجهیزات پزشکی به دلیل تحریم‌ها وخیم‌تر شد. دولت آمار واقعی تلفات را منتشر نکرد و گزارش‌ها حاکی از تلفات چندین برابر آمار رسمی بود.",
+          en: "The COVID-19 pandemic further weakened Iran's already sanctions-damaged economy. GDP declined and unemployment increased. The healthcare system came under severe pressure and medicine and medical equipment shortages were worsened by sanctions. The government did not publish accurate casualty figures and reports indicated deaths were several times the official count.",
+        },
+      },
+      {
+        title: { fa: "تصویب قانون اقدام راهبردی برای لغو تحریم‌ها", en: "Strategic Action Law to Lift Sanctions Passed" },
+        description: { fa: "مجلس ایران را ملزم به افزایش غنی‌سازی اورانیوم کرد", en: "Parliament obliges Iran to increase uranium enrichment" },
+        details: {
+          fa: "مجلس یازدهم قانون «اقدام راهبردی برای لغو تحریم‌ها» را تصویب کرد. این قانون دولت را ملزم به افزایش غنی‌سازی اورانیوم به ۲۰ درصد و نصب سانتریفیوژهای پیشرفته کرد. همچنین اجرای پروتکل الحاقی متوقف شد. این قانون پاسخ تندروها به شکست برجام بود و فضای مذاکرات هسته‌ای را دشوارتر کرد. روحانی با این قانون مخالف بود اما قادر به جلوگیری نبود.",
+          en: "The 11th Majles passed the 'Strategic Action to Lift Sanctions' law. This law obliged the government to increase uranium enrichment to 20% and install advanced centrifuges. Implementation of the Additional Protocol was also halted. This law was hardliners' response to the JCPOA's failure and made the nuclear negotiations atmosphere more difficult. Rouhani opposed the law but could not prevent it.",
         },
       }
     ],
@@ -6762,6 +9612,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "مذاکرات غیرمستقیم ایران و آمریکا برای احیای برجام در وین آغاز شد اما به نتیجه نرسید. ایران خواستار لغو تمام تحریم‌ها و تضمین عدم خروج مجدد آمریکا بود. آمریکا حاضر به دادن چنین تضمینی نبود. تغییر دولت در ایران و روی کار آمدن تیم مذاکراتی جدید روند را کندتر کرد.",
           en: "Indirect Iran-US negotiations to revive the JCPOA began in Vienna but remained inconclusive. Iran demanded all sanctions be lifted and guarantees against future US withdrawal. The US was unwilling to provide such guarantees. The change of government in Iran and arrival of a new negotiating team slowed the process.",
+        },
+      },
+      {
+        title: { fa: "اعتراضات خوزستان به بحران آب", en: "Khuzestan Water Crisis Protests" },
+        description: { fa: "مردم خوزستان در اعتراض به بی‌آبی و خشکسالی به خیابان‌ها آمدند", en: "Khuzestan residents take to streets over water shortage and drought" },
+        details: {
+          fa: "در تیرماه ۱۴۰۰ مردم خوزستان در اعتراض به بحران شدید آب و خشکسالی به خیابان‌ها آمدند. اعتراضات به چندین استان دیگر گسترش یافت. چندین معترض کشته و ده‌ها نفر بازداشت شدند. بحران آب ناشی از سدسازی بی‌رویه، تغییرات اقلیمی و سوءمدیریت منابع آبی بود. این اعتراضات نشان‌دهنده ارتباط بحران‌های زیست‌محیطی و اجتماعی بود.",
+          en: "In July 2021, Khuzestan residents took to the streets protesting severe water shortage and drought. Protests spread to several other provinces. Several protesters were killed and dozens arrested. The water crisis resulted from excessive dam construction, climate change, and mismanagement of water resources. These protests demonstrated the connection between environmental and social crises.",
+        },
+      },
+      {
+        title: { fa: "غنی‌سازی اورانیوم ۶۰ درصد", en: "60% Uranium Enrichment" },
+        description: { fa: "ایران غنی‌سازی اورانیوم را به ۶۰ درصد افزایش داد", en: "Iran increases uranium enrichment to 60%" },
+        details: {
+          fa: "ایران در فروردین ۱۴۰۰ غنی‌سازی اورانیوم را به ۶۰ درصد افزایش داد - بالاترین سطح در تاریخ برنامه هسته‌ای ایران و نزدیک به سطح تسلیحاتی (۹۰ درصد). این اقدام در پاسخ به حمله سایبری به تأسیسات نطنز انجام شد. آژانس اتمی تأیید کرد. فشار بین‌المللی بر ایران افزایش یافت و نگرانی‌ها درباره نزدیکی ایران به بمب اتمی جدی‌تر شد.",
+          en: "Iran increased uranium enrichment to 60% in April 2021 - the highest level in the history of Iran's nuclear program and close to weapons-grade (90%). This action was in response to a cyberattack on Natanz facilities. The IAEA confirmed this. International pressure on Iran increased and concerns about Iran's proximity to a nuclear bomb became more serious.",
+        },
+      },
+      {
+        title: { fa: "بحران برق و خاموشی‌های گسترده", en: "Electricity Crisis & Widespread Blackouts" },
+        description: { fa: "خاموشی‌های طولانی در تابستان مردم و صنایع را دچار مشکل کرد", en: "Extended summer blackouts cause problems for people and industries" },
+        details: {
+          fa: "تابستان ۱۴۰۰ با خاموشی‌های گسترده و طولانی‌مدت در سراسر ایران همراه بود. کمبود ظرفیت تولید برق، خشکسالی شدید (کاهش تولید نیروگاه‌های برق‌آبی) و مصرف بالا دلایل اصلی بودند. استخراج بیت‌کوین نیز فشار بر شبکه برق افزوده بود. کارخانه‌ها و مراکز تجاری مجبور به تعطیلی شدند. مردم از گرمای شدید بدون کولر رنج بردند.",
+          en: "Summer 2021 saw widespread and prolonged blackouts across Iran. Insufficient power generation capacity, severe drought (reducing hydroelectric output), and high consumption were the main causes. Bitcoin mining had also added pressure to the power grid. Factories and commercial centers were forced to close. People suffered from extreme heat without air conditioning.",
         },
       }
     ],
@@ -6861,6 +9735,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "ایران پهپادهای شاهد-۱۳۶ را به روسیه فروخت که در جنگ اوکراین برای حمله به زیرساخت‌های انرژی استفاده شد. غرب این اقدام را محکوم کرد و تحریم‌های جدیدی علیه صنعت پهپادی ایران وضع شد. همکاری نظامی ایران و روسیه تعمیق یافت. ایران در مقابل فناوری نظامی و حمایت دیپلماتیک روسیه را دریافت کرد.",
           en: "Iran sold Shahed-136 drones to Russia, used in the Ukraine war to attack energy infrastructure. The West condemned this and imposed new sanctions on Iran's drone industry. Iran-Russia military cooperation deepened. In return, Iran received Russian military technology and diplomatic support.",
         },
+      },
+      {
+        title: { fa: "اعدام معترضان جنبش مهسا امینی", en: "Execution of Mahsa Amini Movement Protesters" },
+        description: { fa: "محسن شکاری و مجیدرضا رهنورد در ارتباط با اعتراضات اعدام شدند", en: "Mohsen Shekari and Majidreza Rahnavard executed in connection with protests" },
+        details: {
+          fa: "رژیم ایران در واکنش به جنبش «زن، زندگی، آزادی» چندین معترض را اعدام کرد. محسن شکاری ۲۳ ساله اولین اعدامی جنبش بود. مجیدرضا رهنورد در ملأعام اعدام شد. محمدمهدی کرمی و سیدمحمد حسینی نیز اعدام شدند. این اعدام‌ها محکومیت بین‌المللی گسترده‌ای برانگیخت و شکاف بین حکومت و ملت را عمیق‌تر کرد.",
+          en: "The Iranian regime executed several protesters in response to the 'Woman, Life, Freedom' movement. 23-year-old Mohsen Shekari was the first to be executed. Majidreza Rahnavard was publicly executed. Mohammad-Mehdi Karami and Seyyed-Mohammad Hosseini were also executed. These executions provoked widespread international condemnation and deepened the rift between government and people.",
+        },
+      },
+      {
+        title: { fa: "نصب دوربین‌های حجاب‌بان در سراسر کشور", en: "Installation of Hijab Surveillance Cameras Nationwide" },
+        description: { fa: "دوربین‌های هوشمند برای شناسایی زنان بدحجاب نصب شدند", en: "Smart cameras installed to identify improperly veiled women" },
+        details: {
+          fa: "پس از جنبش مهسا امینی، حکومت دوربین‌های هوشمند تشخیص چهره را در سراسر کشور نصب کرد تا زنانی که حجاب رعایت نمی‌کنند شناسایی شوند. پیامک‌های هشدار به زنان بدحجاب ارسال و خودروهای آنها توقیف شد. این اقدام مقاومت مدنی گسترده‌ای برانگیخت و بسیاری از زنان همچنان بدون حجاب اجباری در خیابان‌ها حاضر شدند.",
+          en: "After the Mahsa Amini movement, the government installed smart facial recognition cameras nationwide to identify women not wearing hijab. Warning text messages were sent to improperly veiled women and their cars were impounded. This measure provoked widespread civil resistance and many women continued to appear in public without forced hijab.",
+        },
+      },
+      {
+        title: { fa: "پیوستن ایران به سازمان همکاری شانگهای", en: "Iran Joins Shanghai Cooperation Organization" },
+        description: { fa: "ایران عضو رسمی سازمان همکاری شانگهای شد", en: "Iran becomes official member of Shanghai Cooperation Organization" },
+        details: {
+          fa: "ایران در سال ۲۰۲۲ رسماً به عضویت سازمان همکاری شانگهای (SCO) درآمد. این عضویت بخشی از استراتژی «نگاه به شرق» ایران بود. همکاری نزدیک‌تر با چین و روسیه جایگزین روابط با غرب شد. اما منتقدان معتقد بودند عضویت در SCO مزایای اقتصادی محدودی دارد و نمی‌تواند جایگزین رابطه با اقتصادهای پیشرفته غربی شود.",
+          en: "Iran officially became a member of the Shanghai Cooperation Organization (SCO) in 2022. This membership was part of Iran's 'Look East' strategy. Closer cooperation with China and Russia replaced Western relations. However, critics believed SCO membership offered limited economic benefits and could not substitute relations with advanced Western economies.",
+        },
       }
     ],
     world: [
@@ -6954,6 +9852,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "تورم سالانه از ۵۰ درصد گذشت و نرخ دلار از ۵۰,۰۰۰ تومان عبور کرد. قیمت مسکن، خودرو و مواد غذایی به شکل بی‌سابقه‌ای افزایش یافت. خط فقر به شدت بالا رفت و طبقه متوسط به سرعت در حال نابودی بود. مهاجرت نخبگان و جوانان شدت گرفت. اقتصاد ایران تحت فشار تحریم‌ها، فساد و سوءمدیریت قرار داشت.",
           en: "Annual inflation exceeded 50% and the dollar rate surpassed 50,000 tomans. Housing, car, and food prices increased unprecedentedly. The poverty line rose sharply and the middle class was rapidly disappearing. Brain drain and youth emigration intensified. Iran's economy was under pressure from sanctions, corruption, and mismanagement.",
+        },
+      },
+      {
+        title: { fa: "عضویت ایران در بریکس", en: "Iran Joins BRICS" },
+        description: { fa: "ایران به همراه ۵ کشور دیگر به گروه بریکس پیوست", en: "Iran joins BRICS along with 5 other countries" },
+        details: {
+          fa: "ایران در ژانویه ۲۰۲۴ رسماً به عضویت گروه بریکس (برزیل، روسیه، هند، چین، آفریقای جنوبی) درآمد. عربستان سعودی، مصر، امارات و اتیوپی نیز به این گروه پیوستند. ایران این عضویت را دستاوردی دیپلماتیک خواند. هدف ایران دسترسی به سیستم‌های مالی جایگزین و کاهش وابستگی به دلار بود. اما تأثیر عملی بر اقتصاد ایران محدود ماند.",
+          en: "Iran officially joined BRICS (Brazil, Russia, India, China, South Africa) in January 2024. Saudi Arabia, Egypt, UAE, and Ethiopia also joined. Iran called this membership a diplomatic achievement. Iran's goal was access to alternative financial systems and reducing dollar dependency. However, the practical impact on Iran's economy remained limited.",
+        },
+      },
+      {
+        title: { fa: "بحران صنعت خودروسازی و گرانی خودرو", en: "Automotive Industry Crisis & Car Price Surge" },
+        description: { fa: "قیمت خودروهای داخلی به چندین برابر افزایش یافت", en: "Domestic car prices increase several times over" },
+        details: {
+          fa: "بحران صنعت خودروسازی ایران شدت گرفت. قیمت پراید از ۲۰ میلیون تومان در سال ۱۳۹۶ به بیش از ۳۰۰ میلیون تومان رسید. ایران خودرو و سایپا با زیان انباشته عظیم عمل می‌کردند و کیفیت خودروها پایین بود. مردم برای خرید خودرو ماه‌ها در صف ثبت‌نام می‌ایستادند. دولت طرح‌های مختلف قیمت‌گذاری ارائه کرد اما هیچ‌کدام مؤثر نبود.",
+          en: "Iran's automotive industry crisis intensified. The price of the Pride car rose from 20 million tomans in 2017 to over 300 million tomans. Iran Khodro and SAIPA operated with massive accumulated losses and car quality remained low. People waited months in registration queues to buy cars. The government presented various pricing schemes but none were effective.",
+        },
+      },
+      {
+        title: { fa: "تشدید قوانین حجاب و مقاومت مدنی زنان", en: "Stricter Hijab Laws & Women's Civil Resistance" },
+        description: { fa: "مجلس قانون سخت‌گیرانه‌تر حجاب تصویب کرد اما زنان مقاومت کردند", en: "Parliament passes stricter hijab law but women resist" },
+        details: {
+          fa: "مجلس لایحه «صیانت از عفاف و حجاب» را با مجازات‌های سنگین‌تر تصویب کرد. جریمه‌های نقدی، ممنوعیت خروج از کشور و زندان برای بدحجابی در نظر گرفته شد. اما بسیاری از زنان ایرانی به مقاومت مدنی ادامه دادند و بدون حجاب اجباری در فضاهای عمومی ظاهر شدند. این مقاومت مدنی یکی از بزرگ‌ترین چالش‌های اجتماعی حکومت بود.",
+          en: "Parliament passed the 'Chastity and Hijab Protection' bill with harsher penalties. Fines, travel bans, and imprisonment for improper hijab were stipulated. However, many Iranian women continued civil resistance and appeared in public spaces without forced hijab. This civil resistance was one of the government's biggest social challenges.",
         },
       }
     ],
@@ -7049,6 +9971,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۳۰ اردیبهشت ۱۴۰۳ (مه ۲۰۲۴) بالگرد حامل ابراهیم رئیسی رئیس‌جمهور و حسین امیرعبداللهیان وزیر خارجه در استان آذربایجان شرقی سقوط کرد و همه سرنشینان کشته شدند. انتخابات زودهنگام برگزار شد و مسعود پزشکیان، نامزد اصلاح‌طلب، رئیس‌جمهور شد. پزشکیان وعده بهبود روابط خارجی و احیای برجام داد.",
           en: "On May 19, 2024, a helicopter carrying President Ebrahim Raisi and Foreign Minister Hossein Amir-Abdollahian crashed in East Azerbaijan province, killing all aboard. Snap elections were held and Masoud Pezeshkian, a reformist candidate, became president. Pezeshkian promised to improve foreign relations and revive the JCPOA.",
         },
+      },
+      {
+        title: { fa: "انتخاب مسعود پزشکیان و وعده اصلاحات", en: "Masoud Pezeshkian Elected & Reform Promises" },
+        description: { fa: "پزشکیان با وعده تعامل با جهان و بهبود اقتصاد رئیس‌جمهور شد", en: "Pezeshkian wins presidency with promises of engagement and economic improvement" },
+        details: {
+          fa: "مسعود پزشکیان جراح قلب و نماینده تبریز در انتخابات زودهنگام تیرماه ۱۴۰۳ با حمایت اصلاح‌طلبان و میانه‌روها بر سعید جلیلی پیروز شد. او وعده بهبود روابط خارجی، احیای برجام و رفع تحریم‌ها داد. همچنین از آزادی‌های اجتماعی بیشتر و رفع محدودیت‌های اینترنت سخن گفت. اما ساختار قدرت در ایران محدودیت‌های جدی بر اختیارات رئیس‌جمهور تحمیل می‌کرد.",
+          en: "Masoud Pezeshkian, a heart surgeon and Tabriz MP, won the July 2024 snap election with reformist and moderate support, defeating Saeed Jalili. He promised to improve foreign relations, revive the JCPOA, and lift sanctions. He also spoke of greater social freedoms and removing internet restrictions. However, Iran's power structure imposed serious limitations on presidential authority.",
+        },
+      },
+      {
+        title: { fa: "عملیات وعده صادق ۲ - حمله موشکی مجدد به اسرائیل", en: "Operation True Promise 2 - Second Missile Attack on Israel" },
+        description: { fa: "ایران دومین حمله موشکی مستقیم به اسرائیل را انجام داد", en: "Iran carries out second direct missile attack on Israel" },
+        details: {
+          fa: "در مهر ۱۴۰۳ (اکتبر ۲۰۲۴) ایران عملیات «وعده صادق ۲» را در پاسخ به ترور اسماعیل هنیه در تهران و حسن نصرالله در بیروت اجرا کرد. بیش از ۱۸۰ موشک بالستیک به سمت اسرائیل شلیک شد. اسرائیل در پاسخ تأسیسات نظامی ایران را هدف قرار داد. منطقه در آستانه جنگ تمام‌عیار قرار گرفت. شورای امنیت نشست اضطراری برگزار کرد.",
+          en: "In October 2024, Iran launched 'Operation True Promise 2' in response to the assassinations of Ismail Haniyeh in Tehran and Hassan Nasrallah in Beirut. Over 180 ballistic missiles were fired at Israel. Israel retaliated by targeting Iranian military facilities. The region stood at the brink of all-out war. The Security Council held an emergency session.",
+        },
+      },
+      {
+        title: { fa: "نرخ دلار از ۷۰ هزار تومان گذشت", en: "Dollar Rate Exceeds 70,000 Tomans" },
+        description: { fa: "ارزش ریال به پایین‌ترین سطح تاریخ سقوط کرد", en: "Rial value falls to lowest level in history" },
+        details: {
+          fa: "نرخ دلار در بازار آزاد از ۷۰ هزار تومان عبور کرد و ارزش ریال به پایین‌ترین سطح تاریخ رسید. تنش‌های نظامی با اسرائیل، تحریم‌های جدید و بی‌ثباتی سیاسی دلایل اصلی بودند. قیمت مسکن در تهران از متری ۱۰۰ میلیون تومان گذشت. تورم سالانه بالای ۴۰ درصد بود. فقر و نابرابری اقتصادی به بالاترین سطح پس از انقلاب رسید.",
+          en: "The dollar rate in the free market exceeded 70,000 tomans and the rial reached its lowest value in history. Military tensions with Israel, new sanctions, and political instability were the main causes. Housing prices in Tehran exceeded 100 million tomans per square meter. Annual inflation was above 40%. Poverty and economic inequality reached their highest post-revolution levels.",
+        },
       }
     ],
     world: [
@@ -7134,6 +10080,30 @@ export const timelineData: TimelineEntry[] = [
           fa: "بحران آب در ایران به نقطه بحرانی رسید. دریاچه ارومیه، زاینده‌رود و تالاب‌های بختگان و هامون خشک شدند. فرونشست زمین در تهران و اصفهان تشدید شد. مهاجرت اقلیمی از روستاها افزایش یافت. کارشناسان هشدار دادند بدون مدیریت بهینه منابع آب، بخش‌هایی از ایران تا دهه‌های آینده غیرقابل سکونت خواهد شد.",
           en: "Iran's water crisis reached a critical point. Lake Urmia, Zayandeh-Rud, and Bakhtegan and Hamoun wetlands dried up. Land subsidence in Tehran and Isfahan intensified. Climate migration from villages increased. Experts warned that without optimal water resource management, parts of Iran would become uninhabitable within decades.",
         },
+      },
+      {
+        title: { fa: "مذاکرات مخفی هسته‌ای ایران و آمریکا در عمان", en: "Secret Iran-US Nuclear Talks in Oman" },
+        description: { fa: "مذاکرات غیرمستقیم هسته‌ای در مسقط با میانجیگری عمان", en: "Indirect nuclear talks in Muscat mediated by Oman" },
+        details: {
+          fa: "مذاکرات غیرمستقیم هسته‌ای بین ایران و دولت دوم ترامپ با میانجیگری عمان در مسقط ادامه یافت. ترامپ خواستار توافقی جامع‌تر شامل برنامه موشکی بود. ایران حاضر به مذاکره درباره موشک‌ها نبود. اما هر دو طرف از جنگ مستقیم پرهیز می‌کردند. اروپا و چین نیز تلاش‌های دیپلماتیک موازی انجام دادند. سرنوشت این مذاکرات بر کل منطقه تأثیرگذار بود.",
+          en: "Indirect nuclear talks between Iran and the second Trump administration continued in Muscat with Omani mediation. Trump wanted a broader deal including the missile program. Iran was unwilling to negotiate on missiles. But both sides avoided direct war. Europe and China also conducted parallel diplomatic efforts. The outcome of these talks had implications for the entire region.",
+        },
+      },
+      {
+        title: { fa: "تشدید بحران فرونشست زمین در تهران و اصفهان", en: "Land Subsidence Crisis Worsens in Tehran & Isfahan" },
+        description: { fa: "فرونشست زمین ساختمان‌ها و زیرساخت‌ها را تهدید کرد", en: "Land subsidence threatens buildings and infrastructure" },
+        details: {
+          fa: "بحران فرونشست زمین در تهران و اصفهان تشدید شد. برداشت بی‌رویه آب‌های زیرزمینی باعث نشست زمین تا ۳۶ سانتیمتر در سال شده بود. ترک‌های عمیق در ساختمان‌ها و جاده‌ها ظاهر شد. متروی تهران و سایر زیرساخت‌ها آسیب دیدند. کارشناسان هشدار دادند بدون اقدام فوری، بخش‌هایی از تهران در معرض خطر ریزش قرار دارد.",
+          en: "The land subsidence crisis in Tehran and Isfahan worsened. Excessive groundwater extraction had caused ground subsidence of up to 36 centimeters per year. Deep cracks appeared in buildings and roads. The Tehran metro and other infrastructure were damaged. Experts warned that without immediate action, parts of Tehran were at risk of collapse.",
+        },
+      },
+      {
+        title: { fa: "اعتراضات معلمان و بازنشستگان", en: "Teacher & Retiree Protests" },
+        description: { fa: "معلمان و بازنشستگان خواستار افزایش حقوق و همسان‌سازی شدند", en: "Teachers and retirees demand salary increases and equalization" },
+        details: {
+          fa: "اعتراضات معلمان و بازنشستگان در سراسر ایران ادامه یافت. معلمان خواستار اجرای رتبه‌بندی و افزایش حقوق شدند. بازنشستگان تأمین اجتماعی خواستار همسان‌سازی حقوق با شاغلان بودند. تجمعات اعتراضی در مقابل مجلس و وزارتخانه‌ها برگزار شد. چندین فعال صنفی بازداشت شدند. دولت پزشکیان وعده رسیدگی داد اما بودجه کافی نداشت.",
+          en: "Teacher and retiree protests continued across Iran. Teachers demanded implementation of ranking and salary increases. Social security retirees demanded salary equalization with active workers. Protest gatherings were held in front of parliament and ministries. Several union activists were arrested. Pezeshkian's government promised to address demands but lacked sufficient budget.",
+        },
       }
     ],
     world: [
@@ -7217,6 +10187,30 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "بحران اقتصادی ایران در سال ۲۰۲۶ ادامه داشت. تورم بالا، بیکاری جوانان و کاهش ارزش ریال زندگی مردم را سخت‌تر کرده بود. مهاجرت نخبگان، پزشکان، مهندسان و سرمایه‌داران شتاب گرفت. بر اساس آمار، سالانه بیش از ۱۰۰,۰۰۰ ایرانی تحصیل‌کرده مهاجرت می‌کردند. فرار سرمایه نیز تشدید شده بود و سرمایه‌گذاری داخلی کاهش یافته بود.",
           en: "Iran's economic crisis continued in 2026. High inflation, youth unemployment, and rial depreciation made life harder. Emigration of elites, doctors, engineers, and capital owners accelerated. According to statistics, over 100,000 educated Iranians emigrated annually. Capital flight had also intensified and domestic investment had declined.",
+        },
+      },
+      {
+        title: { fa: "تشدید درگیری نظامی ایران و اسرائیل", en: "Escalation of Iran-Israel Military Confrontation" },
+        description: { fa: "حملات نظامی متقابل ایران و اسرائیل ادامه یافت", en: "Reciprocal military strikes between Iran and Israel continue" },
+        details: {
+          fa: "درگیری نظامی ایران و اسرائیل در سال ۲۰۲۶ تشدید شد. اسرائیل حملاتی به تأسیسات نظامی و هسته‌ای ایران انجام داد. ایران نیز با موشک‌های بالستیک و پهپادها پاسخ داد. قیمت نفت به شدت افزایش یافت و بازارهای جهانی متزلزل شد. آمریکا و اروپا تلاش‌های دیپلماتیک برای جلوگیری از گسترش جنگ انجام دادند. خطر جنگ منطقه‌ای به بالاترین سطح رسید.",
+          en: "The Iran-Israel military confrontation escalated in 2026. Israel struck Iranian military and nuclear facilities. Iran responded with ballistic missiles and drones. Oil prices surged and global markets were rattled. The US and Europe undertook diplomatic efforts to prevent war escalation. The risk of regional war reached its highest level.",
+        },
+      },
+      {
+        title: { fa: "تحریم‌های جدید ترامپ علیه بخش‌های نفت و پتروشیمی", en: "New Trump Sanctions on Oil & Petrochemical Sectors" },
+        description: { fa: "ترامپ سخت‌ترین تحریم‌ها را علیه صادرات نفت و پتروشیمی ایران اعمال کرد", en: "Trump imposes harshest sanctions on Iran's oil and petrochemical exports" },
+        details: {
+          fa: "دولت دوم ترامپ سخت‌ترین تحریم‌ها را علیه بخش‌های نفت و پتروشیمی ایران اعمال کرد. خریداران نفت ایران از جمله چین تحت فشار قرار گرفتند. صادرات نفت ایران به شدت کاهش یافت. صنعت پتروشیمی نیز هدف تحریم‌ها قرار گرفت. درآمد ارزی ایران سقوط کرد و دولت با بحران بودجه‌ای جدی مواجه شد. کسری بودجه با چاپ پول پر شد که تورم را تشدید کرد.",
+          en: "The second Trump administration imposed the harshest sanctions on Iran's oil and petrochemical sectors. Buyers of Iranian oil including China came under pressure. Iran's oil exports dropped dramatically. The petrochemical industry was also targeted by sanctions. Iran's foreign exchange revenue plummeted and the government faced a serious budget crisis. Budget deficits were covered by money printing, which fueled inflation.",
+        },
+      },
+      {
+        title: { fa: "شتاب مهاجرت جوانان و نخبگان", en: "Accelerating Youth & Elite Emigration" },
+        description: { fa: "موج جدید مهاجرت جوانان و متخصصان ایرانی", en: "New wave of Iranian youth and professional emigration" },
+        details: {
+          fa: "مهاجرت جوانان و نخبگان ایرانی در سال ۲۰۲۶ شتاب بیشتری گرفت. بر اساس آمار غیررسمی، سالانه بیش از ۱۵۰ هزار ایرانی تحصیلکرده مهاجرت می‌کردند. پزشکان، مهندسان، اساتید دانشگاه و کارآفرینان در صدر مهاجران بودند. ترکیه، امارات، کانادا و آلمان مقاصد اصلی بودند. فرار مغزها و سرمایه‌ها تهدید جدی برای آینده توسعه ایران شد.",
+          en: "Emigration of Iranian youth and elites accelerated further in 2026. According to unofficial statistics, over 150,000 educated Iranians emigrated annually. Doctors, engineers, university professors, and entrepreneurs topped the emigrant list. Turkey, UAE, Canada, and Germany were the main destinations. Brain and capital drain became a serious threat to Iran's development future.",
         },
       }
     ],
