@@ -31,6 +31,10 @@ const countryLeaderMap: Record<Country, Leader[]> = {
   france: franceLeaders,
   russia: russiaLeaders,
   china: chinaLeaders,
+  japan: [],
+  south_korea: [],
+  iraq: [],
+  turkey: [],
   world: [],
 };
 
@@ -487,8 +491,9 @@ function EventCard({
 export default function Timeline() {
   const [lang, setLang] = useState<Language>("fa");
   const [selectedCountries, setSelectedCountries] = useState<Set<Country>>(
-    new Set(["usa", "uk", "germany", "france", "russia", "china", "world"])
+    new Set(["usa", "uk", "germany", "france", "russia", "china", "japan", "south_korea", "iraq", "turkey", "world"])
   );
+  const [newestFirst, setNewestFirst] = useState(true);
 
   const toggleCountry = (country: Country) => {
     setSelectedCountries((prev) => {
@@ -503,17 +508,15 @@ export default function Timeline() {
   };
 
   const filteredData = useMemo(() => {
-    return timelineData
-      .filter((entry) => {
-        const hasIran = !!entry.iran && entry.iran.length > 0;
-        const hasWorld = entry.world?.some((e) =>
-          selectedCountries.has(e.country)
-        );
-        return hasIran || hasWorld;
-      })
-      .slice()
-      .reverse();
-  }, [selectedCountries]);
+    const filtered = timelineData.filter((entry) => {
+      const hasIran = !!entry.iran && entry.iran.length > 0;
+      const hasWorld = entry.world?.some((e) =>
+        selectedCountries.has(e.country)
+      );
+      return hasIran || hasWorld;
+    });
+    return newestFirst ? filtered.reverse() : filtered;
+  }, [selectedCountries, newestFirst]);
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950" dir="ltr">
@@ -559,6 +562,17 @@ export default function Timeline() {
                 English
               </button>
             </div>
+
+            {/* Sort Order Toggle */}
+            <button
+              onClick={() => setNewestFirst((prev) => !prev)}
+              className="flex items-center gap-1 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 transition-colors hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
+            >
+              {newestFirst ? "↓ " : "↑ "}
+              {lang === "fa"
+                ? newestFirst ? "جدید به قدیم" : "قدیم به جدید"
+                : newestFirst ? "New → Old" : "Old → New"}
+            </button>
 
             {/* Country Filters */}
             <div className="flex flex-wrap gap-1.5">

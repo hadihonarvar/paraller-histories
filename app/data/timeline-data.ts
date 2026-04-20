@@ -1,4 +1,4 @@
-export type Country = "usa" | "uk" | "germany" | "france" | "russia" | "china" | "world";
+export type Country = "usa" | "uk" | "germany" | "france" | "russia" | "china" | "japan" | "south_korea" | "iraq" | "turkey" | "world";
 
 export interface LocalizedText {
   fa: string;
@@ -64,6 +64,10 @@ export const countryInfo: Record<Country, { flag: string; name: LocalizedText }>
   france: { flag: "🇫🇷", name: { fa: "فرانسه", en: "France" } },
   russia: { flag: "🇷🇺", name: { fa: "روسیه", en: "Russia" } },
   china: { flag: "🇨🇳", name: { fa: "چین", en: "China" } },
+  japan: { flag: "🇯🇵", name: { fa: "ژاپن", en: "Japan" } },
+  south_korea: { flag: "🇰🇷", name: { fa: "کره جنوبی", en: "South Korea" } },
+  iraq: { flag: "🇮🇶", name: { fa: "عراق", en: "Iraq" } },
+  turkey: { flag: "🇹🇷", name: { fa: "ترکیه", en: "Turkey" } },
   world: { flag: "🌍", name: { fa: "جهان", en: "World" } },
 };
 
@@ -1174,7 +1178,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Henry Ford introduced the Model T, the first affordable car for the middle class. Ford's assembly line revolutionized industrial production, reducing the car's price from $850 to $260. Over 15 million units were sold by 1927.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "انقلاب ترک‌های جوان و تأثیر آن بر عراق", en: "Young Turks Revolution & Its Impact on Iraq" },
+        description: { fa: "انقلاب ترک‌های جوان امید اصلاحات در ولایات عراقی عثمانی ایجاد کرد", en: "Young Turks revolution raises hopes for reform in Ottoman Iraqi provinces" },
+        details: {
+          fa: "انقلاب ترک‌های جوان در ۱۹۰۸ قانون اساسی عثمانی را احیا کرد و امید به آزادی و اصلاحات در ولایات عربی از جمله بغداد، بصره و موصل ایجاد نمود. روشنفکران عراقی در فعالیت‌های سیاسی مشارکت بیشتری یافتند اما سیاست‌های ترکی‌سازی ترک‌های جوان به زودی مخالفت عرب‌ها را برانگیخت و جنبش‌های ناسیونالیستی عربی تقویت شد.",
+          en: "The Young Turks revolution of 1908 restored the Ottoman constitution and raised hopes for freedom and reform in Arab provinces including Baghdad, Basra, and Mosul. Iraqi intellectuals became more politically active, but the Young Turks' Turkification policies soon provoked Arab opposition and strengthened Arab nationalist movements.",
+        },
+      },],
   },
   {
     year: 1909,
@@ -1292,6 +1305,17 @@ export const timelineData: TimelineEntry[] = [
         en: "The Second Majles decided to create a national gendarmerie force to address the growing insecurity in the country. This force was to be organized with the help of Swedish advisors and would secure roads and rural areas. However, budget shortages and opposition from Russia and Britain, who did not want Iran to have an independent and effective military force, hindered rapid progress on this plan.",
       },
     }],
+    world: [
+      {
+        country: "south_korea",
+        title: { fa: "الحاق کره به ژاپن", en: "Korea Annexed by Japan" },
+        description: { fa: "کره رسماً مستعمره ژاپن شد و استقلال خود را از دست داد", en: "Korea formally becomes a Japanese colony, losing sovereignty" },
+        details: {
+          fa: "در سال ۱۹۱۰ ژاپن با پیمان الحاق، شبه‌جزیره کره را رسماً ضمیمه امپراتوری خود کرد و سلسله پادشاهی چوسان را منحل نمود. این الحاق پایان بیش از پانصد سال حاکمیت مستقل کره بود. ژاپن سیاست‌های استعماری شدیدی شامل سرکوب زبان و فرهنگ کره‌ای، مصادره زمین‌ها و بهره‌کشی اقتصادی را اعمال کرد. دوره استعمار ژاپن تا ۱۹۴۵ ادامه یافت.",
+          en: "In 1910, Japan formally annexed the Korean Peninsula through the Japan-Korea Annexation Treaty, dissolving the Joseon dynasty. This ended over five centuries of Korean sovereignty. Japan imposed harsh colonial policies including suppression of the Korean language and culture, land confiscation, and economic exploitation. Japanese colonial rule lasted until 1945.",
+        },
+      },
+    ],
   },
   {
     year: 1911,
@@ -1511,7 +1535,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Russia mobilized 12 million troops but suffered a catastrophic defeat at Tannenberg, losing 30,000 killed and 90,000 captured. The war economy collapsed, famine spread, and public discontent set the stage for the 1917 Revolution. World War I directly led to the fall of the Romanov dynasty and the rise of the Bolsheviks.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "اشغال بصره توسط بریتانیا", en: "British Occupation of Basra" },
+        description: { fa: "نیروهای بریتانیا در آغاز جنگ جهانی اول بصره را اشغال کردند", en: "British forces occupy Basra at the start of World War I" },
+        details: {
+          fa: "در نوامبر ۱۹۱۴ با ورود امپراتوری عثمانی به جنگ جهانی اول در کنار آلمان، نیروهای بریتانیا از هند به خلیج فارس حمله کردند و بصره را اشغال نمودند. هدف اصلی بریتانیا حفاظت از منافع نفتی و مسیرهای دریایی به هند بود. این اشغال آغاز حضور نظامی طولانی‌مدت بریتانیا در عراق شد.",
+          en: "In November 1914, as the Ottoman Empire entered World War I on Germany's side, British forces from India attacked the Persian Gulf and occupied Basra. Britain's main goal was protecting oil interests and sea routes to India. This occupation marked the beginning of Britain's long military presence in Iraq.",
+        },
+      },],
   },
   {
     year: 1917,
@@ -1589,7 +1622,16 @@ export const timelineData: TimelineEntry[] = [
           en: "British Foreign Secretary Lord Balfour declared in a letter to Lord Rothschild that Britain favored establishing a 'national home for the Jewish people' in Palestine. This declaration became the legal basis for Jewish immigration to Palestine and remains one of the root causes of the Middle East crisis to this day.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "سقوط بغداد به دست بریتانیا", en: "Fall of Baghdad to Britain" },
+        description: { fa: "ارتش بریتانیا بغداد را از عثمانی‌ها تصرف کرد", en: "British army captures Baghdad from the Ottomans" },
+        details: {
+          fa: "در ۱۱ مارس ۱۹۱۷ نیروهای بریتانیا به فرماندهی ژنرال مود بغداد را تصرف کردند و ژنرال مود اعلامیه معروف خود را صادر کرد: «ما به عنوان آزادکننده آمده‌ایم نه فاتح.» اما واقعیت حکومت استعماری بود. بریتانیا تا ۱۹۲۰ تمام عراق امروزی را تحت کنترل خود درآورد.",
+          en: "On March 11, 1917, British forces under General Maude captured Baghdad, and Maude issued his famous proclamation: 'We come as liberators, not conquerors.' But the reality was colonial rule. By 1920, Britain controlled all of modern-day Iraq.",
+        },
+      },],
   },
   {
     year: 1918,
@@ -1817,7 +1859,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The Russian Civil War was nearing its end with the Red Army's victory over White forces. Lenin's 'War Communism' policy included confiscation of agricultural products and nationalization of industries. Famine caused by war and economic policies killed 5 to 10 million people.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "انقلاب ۱۹۲۰ عراق علیه بریتانیا", en: "Iraqi Revolt of 1920 Against Britain" },
+        description: { fa: "قبایل و مردم عراق علیه حکومت استعماری بریتانیا قیام کردند", en: "Iraqi tribes and people revolt against British colonial rule" },
+        details: {
+          fa: "در تابستان ۱۹۲۰ قیام گسترده‌ای علیه اشغال بریتانیا در سراسر عراق آغاز شد. قبایل شیعه و سنی متحد شدند و بخش‌های وسیعی از جنوب و مرکز عراق را آزاد کردند. بریتانیا با استفاده از نیروی هوایی و تقویت نظامی قیام را سرکوب کرد. بیش از ده هزار عراقی کشته شدند. این قیام بریتانیا را مجبور کرد به جای حکومت مستقیم، سلطنت دست‌نشانده تأسیس کند.",
+          en: "In the summer of 1920, a widespread revolt against British occupation erupted across Iraq. Shia and Sunni tribes united and liberated large areas of southern and central Iraq. Britain suppressed the revolt using air power and military reinforcements. Over ten thousand Iraqis were killed. This revolt forced Britain to establish a client monarchy instead of direct rule.",
+        },
+      },],
   },
 
   {
@@ -1896,7 +1947,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Lenin, after the failure of War Communism and widespread famine, announced the New Economic Policy (NEP). This policy allowed limited private trade and free sale of agricultural products. NEP partially revived the Soviet economy, but Stalin abolished it in 1928 and replaced it with a planned economy.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "تأسیس پادشاهی عراق تحت قیمومت بریتانیا", en: "Establishment of Iraqi Monarchy Under British Mandate" },
+        description: { fa: "فیصل اول با حمایت بریتانیا پادشاه عراق شد", en: "Faisal I becomes King of Iraq with British support" },
+        details: {
+          fa: "در کنفرانس قاهره ۱۹۲۱ وینستون چرچیل تصمیم گرفت فیصل بن حسین، پسر شریف مکه، را بر تخت پادشاهی عراق بنشاند. فیصل در یک همه‌پرسی نمایشی با ۹۶ درصد آرا پادشاه شد. عراق تحت قیمومت جامعه ملل و عملاً تحت کنترل بریتانیا قرار داشت. این آغاز پادشاهی هاشمی عراق بود که تا ۱۹۵۸ ادامه یافت.",
+          en: "At the 1921 Cairo Conference, Winston Churchill decided to place Faisal bin Hussein, son of the Sharif of Mecca, on the Iraqi throne. Faisal became king in a staged referendum with 96% of votes. Iraq was under a League of Nations mandate and effectively under British control. This began the Hashemite monarchy that lasted until 1958.",
+        },
+      },],
   },
   {
     year: 1922,
@@ -2190,6 +2250,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Reza Shah initiated an industrialization policy, establishing state-owned enterprises to produce consumer goods. Textile, sugar, and match factories were among Iran's first modern industries. The goal was to reduce imports and create employment. This import-substitution policy, though in its early stages, laid the foundation for Iran's modern industry. The private sector was also encouraged to invest in manufacturing.",
       },
     }],
+    world: [
+      {
+        country: "iraq",
+        title: { fa: "کشف نفت کرکوک", en: "Discovery of Oil in Kirkuk" },
+        description: { fa: "نفت در بابا گرگر کرکوک کشف شد و سرنوشت عراق را تغییر داد", en: "Oil discovered at Baba Gurgur in Kirkuk, changing Iraq's destiny" },
+        details: {
+          fa: "در ۱۴ اکتبر ۱۹۲۷ چاه نفت بابا گرگر در نزدیکی کرکوک فوران کرد و یکی از بزرگ‌ترین ذخایر نفتی جهان کشف شد. شرکت نفت ترکیه (بعداً شرکت نفت عراق) که متعلق به کنسرسیوم بریتانیایی-آمریکایی-فرانسوی بود، امتیاز بهره‌برداری را در اختیار داشت. کشف نفت عراق را به یکی از مهم‌ترین کشورهای نفت‌خیز جهان تبدیل کرد.",
+          en: "On October 14, 1927, the Baba Gurgur oil well near Kirkuk gushed, revealing one of the world's largest oil reserves. The Turkish Petroleum Company (later Iraq Petroleum Company), owned by a British-American-French consortium, held the exploitation concession. The discovery transformed Iraq into one of the world's most important oil-producing countries.",
+        },
+      },
+    ],
   },
   {
     year: 1928,
@@ -2440,6 +2511,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Reza Shah's government monopolized the trade and sale of essential commodities including tea, sugar, tobacco, and cotton. Revenue from these monopolies funded industrial projects and railway construction. Traditional bazaar merchants who had previously been active in trading these goods were harmed, and their dissatisfaction grew. While these policies increased government revenue, they weakened the private sector.",
       },
     }],
+    world: [
+      {
+        country: "iraq",
+        title: { fa: "استقلال رسمی عراق", en: "Formal Independence of Iraq" },
+        description: { fa: "عراق به عضویت جامعه ملل پذیرفته شد و رسماً مستقل اعلام گردید", en: "Iraq admitted to League of Nations, formally declared independent" },
+        details: {
+          fa: "در ۳ اکتبر ۱۹۳۲ عراق به عنوان عضو مستقل به جامعه ملل پذیرفته شد و قیمومت بریتانیا رسماً پایان یافت. اما بریتانیا همچنان پایگاه‌های نظامی و نفوذ سیاسی قابل توجهی در عراق حفظ کرد. ملک فیصل اول پادشاه بود اما یک سال بعد درگذشت و پسرش غازی جانشین او شد.",
+          en: "On October 3, 1932, Iraq was admitted to the League of Nations as an independent member and the British mandate formally ended. However, Britain maintained military bases and significant political influence in Iraq. King Faisal I was the monarch but died a year later and was succeeded by his son Ghazi.",
+        },
+      },
+    ],
   },
   {
     year: 1933,
@@ -2522,7 +2604,16 @@ export const timelineData: TimelineEntry[] = [
           en: "China's Red Army, under pressure from Chiang Kai-shek's Nationalists, was forced into the historic Long March. 100,000 people began the 12,000 km journey but only 8,000 arrived. Mao consolidated his leadership of the Communist Party during this march.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "کشتار آشوری‌ها در سمیل", en: "Simele Massacre of Assyrians" },
+        description: { fa: "ارتش عراق آشوری‌های مسیحی را در شمال عراق قتل‌عام کرد", en: "Iraqi army massacres Assyrian Christians in northern Iraq" },
+        details: {
+          fa: "در اوت ۱۹۳۳ ارتش عراق به فرماندهی ژنرال بکر صدقی آشوری‌های مسیحی را در منطقه سمیل و روستاهای اطراف قتل‌عام کرد. صدها تا سه هزار غیرنظامی کشته شدند. این کشتار واکنش به درخواست خودمختاری آشوری‌ها بود. رافائل لمکین از این واقعه به عنوان یکی از نمونه‌هایی که او را به تعریف «نسل‌کشی» رساند نام برده است.",
+          en: "In August 1933, the Iraqi army under General Bakr Sidqi massacred Assyrian Christians in the Simele region and surrounding villages. Hundreds to three thousand civilians were killed. The massacre was a response to Assyrian demands for autonomy. Raphael Lemkin cited this event as one of the examples that led him to define 'genocide.'",
+        },
+      },],
   },
   {
     year: 1934,
@@ -2721,7 +2812,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The Popular Front coalition led by Léon Blum won the elections. Blum became France's first Jewish prime minister. The new government passed the 40-hour work week, paid vacations, and the right to strike. But economic crisis and right-wing opposition brought down the Popular Front in 1938.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "اولین کودتای نظامی در تاریخ عراق", en: "First Military Coup in Iraqi History" },
+        description: { fa: "ژنرال بکر صدقی اولین کودتای نظامی جهان عرب را انجام داد", en: "General Bakr Sidqi stages the first military coup in the Arab world" },
+        details: {
+          fa: "در ۲۹ اکتبر ۱۹۳۶ ژنرال بکر صدقی اولین کودتای نظامی در تاریخ عراق و جهان عرب را انجام داد. او حکومت یاسین الهاشمی را سرنگون کرد و حکمت سلیمان را به نخست‌وزیری نشاند. این کودتا الگویی برای کودتاهای نظامی متعدد آینده در عراق و جهان عرب شد.",
+          en: "On October 29, 1936, General Bakr Sidqi staged the first military coup in Iraqi and Arab world history. He overthrew the government of Yasin al-Hashimi and installed Hikmat Sulayman as prime minister. This coup became a model for numerous future military coups in Iraq and the Arab world.",
+        },
+      },],
   },
   {
     year: 1937,
@@ -3058,7 +3158,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Operation Barbarossa caught the USSR off guard. Stalin, despite intelligence warnings, was unprepared. In the first months, 3 million Soviet soldiers were captured. The German army advanced to the gates of Moscow but the Soviet winter counterattack in December 1941 stopped them. The USSR ultimately lost 27 million people in the war.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "کودتای رشید عالی گیلانی و حمله بریتانیا", en: "Rashid Ali Coup & British Intervention" },
+        description: { fa: "کودتای ملی‌گرایانه عراقی توسط بریتانیا سرکوب شد", en: "Iraqi nationalist coup suppressed by British military intervention" },
+        details: {
+          fa: "در آوریل ۱۹۴۱ رشید عالی گیلانی با حمایت افسران ملی‌گرا (جنبش مربع طلایی) کودتا کرد و حکومت طرفدار بریتانیا را سرنگون نمود. رشید عالی با آلمان نازی تماس گرفت اما بریتانیا سریعاً وارد عمل شد و طی جنگ کوتاه عراق را دوباره اشغال کرد. فرهود (آشوب ضد یهودی) در بغداد رخ داد و بیش از ۱۸۰ یهودی کشته شدند.",
+          en: "In April 1941, Rashid Ali al-Gaylani, backed by nationalist officers (the Golden Square movement), staged a coup and overthrew the pro-British government. Rashid Ali contacted Nazi Germany, but Britain quickly intervened and reoccupied Iraq in a brief war. The Farhud (anti-Jewish pogrom) occurred in Baghdad, killing over 180 Jews.",
+        },
+      },],
   },
   {
     year: 1942,
@@ -3344,7 +3453,16 @@ export const timelineData: TimelineEntry[] = [
           en: "D-Day on June 6, 1944 launched the liberation, and Paris was freed in August 1944. Charles de Gaulle headed the provisional government and became France's national hero. The liberation restored national pride, but France faced widespread destruction and painful reckoning with Nazi collaboration.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "آزادی کره از استعمار ژاپن و تقسیم شبه‌جزیره", en: "Korea Liberated from Japan, Peninsula Divided" },
+        description: { fa: "کره از استعمار ژاپن آزاد شد اما در مدار ۳۸ درجه تقسیم گردید", en: "Korea freed from Japanese rule but divided at the 38th parallel" },
+        details: {
+          fa: "با تسلیم ژاپن در اوت ۱۹۴۵، شبه‌جزیره کره پس از ۳۵ سال از استعمار آزاد شد. اما آمریکا و شوروی توافق کردند کره را در مدار ۳۸ درجه شمالی تقسیم کنند: شمال تحت اشغال شوروی و جنوب تحت اشغال آمریکا. این تقسیم که قرار بود موقت باشد، به جدایی دائمی شبه‌جزیره انجامید و زمینه‌ساز جنگ کره شد.",
+          en: "With Japan's surrender in August 1945, the Korean Peninsula was liberated after 35 years of colonial rule. However, the US and Soviet Union agreed to divide Korea at the 38th parallel: the north under Soviet occupation and the south under American occupation. This division, intended to be temporary, led to the permanent separation of the peninsula and set the stage for the Korean War.",
+        },
+      },],
   },
   {
     year: 1946,
@@ -3563,7 +3681,25 @@ export const timelineData: TimelineEntry[] = [
           en: "Clement Attlee's Labour government founded the National Health Service (NHS) on July 5, 1948. For the first time in British history, free healthcare was available to all citizens. The NHS became a symbol of Britain's welfare state and remains one of Britain's most beloved institutions to this day.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "تأسیس جمهوری کره", en: "Republic of Korea Founded" },
+        description: { fa: "کره جنوبی رسماً به عنوان جمهوری کره اعلام موجودیت کرد", en: "South Korea officially established as the Republic of Korea" },
+        details: {
+          fa: "در ۱۵ اوت ۱۹۴۸ جمهوری کره (کره جنوبی) با ریاست‌جمهوری لی سونگ‌مان رسماً تأسیس شد. انتخابات تحت نظارت سازمان ملل در جنوب برگزار شد اما شمال از شرکت امتناع کرد. شمال نیز جمهوری دموکراتیک خلق کره را تحت رهبری کیم ایل‌سونگ اعلام نمود. تقسیم رسمی شبه‌جزیره بدین ترتیب نهادینه شد.",
+          en: "On August 15, 1948, the Republic of Korea (South Korea) was officially established with Syngman Rhee as president. Elections were held in the south under UN supervision, but the north refused to participate. The north declared the Democratic People's Republic of Korea under Kim Il-sung. The formal division of the Korean Peninsula was thus institutionalized.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "وثبه: قیام مردمی علیه پیمان پورتسموث", en: "Al-Wathbah: Popular Uprising Against Portsmouth Treaty" },
+        description: { fa: "اعتراضات خیابانی مردم عراق پیمان نظامی جدید با بریتانیا را لغو کرد", en: "Iraqi street protests cancel new military treaty with Britain" },
+        details: {
+          fa: "در ژانویه ۱۹۴۸ مردم عراق در اعتراض به پیمان پورتسموث که نفوذ نظامی بریتانیا را تمدید می‌کرد به خیابان‌ها ریختند. پلیس به تظاهرکنندگان شلیک کرد و ده‌ها نفر کشته شدند. فشار مردمی حکومت را مجبور به لغو پیمان کرد. این قیام نشان‌دهنده رشد ناسیونالیسم عراقی و مخالفت با نفوذ استعماری بود.",
+          en: "In January 1948, Iraqis took to the streets protesting the Portsmouth Treaty that would extend British military influence. Police fired on demonstrators, killing dozens. Popular pressure forced the government to cancel the treaty. This uprising demonstrated the growth of Iraqi nationalism and opposition to colonial influence.",
+        },
+      },],
   },
 
   {
@@ -3711,7 +3847,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Senator Joseph McCarthy claimed 205 communists had infiltrated the State Department. An anti-communist witch hunt began. Thousands were fired from government jobs, Hollywood, and universities. Free speech was curtailed and an atmosphere of fear and suspicion gripped America.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "آغاز جنگ کره", en: "Korean War Begins" },
+        description: { fa: "کره شمالی به کره جنوبی حمله کرد و جنگ خونین سه‌ساله آغاز شد", en: "North Korea invades South Korea, beginning a devastating three-year war" },
+        details: {
+          fa: "در ۲۵ ژوئن ۱۹۵۰ ارتش کره شمالی با حمایت شوروی و چین از مدار ۳۸ درجه گذشت و به کره جنوبی حمله کرد. سئول در سه روز سقوط کرد. آمریکا و متحدانش تحت پرچم سازمان ملل وارد جنگ شدند. جنگ کره اولین درگیری نظامی مستقیم جنگ سرد بود و تا ۱۹۵۳ ادامه یافت. بیش از سه میلیون نفر کشته شدند و شبه‌جزیره ویران گردید.",
+          en: "On June 25, 1950, the North Korean army, backed by the Soviet Union and China, crossed the 38th parallel and invaded South Korea. Seoul fell within three days. The US and allies entered the war under the UN flag. The Korean War was the first direct military conflict of the Cold War and lasted until 1953. Over three million people were killed and the peninsula was devastated.",
+        },
+      },],
   },
 
   {
@@ -3912,7 +4057,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Joseph Stalin died on March 5, 1953. A power struggle between Khrushchev, Beria, and Malenkov began. Khrushchev eventually prevailed and in 1956 at the 20th Party Congress, exposed Stalin's crimes. Millions of Gulag prisoners were freed and the 'Khrushchev Thaw' began.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "آتش‌بس جنگ کره", en: "Korean War Armistice Signed" },
+        description: { fa: "پس از سه سال جنگ، آتش‌بس امضا شد اما پیمان صلح هرگز منعقد نگردید", en: "After three years of war, armistice signed but peace treaty never concluded" },
+        details: {
+          fa: "در ۲۷ ژوئیه ۱۹۵۳ موافقت‌نامه آتش‌بس در پانمونجوم امضا شد و جنگ کره متوقف گردید. مرز جدید تقریباً همان مدار ۳۸ درجه بود و منطقه غیرنظامی ایجاد شد. هیچ پیمان صلحی امضا نشد و دو کره از نظر فنی همچنان در حالت جنگ باقی ماندند. جنگ بیش از سه میلیون کشته بر جای گذاشت.",
+          en: "On July 27, 1953, the armistice agreement was signed at Panmunjom, halting the Korean War. The new border was roughly the same 38th parallel, and a demilitarized zone was established. No peace treaty was ever signed, and the two Koreas technically remained in a state of war. The war left over three million dead.",
+        },
+      },],
   },
   {
     year: 1954,
@@ -4001,6 +4155,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Iran's oil revenue gradually increased after the consortium agreement, exceeding $90 million in 1955. This revenue constituted the main source of the government budget and development plan. Iran's economy slowly entered a boom period and construction in cities increased. However, the budget's dependence on oil revenue created a long-term structural risk.",
       },
     }],
+    world: [
+      {
+        country: "iraq",
+        title: { fa: "پیمان بغداد", en: "Baghdad Pact" },
+        description: { fa: "عراق به پیمان نظامی غربی پیوست و مخالفت‌های داخلی شدت گرفت", en: "Iraq joins Western military alliance, sparking domestic opposition" },
+        details: {
+          fa: "در ۱۹۵۵ عراق پیمان بغداد (سنتو) را با ترکیه، ایران، پاکستان و بریتانیا امضا کرد. این پیمان دفاعی ضدشوروی بود و آمریکا نیز از آن حمایت می‌کرد. نوری سعید نخست‌وزیر عراق معمار اصلی این پیمان بود. پیمان بغداد مخالفت شدید ناصر رئیس‌جمهور مصر و ناسیونالیست‌های عربی را برانگیخت و یکی از دلایل کودتای ۱۹۵۸ بود.",
+          en: "In 1955, Iraq signed the Baghdad Pact (CENTO) with Turkey, Iran, Pakistan, and Britain. This anti-Soviet defense alliance was also supported by the US. Iraqi Prime Minister Nuri al-Said was the pact's main architect. The Baghdad Pact provoked fierce opposition from Egypt's President Nasser and Arab nationalists and was one of the causes of the 1958 coup.",
+        },
+      },
+    ],
   },
   {
     year: 1956,
@@ -4219,7 +4384,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Mao launched the 'Great Leap Forward' for rapid Chinese industrialization. Peasants were forced to work in backyard steel furnaces. Collective farming was catastrophic and created a massive famine that is estimated to have killed 15 to 55 million people. This was the largest man-made famine in human history.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "انقلاب ۱۴ تموز - سقوط سلطنت عراق", en: "July 14 Revolution - Fall of Iraqi Monarchy" },
+        description: { fa: "کودتای نظامی سلطنت هاشمی را سرنگون و جمهوری عراق را تأسیس کرد", en: "Military coup overthrows Hashemite monarchy, establishes Republic of Iraq" },
+        details: {
+          fa: "در ۱۴ ژوئیه ۱۹۵۸ عبدالکریم قاسم و عبدالسلام عارف با کودتای نظامی سلطنت هاشمی عراق را سرنگون کردند. ملک فیصل دوم و خانواده سلطنتی کشته شدند. نوری سعید نخست‌وزیر در حال فرار شناسایی و کشته شد. جمهوری عراق اعلام شد. این انقلاب تأثیر عمیقی بر کل منطقه خاورمیانه گذاشت و شاه ایران را به شدت نگران کرد.",
+          en: "On July 14, 1958, Abdul Karim Qasim and Abdul Salam Arif overthrew the Hashemite monarchy in a military coup. King Faisal II and the royal family were killed. Prime Minister Nuri al-Said was identified and killed while fleeing. The Republic of Iraq was proclaimed. This revolution profoundly impacted the entire Middle East and deeply alarmed the Shah of Iran.",
+        },
+      },],
   },
   {
     year: 1960,
@@ -4292,7 +4466,16 @@ export const timelineData: TimelineEntry[] = [
           en: "France conducted its first nuclear test in February 1960 in the Algerian Sahara, becoming the world's fourth nuclear power. De Gaulle used nuclear weapons as a symbol of French independence from NATO and the US. France's nuclear 'force de frappe' became the foundation of its strategic independence.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "انقلاب آوریل - سقوط لی سونگ‌مان", en: "April Revolution - Syngman Rhee Ousted" },
+        description: { fa: "قیام دانشجویان حکومت اقتدارگرای لی سونگ‌مان را سرنگون کرد", en: "Student uprising overthrows Syngman Rhee's authoritarian government" },
+        details: {
+          fa: "در آوریل ۱۹۶۰ دانشجویان کره جنوبی در اعتراض به تقلب در انتخابات و حکومت اقتدارگرای لی سونگ‌مان قیام کردند. پلیس به تظاهرکنندگان شلیک کرد و صدها نفر کشته شدند. فشار مردمی لی سونگ‌مان را مجبور به استعفا و تبعید به هاوایی کرد. این انقلاب نشان‌دهنده خواست مردم کره جنوبی برای دموکراسی بود.",
+          en: "In April 1960, South Korean students rose up against election fraud and Syngman Rhee's authoritarian rule. Police fired on demonstrators, killing hundreds. Popular pressure forced Rhee to resign and go into exile in Hawaii. This revolution demonstrated the Korean people's desire for democracy.",
+        },
+      },],
   },
 
   {
@@ -4339,6 +4522,26 @@ export const timelineData: TimelineEntry[] = [
       },
     },
     ],
+    world: [
+      {
+        country: "south_korea",
+        title: { fa: "کودتای نظامی پارک چونگ‌هی", en: "Park Chung-hee Military Coup" },
+        description: { fa: "ژنرال پارک چونگ‌هی با کودتا قدرت را به دست گرفت", en: "General Park Chung-hee seizes power through military coup" },
+        details: {
+          fa: "در ۱۶ مه ۱۹۶۱ ژنرال پارک چونگ‌هی با کودتای نظامی حکومت دموکراتیک کوتاه‌مدت کره جنوبی را سرنگون کرد. پارک دولت نظامی تشکیل داد و سیاست صنعتی‌سازی سریع را آغاز نمود. او تا ۱۹۷۹ بر کره جنوبی حکومت کرد و کشور را از یکی از فقیرترین کشورهای جهان به قدرت صنعتی تبدیل نمود، هرچند با سرکوب آزادی‌های سیاسی.",
+          en: "On May 16, 1961, General Park Chung-hee overthrew South Korea's short-lived democratic government through a military coup. Park formed a military government and launched a policy of rapid industrialization. He ruled until 1979, transforming the country from one of the world's poorest into an emerging industrial power, though with severe suppression of political freedoms.",
+        },
+      },
+    
+      {
+        country: "iraq",
+        title: { fa: "آغاز جنگ کردستان عراق", en: "Start of the Iraqi Kurdish War" },
+        description: { fa: "ملا مصطفی بارزانی قیام مسلحانه کردها علیه حکومت مرکزی را آغاز کرد", en: "Mulla Mustafa Barzani launches Kurdish armed revolt against central government" },
+        details: {
+          fa: "در سپتامبر ۱۹۶۱ ملا مصطفی بارزانی رهبر حزب دموکرات کردستان عراق قیام مسلحانه علیه حکومت عبدالکریم قاسم را آغاز کرد. کردها خواستار خودمختاری بودند. این آغاز جنگ‌های کردی بود که با وقفه‌هایی تا دهه‌ها ادامه یافت. حکومت مرکزی بارها مناطق کردنشین را بمباران کرد اما نتوانست شورش را به طور کامل سرکوب کند.",
+          en: "In September 1961, Mulla Mustafa Barzani, leader of the Kurdistan Democratic Party, launched an armed revolt against Abdul Karim Qasim's government. The Kurds demanded autonomy. This began the Kurdish wars that continued intermittently for decades. The central government repeatedly bombed Kurdish areas but could not fully suppress the insurgency.",
+        },
+      },],
   },
   {
     year: 1962,
@@ -4458,14 +4661,6 @@ export const timelineData: TimelineEntry[] = [
         en: "The Literacy Corps was established as one of the White Revolution's principles, sending educated youth to villages instead of military service to teach reading and writing. Iran's literacy rate at the time was below thirty percent. The Literacy Corps managed to make millions literate and was one of the most successful social programs of the Pahlavi era.",
       },
     },
-    {
-      title: { fa: "کودتای بعثی‌ها در عراق و قتل عبدالکریم قاسم", en: "Ba'athist Coup in Iraq & Execution of Abdel Karim Qasim" },
-      description: { fa: "بعثی‌ها با حمایت سیا رئیس‌جمهور عراق را سرنگون و اعدام کردند", en: "Ba'athists, with CIA support, overthrow and execute Iraqi president" },
-      details: {
-        fa: "در ۱۴ رمضان ۱۹۶۳ (۸ فوریه) حزب بعث عراق با حمایت سیا کودتا کرد و ژنرال عبدالکریم قاسم رئیس‌جمهور عراق را سرنگون نمود. قاسم بلافاصله محاکمه صحرایی شد و در برابر دوربین تلویزیون اعدام گردید. جسد او بارها در تلویزیون نمایش داده شد. صدام حسین که در سال ۱۹۵۹ در ترور ناموفق قاسم شرکت کرده بود، نقش مهمی در سرکوب پس از کودتا ایفا کرد. قاسم روابط نسبتاً معتدلی با ایران داشت و سقوط او با روی کار آمدن بعثی‌های تندرو، زمینه‌ساز تنش‌های آینده ایران و عراق شد.",
-        en: "On February 8, 1963, Iraq's Ba'ath Party, with CIA backing, staged a coup and overthrew President Abdel Karim Qasim. Qasim was immediately given a summary trial and executed on television. His body was repeatedly shown on TV. Saddam Hussein, who had participated in a failed assassination attempt on Qasim in 1959, played a significant role in the post-coup repression. Qasim had maintained relatively moderate relations with Iran, and his fall and the rise of hardline Ba'athists set the stage for future Iran-Iraq tensions.",
-      },
-    },
     ],
     world: [
       {
@@ -4496,7 +4691,16 @@ export const timelineData: TimelineEntry[] = [
           en: "JFK spoke before 450,000 people in West Berlin on June 26, 1963, delivering the famous line 'Ich bin ein Berliner.' This speech symbolized American support for West Berlin and resistance to communism, condemning the Berlin Wall that had been built two years earlier.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "کودتای بعثی‌ها و قتل عبدالکریم قاسم", en: "Ba'athist Coup & Execution of Abdel Karim Qasim" },
+        description: { fa: "حزب بعث با حمایت سیا قدرت را گرفت و قاسم را اعدام کرد", en: "Ba'ath Party seizes power with CIA support and executes Qasim" },
+        details: {
+          fa: "در ۸ فوریه ۱۹۶۳ حزب بعث عراق با حمایت سیا کودتا کرد و ژنرال عبدالکریم قاسم رئیس‌جمهور عراق را سرنگون نمود. قاسم بلافاصله محاکمه صحرایی شد و در برابر دوربین تلویزیون اعدام گردید. جسد او بارها در تلویزیون نمایش داده شد. صدام حسین که در سال ۱۹۵۹ در ترور ناموفق قاسم شرکت کرده بود، نقش مهمی در سرکوب پس از کودتا ایفا کرد. قاسم روابط نسبتاً معتدلی با ایران داشت و سقوط او با روی کار آمدن بعثی‌های تندرو، زمینه‌ساز تنش‌های آینده ایران و عراق شد.",
+          en: "On February 8, 1963, Iraq's Ba'ath Party, with CIA backing, staged a coup and overthrew President Abdel Karim Qasim. Qasim was immediately given a summary trial and executed on television. His body was repeatedly shown on TV. Saddam Hussein, who had participated in a failed assassination attempt on Qasim in 1959, played a significant role in the post-coup repression. Qasim had maintained relatively moderate relations with Iran, and his fall and the rise of hardline Ba'athists set the stage for future Iran-Iraq tensions.",
+        },
+      },],
   },
   {
     year: 1964,
@@ -4616,6 +4820,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Iran's automotive industry experienced significant growth through assembly of foreign vehicles. Companies like Iran National produced cars in cooperation with European firms. Home appliance assembly industries also expanded. This industrial growth increased urban employment and accelerated rural-to-urban migration.",
       },
     },
+    ],
+    world: [
+      {
+        country: "south_korea",
+        title: { fa: "پیمان عادی‌سازی روابط ژاپن و کره", en: "Japan-Korea Normalization Treaty" },
+        description: { fa: "کره جنوبی و ژاپن پس از ۱۴ سال مذاکره روابط دیپلماتیک برقرار کردند", en: "South Korea and Japan establish diplomatic relations after 14 years of talks" },
+        details: {
+          fa: "در ژوئن ۱۹۶۵ کره جنوبی و ژاپن پیمان عادی‌سازی روابط را امضا کردند. ژاپن ۸۰۰ میلیون دلار کمک مالی و وام به کره جنوبی پرداخت کرد. این پیمان با مخالفت شدید مردم کره جنوبی مواجه شد اما سرمایه ژاپنی نقش مهمی در صنعتی‌سازی سریع کره جنوبی ایفا نمود.",
+          en: "In June 1965, South Korea and Japan signed the Treaty on Basic Relations. Japan provided $800 million in grants and loans. The treaty faced fierce opposition from South Koreans but Japanese capital played an important role in South Korea's rapid industrialization.",
+        },
+      },
     ],
   },
   {
@@ -4818,7 +5033,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Czechoslovak leader Alexander Dubček launched 'Socialism with a human face.' The USSR crushed the reforms by sending 500,000 Warsaw Pact troops. The 'Brezhnev Doctrine' declared the USSR's right to intervene in socialist countries. Dubček was removed and reforms reversed.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "کودتای ۱۷ تموز - بازگشت حزب بعث به قدرت", en: "July 17 Coup - Ba'ath Party Returns to Power" },
+        description: { fa: "حزب بعث برای بار دوم با کودتا قدرت را در عراق به دست گرفت", en: "Ba'ath Party seizes power in Iraq for the second time through a coup" },
+        details: {
+          fa: "در ۱۷ ژوئیه ۱۹۶۸ حزب بعث به رهبری احمد حسن البکر با کودتای نظامی دوباره به قدرت رسید. صدام حسین به عنوان معاون البکر نقش کلیدی در تثبیت حکومت ایفا کرد. بعثی‌ها دستگاه امنیتی گسترده‌ای ایجاد کردند و مخالفان را به شدت سرکوب نمودند. این کودتا آغاز ۳۵ سال حکومت بعث بر عراق بود.",
+          en: "On July 17, 1968, the Ba'ath Party under Ahmed Hassan al-Bakr returned to power through a military coup. Saddam Hussein, as al-Bakr's deputy, played a key role in consolidating the regime. The Ba'athists created an extensive security apparatus and brutally repressed opponents. This coup began 35 years of Ba'ath rule over Iraq.",
+        },
+      },],
   },
   {
     year: 1969,
@@ -5059,6 +5283,26 @@ export const timelineData: TimelineEntry[] = [
       },
     },
     ],
+    world: [
+      {
+        country: "south_korea",
+        title: { fa: "قانون اساسی یوشین - حکومت اقتدارگرا", en: "Yushin Constitution - Authoritarian Rule" },
+        description: { fa: "پارک چونگ‌هی قانون اساسی جدید تصویب کرد و قدرت مطلقه به دست آورد", en: "Park Chung-hee enacts new constitution, gaining absolute power" },
+        details: {
+          fa: "در اکتبر ۱۹۷۲ پارک چونگ‌هی حکومت نظامی اعلام کرد و قانون اساسی یوشین را تصویب نمود. این قانون اساسی به رئیس‌جمهور اختیارات نامحدود داد و آزادی‌های مدنی را محدود ساخت. اقتصاد کره جنوبی به سرعت رشد کرد اما سرکوب سیاسی نیز تشدید شد.",
+          en: "In October 1972, Park Chung-hee declared martial law and enacted the Yushin Constitution. This constitution gave the president unlimited powers and restricted civil liberties. South Korea's economy grew rapidly but political repression also intensified.",
+        },
+      },
+    
+      {
+        country: "iraq",
+        title: { fa: "ملی‌سازی نفت عراق", en: "Nationalization of Iraqi Oil" },
+        description: { fa: "عراق صنعت نفت را از شرکت‌های غربی ملی‌سازی کرد", en: "Iraq nationalizes oil industry from Western companies" },
+        details: {
+          fa: "در ۱ ژوئن ۱۹۷۲ حکومت بعث عراق شرکت نفت عراق (IPC) متعلق به کنسرسیوم غربی را ملی‌سازی کرد. صدام حسین معمار اصلی این تصمیم بود. ملی‌سازی نفت درآمدهای هنگفتی در اختیار حکومت قرار داد و امکان مدرن‌سازی سریع زیرساخت‌ها، آموزش و بهداشت را فراهم ساخت. دهه ۱۹۷۰ دوره طلایی اقتصادی عراق بود.",
+          en: "On June 1, 1972, Iraq's Ba'ath government nationalized the Iraq Petroleum Company (IPC) owned by a Western consortium. Saddam Hussein was the main architect of this decision. Oil nationalization gave the government enormous revenues and enabled rapid modernization of infrastructure, education, and healthcare. The 1970s were Iraq's economic golden age.",
+        },
+      },],
   },
   {
     year: 1973,
@@ -5207,7 +5451,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Willy Brandt resigned after an East German spy (Günter Guillaume) was discovered in his office. Helmut Schmidt became chancellor and dealt with the oil crisis and Baader-Meinhof terrorism (Red Army Faction). Schmidt made West Germany one of the world's most powerful economies.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "تشدید جنگ کردستان و حمایت ایران از کردها", en: "Escalation of Kurdish War & Iranian Support for Kurds" },
+        description: { fa: "شاه ایران از کردهای عراق حمایت نظامی کرد و جنگ تشدید شد", en: "Shah of Iran provides military support to Iraqi Kurds, war escalates" },
+        details: {
+          fa: "در ۱۹۷۴ جنگ بین حکومت بعث و کردهای عراق به رهبری ملا مصطفی بارزانی به شدت تشدید شد. ایران به دستور شاه و با حمایت آمریکا و اسرائیل تسلیحات و کمک‌های نظامی به کردها ارسال می‌کرد. ارتش عراق با وجود استفاده از نیروی هوایی و توپخانه سنگین نتوانست شورش را سرکوب کند. این وضعیت صدام را به پای میز مذاکره با شاه کشاند.",
+          en: "In 1974, the war between the Ba'ath government and Iraqi Kurds led by Mulla Mustafa Barzani intensified dramatically. Iran, on the Shah's orders and with US and Israeli support, supplied arms and military aid to the Kurds. The Iraqi army, despite using air power and heavy artillery, could not suppress the insurgency. This situation drove Saddam to the negotiating table with the Shah.",
+        },
+      },],
   },
   {
     year: 1975,
@@ -5281,7 +5534,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Zhou Enlai, China's popular premier, died in January 1976. With Mao himself ailing, the power struggle between the Gang of Four (radicals) and reformers led by Deng Xiaoping intensified. Deng was purged then reinstated. Mao's death in September 1976 changed China's destiny.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "توافقنامه الجزایر و سرکوب کردها", en: "Algiers Agreement & Crushing of Kurdish Revolt" },
+        description: { fa: "ایران حمایت از کردها را قطع کرد و قیام کردی فروپاشید", en: "Iran cuts support for Kurds, Kurdish revolt collapses" },
+        details: {
+          fa: "در مارس ۱۹۷۵ شاه ایران و صدام حسین توافقنامه الجزایر را امضا کردند. ایران در ازای تعیین مرز آبی اروندرود بر اساس خط تالوگ، تمام حمایت خود از کردهای عراق را قطع کرد. قیام کردی بلافاصله فروپاشید و صدها هزار کرد آواره شدند. بارزانی به ایران گریخت و در تبعید درگذشت. این خیانت به کردها زخمی عمیق در حافظه جمعی آنها بر جای گذاشت.",
+          en: "In March 1975, the Shah of Iran and Saddam Hussein signed the Algiers Agreement. In exchange for determining the Shatt al-Arab water boundary based on the thalweg line, Iran cut all support for Iraqi Kurds. The Kurdish revolt immediately collapsed and hundreds of thousands of Kurds were displaced. Barzani fled to Iran and died in exile. This betrayal of the Kurds left a deep scar in their collective memory.",
+        },
+      },],
   },
   {
     year: 1976,
@@ -5554,14 +5816,7 @@ export const timelineData: TimelineEntry[] = [
         en: "The revolutionary government executed dozens of Imperial Army generals and dismissed thousands of officers. The army was severely weakened. Simultaneously, the Islamic Revolutionary Guard Corps was established as a parallel military force loyal to the revolution.",
       },
     },
-    {
-      title: { fa: "کودتای صدام حسین و تصفیه خونین حزب بعث عراق", en: "Saddam Hussein's Coup & Bloody Ba'ath Party Purge" },
-      description: { fa: "صدام حسین رئیس‌جمهور عراق را کنار زد و رقبا را اعدام کرد", en: "Saddam Hussein ousts Iraqi president and executes rivals" },
-      details: {
-        fa: "در تیر ۱۳۵۸ (ژوئیه ۱۹۷۹) صدام حسین رئیس‌جمهور احمد حسن البکر را مجبور به استعفا کرد و خود قدرت را به دست گرفت. صدام بلافاصله جلسه‌ای در حزب بعث ترتیب داد و در حالی که سیگار می‌کشید، نام ده‌ها عضو ارشد حزب را به عنوان «خائن» خواند. آنها یکی‌یکی از جلسه بیرون برده و اعدام شدند. این تصفیه خونین قدرت مطلق صدام را تثبیت کرد. به قدرت رسیدن صدام مستقیماً زمینه‌ساز حمله عراق به ایران در سال بعد شد، زیرا صدام انقلاب اسلامی را تهدیدی برای حکومت بعثی خود می‌دانست و می‌خواست از آشفتگی نظامی ایران سوءاستفاده کند.",
-        en: "In July 1979, Saddam Hussein forced President Ahmed Hassan al-Bakr to resign and seized power. Saddam immediately convened a Ba'ath Party meeting where, while smoking a cigar, he read out the names of dozens of senior party members as 'traitors.' They were taken out one by one and executed. This bloody purge consolidated Saddam's absolute power. His rise to power directly set the stage for Iraq's invasion of Iran the following year, as Saddam saw the Islamic Revolution as a threat to his Ba'athist rule and wanted to exploit Iran's military disarray.",
-      },
-    }],
+],
     world: [
       {
         country: "uk",
@@ -5591,7 +5846,25 @@ export const timelineData: TimelineEntry[] = [
           en: "The US and People's Republic of China established full diplomatic relations in January 1979. The US de-recognized Taiwan. Deng Xiaoping visited the US. Diplomatic normalization aided China's economic reforms and Western investment.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "ترور پارک چونگ‌هی", en: "Park Chung-hee Assassinated" },
+        description: { fa: "رئیس‌جمهور پارک چونگ‌هی توسط رئیس سازمان اطلاعات ترور شد", en: "President Park Chung-hee assassinated by intelligence chief" },
+        details: {
+          fa: "در ۲۶ اکتبر ۱۹۷۹ پارک چونگ‌هی رئیس‌جمهور کره جنوبی توسط کیم جائه‌گیو، رئیس سازمان اطلاعات مرکزی کره، ترور شد. پارک ۱۸ سال بر کره جنوبی حکومت کرده بود. ترور او امید به دموکراسی را زنده کرد اما ژنرال چون دوهوان با کودتای نظامی دوباره قدرت را به دست گرفت.",
+          en: "On October 26, 1979, President Park Chung-hee was assassinated by Kim Jae-gyu, the director of the Korean Central Intelligence Agency. Park had ruled for 18 years. His assassination raised hopes for democracy, but General Chun Doo-hwan seized power through a military coup.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "کودتای صدام حسین و تصفیه خونین حزب بعث", en: "Saddam Hussein's Coup & Bloody Ba'ath Party Purge" },
+        description: { fa: "صدام حسین رئیس‌جمهور عراق را کنار زد و رقبا را اعدام کرد", en: "Saddam Hussein ousts Iraqi president and executes rivals" },
+        details: {
+          fa: "در تیر ۱۳۵۸ (ژوئیه ۱۹۷۹) صدام حسین رئیس‌جمهور احمد حسن البکر را مجبور به استعفا کرد و خود قدرت را به دست گرفت. صدام بلافاصله جلسه‌ای در حزب بعث ترتیب داد و در حالی که سیگار می‌کشید، نام ده‌ها عضو ارشد حزب را به عنوان «خائن» خواند. آنها یکی‌یکی از جلسه بیرون برده و اعدام شدند. این تصفیه خونین قدرت مطلق صدام را تثبیت کرد و زمینه‌ساز حمله عراق به ایران در سال بعد شد.",
+          en: "In July 1979, Saddam Hussein forced President Ahmed Hassan al-Bakr to resign and seized power. Saddam immediately convened a Ba'ath Party meeting where, while smoking a cigar, he read out the names of dozens of senior party members as 'traitors.' They were taken out one by one and executed. This bloody purge consolidated Saddam's absolute power and set the stage for Iraq's invasion of Iran the following year.",
+        },
+      },],
   },
   {
     year: 1980,
@@ -5686,7 +5959,25 @@ export const timelineData: TimelineEntry[] = [
           en: "Lech Walesa founded the 'Solidarity' (Solidarność) trade union at the Gdansk shipyard. Ten million people joined. It was the first independent union in the Eastern Bloc and dealt a fatal blow to communist rule. Walesa won the Nobel Peace Prize in 1983 and became Poland's president in 1990.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "قیام گوانگجو", en: "Gwangju Uprising" },
+        description: { fa: "قیام مردمی در گوانگجو توسط ارتش به خاک و خون کشیده شد", en: "Popular uprising in Gwangju brutally suppressed by military" },
+        details: {
+          fa: "در مه ۱۹۸۰ شهروندان و دانشجویان شهر گوانگجو در اعتراض به حکومت نظامی ژنرال چون دوهوان قیام کردند. ارتش با نیروی بی‌رحمانه قیام را سرکوب کرد و صدها نفر کشته شدند. قیام گوانگجو به نماد مبارزه برای دموکراسی در کره جنوبی تبدیل شد.",
+          en: "In May 1980, citizens and students in Gwangju rose up against General Chun Doo-hwan's martial law. The military brutally suppressed the uprising, killing hundreds. The Gwangju Uprising became a symbol of the struggle for democracy in South Korea.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "حمله عراق به ایران - آغاز جنگ هشت‌ساله", en: "Iraq Invades Iran - Eight-Year War Begins" },
+        description: { fa: "صدام حسین به ایران حمله کرد و طولانی‌ترین جنگ متعارف قرن بیستم آغاز شد", en: "Saddam Hussein invades Iran, starting the longest conventional war of the 20th century" },
+        details: {
+          fa: "در ۲۲ سپتامبر ۱۹۸۰ ارتش عراق با حمله هوایی و زمینی گسترده به ایران حمله کرد. صدام از آشفتگی پس از انقلاب ایران سوءاستفاده کرد و خوزستان را هدف اصلی قرار داد. عراق از حمایت مالی عربستان و کویت و تسلیحات غربی و شرقی بهره‌مند بود. جنگ هشت سال طول کشید و حدود یک میلیون کشته و دو میلیون زخمی بر جای گذاشت.",
+          en: "On September 22, 1980, the Iraqi army launched a massive air and ground attack on Iran. Saddam exploited the post-revolution turmoil and targeted Khuzestan as the main objective. Iraq benefited from Saudi and Kuwaiti financial support and Western and Eastern weapons. The war lasted eight years, leaving approximately one million dead and two million wounded.",
+        },
+      },],
   },
   {
     year: 1981,
@@ -5850,7 +6141,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Conservative Helmut Kohl defeated Helmut Schmidt in a parliamentary vote of no confidence and became West German chancellor. Kohl governed for 16 years, with his greatest achievement being German reunification in 1990. He played a key role in European integration and the creation of the euro.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "عقب‌نشینی عراق از خاک ایران", en: "Iraqi Withdrawal from Iranian Territory" },
+        description: { fa: "ایران خرمشهر را آزاد کرد و عراق پیشنهاد آتش‌بس داد", en: "Iran liberates Khorramshahr, Iraq offers ceasefire" },
+        details: {
+          fa: "در خرداد ۱۳۶۱ ایران خرمشهر را آزاد کرد و نیروهای عراقی از بیشتر خاک ایران عقب‌نشینی کردند. صدام پیشنهاد آتش‌بس داد اما ایران آن را رد کرد و تصمیم به ادامه جنگ تا سقوط صدام گرفت. از این پس عراق در موضع تدافعی قرار گرفت و جنگ شش سال دیگر با تلفات سنگین هر دو طرف ادامه یافت.",
+          en: "In May-June 1982, Iran liberated Khorramshahr and Iraqi forces withdrew from most Iranian territory. Saddam offered a ceasefire but Iran rejected it, deciding to continue the war until Saddam's fall. From this point, Iraq was on the defensive, and the war continued for six more years with heavy casualties on both sides.",
+        },
+      },],
   },
   {
     year: 1983,
@@ -6120,7 +6420,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Thatcher deregulated London's financial markets in the 'Big Bang' of October 27, 1986. Fixed commissions were abolished and foreign banks were allowed to operate. London once again became one of the world's largest financial centers, but financial risks also increased.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "رسوایی ایران‌گیت و حمایت غرب از عراق", en: "Iran-Contra Scandal & Western Support for Iraq" },
+        description: { fa: "آمریکا مخفیانه به ایران سلاح فروخت و آشکارا از عراق حمایت کرد", en: "US secretly sells arms to Iran while openly supporting Iraq" },
+        details: {
+          fa: "در ۱۹۸۶ رسوایی ایران‌گیت فاش شد: آمریکا مخفیانه به ایران سلاح فروخته بود. اما در همان زمان آمریکا و غرب آشکارا از عراق حمایت می‌کردند. آمریکا اطلاعات ماهواره‌ای در اختیار صدام قرار می‌داد. فرانسه جنگنده و آلمان مواد شیمیایی به عراق می‌فروختند. این حمایت غربی نقش کلیدی در ادامه جنگ و استفاده عراق از سلاح شیمیایی داشت.",
+          en: "In 1986, the Iran-Contra scandal was exposed: the US had secretly sold arms to Iran. Yet the US and West were openly supporting Iraq. The US provided Saddam with satellite intelligence. France sold fighter jets and Germany sold chemical precursors to Iraq. This Western support played a key role in prolonging the war and Iraq's use of chemical weapons.",
+        },
+      },],
   },
   {
     year: 1987,
@@ -6202,7 +6511,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Gorbachev's reforms deepened. Glasnost (openness) created limited free speech and media began criticizing the government. Perestroika (restructuring) liberalized the economy but increased economic instability. Nationalist movements grew in Soviet republics.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "جنبش دموکراسی ژوئن", en: "June Democracy Movement" },
+        description: { fa: "اعتراضات گسترده مردمی حکومت نظامی را مجبور به پذیرش دموکراسی کرد", en: "Mass protests force military government to accept democracy" },
+        details: {
+          fa: "در ژوئن ۱۹۸۷ میلیون‌ها کره‌ای جنوبی علیه حکومت نظامی تظاهرات کردند و خواستار انتخابات آزاد شدند. فشار مردمی حکومت را مجبور به پذیرش «اعلامیه ۲۹ ژوئن» کرد که انتخابات مستقیم ریاست‌جمهوری و آزادی‌های مدنی را تضمین نمود. این نقطه عطف گذار کره جنوبی به دموکراسی بود.",
+          en: "In June 1987, millions of South Koreans protested against military rule, demanding free elections. Popular pressure forced the government to accept the 'June 29 Declaration,' guaranteeing direct presidential elections and civil liberties. This was the turning point in South Korea's transition to democracy.",
+        },
+      },],
   },
 
   {
@@ -6286,7 +6604,25 @@ export const timelineData: TimelineEntry[] = [
           en: "The USSR began withdrawing from Afghanistan after 9 years of war (completed February 1989). Over 15,000 Soviet soldiers and 1 million Afghans were killed. This defeat was called the 'Soviet Vietnam' and played a major role in the USSR's collapse.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "المپیک سئول", en: "Seoul Olympics" },
+        description: { fa: "کره جنوبی میزبان بازی‌های المپیک تابستانی شد", en: "South Korea hosts the Summer Olympic Games" },
+        details: {
+          fa: "بازی‌های المپیک تابستانی ۱۹۸۸ در سئول برگزار شد و کره جنوبی را به عنوان کشوری مدرن و صنعتی به جهان معرفی کرد. ۱۶۰ کشور شرکت کردند. المپیک سئول نماد تحول اقتصادی و سیاسی کره جنوبی از دیکتاتوری به دموکراسی و از فقر به رفاه بود.",
+          en: "The 1988 Summer Olympic Games were held in Seoul, introducing South Korea to the world as a modern, industrialized nation. 160 countries participated. The Seoul Olympics symbolized South Korea's transformation from dictatorship to democracy and from poverty to prosperity.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "حمله شیمیایی حلبچه و پایان جنگ ایران و عراق", en: "Halabja Chemical Attack & End of Iran-Iraq War" },
+        description: { fa: "عراق شهر کرد حلبچه را با سلاح شیمیایی بمباران کرد و جنگ با قطعنامه ۵۹۸ پایان یافت", en: "Iraq bombs Kurdish city of Halabja with chemical weapons; war ends with Resolution 598" },
+        details: {
+          fa: "در مارس ۱۹۸۸ ارتش عراق شهر کردنشین حلبچه را با بمب‌های شیمیایی حاوی گاز خردل و سیانور بمباران کرد و حدود ۵۰۰۰ غیرنظامی کشته شدند. این بزرگ‌ترین حمله شیمیایی علیه غیرنظامیان در تاریخ بود. در ژوئیه ۱۹۸۸ ایران قطعنامه ۵۹۸ شورای امنیت را پذیرفت و جنگ هشت‌ساله پایان یافت. خمینی پذیرش آتش‌بس را «نوشیدن جام زهر» خواند.",
+          en: "In March 1988, the Iraqi army bombed the Kurdish city of Halabja with chemical bombs containing mustard gas and cyanide, killing about 5,000 civilians. This was the largest chemical attack against civilians in history. In July 1988, Iran accepted UN Security Council Resolution 598 and the eight-year war ended. Khomeini called accepting the ceasefire 'drinking the chalice of poison.'",
+        },
+      },],
   },
   {
     year: 1989,
@@ -6463,7 +6799,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Baltic republics (Lithuania, Latvia, Estonia) declared independence. Gorbachev couldn't stop the USSR's disintegration. The Soviet economy was in deep crisis. Boris Yeltsin became Russia's president and became Gorbachev's main rival.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "اشغال کویت توسط عراق", en: "Iraqi Invasion of Kuwait" },
+        description: { fa: "صدام حسین کویت را اشغال کرد و آن را استان نوزدهم عراق خواند", en: "Saddam Hussein invades Kuwait, declaring it Iraq's 19th province" },
+        details: {
+          fa: "در ۲ اوت ۱۹۹۰ ارتش عراق به کویت حمله کرد و آن را در عرض چند ساعت اشغال نمود. صدام کویت را استان نوزدهم عراق اعلام کرد. او ادعا می‌کرد کویت بخشی تاریخی از عراق است و از کویت به دلیل تولید بیش از حد نفت و پایین آوردن قیمت شکایت داشت. شورای امنیت سازمان ملل تحریم‌های فراگیر علیه عراق وضع کرد و ائتلاف ۳۵ کشوری برای آزادسازی کویت شکل گرفت.",
+          en: "On August 2, 1990, the Iraqi army invaded Kuwait and occupied it within hours. Saddam declared Kuwait Iraq's 19th province. He claimed Kuwait was historically part of Iraq and complained about Kuwait's excessive oil production driving down prices. The UN Security Council imposed comprehensive sanctions on Iraq and a 35-nation coalition formed to liberate Kuwait.",
+        },
+      },],
   },
   {
     year: 1991,
@@ -6546,7 +6891,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The failed August 1991 coup against Gorbachev accelerated the Soviet collapse. Yeltsin stood on a tank and defeated the coup. On December 25, Gorbachev resigned and the Soviet flag came down from the Kremlin. 15 republics became independent. The world's largest empire collapsed without a shot being fired.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "جنگ خلیج فارس و قیام‌های شعبانیه", en: "Gulf War & Sha'ban Intifada" },
+        description: { fa: "ائتلاف عراق را از کویت بیرون راند و قیام شیعیان و کردها به خاک و خون کشیده شد", en: "Coalition expels Iraq from Kuwait; Shia and Kurdish uprisings brutally crushed" },
+        details: {
+          fa: "در ژانویه ۱۹۹۱ عملیات طوفان صحرا آغاز شد و ائتلاف به رهبری آمریکا عراق را در ۴۲ روز از کویت بیرون راند. پس از شکست، شیعیان جنوب و کردهای شمال عراق قیام کردند (انتفاضه شعبانیه). صدام قیام را با خشونت وحشیانه سرکوب کرد. گورهای دسته‌جمعی و صدها هزار کشته. آمریکا که بوش پدر مردم عراق را به قیام تشویق کرده بود، هیچ کمکی نکرد.",
+          en: "In January 1991, Operation Desert Storm began and the US-led coalition expelled Iraq from Kuwait in 42 days. After the defeat, Shia in the south and Kurds in the north revolted (Sha'ban Intifada). Saddam crushed the uprising with brutal violence. Mass graves and hundreds of thousands killed. The US, despite President Bush having encouraged Iraqis to rise up, provided no assistance.",
+        },
+      },],
   },
   {
     year: 1992,
@@ -6875,7 +7229,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Jacques Chirac defeated Lionel Jospin in the 1995 election to become French president. Chirac resumed French nuclear tests in the Pacific, sparking widespread international protests. He also acknowledged for the first time France's responsibility in the roundup of Jews during WWII.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "تحریم‌های فلج‌کننده و بحران انسانی عراق", en: "Crippling Sanctions & Iraqi Humanitarian Crisis" },
+        description: { fa: "تحریم‌های سازمان ملل فاجعه انسانی در عراق ایجاد کرد", en: "UN sanctions create humanitarian catastrophe in Iraq" },
+        details: {
+          fa: "تحریم‌های فراگیر سازمان ملل علیه عراق که از ۱۹۹۰ آغاز شده بود، در اواسط دهه ۱۹۹۰ به فاجعه انسانی تبدیل شد. سیستم بهداشت فروپاشید، سوءتغذیه کودکان گسترش یافت و تورم اقتصاد را فلج کرد. یونیسف تخمین زد بیش از ۵۰۰ هزار کودک عراقی بر اثر تحریم‌ها جان باختند. برنامه «نفت در برابر غذا» در ۱۹۹۶ آغاز شد اما نتوانست بحران را حل کند.",
+          en: "The comprehensive UN sanctions against Iraq, imposed since 1990, had become a humanitarian catastrophe by the mid-1990s. The health system collapsed, child malnutrition spread, and inflation paralyzed the economy. UNICEF estimated over 500,000 Iraqi children died due to sanctions. The Oil-for-Food program began in 1996 but failed to resolve the crisis.",
+        },
+      },],
   },
   {
     year: 1996,
@@ -7041,7 +7404,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The US economy experienced unprecedented growth. Internet companies like Amazon, Yahoo, and eBay reached astronomical valuations. Unemployment hit its lowest level in 30 years. The federal budget had a surplus for the first time in decades. But the dotcom bubble burst in 2000.",
         },
       },
-    ],
+    
+      {
+        country: "south_korea",
+        title: { fa: "بحران مالی آسیا و کمک صندوق بین‌المللی پول", en: "Asian Financial Crisis & IMF Bailout" },
+        description: { fa: "بحران مالی آسیا اقتصاد کره جنوبی را فلج کرد و دولت از IMF کمک خواست", en: "Asian financial crisis paralyzes South Korea's economy, government seeks IMF bailout" },
+        details: {
+          fa: "بحران مالی آسیا در ۱۹۹۷ اقتصاد کره جنوبی را به شدت ضربه زد. ارزش وون سقوط کرد، شرکت‌های بزرگ ورشکست شدند و بیکاری افزایش یافت. کره جنوبی مجبور شد ۵۷ میلیارد دلار وام از صندوق بین‌المللی پول دریافت کند. این بحران اصلاحات ساختاری عمیقی در اقتصاد کره جنوبی ایجاد کرد.",
+          en: "The 1997 Asian financial crisis severely hit South Korea's economy. The won plummeted, major conglomerates went bankrupt, and unemployment surged. South Korea was forced to accept a $57 billion IMF bailout. The crisis led to deep structural reforms in South Korea's economy.",
+        },
+      },],
   },
   {
     year: 1998,
@@ -7123,7 +7495,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Russia defaulted on its debts in August 1998 and the ruble lost 75% of its value. Millions of Russians lost their savings. The 1997 Asian financial crisis created a chain reaction that engulfed Russia. Economic instability and oligarch corruption set the stage for Putin's rise.",
         },
       },
-    ],
+    
+      {
+        country: "iraq",
+        title: { fa: "عملیات روباه صحرا - بمباران عراق", en: "Operation Desert Fox - Bombing of Iraq" },
+        description: { fa: "آمریکا و بریتانیا عراق را به بهانه عدم همکاری با بازرسان بمباران کردند", en: "US and Britain bomb Iraq over non-cooperation with weapons inspectors" },
+        details: {
+          fa: "در دسامبر ۱۹۹۸ آمریکا و بریتانیا عملیات روباه صحرا را اجرا کردند و مواضع نظامی و حکومتی عراق را چهار روز بمباران نمودند. بهانه: عدم همکاری عراق با بازرسان تسلیحاتی سازمان ملل. این عملیات نتوانست حکومت صدام را ساقط کند اما زیرساخت‌های عراق را بیشتر تخریب نمود.",
+          en: "In December 1998, the US and Britain launched Operation Desert Fox, bombing Iraqi military and government targets for four days. Pretext: Iraq's non-cooperation with UN weapons inspectors. The operation failed to topple Saddam's regime but further destroyed Iraq's infrastructure.",
+        },
+      },],
   },
   {
     year: 1999,
@@ -7323,7 +7704,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "چین مذاکرات نهایی برای عضویت در سازمان تجارت جهانی را پیش برد. اقتصاد چین با نرخ ۸ درصد رشد کرد و سرمایه‌گذاری خارجی به‌طور چشمگیری افزایش یافت.",
           en: "China advanced final negotiations for WTO membership. The Chinese economy grew at 8% and foreign investment increased dramatically.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "نشست سران دو کره", en: "Inter-Korean Summit" },
+        description: { fa: "اولین نشست سران کره شمالی و جنوبی برگزار شد", en: "First-ever summit between North and South Korean leaders" },
+        details: {
+          fa: "در ژوئن ۲۰۰۰ کیم دائه‌جونگ رئیس‌جمهور کره جنوبی و کیم جونگ‌ایل رهبر کره شمالی در پیونگ‌یانگ دیدار کردند. کیم دائه‌جونگ به خاطر «سیاست آفتاب» و تلاش برای آشتی با کره شمالی جایزه صلح نوبل دریافت کرد.",
+          en: "In June 2000, South Korean President Kim Dae-jung and North Korean leader Kim Jong-il met in Pyongyang. Kim Dae-jung received the Nobel Peace Prize for his 'Sunshine Policy' and efforts to reconcile with North Korea.",
+        },
+      },],
   },
   {
     year: 2001,
@@ -7553,7 +7943,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "هو جین‌تائو در شانزدهمین کنگره حزب کمونیست به عنوان دبیرکل انتخاب شد و جانشین جیانگ زمین شد. این انتقال منظم قدرت نشانه بلوغ نظام سیاسی چین بود.",
           en: "Hu Jintao was elected CCP General Secretary at the 16th Party Congress, succeeding Jiang Zemin. This orderly power transition signaled the maturation of China's political system.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "میزبانی مشترک جام جهانی فوتبال", en: "FIFA World Cup Co-Host" },
+        description: { fa: "کره جنوبی و ژاپن میزبان جام جهانی فوتبال شدند", en: "South Korea and Japan co-host the FIFA World Cup" },
+        details: {
+          fa: "کره جنوبی و ژاپن در سال ۲۰۰۲ میزبان مشترک جام جهانی فوتبال شدند. تیم ملی کره جنوبی به طرز شگفت‌انگیزی به مرحله نیمه‌نهایی رسید و میلیون‌ها هوادار در خیابان‌ها جشن گرفتند.",
+          en: "South Korea and Japan co-hosted the 2002 FIFA World Cup. The South Korean national team sensationally reached the semi-finals, with millions of fans celebrating in the streets.",
+        },
+      },],
   },
   {
     year: 2003,
@@ -7662,7 +8061,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "شیوع ویروس سارس از گوانگدونگ آغاز شد و به بحران جهانی تبدیل شد. دولت چین ابتدا اطلاعات را پنهان کرد اما سپس قرنطینه گسترده اعمال کرد.",
           en: "The SARS virus outbreak started in Guangdong and became a global crisis. The Chinese government initially concealed information but then imposed extensive quarantines.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "حمله آمریکا به عراق و سقوط صدام حسین", en: "US Invasion of Iraq & Fall of Saddam Hussein" },
+        description: { fa: "آمریکا بر اساس ادعای دروغین سلاح کشتار جمعی به عراق حمله کرد", en: "US invades Iraq based on false WMD claims" },
+        details: {
+          fa: "در ۲۰ مارس ۲۰۰۳ آمریکا و بریتانیا بدون مجوز شورای امنیت به عراق حمله کردند. بهانه: وجود سلاح‌های کشتار جمعی که هرگز پیدا نشدند. بغداد در ۹ آوریل سقوط کرد و مجسمه صدام فروریخت. صدام مخفی شد و در دسامبر در یک مخفیگاه زیرزمینی دستگیر گردید. اشغال عراق به هرج‌ومرج، غارت موزه‌ها و فروپاشی نهادهای دولتی منجر شد.",
+          en: "On March 20, 2003, the US and Britain invaded Iraq without UN Security Council authorization. Pretext: WMDs that were never found. Baghdad fell on April 9 and Saddam's statue was toppled. Saddam went into hiding and was captured in December in an underground bunker. The occupation led to chaos, museum looting, and collapse of state institutions.",
+        },
+      },],
   },
   {
     year: 2004,
@@ -7779,7 +8187,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "اقتصاد چین با نرخ بیش از ۱۰ درصد رشد کرد. سرمایه‌گذاری در زیرساخت‌ها و صادرات به شدت افزایش یافت و چین به کارخانه جهان تبدیل شد.",
           en: "China's economy grew at over 10%. Investment in infrastructure and exports surged, and China became the factory of the world.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "رسوایی ابوغریب و آغاز مقاومت مسلحانه", en: "Abu Ghraib Scandal & Start of Armed Insurgency" },
+        description: { fa: "تصاویر شکنجه زندانیان عراقی در ابوغریب جهان را شوکه کرد", en: "Images of torture of Iraqi prisoners at Abu Ghraib shock the world" },
+        details: {
+          fa: "در آوریل ۲۰۰۴ تصاویر شکنجه و تحقیر زندانیان عراقی توسط سربازان آمریکایی در زندان ابوغریب منتشر شد و رسوایی جهانی ایجاد کرد. همزمان مقاومت مسلحانه سنی و شیعی علیه اشغال تشدید شد. مقتدی صدر رهبر جریان صدر در نجف و فلوجه صحنه نبردهای خونین شد.",
+          en: "In April 2004, images of torture and humiliation of Iraqi prisoners by US soldiers at Abu Ghraib prison were published, creating a global scandal. Simultaneously, Sunni and Shia armed resistance against the occupation intensified. Muqtada al-Sadr's movement and battles in Najaf and Fallujah became scenes of bloody fighting.",
+        },
+      },],
   },
   {
     year: 2005,
@@ -7888,7 +8305,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "میخائیل خودورکوفسکی مالک یوکوس به ۹ سال زندان محکوم شد. دارایی‌های یوکوس به شرکت دولتی روس‌نفت منتقل شد و پوتین کنترل بر انرژی را تثبیت کرد.",
           en: "Mikhail Khodorkovsky, owner of Yukos, was sentenced to 9 years in prison. Yukos assets were transferred to state-owned Rosneft, and Putin consolidated control over energy.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "اولین انتخابات آزاد و قانون اساسی جدید عراق", en: "First Free Elections & New Iraqi Constitution" },
+        description: { fa: "عراقی‌ها برای اولین بار در انتخابات آزاد شرکت کردند", en: "Iraqis participate in free elections for the first time" },
+        details: {
+          fa: "در ژانویه ۲۰۰۵ اولین انتخابات آزاد عراق برگزار شد. شیعیان و کردها مشارکت گسترده داشتند اما سنی‌ها عمدتاً تحریم کردند. در اکتبر قانون اساسی جدید در همه‌پرسی تصویب شد. سیستم فدرال با منطقه خودمختار کردستان ایجاد گردید. اما تنش‌های فرقه‌ای شدت گرفت و عراق به سمت جنگ داخلی حرکت کرد.",
+          en: "In January 2005, Iraq's first free elections were held. Shia and Kurds participated widely but Sunnis largely boycotted. In October, a new constitution was approved by referendum. A federal system with an autonomous Kurdistan region was established. However, sectarian tensions intensified and Iraq moved toward civil war.",
+        },
+      },],
   },
   {
     year: 2006,
@@ -8005,7 +8431,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "سد سه دره بزرگ‌ترین پروژه برق‌آبی جهان تکمیل شد. این سد ۱.۴ میلیون نفر را جابجا کرد اما ظرفیت عظیم تولید برق ایجاد کرد.",
           en: "The Three Gorges Dam, the world's largest hydroelectric project, was completed. It displaced 1.4 million people but created enormous power generation capacity.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "بمباران مسجد العسکری و جنگ فرقه‌ای", en: "Al-Askari Mosque Bombing & Sectarian War" },
+        description: { fa: "بمباران مسجد شیعیان در سامرا جنگ فرقه‌ای خونین را آغاز کرد", en: "Bombing of Shia mosque in Samarra triggers bloody sectarian war" },
+        details: {
+          fa: "در ۲۲ فوریه ۲۰۰۶ مسجد امامین عسکریین در سامرا که یکی از مقدس‌ترین زیارتگاه‌های شیعیان است، توسط القاعده عراق بمباران شد. گنبد طلایی مسجد ویران گردید. این حادثه جنگ فرقه‌ای تمام‌عیار بین شیعه و سنی را آغاز کرد. جوخه‌های مرگ، قتل‌عام‌ها و پاک‌سازی قومی بغداد و شهرهای دیگر را فراگرفت. ده‌ها هزار غیرنظامی کشته شدند.",
+          en: "On February 22, 2006, the al-Askari Mosque in Samarra, one of Shia Islam's holiest shrines, was bombed by al-Qaeda in Iraq. The golden dome was destroyed. This triggered an all-out sectarian war between Shia and Sunni. Death squads, massacres, and ethnic cleansing engulfed Baghdad and other cities. Tens of thousands of civilians were killed.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "اعدام صدام حسین", en: "Execution of Saddam Hussein" },
+        description: { fa: "صدام حسین پس از محاکمه به جرم جنایت علیه بشریت اعدام شد", en: "Saddam Hussein executed after trial for crimes against humanity" },
+        details: {
+          fa: "در ۳۰ دسامبر ۲۰۰۶ صدام حسین پس از محاکمه در دادگاه ویژه عراق به جرم کشتار دجیل (قتل ۱۴۸ شیعه در ۱۹۸۲) به اعدام محکوم و به دار آویخته شد. ویدیوی غیررسمی اعدام که توهین‌های حاضران را نشان می‌داد، جنجال جهانی ایجاد کرد. مرگ صدام خشونت فرقه‌ای را بیشتر تشدید نمود.",
+          en: "On December 30, 2006, Saddam Hussein was hanged after being convicted of crimes against humanity by the Iraqi Special Tribunal for the Dujail massacre (killing 148 Shia in 1982). Unofficial video of the execution showing attendees' taunts created a global controversy. Saddam's death further intensified sectarian violence.",
+        },
+      },],
   },
   {
     year: 2007,
@@ -8113,7 +8557,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "رسوایی‌های متعدد درباره ایمنی محصولات چینی از شیر خشک آلوده تا اسباب‌بازی‌های سمی باعث نگرانی جهانی شد. اقتصاد چین با رشد ۱۴ درصدی داغ‌ترین دوره خود را تجربه کرد.",
           en: "Multiple scandals over Chinese product safety, from contaminated milk powder to toxic toys, caused global concern. China's economy experienced its hottest period with 14% growth.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "موج نیرو آمریکا و اوج خشونت فرقه‌ای", en: "US Troop Surge & Peak of Sectarian Violence" },
+        description: { fa: "آمریکا ۳۰ هزار نیرو اضافی فرستاد و شوراهای بیداری سنی تشکیل شد", en: "US sends 30,000 additional troops, Sunni Awakening Councils formed" },
+        details: {
+          fa: "در ژانویه ۲۰۰۷ بوش تصمیم به افزایش نیرو (سرج) گرفت و ۳۰ هزار سرباز اضافی به عراق فرستاد. همزمان قبایل سنی استان الانبار که از خشونت القاعده خسته شده بودند، شوراهای بیداری (صحوات) تشکیل دادند و با آمریکا همکاری کردند. خشونت به تدریج کاهش یافت اما بهای انسانی جنگ عراق همچنان سنگین بود.",
+          en: "In January 2007, Bush decided on the troop surge, sending 30,000 additional soldiers to Iraq. Simultaneously, Sunni tribes in Anbar province, weary of al-Qaeda's violence, formed Awakening Councils (Sahwa) and cooperated with the US. Violence gradually decreased but the human cost of the Iraq war remained staggering.",
+        },
+      },],
   },
   {
     year: 2008,
@@ -8230,7 +8683,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "المپیک پکن با مراسم افتتاحیه باشکوه قدرت چین را به نمایش گذاشت. اما زلزله سیچوان ۷۰ هزار نفر را کشت و ساخت‌وسازهای بی‌کیفیت مدارس افشا شد.",
           en: "The Beijing Olympics showcased China's power with a spectacular opening ceremony. But the Sichuan earthquake killed 70,000 and exposed shoddy school construction.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "توافق خروج نیروهای آمریکا از عراق", en: "US-Iraq Status of Forces Agreement" },
+        description: { fa: "عراق و آمریکا توافق‌نامه وضعیت نیروها و جدول خروج امضا کردند", en: "Iraq and US sign Status of Forces Agreement and withdrawal timeline" },
+        details: {
+          fa: "در نوامبر ۲۰۰۸ عراق و آمریکا توافق‌نامه وضعیت نیروها (SOFA) را امضا کردند. بر اساس این توافق، نیروهای آمریکایی باید تا پایان ۲۰۱۱ عراق را ترک می‌کردند. نوری مالکی نخست‌وزیر عراق که با فشار ایران و مقتدی صدر مواجه بود، بر خروج نیروها اصرار داشت. این توافق پایان رسمی اشغال نظامی آمریکا را رقم زد.",
+          en: "In November 2008, Iraq and the US signed the Status of Forces Agreement (SOFA). Under this agreement, US forces were to leave Iraq by the end of 2011. Iraqi PM Nouri al-Maliki, facing pressure from Iran and Muqtada al-Sadr, insisted on troop withdrawal. This agreement marked the formal end of US military occupation.",
+        },
+      },],
   },
   {
     year: 2009,
@@ -8470,7 +8932,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "مدودف و اوباما پیمان استارت نو برای کاهش تسلیحات هسته‌ای امضا کردند. مدودف برنامه مدرن‌سازی اقتصادی را مطرح کرد اما سایه پوتین همچنان بر سیاست حاکم بود.",
           en: "Medvedev and Obama signed the New START treaty for nuclear arms reduction. Medvedev proposed economic modernization but Putin's shadow still loomed over politics.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "بحران تشکیل دولت و بن‌بست سیاسی عراق", en: "Government Formation Crisis & Iraqi Political Deadlock" },
+        description: { fa: "انتخابات پارلمانی به بن‌بست سیاسی ۹ ماهه منجر شد", en: "Parliamentary elections lead to 9-month political deadlock" },
+        details: {
+          fa: "انتخابات مارس ۲۰۱۰ با پیروزی اندک ائتلاف العراقیه به رهبری ایاد علاوی همراه بود اما نوری مالکی با حمایت ایران و ائتلاف شیعی موفق شد پس از ۹ ماه بن‌بست سیاسی، حکومت تشکیل دهد. مالکی به تدریج قدرت را متمرکز کرد و سنی‌ها را از حکومت حذف نمود. این سیاست‌های فرقه‌ای زمینه‌ساز ظهور داعش شد.",
+          en: "The March 2010 elections resulted in a narrow victory for Ayad Allawi's Iraqiya coalition, but Nouri al-Maliki, with Iranian support and a Shia coalition, managed to form a government after a 9-month political deadlock. Maliki gradually centralized power and marginalized Sunnis. These sectarian policies laid the groundwork for the rise of ISIS.",
+        },
+      },],
   },
   {
     year: 2011,
@@ -8588,7 +9059,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "چین رسماً از ژاپن به عنوان دومین اقتصاد بزرگ جهان پیشی گرفت. قطار سریع‌السیر پکن-شانگهای افتتاح شد اما حادثه قطار ونژو ۴۰ نفر را کشت.",
           en: "China officially surpassed Japan as the world's second-largest economy. The Beijing-Shanghai high-speed rail opened but the Wenzhou train crash killed 40.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "خروج نیروهای آمریکا از عراق", en: "US Forces Withdraw from Iraq" },
+        description: { fa: "آخرین نیروهای رزمی آمریکا عراق را ترک کردند", en: "Last US combat forces leave Iraq" },
+        details: {
+          fa: "در دسامبر ۲۰۱۱ آخرین نیروهای رزمی آمریکا عراق را ترک کردند و نزدیک به ۹ سال اشغال نظامی پایان یافت. بیش از ۴۵۰۰ سرباز آمریکایی و صدها هزار عراقی در جنگ کشته شده بودند. اوباما خروج را موفقیت خواند اما منتقدان هشدار دادند که عراق هنوز ثبات نیافته و خروج زودهنگام خلأ امنیتی ایجاد می‌کند.",
+          en: "In December 2011, the last US combat forces left Iraq, ending nearly 9 years of military occupation. Over 4,500 US soldiers and hundreds of thousands of Iraqis had been killed. Obama called the withdrawal a success, but critics warned that Iraq was still unstable and premature withdrawal would create a security vacuum.",
+        },
+      },],
   },
   {
     year: 2012,
@@ -8813,7 +9293,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "شی جین‌پینگ ابتکار کمربند و راه را اعلام کرد که بزرگ‌ترین پروژه زیرساختی تاریخ بود. این طرح شامل ساخت جاده، بندر و راه‌آهن در آسیا، آفریقا و اروپا بود.",
           en: "Xi Jinping announced the Belt and Road Initiative, the largest infrastructure project in history. The plan included building roads, ports, and railways across Asia, Africa, and Europe.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "اعتراضات سنی‌ها و تشدید خشونت", en: "Sunni Protests & Escalation of Violence" },
+        description: { fa: "سنی‌های عراق علیه تبعیض حکومت مالکی تظاهرات گسترده کردند", en: "Iraqi Sunnis stage mass protests against Maliki government discrimination" },
+        details: {
+          fa: "از دسامبر ۲۰۱۲ تظاهرات گسترده سنی‌ها در استان‌های الانبار، صلاح‌الدین و نینوا علیه سیاست‌های فرقه‌ای مالکی آغاز شد. معترضان خواستار پایان بازداشت‌های خودسرانه، حذف قانون ضد بعث و مشارکت سیاسی عادلانه بودند. مالکی تظاهرات را با زور سرکوب کرد. نارضایتی سنی‌ها زمینه مناسبی برای نفوذ داعش فراهم ساخت.",
+          en: "From December 2012, mass Sunni protests erupted in Anbar, Salah ad-Din, and Nineveh provinces against Maliki's sectarian policies. Protesters demanded an end to arbitrary arrests, repeal of the de-Ba'athification law, and fair political participation. Maliki suppressed the protests by force. Sunni grievances created fertile ground for ISIS infiltration.",
+        },
+      },],
   },
   {
     year: 2014,
@@ -8930,7 +9419,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "دانشجویان و شهروندان هنگ‌کنگ هفته‌ها خیابان‌ها را اشغال کردند و خواستار انتخابات آزاد شدند. پکن از عقب‌نشینی امتناع کرد و اعتراضات سرانجام پایان یافت.",
           en: "Students and citizens of Hong Kong occupied streets for weeks demanding free elections. Beijing refused to back down and the protests eventually ended.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "فاجعه کشتی سوول", en: "Sewol Ferry Disaster" },
+        description: { fa: "غرق شدن کشتی سوول ۳۰۴ نفر را کشت و بحران اعتماد عمومی ایجاد کرد", en: "Sinking of Sewol ferry kills 304, sparking public trust crisis" },
+        details: {
+          fa: "در ۱۶ آوریل ۲۰۱۴ کشتی مسافربری سوول با ۴۷۶ سرنشین در مسیر جزیره جه‌جو غرق شد و ۳۰۴ نفر جان باختند. عملیات نجات ناکارآمد و دروغ‌گویی مقامات خشم عمومی گسترده‌ای برانگیخت. این فاجعه زمینه‌ساز استیضاح رئیس‌جمهور پارک گون‌هه در ۲۰۱۶ گردید.",
+          en: "On April 16, 2014, the passenger ferry Sewol sank en route to Jeju Island with 476 people aboard, killing 304. The botched rescue operation and officials' lies sparked widespread public outrage. The disaster laid the groundwork for President Park Geun-hye's impeachment in 2016.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "سقوط موصل و ظهور داعش", en: "Fall of Mosul & Rise of ISIS" },
+        description: { fa: "داعش موصل دومین شهر بزرگ عراق را تصرف کرد", en: "ISIS captures Mosul, Iraq's second-largest city" },
+        details: {
+          fa: "در ۱۰ ژوئن ۲۰۱۴ داعش (دولت اسلامی عراق و شام) موصل را با نیرویی بسیار کمتر از ارتش عراق تصرف کرد. سه لشکر ارتش عراق بدون مقاومت فرار کردند. ابوبکر البغدادی در مسجد النوری موصل «خلافت اسلامی» اعلام کرد. داعش بخش وسیعی از شمال و غرب عراق را تصرف کرد. آیت‌الله سیستانی فتوای جهاد صادر کرد و نیروهای حشد الشعبی تشکیل شدند.",
+          en: "On June 10, 2014, ISIS (Islamic State of Iraq and Syria) captured Mosul with a force far smaller than the Iraqi army. Three Iraqi army divisions fled without resistance. Abu Bakr al-Baghdadi declared an 'Islamic Caliphate' at Mosul's al-Nuri Mosque. ISIS seized vast areas of northern and western Iraq. Grand Ayatollah Sistani issued a jihad fatwa and the Popular Mobilization Forces were formed.",
+        },
+      },],
   },
   {
     year: 2015,
@@ -9165,7 +9672,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "دیوان دائمی داوری لاهه ادعاهای ارضی چین در دریای جنوبی چین را رد کرد. پکن حکم را نپذیرفت و جزایر مصنوعی نظامی ساخت.",
           en: "The Permanent Court of Arbitration rejected China's territorial claims in the South China Sea. Beijing rejected the ruling and built militarized artificial islands.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "استیضاح پارک گون‌هه", en: "Park Geun-hye Impeached" },
+        description: { fa: "رئیس‌جمهور کره جنوبی به دلیل رسوایی فساد استیضاح و برکنار شد", en: "South Korean president impeached and removed over corruption scandal" },
+        details: {
+          fa: "در دسامبر ۲۰۱۶ پارک گون‌هه رئیس‌جمهور کره جنوبی در پی رسوایی فساد بزرگ توسط مجلس ملی استیضاح شد. میلیون‌ها نفر هفته‌ها با شمع تظاهرات مسالمت‌آمیز کردند. پارک دستگیر و به ۲۵ سال زندان محکوم شد. این رویداد قدرت دموکراسی کره جنوبی را به جهان نشان داد.",
+          en: "In December 2016, President Park Geun-hye was impeached by the National Assembly following a massive corruption scandal. Millions held peaceful candlelight protests for weeks. Park was arrested and sentenced to 25 years in prison. This event demonstrated the strength of South Korean democracy to the world.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "آغاز عملیات آزادسازی موصل", en: "Start of Mosul Liberation Operation" },
+        description: { fa: "ارتش عراق عملیات بازپس‌گیری موصل از داعش را آغاز کرد", en: "Iraqi army launches operation to retake Mosul from ISIS" },
+        details: {
+          fa: "در ۱۷ اکتبر ۲۰۱۶ ارتش عراق، نیروهای حشد الشعبی، پیشمرگه کردستان و ائتلاف بین‌المللی عملیات آزادسازی موصل را آغاز کردند. نبرد برای شرق موصل سه ماه و برای غرب موصل ۹ ماه طول کشید. داعش از غیرنظامیان به عنوان سپر انسانی استفاده کرد. هزاران غیرنظامی کشته و بخش بزرگی از شهر قدیمی موصل ویران شد.",
+          en: "On October 17, 2016, the Iraqi army, Popular Mobilization Forces, Kurdistan Peshmerga, and the international coalition launched the Mosul liberation operation. The battle for eastern Mosul took three months and western Mosul nine months. ISIS used civilians as human shields. Thousands of civilians were killed and much of Mosul's old city was destroyed.",
+        },
+      },],
   },
   {
     year: 2017,
@@ -9273,7 +9798,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "صدمین سالگرد انقلاب اکتبر بدون جشن رسمی گذشت. پوتین قدرت خود را تثبیت کرد و روسیه در سوریه دستاوردهای نظامی بزرگی به دست آورد.",
           en: "The October Revolution centenary passed without official celebration. Putin consolidated power and Russia achieved major military gains in Syria.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "آزادسازی موصل و همه‌پرسی استقلال کردستان", en: "Mosul Liberation & Kurdistan Independence Referendum" },
+        description: { fa: "موصل آزاد شد و کردها همه‌پرسی استقلال برگزار کردند اما با واکنش بغداد مواجه شدند", en: "Mosul liberated; Kurds hold independence referendum but face Baghdad's backlash" },
+        details: {
+          fa: "در ژوئیه ۲۰۱۷ نخست‌وزیر حیدر العبادی پیروزی نهایی در موصل را اعلام کرد. اما در سپتامبر اقلیم کردستان به رهبری مسعود بارزانی همه‌پرسی استقلال برگزار کرد که ۹۳ درصد به استقلال رأی دادند. بغداد، ایران و ترکیه شدیداً مخالفت کردند. ارتش عراق کرکوک و مناطق مورد مناقشه را بازپس گرفت و کردها بخش قابل توجهی از قلمرو خود را از دست دادند.",
+          en: "In July 2017, PM Haider al-Abadi declared final victory in Mosul. But in September, the Kurdistan Region under Masoud Barzani held an independence referendum where 93% voted for independence. Baghdad, Iran, and Turkey strongly opposed it. The Iraqi army retook Kirkuk and disputed territories, and the Kurds lost a significant portion of their territory.",
+        },
+      },],
   },
   {
     year: 2018,
@@ -9382,7 +9916,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "ترامپ تعرفه‌های سنگینی بر صدها میلیارد دلار کالای چینی وضع کرد. شی جین‌پینگ ریاست مادام‌العمر را تضمین کرد و محدودیت دو دوره حذف شد.",
           en: "Trump imposed heavy tariffs on hundreds of billions of dollars of Chinese goods. Xi Jinping secured lifelong presidency as term limits were removed.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "نشست سران دو کره و المپیک زمستانی پیونگ‌چانگ", en: "Inter-Korean Summit & Pyeongchang Winter Olympics" },
+        description: { fa: "المپیک زمستانی پیونگ‌چانگ و نشست تاریخی سران دو کره برگزار شد", en: "Pyeongchang Winter Olympics and historic inter-Korean summit held" },
+        details: {
+          fa: "کره جنوبی المپیک زمستانی ۲۰۱۸ را در پیونگ‌چانگ برگزار کرد. در آوریل مون جائه‌این و کیم جونگ‌اون در پانمونجوم دیدار کردند و «اعلامیه پانمونجوم» را امضا نمودند و قول خلع سلاح هسته‌ای و صلح دائمی دادند.",
+          en: "South Korea hosted the 2018 Winter Olympics in Pyeongchang. In April, President Moon Jae-in and Kim Jong-un met at Panmunjom and signed the 'Panmunjom Declaration,' pledging denuclearization and permanent peace.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "اعلام پیروزی بر داعش و انتخابات پارلمانی", en: "Victory Over ISIS Declared & Parliamentary Elections" },
+        description: { fa: "عراق پیروزی بر داعش را اعلام کرد و انتخابات با مشارکت پایین برگزار شد", en: "Iraq declares victory over ISIS; elections held with low turnout" },
+        details: {
+          fa: "در دسامبر ۲۰۱۷ حیدر العبادی پیروزی کامل بر داعش در عراق را اعلام کرد. اما در انتخابات مه ۲۰۱۸ مشارکت مردم تنها ۴۴ درصد بود که نارضایتی عمیق از طبقه سیاسی را نشان می‌داد. ائتلاف سائرون مقتدی صدر با ائتلاف فتح (حشد الشعبی) رقابت کرد. عادل عبدالمهدی نخست‌وزیر سازشی شد.",
+          en: "In December 2017, Haider al-Abadi declared complete victory over ISIS in Iraq. However, in the May 2018 elections, voter turnout was only 44%, reflecting deep public dissatisfaction with the political class. Muqtada al-Sadr's Sairoon coalition competed with the Fatah Alliance (PMF). Adel Abdul-Mahdi became a compromise prime minister.",
+        },
+      },],
   },
   {
     year: 2019,
@@ -9490,7 +10042,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "میلیون‌ها نفر در هنگ‌کنگ علیه لایحه استرداد تظاهرات کردند. اسناد محرمانه اردوگاه‌های بازداشت اویغورها در شین‌جیانگ افشا شد.",
           en: "Millions protested in Hong Kong against the extradition bill. Classified documents revealed Uyghur detention camps in Xinjiang.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "انقلاب اکتبر - اعتراضات گسترده مردمی", en: "October Revolution - Mass Popular Protests" },
+        description: { fa: "جوانان عراقی علیه فساد، بیکاری و نفوذ ایران به خیابان‌ها ریختند", en: "Iraqi youth take to streets against corruption, unemployment, and Iranian influence" },
+        details: {
+          fa: "در اکتبر ۲۰۱۹ اعتراضات گسترده‌ای در بغداد و شهرهای جنوب عراق آغاز شد. جوانان خواستار اصلاحات، مبارزه با فساد، ایجاد اشتغال و پایان نفوذ ایران بودند. نیروهای امنیتی و شبه‌نظامیان وابسته به ایران بیش از ۶۰۰ معترض را کشتند و ۲۰ هزار نفر زخمی شدند. عبدالمهدی استعفا داد. این بزرگ‌ترین جنبش اعتراضی تاریخ عراق مدرن بود.",
+          en: "In October 2019, massive protests erupted in Baghdad and southern Iraqi cities. Young people demanded reforms, anti-corruption measures, jobs, and an end to Iranian influence. Security forces and Iran-backed militias killed over 600 protesters and wounded 20,000. Abdul-Mahdi resigned. This was the largest protest movement in modern Iraqi history.",
+        },
+      },],
   },
   {
     year: 2020,
@@ -9609,7 +10170,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "ویروس کرونا از ووهان شروع شد و به پاندمی جهانی تبدیل شد. چین قرنطینه شدید اعمال کرد و سپس بهبود سریع اقتصادی را تجربه کرد.",
           en: "The coronavirus started in Wuhan and became a global pandemic. China imposed severe lockdowns and then experienced rapid economic recovery.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "جایزه اسکار فیلم انگل و موج فرهنگی کره", en: "Parasite Wins Oscar & Korean Cultural Wave" },
+        description: { fa: "فیلم انگل اسکار بهترین فیلم را برد و موج فرهنگی کره جهانی شد", en: "Film Parasite wins Best Picture Oscar, Korean cultural wave goes global" },
+        details: {
+          fa: "فیلم «انگل» ساخته بونگ جون‌هو در فوریه ۲۰۲۰ جایزه اسکار بهترین فیلم را برد و اولین فیلم غیرانگلیسی‌زبان در تاریخ اسکار بود که این جایزه را دریافت کرد. این دستاورد نماد گسترش موج فرهنگی کره (هالیو) بود.",
+          en: "Bong Joon-ho's 'Parasite' won the Academy Award for Best Picture in February 2020, becoming the first non-English-language film in Oscar history to receive this award. This symbolized the expansion of the Korean Wave (Hallyu).",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "ترور سلیمانی و ابومهدی المهندس در بغداد", en: "Assassination of Soleimani & Abu Mahdi al-Muhandis in Baghdad" },
+        description: { fa: "آمریکا فرماندهان ایرانی و عراقی را در فرودگاه بغداد ترور کرد", en: "US assassinates Iranian and Iraqi commanders at Baghdad airport" },
+        details: {
+          fa: "در ۳ ژانویه ۲۰۲۰ آمریکا با حمله پهپادی قاسم سلیمانی فرمانده نیروی قدس سپاه پاسداران و ابومهدی المهندس معاون فرمانده حشد الشعبی عراق را در فرودگاه بغداد ترور کرد. پارلمان عراق خواستار اخراج نیروهای آمریکایی شد. ایران با موشک‌باران پایگاه عین‌الاسد پاسخ داد. این رویداد تنش ایران و آمریکا را به آستانه جنگ رساند.",
+          en: "On January 3, 2020, the US assassinated Qassem Soleimani, commander of Iran's IRGC Quds Force, and Abu Mahdi al-Muhandis, deputy commander of Iraq's Popular Mobilization Forces, in a drone strike at Baghdad airport. The Iraqi parliament demanded the expulsion of US forces. Iran retaliated by striking Ain al-Asad base. This event brought Iran-US tensions to the brink of war.",
+        },
+      },],
   },
   {
     year: 2021,
@@ -9726,7 +10305,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "ناوالنی پس از بازگشت به روسیه دستگیر و زندانی شد. روسیه نیروهای نظامی عظیمی در مرز اوکراین جمع کرد و تنش‌ها افزایش یافت.",
           en: "Navalny was arrested and imprisoned after returning to Russia. Russia amassed massive military forces on Ukraine's border, escalating tensions.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "انتخابات زودهنگام و پیروزی صدری‌ها", en: "Early Elections & Sadrist Victory" },
+        description: { fa: "جریان صدر در انتخابات پارلمانی پیروز شد اما تشکیل دولت به بن‌بست رسید", en: "Sadrist movement wins parliamentary elections but government formation deadlocked" },
+        details: {
+          fa: "در اکتبر ۲۰۲۱ انتخابات زودهنگام پارلمانی با مشارکت پایین ۴۱ درصد برگزار شد. جریان صدر بیشترین کرسی‌ها را کسب کرد اما چارچوب هماهنگی شیعی (وابسته به ایران) مانع تشکیل دولت شد. بن‌بست سیاسی ماه‌ها ادامه یافت و مقتدی صدر سرانجام نمایندگانش را از پارلمان خارج کرد.",
+          en: "In October 2021, early parliamentary elections were held with a low 41% turnout. The Sadrist movement won the most seats, but the Iran-backed Coordination Framework blocked government formation. The political deadlock lasted months, and Muqtada al-Sadr ultimately withdrew his representatives from parliament.",
+        },
+      },],
   },
   {
     year: 2022,
@@ -9849,7 +10437,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "شی جین‌پینگ در بیستمین کنگره حزب برای دوره سوم بی‌سابقه انتخاب شد. اعتراضات «کاغذ سفید» علیه سیاست کووید صفر دولت را مجبور به عقب‌نشینی کرد.",
           en: "Xi Jinping was elected for an unprecedented third term at the 20th Party Congress. 'White paper' protests against zero-COVID policy forced the government to retreat.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "فاجعه ازدحام ایته‌وان و انتخاب یون سوک‌یول", en: "Itaewon Crowd Crush & Yoon Suk-yeol Elected" },
+        description: { fa: "ازدحام جمعیت در جشن هالووین ایته‌وان ۱۵۹ نفر را کشت و یون رئیس‌جمهور شد", en: "Halloween crowd crush in Itaewon kills 159; Yoon elected president" },
+        details: {
+          fa: "در اکتبر ۲۰۲۲ ازدحام جمعیت در جشن هالووین در محله ایته‌وان سئول ۱۵۹ نفر را کشت. پیش‌تر در مارس یون سوک‌یول نامزد محافظه‌کار با اختلاف اندک رئیس‌جمهور شده بود.",
+          en: "In October 2022, a crowd crush during Halloween celebrations in Seoul's Itaewon district killed 159 people. Earlier in March, conservative candidate Yoon Suk-yeol had won the presidency by a narrow margin.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "درگیری‌های منطقه سبز و بحران سیاسی", en: "Green Zone Clashes & Political Crisis" },
+        description: { fa: "هواداران مقتدی صدر منطقه سبز بغداد را اشغال کردند و درگیری‌های خونین رخ داد", en: "Muqtada al-Sadr supporters storm Baghdad's Green Zone, bloody clashes erupt" },
+        details: {
+          fa: "در اوت ۲۰۲۲ هواداران مقتدی صدر ساختمان پارلمان در منطقه سبز بغداد را اشغال کردند. درگیری‌های مسلحانه بین صدری‌ها و شبه‌نظامیان چارچوب هماهنگی رخ داد و ده‌ها نفر کشته و زخمی شدند. صدر سرانجام از هوادارانش خواست عقب‌نشینی کنند. محمد شیاع السودانی از چارچوب هماهنگی نخست‌وزیر شد.",
+          en: "In August 2022, Muqtada al-Sadr's supporters stormed the parliament building in Baghdad's Green Zone. Armed clashes erupted between Sadrists and Coordination Framework militias, killing and wounding dozens. Sadr eventually asked his supporters to withdraw. Mohammed Shia al-Sudani from the Coordination Framework became prime minister.",
+        },
+      },],
   },
   {
     year: 2023,
@@ -9967,7 +10573,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "بحران بخش مسکن با ورشکستگی اورگرند ادامه یافت. وزیر دفاع و وزیر خارجه ناپدید و سپس برکنار شدند. شی کمپین ضد فساد را شدت بخشید.",
           en: "The housing sector crisis continued with the Evergrande bankruptcy. The defense and foreign ministers disappeared and were later removed. Xi intensified the anti-corruption campaign.",
         },
-      }],
+      },
+      {
+        country: "iraq",
+        title: { fa: "بازسازی و ثبات نسبی عراق", en: "Reconstruction & Relative Stability in Iraq" },
+        description: { fa: "عراق دوره‌ای از ثبات نسبی و تلاش برای بازسازی را تجربه کرد", en: "Iraq experiences period of relative stability and reconstruction efforts" },
+        details: {
+          fa: "در ۲۰۲۳ عراق تحت دولت السودانی دوره‌ای از ثبات نسبی را تجربه کرد. درآمد نفت افزایش یافت و بودجه ۱۵۳ میلیارد دلاری سه‌ساله تصویب شد. پروژه‌های بازسازی موصل و مناطق تخریب‌شده ادامه یافت. اما فساد گسترده، بیکاری جوانان و نفوذ شبه‌نظامیان همچنان چالش‌های اساسی بودند.",
+          en: "In 2023, Iraq under the Sudani government experienced a period of relative stability. Oil revenues increased and a $153 billion three-year budget was approved. Reconstruction projects in Mosul and destroyed areas continued. However, widespread corruption, youth unemployment, and militia influence remained fundamental challenges.",
+        },
+      },],
   },
   {
     year: 2024,
@@ -10076,7 +10691,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "چین پس از انتخاب رئیس‌جمهور جدید تایوان رزمایش نظامی برگزار کرد. بحران مسکن ادامه یافت و رشد اقتصادی به کمتر از ۵ درصد رسید.",
           en: "China held military exercises after Taiwan's new president was elected. The housing crisis continued and economic growth fell below 5%.",
         },
-      }],
+      },
+      {
+        country: "south_korea",
+        title: { fa: "بحران حکومت نظامی یون سوک‌یول", en: "Yoon Suk-yeol Martial Law Crisis" },
+        description: { fa: "رئیس‌جمهور یون حکومت نظامی اعلام کرد اما مجلس آن را لغو نمود", en: "President Yoon declares martial law but parliament overturns it" },
+        details: {
+          fa: "در دسامبر ۲۰۲۴ رئیس‌جمهور یون سوک‌یول به طور غیرمنتظره حکومت نظامی اعلام کرد. نمایندگان مجلس حکومت نظامی را در عرض چند ساعت لغو کردند. یون مجبور به عقب‌نشینی شد و فرآیند استیضاح آغاز گردید. این بحران شدیدترین تهدید علیه دموکراسی کره جنوبی از دهه ۱۹۸۰ بود.",
+          en: "In December 2024, President Yoon Suk-yeol unexpectedly declared martial law. Lawmakers voted to overturn martial law within hours. Yoon was forced to back down and impeachment proceedings began. This crisis was the most serious threat to South Korean democracy since the 1980s.",
+        },
+      },
+      {
+        country: "iraq",
+        title: { fa: "تنش شبه‌نظامیان عراقی با آمریکا", en: "Iraqi Militia Tensions with the US" },
+        description: { fa: "شبه‌نظامیان عراقی وابسته به ایران پایگاه‌های آمریکایی را هدف حمله قرار دادند", en: "Iran-backed Iraqi militias target US bases with attacks" },
+        details: {
+          fa: "در اوایل ۲۰۲۴ در پی جنگ غزه، شبه‌نظامیان عراقی وابسته به ایران حملات پهپادی و موشکی متعددی به پایگاه‌های آمریکایی در عراق و سوریه انجام دادند. حمله به برج ۲۲ در اردن سه سرباز آمریکایی را کشت. آمریکا تلافی کرد و رهبران شبه‌نظامی را ترور نمود. این تنش‌ها بار دیگر عراق را در میانه رقابت ایران و آمریکا قرار داد.",
+          en: "In early 2024, following the Gaza war, Iran-backed Iraqi militias launched numerous drone and missile attacks on US bases in Iraq and Syria. An attack on Tower 22 in Jordan killed three US soldiers. The US retaliated by assassinating militia leaders. These tensions once again placed Iraq at the center of the Iran-US rivalry.",
+        },
+      },],
   },
   {
     year: 2025,
