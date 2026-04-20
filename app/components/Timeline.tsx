@@ -493,7 +493,7 @@ export default function Timeline() {
   const [selectedCountries, setSelectedCountries] = useState<Set<Country>>(
     new Set(["usa", "uk", "germany", "france", "russia", "china", "japan", "south_korea", "iraq", "turkey", "world"])
   );
-  const [newestFirst, setNewestFirst] = useState(true);
+  const [newestFirst, setNewestFirst] = useState(false);
 
   const toggleCountry = (country: Country) => {
     setSelectedCountries((prev) => {
