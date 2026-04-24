@@ -722,7 +722,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The 1900 World's Fair in Paris attracted over 50 million visitors. France showcased its industrial and cultural power. The Paris Metro opened the same year. The fair was a symbol of France's 'Belle Époque' era.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "ژاپن در شورش بوکسرها", en: "Japan in the Boxer Rebellion" },
+        description: { fa: "ژاپن بخشی از ائتلاف هشت‌گانه برای سرکوب شورش بوکسرها در چین بود", en: "Japan joins Eight-Nation Alliance to suppress the Boxer Rebellion in China" },
+        details: {
+          fa: "ژاپن به عنوان یکی از هشت قدرت بزرگ در سرکوب شورش بوکسرها شرکت کرد و بزرگترین نیروی زمینی را اعزام نمود. این مشارکت جایگاه ژاپن را به عنوان قدرت نوظهور آسیایی تثبیت کرد.",
+          en: "Japan participated as one of eight major powers in suppressing the Boxer Rebellion, sending the largest ground force. This participation cemented Japan's status as an emerging Asian power.",
+        },
+      },],
   },
   {
     year: 1901,
@@ -811,6 +820,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Prominent clergy played an active supportive role in response to economic pressures on the public and merchants. They defended people's rights from the pulpit and criticized government fiscal policies that had led to dependence on foreigners. The alliance between the bazaar and the mosque, formed during the Tobacco Movement, remained intact and provided an important social base for future protests.",
       },
     }],
+    world: [
+      {
+        country: "japan",
+        title: { fa: "اتحاد انگلیس و ژاپن", en: "Anglo-Japanese Alliance" },
+        description: { fa: "اولین اتحاد نظامی برابر بین یک کشور آسیایی و اروپایی", en: "First equal military alliance between an Asian and European nation" },
+        details: {
+          fa: "ژاپن و بریتانیا پیمان اتحاد امضا کردند که اولین اتحاد نظامی برابر بین یک قدرت آسیایی و اروپایی بود. این پیمان به ژاپن مشروعیت بین‌المللی بخشید و در جنگ روسیه-ژاپن نقش مهمی ایفا کرد.",
+          en: "Japan and Britain signed an alliance treaty, the first equal military alliance between an Asian and European power. This pact gave Japan international legitimacy and played a crucial role in the Russo-Japanese War.",
+        },
+      },
+    ],
   },
   {
     year: 1903,
@@ -977,7 +997,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Kaiser Wilhelm II visited Tangier, Morocco, supporting Moroccan independence against French influence. This crisis brought Europe to the brink of war and was resolved at the 1906 Algeciras Conference. The event strengthened the Franco-British alliance and deepened Germany's isolation.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "پیروزی ژاپن در جنگ روسیه-ژاپن", en: "Japan Wins Russo-Japanese War" },
+        description: { fa: "ژاپن اولین کشور آسیایی شد که یک قدرت اروپایی را شکست داد", en: "Japan becomes first Asian nation to defeat a European power" },
+        details: {
+          fa: "ژاپن با پیروزی در جنگ روسیه-ژاپن تاریخ جهان را تغییر داد. نبرد دریایی تسوشیما ناوگان روسیه را نابود کرد. پیمان پورتسموث با میانجیگری آمریکا امضا شد و ژاپن کره و بخشی از ساخالین را به دست آورد.",
+          en: "Japan changed world history by winning the Russo-Japanese War. The Battle of Tsushima destroyed the Russian fleet. The Treaty of Portsmouth, mediated by the US, was signed, giving Japan Korea and part of Sakhalin.",
+        },
+      },],
   },
   {
     year: 1906,
@@ -1187,6 +1216,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "انقلاب ترک‌های جوان در ۱۹۰۸ قانون اساسی عثمانی را احیا کرد و امید به آزادی و اصلاحات در ولایات عربی از جمله بغداد، بصره و موصل ایجاد نمود. روشنفکران عراقی در فعالیت‌های سیاسی مشارکت بیشتری یافتند اما سیاست‌های ترکی‌سازی ترک‌های جوان به زودی مخالفت عرب‌ها را برانگیخت و جنبش‌های ناسیونالیستی عربی تقویت شد.",
           en: "The Young Turks revolution of 1908 restored the Ottoman constitution and raised hopes for freedom and reform in Arab provinces including Baghdad, Basra, and Mosul. Iraqi intellectuals became more politically active, but the Young Turks' Turkification policies soon provoked Arab opposition and strengthened Arab nationalist movements.",
         },
+      },
+      {
+        country: "turkey",
+        title: { fa: "انقلاب جوانان ترک", en: "Young Turk Revolution" },
+        description: { fa: "جوانان ترک سلطان عبدالحمید دوم را مجبور به بازگرداندن قانون اساسی کردند", en: "Young Turks force Sultan Abdul Hamid II to restore the constitution" },
+        details: {
+          fa: "کمیته اتحاد و ترقی با شورش نظامی سلطان عبدالحمید دوم را مجبور به اعاده قانون اساسی ۱۸۷۶ کرد. مجلس عثمانی بازگشایی شد و دوره کوتاهی از آزادی‌های سیاسی آغاز گردید.",
+          en: "The Committee of Union and Progress forced Sultan Abdul Hamid II to restore the 1876 constitution through a military revolt. The Ottoman parliament was reopened and a brief period of political freedoms began.",
+        },
       },],
   },
   {
@@ -1260,7 +1298,16 @@ export const timelineData: TimelineEntry[] = [
           en: "French aviator Louis Blériot made the first successful flight across the English Channel on July 25, 1909. This achievement placed France at the forefront of aviation technology and demonstrated that the sea was no longer a barrier to invasion. Britain realized its new island vulnerability.",
         },
       },
-    ],
+    
+      {
+        country: "turkey",
+        title: { fa: "خلع سلطان عبدالحمید دوم", en: "Sultan Abdul Hamid II Deposed" },
+        description: { fa: "سلطان عبدالحمید دوم برکنار شد و محمد پنجم جانشین او گردید", en: "Sultan Abdul Hamid II deposed, replaced by Mehmed V" },
+        details: {
+          fa: "پس از کودتای نافرجام ضد انقلابی، جوانان ترک سلطان عبدالحمید دوم را برکنار و تبعید کردند. محمد پنجم به عنوان سلطان دست‌نشانده بر تخت نشست.",
+          en: "After a failed counter-revolutionary coup, the Young Turks deposed and exiled Sultan Abdul Hamid II. Mehmed V was placed on the throne as a figurehead sultan.",
+        },
+      },],
   },
   {
     year: 1910,
@@ -1315,7 +1362,16 @@ export const timelineData: TimelineEntry[] = [
           en: "In 1910, Japan formally annexed the Korean Peninsula through the Japan-Korea Annexation Treaty, dissolving the Joseon dynasty. This ended over five centuries of Korean sovereignty. Japan imposed harsh colonial policies including suppression of the Korean language and culture, land confiscation, and economic exploitation. Japanese colonial rule lasted until 1945.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "الحاق کره به امپراتوری ژاپن", en: "Japan Annexes Korea" },
+        description: { fa: "ژاپن شبه‌جزیره کره را رسماً ضمیمه خود کرد", en: "Japan formally annexes the Korean Peninsula" },
+        details: {
+          fa: "ژاپن با پیمان الحاق، کره را رسماً ضمیمه امپراتوری خود کرد و سلسله چوسان را منحل نمود. حاکمیت استعماری ژاپن بر کره تا ۱۹۴۵ ادامه یافت و با سرکوب فرهنگی و بهره‌کشی اقتصادی همراه بود.",
+          en: "Japan formally annexed Korea through the annexation treaty, dissolving the Joseon dynasty. Japanese colonial rule over Korea lasted until 1945 and was accompanied by cultural suppression and economic exploitation.",
+        },
+      },],
   },
   {
     year: 1911,
@@ -1404,6 +1460,26 @@ export const timelineData: TimelineEntry[] = [
         en: "Traditional Iranian industries such as textiles, carpet weaving, and handicrafts, which had been the country's most important exports for centuries, were under severe pressure from competition with cheap European factory-made goods. Imports of inexpensive Russian and British fabrics had bankrupted traditional weaving workshops. Only handwoven Persian carpets still maintained international demand. This destruction of indigenous industries without replacement by modern manufacturing made Iran's economy more vulnerable.",
       },
     }],
+    world: [
+      {
+        country: "japan",
+        title: { fa: "پایان دوره میجی و آغاز دوره تایشو", en: "End of Meiji Era, Taisho Era Begins" },
+        description: { fa: "امپراتور میجی درگذشت و دوره تایشو آغاز شد", en: "Emperor Meiji dies, Taisho era begins" },
+        details: {
+          fa: "امپراتور میجی که ژاپن را از فئودالیسم به مدرنیته رسانده بود درگذشت. پسرش یوشیهیتو به عنوان امپراتور تایشو بر تخت نشست. دوره تایشو با دموکراسی نسبی و آزادی‌های سیاسی بیشتر شناخته می‌شود.",
+          en: "Emperor Meiji, who had led Japan from feudalism to modernity, died. His son Yoshihito ascended the throne as Emperor Taisho. The Taisho era is known for relative democracy and greater political freedoms.",
+        },
+      },
+    
+      {
+        country: "turkey",
+        title: { fa: "جنگ‌های بالکان و از دست رفتن اروپای عثمانی", en: "Balkan Wars & Loss of Ottoman Europe" },
+        description: { fa: "امپراتوری عثمانی بیشتر سرزمین‌های اروپایی خود را از دست داد", en: "Ottoman Empire loses most of its European territories" },
+        details: {
+          fa: "در جنگ اول بالکان، ائتلاف صربستان، بلغارستان، یونان و مونته‌نگرو عثمانی را شکست داد. صدها هزار مسلمان آواره شدند و امپراتوری عثمانی عملاً به یک قدرت آسیایی تبدیل شد.",
+          en: "In the First Balkan War, a coalition of Serbia, Bulgaria, Greece, and Montenegro defeated the Ottomans. Hundreds of thousands of Muslims were displaced and the Ottoman Empire effectively became an Asian power.",
+        },
+      },],
   },
   {
     year: 1913,
@@ -1448,6 +1524,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Iran's central government faced a chronic and severe budget deficit. Tax revenues were meager as tribal chiefs and large landowners evaded taxation. Customs revenues were mainly spent on repaying foreign loans. The government was unable to pay employees, provide security, or deliver public services. The lack of adequate budget was one of the main reasons for the constitutional government's practical failure.",
       },
     }],
+    world: [
+      {
+        country: "turkey",
+        title: { fa: "کودتای سه پاشا", en: "Coup of the Three Pashas" },
+        description: { fa: "انور، طلعت و جمال پاشا با کودتا قدرت را قبضه کردند", en: "Enver, Talat & Cemal Pasha seize power in coup" },
+        details: {
+          fa: "سه پاشا با کودتای باب عالی قدرت را قبضه کردند و دیکتاتوری نظامی برقرار کردند. آنها عثمانی را به سمت اتحاد با آلمان و ورود به جنگ جهانی اول سوق دادند.",
+          en: "The Three Pashas seized power through the Raid on the Sublime Porte and established a military dictatorship. They steered the Ottomans toward alliance with Germany and entry into WWI.",
+        },
+      },
+    ],
   },
 
   {
@@ -1543,6 +1630,15 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در نوامبر ۱۹۱۴ با ورود امپراتوری عثمانی به جنگ جهانی اول در کنار آلمان، نیروهای بریتانیا از هند به خلیج فارس حمله کردند و بصره را اشغال نمودند. هدف اصلی بریتانیا حفاظت از منافع نفتی و مسیرهای دریایی به هند بود. این اشغال آغاز حضور نظامی طولانی‌مدت بریتانیا در عراق شد.",
           en: "In November 1914, as the Ottoman Empire entered World War I on Germany's side, British forces from India attacked the Persian Gulf and occupied Basra. Britain's main goal was protecting oil interests and sea routes to India. This occupation marked the beginning of Britain's long military presence in Iraq.",
+        },
+      },
+      {
+        country: "japan",
+        title: { fa: "ورود ژاپن به جنگ جهانی اول", en: "Japan Enters World War I" },
+        description: { fa: "ژاپن به متفقین پیوست و مستعمرات آلمان در اقیانوس آرام را تصرف کرد", en: "Japan joins Allies and seizes German colonies in the Pacific" },
+        details: {
+          fa: "ژاپن بر اساس پیمان اتحاد با بریتانیا به جنگ جهانی اول وارد شد و مستعمرات آلمان در چین و جزایر اقیانوس آرام را تصرف کرد. ژاپن بیست‌ویک خواسته خود را به چین تحمیل کرد که نفوذ ژاپن در قاره آسیا را گسترش می‌داد.",
+          en: "Japan entered WWI based on its alliance with Britain and seized German colonies in China and Pacific islands. Japan imposed its Twenty-One Demands on China, extending Japanese influence on the Asian continent.",
         },
       },],
   },
@@ -1713,7 +1809,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The Representation of the People Act 1918 gave women over 30 the right to vote for the first time. This achievement was the result of the long suffragette struggle. WWI and women's extensive participation in factories and hospitals played a key role in changing societal attitudes.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "شورش برنج در ژاپن", en: "Rice Riots in Japan" },
+        description: { fa: "شورش‌های گسترده مردمی به دلیل گرانی برنج سراسر ژاپن را فراگرفت", en: "Widespread riots over rice prices sweep across Japan" },
+        details: {
+          fa: "افزایش شدید قیمت برنج به شورش‌های گسترده در سراسر ژاپن منجر شد. بیش از دو میلیون نفر در اعتراضات شرکت کردند و دولت نظامی برای سرکوب اعزام شد. این شورش‌ها به سقوط کابینه ترائوچی و روی کار آمدن اولین نخست‌وزیر حزبی ژاپن منجر شد.",
+          en: "Sharp increases in rice prices led to widespread riots across Japan. Over two million people participated in protests and the military was deployed for suppression. The riots led to the fall of the Terauchi cabinet and the appointment of Japan's first party-based prime minister.",
+        },
+      },],
   },
   {
     year: 1919,
@@ -1786,7 +1891,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The Weimar Republic was born in crisis. Germany was forced to accept the Versailles Treaty, which imposed war guilt, $33 billion in reparations, and loss of 13% of German territory. Communist uprisings (Spartacists) were crushed. Resentment over Versailles set the stage for the rise of Nazism.",
         },
       },
-    ],
+    
+      {
+        country: "turkey",
+        title: { fa: "آغاز جنگ استقلال ترکیه", en: "Turkish War of Independence Begins" },
+        description: { fa: "مصطفی کمال جنبش مقاومت ملی را در آناتولی آغاز کرد", en: "Mustafa Kemal begins national resistance movement in Anatolia" },
+        details: {
+          fa: "مصطفی کمال در سامسون پیاده شد و جنبش مقاومت ملی را آغاز کرد. کنگره‌های ارضروم و سیواس برگزار شد و مجلس ملی بزرگ در آنکارا تشکیل گردید.",
+          en: "Mustafa Kemal landed in Samsun and began the national resistance movement. Erzurum and Sivas congresses were held and the Grand National Assembly was formed in Ankara.",
+        },
+      },],
   },
   {
     year: 1920,
@@ -1867,6 +1981,15 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در تابستان ۱۹۲۰ قیام گسترده‌ای علیه اشغال بریتانیا در سراسر عراق آغاز شد. قبایل شیعه و سنی متحد شدند و بخش‌های وسیعی از جنوب و مرکز عراق را آزاد کردند. بریتانیا با استفاده از نیروی هوایی و تقویت نظامی قیام را سرکوب کرد. بیش از ده هزار عراقی کشته شدند. این قیام بریتانیا را مجبور کرد به جای حکومت مستقیم، سلطنت دست‌نشانده تأسیس کند.",
           en: "In the summer of 1920, a widespread revolt against British occupation erupted across Iraq. Shia and Sunni tribes united and liberated large areas of southern and central Iraq. Britain suppressed the revolt using air power and military reinforcements. Over ten thousand Iraqis were killed. This revolt forced Britain to establish a client monarchy instead of direct rule.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "مجلس ملی بزرگ و پیمان سور", en: "Grand National Assembly & Treaty of Sevres" },
+        description: { fa: "مجلس ملی در آنکارا تأسیس شد و پیمان تحقیرآمیز سور امضا شد", en: "National Assembly in Ankara; humiliating Treaty of Sevres signed" },
+        details: {
+          fa: "مجلس ملی بزرگ ترکیه در آنکارا افتتاح شد. پیمان سور عثمانی را تجزیه می‌کرد اما آنکارا آن را نپذیرفت و جنگ استقلال را ادامه داد.",
+          en: "The Grand National Assembly opened in Ankara. The Treaty of Sevres partitioned the Ottoman Empire but Ankara rejected it and continued the war of independence.",
         },
       },],
   },
@@ -2001,6 +2124,17 @@ export const timelineData: TimelineEntry[] = [
         en: "The Anglo-Persian Oil Company made massive investments in expanding the Abadan refinery and oil facilities in southern Iran. The Abadan refinery became one of the largest industrial complexes in the Middle East. Thousands of Iranian workers labored under harsh conditions with low wages at these facilities, while British employees enjoyed far superior amenities. Racial discrimination in the oil industry was one of the main sources of national discontent.",
       },
     }],
+    world: [
+      {
+        country: "turkey",
+        title: { fa: "پیروزی نهایی و لغو سلطنت عثمانی", en: "Final Victory & Abolition of Ottoman Sultanate" },
+        description: { fa: "ارتش ترکیه یونان را شکست داد و سلطنت لغو شد", en: "Turkish army defeats Greece; sultanate abolished" },
+        details: {
+          fa: "ارتش ترکیه ازمیر را آزاد نمود. در نوامبر مجلس ملی سلطنت عثمانی را لغو کرد و آخرین سلطان محمد ششم فرار نمود.",
+          en: "The Turkish army liberated Izmir. In November the National Assembly abolished the sultanate and the last sultan Mehmed VI fled.",
+        },
+      },
+    ],
   },
   {
     year: 1923,
@@ -2045,6 +2179,26 @@ export const timelineData: TimelineEntry[] = [
         en: "With an increasing number of Iranians educated in Europe and graduates of domestic modern schools, a new class of civil servants and professionals was forming. This new class demanded administrative modernization and bureaucratic reforms. Ministries gradually adopted more modern organization, and civil registration improved. Reza Khan utilized this educated class to implement his modernization programs.",
       },
     }],
+    world: [
+      {
+        country: "japan",
+        title: { fa: "زلزله بزرگ کانتو", en: "Great Kanto Earthquake" },
+        description: { fa: "زلزله ویرانگر توکیو و یوکوهاما را نابود کرد و بیش از ۱۰۰ هزار نفر کشته شدند", en: "Devastating earthquake destroys Tokyo and Yokohama, killing over 100,000" },
+        details: {
+          fa: "زلزله ۷.۹ ریشتری کانتو توکیو و یوکوهاما را ویران کرد. آتش‌سوزی‌های گسترده شهر را سوزاند و بیش از ۱۰۰ هزار نفر کشته شدند. در هرج‌ومرج پس از زلزله، کشتار وحشیانه کره‌ای‌ها و سوسیالیست‌ها رخ داد.",
+          en: "The 7.9 magnitude Kanto earthquake devastated Tokyo and Yokohama. Massive fires burned the city and over 100,000 people were killed. In the chaos that followed, brutal massacres of Koreans and socialists occurred.",
+        },
+      },
+    
+      {
+        country: "turkey",
+        title: { fa: "تأسیس جمهوری ترکیه", en: "Republic of Turkey Proclaimed" },
+        description: { fa: "جمهوری ترکیه اعلام شد و آتاتورک اولین رئیس‌جمهور شد", en: "Republic of Turkey proclaimed with Ataturk as first president" },
+        details: {
+          fa: "پیمان لوزان مرزهای ترکیه مدرن را تعیین کرد. در ۲۹ اکتبر جمهوری ترکیه اعلام شد و مصطفی کمال اولین رئیس‌جمهور گردید. آنکارا پایتخت شد.",
+          en: "The Treaty of Lausanne established modern Turkey's borders. On October 29, the Republic was proclaimed with Mustafa Kemal as first president. Ankara became the capital.",
+        },
+      },],
   },
   {
     year: 1924,
@@ -2089,6 +2243,17 @@ export const timelineData: TimelineEntry[] = [
         en: "The Civil Registration Law was passed, requiring all Iranians to register births, marriages, and deaths. People were required to adopt fixed surnames, which had not been common in Iran until then. This law was part of the administrative modernization program and creation of a modern nation-state. Its implementation in rural and tribal areas faced numerous difficulties, but it laid the foundation of Iran's modern identity system.",
       },
     }],
+    world: [
+      {
+        country: "turkey",
+        title: { fa: "لغو خلافت عثمانی", en: "Abolition of the Ottoman Caliphate" },
+        description: { fa: "آتاتورک خلافت اسلامی عثمانی را لغو کرد", en: "Ataturk abolishes the Ottoman Islamic Caliphate" },
+        details: {
+          fa: "مجلس ملی خلافت عثمانی را لغو و آخرین خلیفه را تبعید کرد. مدارس مذهبی و دادگاه‌های شرعی تعطیل شدند. این اقدام شوک بزرگی در جهان اسلام ایجاد کرد.",
+          en: "The National Assembly abolished the Caliphate and exiled the last Caliph. Religious schools and Sharia courts were closed, sending shockwaves through the Islamic world.",
+        },
+      },
+    ],
   },
   {
     year: 1925,
@@ -2161,7 +2326,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Lenin died in January 1924 and a power struggle between Stalin and Trotsky began. Stalin, through political maneuvering, expelled Trotsky from the party and eventually had him exiled. Stalin promoted 'Socialism in One Country' against Trotsky's 'Permanent Revolution' and achieved absolute power by 1928.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "حق رأی عمومی مردان در ژاپن", en: "Universal Male Suffrage in Japan" },
+        description: { fa: "تمام مردان بالای ۲۵ سال حق رأی یافتند", en: "All men over 25 gain voting rights" },
+        details: {
+          fa: "قانون حق رأی عمومی مردان تصویب شد و تعداد رأی‌دهندگان را چهار برابر کرد. اما همزمان قانون حفظ نظم عمومی برای سرکوب جنبش‌های چپ و کمونیستی تصویب شد که آزادی‌های سیاسی را محدود می‌کرد.",
+          en: "The universal male suffrage law was passed, quadrupling the electorate. However, the Peace Preservation Law was simultaneously enacted to suppress leftist and communist movements, restricting political freedoms.",
+        },
+      },],
   },
   {
     year: 1926,
@@ -2305,6 +2479,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Reza Shah strengthened the policy of state control over foreign trade. State monopolies on imports and exports of certain key commodities such as sugar, tea, and tobacco were established. This policy served both to increase government revenues and to protect nascent domestic industries. Private merchants were dissatisfied with the new restrictions but unable to resist the government. These monopolies laid the foundation for Iran's state-dominated economy in subsequent decades.",
       },
     }],
+    world: [
+      {
+        country: "turkey",
+        title: { fa: "اصلاح الفبای ترکیه", en: "Turkish Alphabet Reform" },
+        description: { fa: "آتاتورک الفبای عربی را با الفبای لاتین جایگزین کرد", en: "Ataturk replaces Arabic script with Latin alphabet" },
+        details: {
+          fa: "آتاتورک الفبای عربی-فارسی را ممنوع و الفبای لاتین را جایگزین کرد. مدارس الفبا در سراسر کشور تأسیس شد. این اصلاح ارتباط نسل جدید با متون عثمانی را قطع کرد.",
+          en: "Ataturk banned the Arabic-Persian script and replaced it with the Latin alphabet. Alphabet schools were established across the country, severing the new generation's connection to Ottoman texts.",
+        },
+      },
+    ],
   },
   {
     year: 1929,
@@ -2467,6 +2652,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Reza Shah's government launched an extensive program of building paved automobile roads between Iran's major cities. The Tehran-Isfahan, Tehran-Mashhad, and Tehran-Tabriz routes were among the most important roads under construction. These roads were essential for political centralization, facilitating army movement, and developing domestic trade. Road construction relied on forced labor under difficult conditions.",
       },
     }],
+    world: [
+      {
+        country: "japan",
+        title: { fa: "حمله ژاپن به منچوری", en: "Japan Invades Manchuria" },
+        description: { fa: "ارتش ژاپن منچوری چین را اشغال و دولت دست‌نشانده مانچوکوئو را تأسیس کرد", en: "Japanese army occupies Manchuria and establishes puppet state of Manchukuo" },
+        details: {
+          fa: "ارتش کوانتونگ ژاپن با بهانه حادثه موکدن به منچوری حمله کرد و آن را اشغال نمود. دولت دست‌نشانده مانچوکوئو با پوئی آخرین امپراتور چین تأسیس شد. این اقدام آغاز توسعه‌طلبی نظامی ژاپن در آسیا بود.",
+          en: "The Japanese Kwantung Army invaded Manchuria using the Mukden Incident as a pretext. The puppet state of Manchukuo was established with Puyi, China's last emperor. This marked the beginning of Japan's military expansionism in Asia.",
+        },
+      },
+    ],
   },
   {
     year: 1932,
@@ -2613,6 +2809,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در اوت ۱۹۳۳ ارتش عراق به فرماندهی ژنرال بکر صدقی آشوری‌های مسیحی را در منطقه سمیل و روستاهای اطراف قتل‌عام کرد. صدها تا سه هزار غیرنظامی کشته شدند. این کشتار واکنش به درخواست خودمختاری آشوری‌ها بود. رافائل لمکین از این واقعه به عنوان یکی از نمونه‌هایی که او را به تعریف «نسل‌کشی» رساند نام برده است.",
           en: "In August 1933, the Iraqi army under General Bakr Sidqi massacred Assyrian Christians in the Simele region and surrounding villages. Hundreds to three thousand civilians were killed. The massacre was a response to Assyrian demands for autonomy. Raphael Lemkin cited this event as one of the examples that led him to define 'genocide.'",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "خروج ژاپن از جامعه ملل", en: "Japan Withdraws from League of Nations" },
+        description: { fa: "ژاپن پس از محکومیت تجاوز به منچوری از جامعه ملل خارج شد", en: "Japan leaves League of Nations after condemnation of Manchuria invasion" },
+        details: {
+          fa: "پس از آنکه کمیسیون لیتون اشغال منچوری را محکوم کرد، ژاپن از جامعه ملل خارج شد. این خروج انزوای بین‌المللی ژاپن و حرکت به سوی نظامی‌گری افراطی را تسریع کرد.",
+          en: "After the Lytton Commission condemned the occupation of Manchuria, Japan withdrew from the League of Nations. This exit accelerated Japan's international isolation and move toward extreme militarism.",
+        },
       },],
   },
   {
@@ -2658,6 +2863,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Iran-Germany trade relations strengthened further with exchange of trade delegations between the two countries. New trade agreements were signed under which Iran exported raw and agricultural materials like cotton and hides to Germany while importing industrial machinery and technological products. Germany gradually replaced Britain as Iran's top trading partner.",
       },
     }],
+    world: [
+      {
+        country: "turkey",
+        title: { fa: "حق رأی زنان و قانون نام خانوادگی", en: "Women's Suffrage & Surname Law" },
+        description: { fa: "زنان ترکیه حق رأی یافتند و مصطفی کمال لقب آتاتورک گرفت", en: "Turkish women gain voting rights; Mustafa Kemal receives surname Ataturk" },
+        details: {
+          fa: "زنان ترکیه حق رأی در انتخابات پارلمانی را کسب کردند، پیش از بسیاری از کشورهای اروپایی. قانون نام خانوادگی تصویب شد و مصطفی کمال لقب «آتاتورک» را دریافت کرد.",
+          en: "Turkish women gained voting rights in parliamentary elections, before many European countries. The Surname Law was enacted and Mustafa Kemal received the surname 'Ataturk' (Father of Turks).",
+        },
+      },
+    ],
   },
   {
     year: 1935,
@@ -2866,6 +3082,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Reza Shah's government implemented important tax reforms, replacing traditional tax collection methods with a more modern system. Income tax, import duties, and government monopoly taxes comprised the major part of the budget. Oil revenue accounted for about 15 percent of the government budget. The rest came from indirect taxes and government monopolies.",
       },
     }],
+    world: [
+      {
+        country: "japan",
+        title: { fa: "حمله ژاپن به چین و کشتار نانکینگ", en: "Japan Invades China & Nanjing Massacre" },
+        description: { fa: "ژاپن جنگ تمام‌عیار با چین را آغاز کرد و در نانکینگ فجایع انسانی رخ داد", en: "Japan launches full-scale war with China; atrocities committed in Nanjing" },
+        details: {
+          fa: "ژاپن با حادثه پل مارکو پولو جنگ تمام‌عیار با چین را آغاز کرد. پس از سقوط نانکینگ، ارتش ژاپن طی شش هفته دست به کشتار، تجاوز و غارت گسترده زد. تخمین‌ها از ۴۰ هزار تا ۳۰۰ هزار قربانی متغیر است.",
+          en: "Japan launched full-scale war with China after the Marco Polo Bridge Incident. After Nanjing fell, the Japanese army engaged in six weeks of massacre, rape, and looting. Estimates of victims range from 40,000 to 300,000.",
+        },
+      },
+    ],
   },
   {
     year: 1938,
@@ -2938,7 +3165,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Stalin's purges crippled the Red Army. 3 of 5 marshals, 13 of 15 army commanders, and 50 of 57 corps commanders were executed. These purges weakened the Soviet military against the German invasion in 1941 and were a key reason for the USSR's early wartime defeats.",
         },
       },
-    ],
+    
+      {
+        country: "turkey",
+        title: { fa: "درگذشت آتاتورک", en: "Death of Ataturk" },
+        description: { fa: "مصطفی کمال آتاتورک بنیانگذار جمهوری ترکیه درگذشت", en: "Mustafa Kemal Ataturk, founder of Republic of Turkey, dies" },
+        details: {
+          fa: "آتاتورک در ۱۰ نوامبر ۱۹۳۸ بر اثر سیروز کبد درگذشت. عصمت اینونو جانشین او شد. آتاتورک ترکیه را از خاکستر عثمانی به جمهوری مدرن سکولار تبدیل کرده بود.",
+          en: "Ataturk died on November 10, 1938 from liver cirrhosis. Ismet Inonu succeeded him. Ataturk had transformed Turkey from Ottoman ashes into a modern secular republic.",
+        },
+      },],
   },
 
   {
@@ -3071,6 +3307,17 @@ export const timelineData: TimelineEntry[] = [
         en: "Over one-third of the government budget was spent on the military and armaments. Reza Shah emphasized the importance of a strong army and had purchased modern military equipment. However, army commanders were chosen based on loyalty to the Shah rather than military competence. Combat training was inadequate and coordination between forces was lacking. These weaknesses became apparent in August 1941 when the Iranian army was defeated within three days.",
       },
     }],
+    world: [
+      {
+        country: "japan",
+        title: { fa: "پیمان سه‌گانه ژاپن، آلمان و ایتالیا", en: "Tripartite Pact: Japan, Germany & Italy" },
+        description: { fa: "ژاپن با امضای پیمان سه‌گانه رسماً به محور پیوست", en: "Japan officially joins the Axis by signing the Tripartite Pact" },
+        details: {
+          fa: "ژاپن پیمان سه‌گانه را با آلمان نازی و ایتالیای فاشیست امضا کرد و محور رم-برلین-توکیو شکل گرفت. ژاپن همچنین هندوچین فرانسوی را اشغال کرد که منجر به تحریم نفتی آمریکا علیه ژاپن شد.",
+          en: "Japan signed the Tripartite Pact with Nazi Germany and Fascist Italy, forming the Rome-Berlin-Tokyo Axis. Japan also occupied French Indochina, leading to a US oil embargo against Japan.",
+        },
+      },
+    ],
   },
   {
     year: 1941,
@@ -3167,6 +3414,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در آوریل ۱۹۴۱ رشید عالی گیلانی با حمایت افسران ملی‌گرا (جنبش مربع طلایی) کودتا کرد و حکومت طرفدار بریتانیا را سرنگون نمود. رشید عالی با آلمان نازی تماس گرفت اما بریتانیا سریعاً وارد عمل شد و طی جنگ کوتاه عراق را دوباره اشغال کرد. فرهود (آشوب ضد یهودی) در بغداد رخ داد و بیش از ۱۸۰ یهودی کشته شدند.",
           en: "In April 1941, Rashid Ali al-Gaylani, backed by nationalist officers (the Golden Square movement), staged a coup and overthrew the pro-British government. Rashid Ali contacted Nazi Germany, but Britain quickly intervened and reoccupied Iraq in a brief war. The Farhud (anti-Jewish pogrom) occurred in Baghdad, killing over 180 Jews.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "حمله ژاپن به پرل هاربر", en: "Japan Attacks Pearl Harbor" },
+        description: { fa: "حمله هوایی ژاپن به پایگاه دریایی آمریکا در هاوایی، آمریکا وارد جنگ شد", en: "Japanese air attack on US naval base in Hawaii brings America into WWII" },
+        details: {
+          fa: "در ۷ دسامبر ۱۹۴۱ نیروی هوایی دریایی ژاپن به پایگاه پرل هاربر حمله کرد و بخش بزرگی از ناوگان اقیانوس آرام آمریکا را نابود کرد. بیش از ۲۴۰۰ آمریکایی کشته شدند. آمریکا روز بعد رسماً به ژاپن اعلان جنگ داد.",
+          en: "On December 7, 1941, the Japanese naval air force attacked Pearl Harbor, destroying much of the US Pacific fleet. Over 2,400 Americans were killed. The US formally declared war on Japan the next day.",
+        },
       },],
   },
   {
@@ -3240,7 +3496,16 @@ export const timelineData: TimelineEntry[] = [
           en: "British General Montgomery defeated German General Rommel's Afrika Korps at the Second Battle of El Alamein (October 1942). Churchill said: 'This is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.' This victory was the turning point of the North African campaign.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "نبرد میدوی - نقطه عطف جنگ اقیانوس آرام", en: "Battle of Midway - Pacific War Turning Point" },
+        description: { fa: "شکست ناوگان ژاپن در میدوی سیر جنگ را تغییر داد", en: "Japanese fleet defeated at Midway, changing the course of the war" },
+        details: {
+          fa: "نبرد میدوی در ژوئن ۱۹۴۲ نقطه عطف جنگ اقیانوس آرام بود. آمریکا چهار ناو هواپیمابر ژاپن را غرق کرد و برتری دریایی ژاپن را از بین برد. از این پس ژاپن در موضع تدافعی قرار گرفت.",
+          en: "The Battle of Midway in June 1942 was the turning point of the Pacific War. The US sank four Japanese aircraft carriers, destroying Japan's naval superiority. From this point, Japan was on the defensive.",
+        },
+      },],
   },
 
   {
@@ -3462,6 +3727,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "با تسلیم ژاپن در اوت ۱۹۴۵، شبه‌جزیره کره پس از ۳۵ سال از استعمار آزاد شد. اما آمریکا و شوروی توافق کردند کره را در مدار ۳۸ درجه شمالی تقسیم کنند: شمال تحت اشغال شوروی و جنوب تحت اشغال آمریکا. این تقسیم که قرار بود موقت باشد، به جدایی دائمی شبه‌جزیره انجامید و زمینه‌ساز جنگ کره شد.",
           en: "With Japan's surrender in August 1945, the Korean Peninsula was liberated after 35 years of colonial rule. However, the US and Soviet Union agreed to divide Korea at the 38th parallel: the north under Soviet occupation and the south under American occupation. This division, intended to be temporary, led to the permanent separation of the peninsula and set the stage for the Korean War.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "بمباران اتمی هیروشیما و ناگازاکی و تسلیم ژاپن", en: "Atomic Bombings of Hiroshima & Nagasaki, Japan Surrenders" },
+        description: { fa: "آمریکا دو بمب اتمی بر ژاپن انداخت و ژاپن تسلیم شد", en: "US drops two atomic bombs on Japan; Japan surrenders" },
+        details: {
+          fa: "در ۶ اوت آمریکا بمب اتمی «پسر کوچولو» را بر هیروشیما و در ۹ اوت «مرد چاق» را بر ناگازاکی انداخت. بیش از ۲۰۰ هزار نفر بلافاصله یا در ماه‌های بعد کشته شدند. امپراتور هیروهیتو در ۱۵ اوت تسلیم را اعلام کرد.",
+          en: "On August 6, the US dropped 'Little Boy' on Hiroshima and on August 9, 'Fat Man' on Nagasaki. Over 200,000 were killed immediately or in following months. Emperor Hirohito announced surrender on August 15.",
+        },
       },],
   },
   {
@@ -3535,7 +3809,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Truman declared the US would support 'free peoples' against communist threats. Military and economic aid was sent to Greece and Turkey to prevent Soviet influence. The Truman Doctrine became the foundation of US foreign policy during the Cold War.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "قانون اساسی صلح‌طلبانه جدید ژاپن", en: "Japan's New Pacifist Constitution" },
+        description: { fa: "قانون اساسی جدید ژاپن با اصل ۹ ضد جنگ تصویب شد", en: "Japan's new constitution adopted with Article 9 renouncing war" },
+        details: {
+          fa: "قانون اساسی جدید ژاپن تحت نظارت ژنرال مک‌آرتور نوشته شد. اصل نهم جنگ و داشتن نیروی نظامی را ممنوع کرد. امپراتور به نماد دولت تبدیل شد و حق رأی زنان تضمین گردید.",
+          en: "Japan's new constitution was written under General MacArthur's supervision. Article 9 renounced war and prohibited military forces. The Emperor became a symbol of state and women's suffrage was guaranteed.",
+        },
+      },],
   },
   {
     year: 1947,
@@ -3856,6 +4139,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۲۵ ژوئن ۱۹۵۰ ارتش کره شمالی با حمایت شوروی و چین از مدار ۳۸ درجه گذشت و به کره جنوبی حمله کرد. سئول در سه روز سقوط کرد. آمریکا و متحدانش تحت پرچم سازمان ملل وارد جنگ شدند. جنگ کره اولین درگیری نظامی مستقیم جنگ سرد بود و تا ۱۹۵۳ ادامه یافت. بیش از سه میلیون نفر کشته شدند و شبه‌جزیره ویران گردید.",
           en: "On June 25, 1950, the North Korean army, backed by the Soviet Union and China, crossed the 38th parallel and invaded South Korea. Seoul fell within three days. The US and allies entered the war under the UN flag. The Korean War was the first direct military conflict of the Cold War and lasted until 1953. Over three million people were killed and the peninsula was devastated.",
         },
+      },
+      {
+        country: "turkey",
+        title: { fa: "پیروزی حزب دموکرات و پایان تک‌حزبی", en: "Democrat Party Wins, Single-Party Rule Ends" },
+        description: { fa: "حزب دموکرات در انتخابات آزاد پیروز شد", en: "Democrat Party wins free elections" },
+        details: {
+          fa: "حزب دموکرات در اولین انتخابات آزاد ترکیه پیروز شد. عدنان مندرس نخست‌وزیر شد و حزب آتاتورک پس از ۲۷ سال قدرت را واگذار کرد.",
+          en: "The Democrat Party won Turkey's first free elections. Adnan Menderes became PM and Ataturk's party handed over power after 27 years.",
+        },
       },],
   },
 
@@ -3935,7 +4227,16 @@ export const timelineData: TimelineEntry[] = [
           en: "France was bogged down in a colonial war against Ho Chi Minh and Communist Vietnam (Viet Minh). The US funded 80% of war costs but France couldn't win. The war ended in 1954 with France's catastrophic defeat at Dien Bien Phu.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "پیمان صلح سانفرانسیسکو", en: "San Francisco Peace Treaty" },
+        description: { fa: "ژاپن پیمان صلح با ۴۸ کشور امضا کرد و حاکمیتش بازگردانده شد", en: "Japan signs peace treaty with 48 nations, sovereignty restored" },
+        details: {
+          fa: "پیمان صلح سانفرانسیسکو رسماً جنگ جهانی دوم را برای ژاپن پایان داد. ژاپن مستعمرات خود را واگذار کرد اما حاکمیت ملی‌اش بازگردانده شد. همزمان پیمان امنیتی آمریکا-ژاپن امضا شد.",
+          en: "The San Francisco Peace Treaty formally ended WWII for Japan. Japan ceded its colonies but sovereignty was restored. The US-Japan Security Treaty was simultaneously signed.",
+        },
+      },],
   },
   {
     year: 1952,
@@ -3980,6 +4281,17 @@ export const timelineData: TimelineEntry[] = [
         en: "After severing diplomatic relations and closing its embassy in Tehran, Britain was unable to directly conduct operations against Mossadegh. MI6 had prepared a coup plan (Operation Boot) but needed American help to execute it. President Truman opposed the coup, but Britain hoped the next president would agree. With Eisenhower's victory in the November 1952 elections, this hope was realized.",
       },
     }],
+    world: [
+      {
+        country: "turkey",
+        title: { fa: "عضویت ترکیه در ناتو", en: "Turkey Joins NATO" },
+        description: { fa: "ترکیه عضو ناتو شد", en: "Turkey becomes NATO member" },
+        details: {
+          fa: "ترکیه پس از ارسال نیرو به جنگ کره عضو ناتو شد. این عضویت ترکیه را در اردوگاه غرب در جنگ سرد قرار داد.",
+          en: "Turkey joined NATO after sending troops to the Korean War, placing Turkey in the Western camp during the Cold War.",
+        },
+      },
+    ],
   },
   {
     year: 1953,
@@ -4111,6 +4423,17 @@ export const timelineData: TimelineEntry[] = [
         en: "SAVAK and military intelligence discovered the Tudeh Party's secret military network within the Iranian army. Hundreds of army officers who were secret Tudeh members were arrested. Some were executed and many sentenced to long prison terms. The discovery of this network showed that the Tudeh Party had deep infiltration of the military and posed a serious threat to the ruling system. This crackdown paralyzed the Tudeh Party for years.",
       },
     }],
+    world: [
+      {
+        country: "japan",
+        title: { fa: "تأسیس نیروی دفاع از خود ژاپن", en: "Japan Self-Defense Forces Established" },
+        description: { fa: "ژاپن با وجود قانون اساسی صلح‌طلب نیروی نظامی تشکیل داد", en: "Japan forms military forces despite pacifist constitution" },
+        details: {
+          fa: "نیروهای دفاع از خود ژاپن تأسیس شد. اگرچه اصل نهم قانون اساسی داشتن نیروی نظامی را ممنوع کرده بود، دولت این نیروها را «دفاعی» و نه «نظامی» تعریف کرد.",
+          en: "The Japan Self-Defense Forces were established. Although Article 9 prohibited military forces, the government defined these forces as 'defensive' rather than 'military.'",
+        },
+      },
+    ],
   },
   {
     year: 1955,
@@ -4475,6 +4798,24 @@ export const timelineData: TimelineEntry[] = [
           fa: "در آوریل ۱۹۶۰ دانشجویان کره جنوبی در اعتراض به تقلب در انتخابات و حکومت اقتدارگرای لی سونگ‌مان قیام کردند. پلیس به تظاهرکنندگان شلیک کرد و صدها نفر کشته شدند. فشار مردمی لی سونگ‌مان را مجبور به استعفا و تبعید به هاوایی کرد. این انقلاب نشان‌دهنده خواست مردم کره جنوبی برای دموکراسی بود.",
           en: "In April 1960, South Korean students rose up against election fraud and Syngman Rhee's authoritarian rule. Police fired on demonstrators, killing hundreds. Popular pressure forced Rhee to resign and go into exile in Hawaii. This revolution demonstrated the Korean people's desire for democracy.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "اعتراضات آنپو علیه پیمان امنیتی آمریکا", en: "Anpo Protests Against US Security Treaty" },
+        description: { fa: "بزرگترین اعتراضات تاریخ ژاپن علیه تمدید پیمان امنیتی با آمریکا", en: "Largest protests in Japanese history against renewal of US security treaty" },
+        details: {
+          fa: "میلیون‌ها ژاپنی علیه تمدید پیمان امنیتی آمریکا-ژاپن تظاهرات کردند. اعتراضات به خشونت کشیده شد و نخست‌وزیر کیشی مجبور به استعفا شد.",
+          en: "Millions protested against the US-Japan Security Treaty renewal. Protests turned violent and PM Kishi was forced to resign.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "کودتای نظامی ۱۹۶۰ و اعدام مندرس", en: "1960 Military Coup & Menderes Execution" },
+        description: { fa: "ارتش کودتا کرد و نخست‌وزیر مندرس اعدام شد", en: "Military coup; PM Menderes executed" },
+        details: {
+          fa: "ارتش ترکیه در ۲۷ مه ۱۹۶۰ کودتا کرد. عدنان مندرس محاکمه و اعدام شد. قانون اساسی جدید ۱۹۶۱ تصویب گردید.",
+          en: "The Turkish military staged a coup on May 27, 1960. Adnan Menderes was tried and executed. A new 1961 constitution was adopted.",
+        },
       },],
   },
 
@@ -4774,7 +5115,16 @@ export const timelineData: TimelineEntry[] = [
           en: "Nikita Khrushchev was removed by Politburo members in October 1964. Leonid Brezhnev became General Secretary, beginning his 18-year rule. The Brezhnev era was characterized by economic stagnation, bureaucracy, and the arms race with America.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "المپیک توکیو ۱۹۶۴", en: "1964 Tokyo Olympics" },
+        description: { fa: "المپیک توکیو نمادی از بازسازی و مدرنیزاسیون ژاپن بود", en: "Tokyo Olympics symbolize Japan's reconstruction and modernization" },
+        details: {
+          fa: "المپیک ۱۹۶۴ توکیو نماد بازگشت ژاپن به صحنه جهانی بود. قطار سریع‌السیر شینکانزن افتتاح شد و بزرگراه‌های مدرن ساخته شدند.",
+          en: "The 1964 Tokyo Olympics symbolized Japan's return to the world stage. The Shinkansen bullet train was launched and modern highways were built.",
+        },
+      },],
   },
 
   {
@@ -5042,6 +5392,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۱۷ ژوئیه ۱۹۶۸ حزب بعث به رهبری احمد حسن البکر با کودتای نظامی دوباره به قدرت رسید. صدام حسین به عنوان معاون البکر نقش کلیدی در تثبیت حکومت ایفا کرد. بعثی‌ها دستگاه امنیتی گسترده‌ای ایجاد کردند و مخالفان را به شدت سرکوب نمودند. این کودتا آغاز ۳۵ سال حکومت بعث بر عراق بود.",
           en: "On July 17, 1968, the Ba'ath Party under Ahmed Hassan al-Bakr returned to power through a military coup. Saddam Hussein, as al-Bakr's deputy, played a key role in consolidating the regime. The Ba'athists created an extensive security apparatus and brutally repressed opponents. This coup began 35 years of Ba'ath rule over Iraq.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "ژاپن دومین اقتصاد بزرگ جهان", en: "Japan Becomes World's 2nd Largest Economy" },
+        description: { fa: "ژاپن از آلمان غربی پیشی گرفت و دومین اقتصاد بزرگ جهان شد", en: "Japan surpasses West Germany to become world's 2nd largest economy" },
+        details: {
+          fa: "تولید ناخالص داخلی ژاپن از آلمان غربی پیشی گرفت. معجزه اقتصادی ژاپن بر صنایع خودروسازی، الکترونیک و فولاد استوار بود.",
+          en: "Japan's GDP surpassed West Germany. The Japanese economic miracle was built on automotive, electronics, and steel industries.",
+        },
       },],
   },
   {
@@ -5302,6 +5661,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۱ ژوئن ۱۹۷۲ حکومت بعث عراق شرکت نفت عراق (IPC) متعلق به کنسرسیوم غربی را ملی‌سازی کرد. صدام حسین معمار اصلی این تصمیم بود. ملی‌سازی نفت درآمدهای هنگفتی در اختیار حکومت قرار داد و امکان مدرن‌سازی سریع زیرساخت‌ها، آموزش و بهداشت را فراهم ساخت. دهه ۱۹۷۰ دوره طلایی اقتصادی عراق بود.",
           en: "On June 1, 1972, Iraq's Ba'ath government nationalized the Iraq Petroleum Company (IPC) owned by a Western consortium. Saddam Hussein was the main architect of this decision. Oil nationalization gave the government enormous revenues and enabled rapid modernization of infrastructure, education, and healthcare. The 1970s were Iraq's economic golden age.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "بازگشت اوکیناوا و عادی‌سازی روابط با چین", en: "Okinawa Reverts & China Relations Normalized" },
+        description: { fa: "اوکیناوا به ژاپن بازگردانده شد و روابط با چین عادی شد", en: "Okinawa returned to Japan; relations with China normalized" },
+        details: {
+          fa: "آمریکا حاکمیت اوکیناوا را پس از ۲۷ سال به ژاپن بازگرداند. نخست‌وزیر تاناکا به چین سفر کرد و روابط دیپلماتیک عادی شد.",
+          en: "The US returned Okinawa to Japan after 27 years. PM Tanaka visited China and diplomatic relations were normalized.",
+        },
       },],
   },
   {
@@ -5459,6 +5827,15 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در ۱۹۷۴ جنگ بین حکومت بعث و کردهای عراق به رهبری ملا مصطفی بارزانی به شدت تشدید شد. ایران به دستور شاه و با حمایت آمریکا و اسرائیل تسلیحات و کمک‌های نظامی به کردها ارسال می‌کرد. ارتش عراق با وجود استفاده از نیروی هوایی و توپخانه سنگین نتوانست شورش را سرکوب کند. این وضعیت صدام را به پای میز مذاکره با شاه کشاند.",
           en: "In 1974, the war between the Ba'ath government and Iraqi Kurds led by Mulla Mustafa Barzani intensified dramatically. Iran, on the Shah's orders and with US and Israeli support, supplied arms and military aid to the Kurds. The Iraqi army, despite using air power and heavy artillery, could not suppress the insurgency. This situation drove Saddam to the negotiating table with the Shah.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "حمله ترکیه به قبرس", en: "Turkish Invasion of Cyprus" },
+        description: { fa: "ترکیه شمال قبرس را اشغال کرد و جزیره تقسیم شد", en: "Turkey invades northern Cyprus; island divided" },
+        details: {
+          fa: "ترکیه پس از کودتای حامیان وحدت با یونان به شمال قبرس حمله کرد. ۳۷ درصد قبرس اشغال شد و ۲۰۰ هزار یونانی‌تبار آواره شدند. این اشغال تا امروز ادامه دارد.",
+          en: "Turkey invaded northern Cyprus after a pro-union-with-Greece coup. 37% of Cyprus was occupied and 200,000 Greek Cypriots displaced. The occupation continues today.",
         },
       },],
   },
@@ -5977,6 +6354,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۲۲ سپتامبر ۱۹۸۰ ارتش عراق با حمله هوایی و زمینی گسترده به ایران حمله کرد. صدام از آشفتگی پس از انقلاب ایران سوءاستفاده کرد و خوزستان را هدف اصلی قرار داد. عراق از حمایت مالی عربستان و کویت و تسلیحات غربی و شرقی بهره‌مند بود. جنگ هشت سال طول کشید و حدود یک میلیون کشته و دو میلیون زخمی بر جای گذاشت.",
           en: "On September 22, 1980, the Iraqi army launched a massive air and ground attack on Iran. Saddam exploited the post-revolution turmoil and targeted Khuzestan as the main objective. Iraq benefited from Saudi and Kuwaiti financial support and Western and Eastern weapons. The war lasted eight years, leaving approximately one million dead and two million wounded.",
         },
+      },
+      {
+        country: "turkey",
+        title: { fa: "کودتای نظامی ۱۹۸۰ ترکیه", en: "1980 Turkish Military Coup" },
+        description: { fa: "ژنرال کنعان اورن قدرت را گرفت", en: "General Kenan Evren seizes power" },
+        details: {
+          fa: "ارتش ترکیه در ۱۲ سپتامبر ۱۹۸۰ کودتا کرد. تمام احزاب منحل شدند و صدها هزار نفر بازداشت شدند. قانون اساسی ۱۹۸۲ قدرت ارتش را نهادینه کرد.",
+          en: "The Turkish military staged a coup on September 12, 1980. All parties were dissolved and hundreds of thousands arrested. The 1982 constitution institutionalized military power.",
+        },
       },],
   },
   {
@@ -6257,6 +6643,17 @@ export const timelineData: TimelineEntry[] = [
       },
     },
     ],
+    world: [
+      {
+        country: "turkey",
+        title: { fa: "آغاز شورش پ.ک.ک", en: "PKK Insurgency Begins" },
+        description: { fa: "پ.ک.ک مبارزه مسلحانه علیه ترکیه را آغاز کرد", en: "PKK launches armed struggle against Turkey" },
+        details: {
+          fa: "حزب کارگران کردستان به رهبری اوجالان مبارزه مسلحانه را در جنوب شرقی آناتولی آغاز کرد. این جنگ بیش از ۴۰ هزار کشته بر جای گذاشته است.",
+          en: "The PKK led by Ocalan launched armed struggle in southeastern Anatolia. This conflict has left over 40,000 dead.",
+        },
+      },
+    ],
   },
   {
     year: 1985,
@@ -6338,7 +6735,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The year-long miners' strike (1984-1985) was the biggest industrial dispute in British history. Thatcher, with prior preparation and police deployment, defeated the strike. Union leader Arthur Scargill surrendered. The miners' defeat ended British trade union power and devastated northern English mining communities.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "توافق پلازا و تقویت ین ژاپن", en: "Plaza Accord & Yen Appreciation" },
+        description: { fa: "توافق پلازا ارزش ین را دو برابر کرد و حباب اقتصادی آغاز شد", en: "Plaza Accord doubles yen's value, economic bubble begins" },
+        details: {
+          fa: "توافق پلازا ارزش ین ژاپن را در برابر دلار دو برابر کرد. بانک مرکزی نرخ بهره را کاهش داد که منجر به حباب عظیم بازار سهام و املاک شد.",
+          en: "The Plaza Accord doubled the yen's value against the dollar. The Bank of Japan cut interest rates, leading to a massive stock market and real estate bubble.",
+        },
+      },],
   },
   {
     year: 1986,
@@ -6716,7 +7122,16 @@ export const timelineData: TimelineEntry[] = [
           en: "France celebrated the bicentennial of the 1789 Revolution while Eastern Europe was gaining its freedom. Mitterrand played an active role in supporting German reunification and European integration. France and Germany became the engine of the European Union.",
         },
       },
-    ],
+    
+      {
+        country: "japan",
+        title: { fa: "پایان دوره شوا و ترکیدن حباب اقتصادی", en: "End of Showa Era & Economic Bubble Bursts" },
+        description: { fa: "امپراتور هیروهیتو درگذشت و حباب اقتصادی ژاپن شروع به ترکیدن کرد", en: "Emperor Hirohito dies; Japan's economic bubble begins to burst" },
+        details: {
+          fa: "امپراتور هیروهیتو پس از ۶۳ سال سلطنت درگذشت و دوره هِیسِی آغاز شد. شاخص نیکی به اوج تاریخی رسید اما سپس سقوط کرد و «دهه‌های از دست رفته» آغاز شد.",
+          en: "Emperor Hirohito died after 63 years of reign. The Nikkei index reached its all-time high but then crashed, beginning the 'lost decades.'",
+        },
+      },],
   },
   {
     year: 1990,
@@ -7238,6 +7653,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "تحریم‌های فراگیر سازمان ملل علیه عراق که از ۱۹۹۰ آغاز شده بود، در اواسط دهه ۱۹۹۰ به فاجعه انسانی تبدیل شد. سیستم بهداشت فروپاشید، سوءتغذیه کودکان گسترش یافت و تورم اقتصاد را فلج کرد. یونیسف تخمین زد بیش از ۵۰۰ هزار کودک عراقی بر اثر تحریم‌ها جان باختند. برنامه «نفت در برابر غذا» در ۱۹۹۶ آغاز شد اما نتوانست بحران را حل کند.",
           en: "The comprehensive UN sanctions against Iraq, imposed since 1990, had become a humanitarian catastrophe by the mid-1990s. The health system collapsed, child malnutrition spread, and inflation paralyzed the economy. UNICEF estimated over 500,000 Iraqi children died due to sanctions. The Oil-for-Food program began in 1996 but failed to resolve the crisis.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "زلزله کوبه و حمله سارین متروی توکیو", en: "Kobe Earthquake & Tokyo Sarin Attack" },
+        description: { fa: "زلزله ویرانگر کوبه و حمله شیمیایی فرقه آئوم به متروی توکیو", en: "Devastating Kobe earthquake and Aum cult's sarin gas attack on Tokyo subway" },
+        details: {
+          fa: "زلزله ۶.۹ ریشتری کوبه بیش از ۶۴۰۰ نفر را کشت. دو ماه بعد فرقه آئوم شینریکیو گاز سارین را در متروی توکیو پخش کرد و ۱۳ نفر کشته شدند.",
+          en: "The 6.9 magnitude Kobe earthquake killed over 6,400. Two months later, Aum Shinrikyo released sarin gas in the Tokyo subway, killing 13.",
+        },
       },],
   },
   {
@@ -7413,6 +7837,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "بحران مالی آسیا در ۱۹۹۷ اقتصاد کره جنوبی را به شدت ضربه زد. ارزش وون سقوط کرد، شرکت‌های بزرگ ورشکست شدند و بیکاری افزایش یافت. کره جنوبی مجبور شد ۵۷ میلیارد دلار وام از صندوق بین‌المللی پول دریافت کند. این بحران اصلاحات ساختاری عمیقی در اقتصاد کره جنوبی ایجاد کرد.",
           en: "The 1997 Asian financial crisis severely hit South Korea's economy. The won plummeted, major conglomerates went bankrupt, and unemployment surged. South Korea was forced to accept a $57 billion IMF bailout. The crisis led to deep structural reforms in South Korea's economy.",
         },
+      },
+      {
+        country: "turkey",
+        title: { fa: "کودتای پست‌مدرن ۱۹۹۷", en: "1997 Postmodern Coup" },
+        description: { fa: "ارتش نخست‌وزیر اسلام‌گرا اربکان را مجبور به استعفا کرد", en: "Military forces Islamist PM Erbakan to resign" },
+        details: {
+          fa: "شورای امنیت ملی خواسته‌های ضد اسلام‌گرایی را تحمیل کرد. اربکان مجبور به استعفا شد و حزب رفاه منحل گردید.",
+          en: "The National Security Council imposed anti-Islamist demands. Erbakan was forced to resign and the Welfare Party was dissolved.",
+        },
       },],
   },
   {
@@ -7586,7 +8019,16 @@ export const timelineData: TimelineEntry[] = [
           en: "The euro was launched in January 1999 as an electronic currency for 11 European nations (banknotes and coins followed in 2002). Germany was the main driver of this project, sacrificing the Deutsche Mark. The euro became the world's second reserve currency after the dollar. Germany also moved its capital from Bonn to Berlin.",
         },
       },
-    ],
+    
+      {
+        country: "turkey",
+        title: { fa: "دستگیری اوجالان و زلزله مرمره", en: "Ocalan Captured & Marmara Earthquake" },
+        description: { fa: "رهبر پ.ک.ک دستگیر شد و زلزله ویرانگر ۱۷ هزار نفر را کشت", en: "PKK leader captured; devastating earthquake kills 17,000" },
+        details: {
+          fa: "اوجالان در کنیا دستگیر و به حبس ابد محکوم شد. زلزله ۷.۶ ریشتری مرمره بیش از ۱۷ هزار نفر را کشت.",
+          en: "Ocalan was captured in Kenya and sentenced to life. The 7.6 magnitude Marmara earthquake killed over 17,000.",
+        },
+      },],
   },
 
   {
@@ -7826,7 +8268,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "چین رسماً عضو سازمان تجارت جهانی شد و این نقطه عطفی در ادغام اقتصادی آن با جهان بود. این عضویت راه را برای تبدیل چین به بزرگ‌ترین صادرکننده جهان هموار کرد.",
           en: "China officially joined the WTO, marking a turning point in its economic integration with the world. This membership paved the way for China to become the world's largest exporter.",
         },
-      }],
+      },
+      {
+        country: "japan",
+        title: { fa: "اصلاحات کوایزومی و حمایت از جنگ علیه تروریسم", en: "Koizumi Reforms & War on Terror Support" },
+        description: { fa: "کوایزومی نخست‌وزیر شد و از جنگ آمریکا علیه تروریسم حمایت کرد", en: "Koizumi becomes PM and supports US war on terror" },
+        details: {
+          fa: "جونیچیرو کوایزومی با وعده اصلاحات ساختاری نخست‌وزیر شد. پس از ۱۱ سپتامبر، ژاپن نیروی دریایی را برای حمایت لجستیکی به اقیانوس هند اعزام نمود.",
+          en: "Junichiro Koizumi became PM with promises of structural reform. After 9/11, Japan dispatched naval forces to the Indian Ocean for logistical support.",
+        },
+      },],
   },
   {
     year: 2002,
@@ -7951,6 +8402,15 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "کره جنوبی و ژاپن در سال ۲۰۰۲ میزبان مشترک جام جهانی فوتبال شدند. تیم ملی کره جنوبی به طرز شگفت‌انگیزی به مرحله نیمه‌نهایی رسید و میلیون‌ها هوادار در خیابان‌ها جشن گرفتند.",
           en: "South Korea and Japan co-hosted the 2002 FIFA World Cup. The South Korean national team sensationally reached the semi-finals, with millions of fans celebrating in the streets.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "پیروزی حزب عدالت و توسعه اردوغان", en: "Erdogan's AKP Wins Elections" },
+        description: { fa: "آ.ک.پ در انتخابات پیروز شد و دوره اردوغان آغاز گردید", en: "AKP wins elections, beginning Erdogan era" },
+        details: {
+          fa: "حزب عدالت و توسعه به رهبری اردوغان در انتخابات پیروز شد. اردوغان در ۲۰۰۳ نخست‌وزیر شد و دوره طولانی حاکمیت آ.ک.پ آغاز گردید.",
+          en: "The AKP led by Erdogan won elections. Erdogan became PM in 2003, beginning AKP's long period of rule.",
         },
       },],
   },
@@ -8448,6 +8908,15 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در ۳۰ دسامبر ۲۰۰۶ صدام حسین پس از محاکمه در دادگاه ویژه عراق به جرم کشتار دجیل (قتل ۱۴۸ شیعه در ۱۹۸۲) به اعدام محکوم و به دار آویخته شد. ویدیوی غیررسمی اعدام که توهین‌های حاضران را نشان می‌داد، جنجال جهانی ایجاد کرد. مرگ صدام خشونت فرقه‌ای را بیشتر تشدید نمود.",
           en: "On December 30, 2006, Saddam Hussein was hanged after being convicted of crimes against humanity by the Iraqi Special Tribunal for the Dujail massacre (killing 148 Shia in 1982). Unofficial video of the execution showing attendees' taunts created a global controversy. Saddam's death further intensified sectarian violence.",
+        },
+      },
+      {
+        country: "japan",
+        title: { fa: "شینزو آبه نخست‌وزیر ژاپن شد", en: "Shinzo Abe Becomes Prime Minister" },
+        description: { fa: "آبه جوان‌ترین نخست‌وزیر پس از جنگ ژاپن شد", en: "Abe becomes Japan's youngest postwar prime minister" },
+        details: {
+          fa: "شینزو آبه جوان‌ترین نخست‌وزیر پس از جنگ شد. او بازنگری قانون اساسی صلح‌طلب را در دستور کار قرار داد اما پس از یک سال استعفا داد.",
+          en: "Shinzo Abe became Japan's youngest postwar PM. He put revision of the pacifist constitution on his agenda but resigned after one year.",
         },
       },],
   },
@@ -9068,6 +9537,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در دسامبر ۲۰۱۱ آخرین نیروهای رزمی آمریکا عراق را ترک کردند و نزدیک به ۹ سال اشغال نظامی پایان یافت. بیش از ۴۵۰۰ سرباز آمریکایی و صدها هزار عراقی در جنگ کشته شده بودند. اوباما خروج را موفقیت خواند اما منتقدان هشدار دادند که عراق هنوز ثبات نیافته و خروج زودهنگام خلأ امنیتی ایجاد می‌کند.",
           en: "In December 2011, the last US combat forces left Iraq, ending nearly 9 years of military occupation. Over 4,500 US soldiers and hundreds of thousands of Iraqis had been killed. Obama called the withdrawal a success, but critics warned that Iraq was still unstable and premature withdrawal would create a security vacuum.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "زلزله، سونامی و فاجعه هسته‌ای فوکوشیما", en: "Earthquake, Tsunami & Fukushima Nuclear Disaster" },
+        description: { fa: "زلزله ۹ ریشتری و سونامی ژاپن را لرزاند و نیروگاه فوکوشیما ذوب شد", en: "Magnitude 9 earthquake and tsunami devastate Japan; Fukushima melts down" },
+        details: {
+          fa: "زلزله ۹ ریشتری توهوکو و سونامی عظیم بیش از ۱۸ هزار نفر را کشت. نیروگاه فوکوشیما دچار ذوب هسته شد و بدترین فاجعه هسته‌ای پس از چرنوبیل رقم خورد.",
+          en: "The 9.0 magnitude Tohoku earthquake and tsunami killed over 18,000. Fukushima suffered a meltdown, the worst nuclear disaster since Chernobyl.",
+        },
       },],
   },
   {
@@ -9176,7 +9654,16 @@ export const timelineData: TimelineEntry[] = [
           fa: "فرانسوا اولاند سارکوزی را شکست داد و رئیس‌جمهور شد. او وعده رشد اقتصادی به جای ریاضت و مالیات ۷۵ درصدی بر ثروتمندان داد.",
           en: "Francois Hollande defeated Sarkozy and became president. He promised economic growth over austerity and a 75% tax on the wealthy.",
         },
-      }],
+      },
+      {
+        country: "japan",
+        title: { fa: "بازگشت آبه و آغاز آبه‌نومیکس", en: "Abe Returns & Abenomics Begins" },
+        description: { fa: "شینزو آبه دوباره نخست‌وزیر شد و سیاست اقتصادی آبه‌نومیکس را آغاز کرد", en: "Shinzo Abe becomes PM again, launches Abenomics" },
+        details: {
+          fa: "آبه با بازگشتی قدرتمند دوباره نخست‌وزیر شد و «آبه‌نومیکس» را با سه تیر آغاز کرد. ین ضعیف شد و بازار سهام رشد کرد.",
+          en: "Abe made a powerful comeback and launched 'Abenomics' with three arrows. The yen weakened and the stock market rose.",
+        },
+      },],
   },
   {
     year: 2013,
@@ -9301,6 +9788,15 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "از دسامبر ۲۰۱۲ تظاهرات گسترده سنی‌ها در استان‌های الانبار، صلاح‌الدین و نینوا علیه سیاست‌های فرقه‌ای مالکی آغاز شد. معترضان خواستار پایان بازداشت‌های خودسرانه، حذف قانون ضد بعث و مشارکت سیاسی عادلانه بودند. مالکی تظاهرات را با زور سرکوب کرد. نارضایتی سنی‌ها زمینه مناسبی برای نفوذ داعش فراهم ساخت.",
           en: "From December 2012, mass Sunni protests erupted in Anbar, Salah ad-Din, and Nineveh provinces against Maliki's sectarian policies. Protesters demanded an end to arbitrary arrests, repeal of the de-Ba'athification law, and fair political participation. Maliki suppressed the protests by force. Sunni grievances created fertile ground for ISIS infiltration.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "اعتراضات پارک گزی", en: "Gezi Park Protests" },
+        description: { fa: "اعتراضات محیط‌زیستی به جنبش ضد دولتی گسترده تبدیل شد", en: "Environmental protests turn into massive anti-government movement" },
+        details: {
+          fa: "اعتراض به تخریب پارک گزی به بزرگ‌ترین جنبش ضد دولتی تاریخ ترکیه تبدیل شد. میلیون‌ها نفر تظاهرات کردند و ۸ نفر کشته شدند.",
+          en: "Protests against Gezi Park destruction became Turkey's largest anti-government movement. Millions protested and 8 were killed.",
         },
       },],
   },
@@ -9690,6 +10186,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در ۱۷ اکتبر ۲۰۱۶ ارتش عراق، نیروهای حشد الشعبی، پیشمرگه کردستان و ائتلاف بین‌المللی عملیات آزادسازی موصل را آغاز کردند. نبرد برای شرق موصل سه ماه و برای غرب موصل ۹ ماه طول کشید. داعش از غیرنظامیان به عنوان سپر انسانی استفاده کرد. هزاران غیرنظامی کشته و بخش بزرگی از شهر قدیمی موصل ویران شد.",
           en: "On October 17, 2016, the Iraqi army, Popular Mobilization Forces, Kurdistan Peshmerga, and the international coalition launched the Mosul liberation operation. The battle for eastern Mosul took three months and western Mosul nine months. ISIS used civilians as human shields. Thousands of civilians were killed and much of Mosul's old city was destroyed.",
         },
+      },
+      {
+        country: "turkey",
+        title: { fa: "کودتای نافرجام در ترکیه", en: "Failed Coup Attempt in Turkey" },
+        description: { fa: "بخشی از ارتش کودتا کرد اما ناکام ماند و ۲۵۱ نفر کشته شدند", en: "Part of military attempts coup; 251 killed" },
+        details: {
+          fa: "در ۱۵ ژوئیه بخشی از ارتش کودتا کرد. اردوغان مردم را به خیابان‌ها فراخواند و کودتا شکست خورد. بیش از ۱۵۰ هزار نفر بازداشت یا اخراج شدند.",
+          en: "On July 15, part of the military attempted a coup. Erdogan called people to the streets and the coup failed. Over 150,000 were detained or dismissed.",
+        },
       },],
   },
   {
@@ -9806,6 +10311,15 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در ژوئیه ۲۰۱۷ نخست‌وزیر حیدر العبادی پیروزی نهایی در موصل را اعلام کرد. اما در سپتامبر اقلیم کردستان به رهبری مسعود بارزانی همه‌پرسی استقلال برگزار کرد که ۹۳ درصد به استقلال رأی دادند. بغداد، ایران و ترکیه شدیداً مخالفت کردند. ارتش عراق کرکوک و مناطق مورد مناقشه را بازپس گرفت و کردها بخش قابل توجهی از قلمرو خود را از دست دادند.",
           en: "In July 2017, PM Haider al-Abadi declared final victory in Mosul. But in September, the Kurdistan Region under Masoud Barzani held an independence referendum where 93% voted for independence. Baghdad, Iran, and Turkey strongly opposed it. The Iraqi army retook Kirkuk and disputed territories, and the Kurds lost a significant portion of their territory.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "همه‌پرسی تغییر نظام به ریاستی", en: "Referendum for Presidential System" },
+        description: { fa: "ترکیه با همه‌پرسی به نظام ریاستی تغییر کرد", en: "Turkey switches to presidential system via referendum" },
+        details: {
+          fa: "همه‌پرسی با ۵۱.۴ درصد آراء تصویب شد. نظام پارلمانی به ریاستی تبدیل شد و قدرت گسترده‌ای به رئیس‌جمهور داده شد.",
+          en: "The referendum passed with 51.4%. The parliamentary system was converted to presidential, giving extensive powers to the president.",
         },
       },],
   },
@@ -10051,6 +10565,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در اکتبر ۲۰۱۹ اعتراضات گسترده‌ای در بغداد و شهرهای جنوب عراق آغاز شد. جوانان خواستار اصلاحات، مبارزه با فساد، ایجاد اشتغال و پایان نفوذ ایران بودند. نیروهای امنیتی و شبه‌نظامیان وابسته به ایران بیش از ۶۰۰ معترض را کشتند و ۲۰ هزار نفر زخمی شدند. عبدالمهدی استعفا داد. این بزرگ‌ترین جنبش اعتراضی تاریخ عراق مدرن بود.",
           en: "In October 2019, massive protests erupted in Baghdad and southern Iraqi cities. Young people demanded reforms, anti-corruption measures, jobs, and an end to Iranian influence. Security forces and Iran-backed militias killed over 600 protesters and wounded 20,000. Abdul-Mahdi resigned. This was the largest protest movement in modern Iraqi history.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "آغاز دوره ریوا در ژاپن", en: "Reiwa Era Begins in Japan" },
+        description: { fa: "امپراتور آکیهیتو کناره‌گیری کرد و دوره ریوا آغاز شد", en: "Emperor Akihito abdicates; Reiwa era begins" },
+        details: {
+          fa: "امپراتور آکیهیتو اولین امپراتور ژاپن در ۲۰۰ سال بود که کناره‌گیری کرد. پسرش ناروهیتو امپراتور جدید شد و دوره ریوا آغاز گردید.",
+          en: "Emperor Akihito became the first Japanese emperor in 200 years to abdicate. His son Naruhito became the new emperor, beginning the Reiwa era.",
+        },
       },],
   },
   {
@@ -10187,6 +10710,24 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در ۳ ژانویه ۲۰۲۰ آمریکا با حمله پهپادی قاسم سلیمانی فرمانده نیروی قدس سپاه پاسداران و ابومهدی المهندس معاون فرمانده حشد الشعبی عراق را در فرودگاه بغداد ترور کرد. پارلمان عراق خواستار اخراج نیروهای آمریکایی شد. ایران با موشک‌باران پایگاه عین‌الاسد پاسخ داد. این رویداد تنش ایران و آمریکا را به آستانه جنگ رساند.",
           en: "On January 3, 2020, the US assassinated Qassem Soleimani, commander of Iran's IRGC Quds Force, and Abu Mahdi al-Muhandis, deputy commander of Iraq's Popular Mobilization Forces, in a drone strike at Baghdad airport. The Iraqi parliament demanded the expulsion of US forces. Iran retaliated by striking Ain al-Asad base. This event brought Iran-US tensions to the brink of war.",
+        },
+      },
+      {
+        country: "japan",
+        title: { fa: "تعویق المپیک توکیو به دلیل کرونا", en: "Tokyo Olympics Postponed Due to COVID-19" },
+        description: { fa: "المپیک ۲۰۲۰ توکیو به خاطر همه‌گیری کرونا یک سال تعویق افتاد", en: "2020 Tokyo Olympics postponed one year due to pandemic" },
+        details: {
+          fa: "المپیک تابستانی ۲۰۲۰ توکیو به دلیل کووید-۱۹ یک سال به تعویق افتاد. آبه شینزو نیز استعفا داد و یوشیهیده سوگا جانشین او شد.",
+          en: "The 2020 Tokyo Olympics were postponed one year due to COVID-19. Shinzo Abe also resigned and Yoshihide Suga succeeded him.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "تبدیل ایاصوفیه به مسجد", en: "Hagia Sophia Converted to Mosque" },
+        description: { fa: "اردوغان ایاصوفیه را پس از ۸۶ سال دوباره به مسجد تبدیل کرد", en: "Erdogan converts Hagia Sophia back to mosque after 86 years" },
+        details: {
+          fa: "دادگاه عالی وضعیت موزه‌ای ایاصوفیه را لغو کرد و اردوغان آن را به مسجد تبدیل نمود. آتاتورک در ۱۹۳۴ آن را موزه کرده بود.",
+          en: "Turkey's top court annulled Hagia Sophia's museum status and Erdogan converted it back to a mosque. Ataturk had made it a museum in 1934.",
         },
       },],
   },
@@ -10455,6 +10996,15 @@ export const timelineData: TimelineEntry[] = [
           fa: "در اوت ۲۰۲۲ هواداران مقتدی صدر ساختمان پارلمان در منطقه سبز بغداد را اشغال کردند. درگیری‌های مسلحانه بین صدری‌ها و شبه‌نظامیان چارچوب هماهنگی رخ داد و ده‌ها نفر کشته و زخمی شدند. صدر سرانجام از هوادارانش خواست عقب‌نشینی کنند. محمد شیاع السودانی از چارچوب هماهنگی نخست‌وزیر شد.",
           en: "In August 2022, Muqtada al-Sadr's supporters stormed the parliament building in Baghdad's Green Zone. Armed clashes erupted between Sadrists and Coordination Framework militias, killing and wounding dozens. Sadr eventually asked his supporters to withdraw. Mohammed Shia al-Sudani from the Coordination Framework became prime minister.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "ترور شینزو آبه", en: "Shinzo Abe Assassinated" },
+        description: { fa: "شینزو آبه نخست‌وزیر سابق ژاپن در حین سخنرانی ترور شد", en: "Former PM Shinzo Abe assassinated during a speech" },
+        details: {
+          fa: "شینزو آبه در ۸ ژوئیه ۲۰۲۲ حین سخنرانی انتخاباتی با اسلحه دست‌ساز ترور شد. قاتل انگیزه خود را ارتباط آبه با کلیسای وحدت اعلام کرد.",
+          en: "Shinzo Abe was assassinated on July 8, 2022 during a campaign speech with a homemade gun. The killer cited Abe's ties to the Unification Church.",
+        },
       },],
   },
   {
@@ -10581,6 +11131,24 @@ export const timelineData: TimelineEntry[] = [
         details: {
           fa: "در ۲۰۲۳ عراق تحت دولت السودانی دوره‌ای از ثبات نسبی را تجربه کرد. درآمد نفت افزایش یافت و بودجه ۱۵۳ میلیارد دلاری سه‌ساله تصویب شد. پروژه‌های بازسازی موصل و مناطق تخریب‌شده ادامه یافت. اما فساد گسترده، بیکاری جوانان و نفوذ شبه‌نظامیان همچنان چالش‌های اساسی بودند.",
           en: "In 2023, Iraq under the Sudani government experienced a period of relative stability. Oil revenues increased and a $153 billion three-year budget was approved. Reconstruction projects in Mosul and destroyed areas continued. However, widespread corruption, youth unemployment, and militia influence remained fundamental challenges.",
+        },
+      },
+      {
+        country: "japan",
+        title: { fa: "افزایش چشمگیر بودجه دفاعی ژاپن", en: "Japan Significantly Increases Defense Spending" },
+        description: { fa: "ژاپن بزرگ‌ترین افزایش بودجه نظامی پس از جنگ را تصویب کرد", en: "Japan approves largest postwar military budget increase" },
+        details: {
+          fa: "ژاپن بودجه دفاعی را به ۲ درصد تولید ناخالص داخلی افزایش داد. خرید موشک‌های کروز در واکنش به تهدیدات چین و کره شمالی صورت گرفت.",
+          en: "Japan increased defense spending to 2% of GDP. Cruise missile purchases were in response to threats from China and North Korea.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "زلزله ویرانگر و انتخابات ترکیه", en: "Devastating Earthquake & Turkish Elections" },
+        description: { fa: "زلزله ۷.۸ ریشتری بیش از ۵۰ هزار نفر را کشت و اردوغان دوباره رئیس‌جمهور شد", en: "7.8 earthquake kills 50,000+; Erdogan wins re-election" },
+        details: {
+          fa: "زلزله ۷.۸ ریشتری جنوب شرق ترکیه را ویران کرد و بیش از ۵۰ هزار نفر کشته شدند. اردوغان در انتخابات مه با ۵۲ درصد آراء پیروز شد. صدمین سالگرد جمهوری نیز برگزار گردید.",
+          en: "A 7.8 earthquake devastated southeastern Turkey, killing 50,000+. Erdogan won the May election with 52%. The 100th anniversary of the Republic was celebrated.",
         },
       },],
   },
@@ -10709,6 +11277,24 @@ export const timelineData: TimelineEntry[] = [
           fa: "در اوایل ۲۰۲۴ در پی جنگ غزه، شبه‌نظامیان عراقی وابسته به ایران حملات پهپادی و موشکی متعددی به پایگاه‌های آمریکایی در عراق و سوریه انجام دادند. حمله به برج ۲۲ در اردن سه سرباز آمریکایی را کشت. آمریکا تلافی کرد و رهبران شبه‌نظامی را ترور نمود. این تنش‌ها بار دیگر عراق را در میانه رقابت ایران و آمریکا قرار داد.",
           en: "In early 2024, following the Gaza war, Iran-backed Iraqi militias launched numerous drone and missile attacks on US bases in Iraq and Syria. An attack on Tower 22 in Jordan killed three US soldiers. The US retaliated by assassinating militia leaders. These tensions once again placed Iraq at the center of the Iran-US rivalry.",
         },
+      },
+      {
+        country: "japan",
+        title: { fa: "سبقت آلمان از ژاپن در اقتصاد جهانی", en: "Germany Overtakes Japan as 4th Largest Economy" },
+        description: { fa: "اقتصاد ژاپن از آلمان عقب افتاد و به رتبه چهارم سقوط کرد", en: "Japan's economy falls behind Germany to 4th place" },
+        details: {
+          fa: "آلمان از ژاپن پیشی گرفت و ژاپن به رتبه چهارم سقوط کرد. ضعف ین و جمعیت پیر عوامل اصلی بودند. بانک مرکزی پس از ۱۷ سال نرخ بهره را افزایش داد.",
+          en: "Germany overtook Japan, pushing it to 4th place. Weak yen and aging population were main factors. The Bank of Japan raised rates for the first time in 17 years.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "شکست سنگین آ.ک.پ در انتخابات محلی", en: "AKP Suffers Heavy Local Election Defeat" },
+        description: { fa: "حزب اردوغان در انتخابات محلی بزرگترین شکست ۲۲ ساله را تجربه کرد", en: "Erdogan's party suffers biggest defeat in 22 years in local elections" },
+        details: {
+          fa: "حزب ج.ه.پ در انتخابات محلی اکثر شهرهای بزرگ را برد. ایمام‌اوغلو شهردار استانبول ماند. این بزرگترین شکست آ.ک.پ بود.",
+          en: "CHP won most major cities in local elections. Imamoglu remained Istanbul mayor. This was AKP's biggest defeat.",
+        },
       },],
   },
   {
@@ -10817,7 +11403,25 @@ export const timelineData: TimelineEntry[] = [
           fa: "رقابت فناوری چین و آمریکا بر سر تراشه‌ها و هوش مصنوعی شدت گرفت. چین موفقیت‌هایی در تولید تراشه بومی داشت اما محدودیت‌های آمریکایی فشار آورد.",
           en: "The US-China tech competition over chips and AI intensified. China had some success in domestic chip production but US restrictions applied pressure.",
         },
-      }],
+      },
+      {
+        country: "japan",
+        title: { fa: "نمایشگاه جهانی اوزاکا ۲۰۲۵", en: "Osaka World Expo 2025" },
+        description: { fa: "ژاپن دوباره میزبان نمایشگاه جهانی شد", en: "Japan hosts World Expo again" },
+        details: {
+          fa: "نمایشگاه جهانی ۲۰۲۵ در اوزاکا با موضوع «طراحی جامعه آینده» افتتاح شد. بحران جمعیتی ژاپن ادامه یافت و دولت سیاست‌های جدید مهاجرتی را آغاز کرد.",
+          en: "The 2025 World Expo opened in Osaka with the theme 'Designing Future Society.' Japan's demographic crisis continued and the government launched new immigration policies.",
+        },
+      },
+      {
+        country: "turkey",
+        title: { fa: "بازداشت ایمام‌اوغلو و بحران سیاسی", en: "Imamoglu Detained & Political Crisis" },
+        description: { fa: "شهردار استانبول بازداشت شد و اعتراضات گسترده آغاز گردید", en: "Istanbul mayor detained, sparking widespread protests" },
+        details: {
+          fa: "اکرم ایمام‌اوغلو شهردار استانبول به اتهامات سیاسی بازداشت شد. اعتراضات گسترده‌ای آغاز شد و اتحادیه اروپا و آمریکا بازداشت را محکوم کردند.",
+          en: "Istanbul mayor Ekrem Imamoglu was detained on political charges. Widespread protests erupted and the EU and US condemned the detention.",
+        },
+      },],
   },
   {
     year: 2026,
