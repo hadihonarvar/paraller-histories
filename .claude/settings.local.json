@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node:*)",
+      "Bash(python3:*)",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(find:*)",
+      "Bash(git reset:*)",
+      "Bash(npm run:*)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"next-router-worker\")",
+      "Bash(bash:*)",
+      "Read(//private/tmp/**)",
+      "Bash(git stash:*)",
+      "Bash(git checkout:*)",
+      "Bash(git status:*)",
+      "Bash(git merge:*)",
+      "Bash(git -C /Users/hadi/Documents/parallel-histories/code/prallel-histories/.claude/worktrees/agent-a6eedd65 diff --stat)"
+    ]
+  }
+}
